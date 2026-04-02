@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Classical Music Performances - Matinee Finder</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            color: #333;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .last-updated {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 20px;
+        }
+        
+        .stats {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .stats span {
+            margin-right: 20px;
+            font-weight: bold;
+        }
+        
+        .matinee-count {
+            color: #ff9800;
+        }
+        
+        .performance-table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .performance-table th {
+            background-color: #3498db;
+            color: white;
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .performance-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        .performance-table tr:hover {
+            background-color: #f8f9fa;
+        }
+        
+        .matinee-row {
+            background-color: #fff9c4 !important;  /* Light yellow for matinee performances */
+        }
+        
+        .matinee-row:hover {
+            background-color: #fff59d !important;
+        }
+        
+        .matinee-indicator {
+            display: inline-block;
+            background-color: #ffd54f;
+            color: #333;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+            margin-left: 8px;
+        }
+        
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .no-data {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        
+        .legend {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #ecf0f1;
+            border-radius: 5px;
+        }
+        
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .legend-box {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
+            border: 1px solid #bdc3c7;
+        }
+        
+        .legend-matinee {
+            background-color: #fff9c4;
+        }
+        
+        .legend-evening {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎵 Sydney Classical Music Performances</h1>
+    <div class="last-updated">Last updated: September 20, 2025 at 12:26 PM</div>
+    
+    <div class="stats">
+        <span>Total Performances: 30</span>
+        <span class="matinee-count">Matinee Performances: 8</span>
+        <span>Evening Performances: 22</span>
+    </div>
+    
+    <div class="legend">
+        <div class="legend-item">
+            <span class="legend-box legend-matinee"></span>
+            <strong>Matinee</strong> (before 5:00 PM)
+        </div>
+        <div class="legend-item">
+            <span class="legend-box legend-evening"></span>
+            <strong>Evening</strong> (5:00 PM or later)
+        </div>
+    </div>
+    
+    <table class="performance-table">
+        <thead>
+            <tr>
+                <th>Orchestra/Venue</th>
+                <th>Performance</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Venue</th>
+            </tr>
+        </thead>
+        <tbody>
+        
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Beethoven Triple - Beethoven's Triple Concerto with Estivo Trio</a>
+                    
+                </td>
+                <td>22 February 2025</td>
+                <td>7:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Beethoven Triple - Beethoven's Triple Concerto with Estivo Trio</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>23 February 2025</td>
+                <td>2:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Lark Ascending - Jane Rutter performs Vaughan Williams</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>4 May 2025</td>
+                <td>2:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Odyssey - Smetana's The Moldau</a>
+                    
+                </td>
+                <td>21 June 2025</td>
+                <td>7:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Odyssey - Smetana's The Moldau</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>22 June 2025</td>
+                <td>2:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Ode to Joy - Beethoven's Ninth Symphony</a>
+                    
+                </td>
+                <td>2 August 2025</td>
+                <td>7:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Ode to Joy - Beethoven's Ninth Symphony</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>3 August 2025</td>
+                <td>2:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com" target="_blank">Sibelius 2, Wagner, Elgar with Runnicles & Cooke</a>
+                    
+                </td>
+                <td>19 September 2025</td>
+                <td>7:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com" target="_blank">Sibelius 2, Wagner, Elgar (MATINEE)</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>20 September 2025</td>
+                <td>4:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com" target="_blank">A Musical Awakening</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>21 September 2025</td>
+                <td>4:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com/concerts/the-music-of-joe-hisaishi" target="_blank">The Music of Joe Hisaishi</a>
+                    
+                </td>
+                <td>24 September 2025</td>
+                <td>7:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com/concerts/the-music-of-joe-hisaishi" target="_blank">The Music of Joe Hisaishi</a>
+                    
+                </td>
+                <td>25 September 2025</td>
+                <td>7:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com/concerts/the-music-of-joe-hisaishi" target="_blank">The Music of Joe Hisaishi</a>
+                    
+                </td>
+                <td>26 September 2025</td>
+                <td>7:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com/concerts/the-music-of-joe-hisaishi" target="_blank">The Music of Joe Hisaishi (MATINEE)</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>27 September 2025</td>
+                <td>2:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.sydneysymphony.com/concerts/the-music-of-joe-hisaishi" target="_blank">The Music of Joe Hisaishi</a>
+                    
+                </td>
+                <td>27 September 2025</td>
+                <td>7:00pm</td>
+                <td>Sydney Opera House Concert Hall</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Maestro - Mahler's First Symphony with Julian Smiles</a>
+                    
+                </td>
+                <td>18 October 2025</td>
+                <td>7:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="matinee-row">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Maestro - Mahler's First Symphony with Julian Smiles</a>
+                    <span class="matinee-indicator">MATINEE</span>
+                </td>
+                <td>19 October 2025</td>
+                <td>2:00pm</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/simone-young-conducts-strauss" target="_blank">Sydney Symphony Orchestra</a>
+                    
+                </td>
+                <td>Season 20 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/runnicles-conducts-shostakovichs-fifth" target="_blank">Donald Runnicles conducts Shostakovich’s Fifth Symphony</a>
+                    
+                </td>
+                <td>Symphony 12 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/music-joe-hisaishi" target="_blank">The Music of Joe Hisaishi</a>
+                    
+                </td>
+                <td>Hisaishi 24 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/kutcha-edwards-sydney-symphony" target="_blank">Kutcha Edwards & the Sydney Symphony</a>
+                    
+                </td>
+                <td>Symphony 14 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/lime-cordiale" target="_blank">Lime Cordiale with the Sydney Symphony Orchestra</a>
+                    
+                </td>
+                <td>Orchestra 16 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/beethovens-ninth-simone-young" target="_blank">Beethoven’s Ninth Symphony with Simone Young</a>
+                    
+                </td>
+                <td>Young 26 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Sydney Opera House</td>
+                <td>
+                    <a href="https://www.sydneyoperahouse.com/sydney-symphony-orchestra/2025-season/marvel-infinity-saga" target="_blank">Marvel’s Infinity Saga Concert Experience</a>
+                    
+                </td>
+                <td>Experience 5 2025</td>
+                <td>TBA</td>
+                <td>Sydney Opera House, Bennelong Point, Sydney NSW 2000</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Disney's The Lion King Live in Concert - Film with live orchestra</a>
+                    
+                </td>
+                <td>5 April 2025</td>
+                <td>TBA</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Disney's The Lion King Live in Concert - Film with live orchestra</a>
+                    
+                </td>
+                <td>6 April 2025</td>
+                <td>TBA</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">A Night at the Oscars - Film music gala</a>
+                    
+                </td>
+                <td>16 August 2025</td>
+                <td>TBA</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">A Night at the Oscars - Film music gala</a>
+                    
+                </td>
+                <td>17 August 2025</td>
+                <td>TBA</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>Willoughby Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.willoughbysymphony.com.au/2025-subscription-series" target="_blank">Spirit of Christmas - Christmas concert with choir</a>
+                    
+                </td>
+                <td>14 December 2025</td>
+                <td>TBA</td>
+                <td>The Concourse, Chatswood</td>
+            </tr>
+            
+            <tr class="">
+                <td>North Sydney Symphony Orchestra</td>
+                <td>
+                    <a href="https://www.nsso.org.au" target="_blank">Rodrigo Guitar Concerto with Vladimir Gorbach - Rodrigo's Concierto de Aranjuez</a>
+                    
+                </td>
+                <td>27 July 2025</td>
+                <td>TBA</td>
+                <td>North Sydney</td>
+            </tr>
+            
+        </tbody>
+    </table>
+        
+    
+    <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ecf0f1; color: #7f8c8d; font-size: 0.9em;">
+        <p><strong>Note:</strong> Performance information is scraped from orchestra websites and may not be complete. 
+        Please verify details directly with the venues before purchasing tickets.</p>
+        <p>Venues checked: Sydney Opera House, Sydney Symphony Orchestra, Willoughby Symphony Orchestra, North Sydney Symphony Orchestra</p>
+    </div>
+</body>
+</html>
+    
