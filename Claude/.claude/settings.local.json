@@ -1,7 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(python sydney_matinee_finder.py:*)"
-    ]
-  }
-}

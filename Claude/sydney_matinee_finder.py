@@ -1,46 +1,66 @@
 #!/usr/bin/env python3
 """
-Sydney Matinee Music Finder v1.0
+Sydney Matinee Music Finder v2.0
 
 This script scrapes upcoming classical and community orchestra performances in Sydney,
 with a special focus on matinee shows (performances starting before 5:00 PM).
 
 Data Sources:
-- Sydney Opera House (What's On - Classical Music)
-- Sydney Symphony Orchestra (API endpoint)
+- Sydney Symphony Orchestra (JSON API endpoint)
+- Sydney Opera House (What's On - Classical Music listing + event pages)
 - Willoughby Symphony Orchestra (Events page + individual event pages)
-- North Sydney Symphony Orchestra (Concerts page)
+- The Concourse, Chatswood (Classical Music genre listing + event pages)
+- North Sydney Symphony Orchestra (Concerts page content files)
 
 Output: A self-contained HTML file (sydney_matinees.html) that can be opened in any browser.
 
-Security Note: This script only connects to the four target websites listed above.
+Notes on data quality:
+- All times are converted to Sydney local time using the zoneinfo database, which
+  handles daylight-saving transitions exactly (requires the tzdata package on Windows).
+- Events whose start time could not be found are shown as "Time TBA" and are NEVER
+  marked as matinees - no times are fabricated.
+- The Concourse listing doubles as a crosscheck for Willoughby Symphony: duplicates
+  of the same performance found on both sites are merged.
+
+Security Note: This script only connects to the five target websites listed above.
 It performs read-only operations and writes only the output HTML file.
 """
 
 import requests
 from bs4 import BeautifulSoup
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 import time
 import re
-from typing import List, Dict, Optional, Tuple
-from dataclasses import dataclass
+from typing import List, Dict, Optional
+from dataclasses import dataclass, field
 import json
+
+try:
+    from zoneinfo import ZoneInfo
+    SYDNEY_TZ = ZoneInfo("Australia/Sydney")
+except Exception:
+    # zoneinfo lookup fails on Windows when the tzdata package is missing.
+    # A manual first-Sunday DST fallback is used in to_sydney_time() below.
+    SYDNEY_TZ = None
 
 # =============================================================================
 # CONFIGURATION
 # =============================================================================
 
 # Custom User-Agent to identify ourselves politely
-USER_AGENT = "SydneyMatineeFinder/1.0 (Bot for personal, non-commercial use)"
+USER_AGENT = "SydneyMatineeFinder/2.0 (Bot for personal, non-commercial use)"
 
 # Delay between requests to be polite to servers (in seconds)
-REQUEST_DELAY = 2.5
+REQUEST_DELAY = 2.0
 
 # Matinee cutoff time (performances before this time are considered matinees)
 MATINEE_CUTOFF_HOUR = 17  # 5:00 PM
 
 # Request timeout (seconds)
 REQUEST_TIMEOUT = 30
+
+# Cap on individual event pages visited per source (politeness / runtime)
+MAX_EVENT_PAGES = 40
 
 # Headers for all requests
 HEADERS = {
@@ -56,6 +76,68 @@ JSON_HEADERS = {
     "Accept-Language": "en-AU,en;q=0.9",
 }
 
+MONTH_NAMES = ("January|February|March|April|May|June|July|August|September|"
+               "October|November|December")
+DAY_NAMES = "Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday"
+
+# Explicit "Saturday, 08 August 2026 07:00 PM" style pattern.
+# Requiring date-before-time avoids matching on-sale notices like
+# "9am, Wednesday 26 November 2025".
+EXPLICIT_DATETIME_PATTERN = re.compile(
+    rf'(?:{DAY_NAMES}),?\s+(\d{{1,2}})(?:st|nd|rd|th)?\s+({MONTH_NAMES})\s+(\d{{4}}),?\s+'
+    rf'(\d{{1,2}})(?:[:.](\d{{2}}))?\s*(AM|PM)',
+    re.IGNORECASE
+)
+
+# Date-only pattern, e.g. "21 March 2026"
+DATE_ONLY_PATTERN = re.compile(
+    rf'(\d{{1,2}})(?:st|nd|rd|th)?\s+({MONTH_NAMES})\s+(\d{{4}})',
+    re.IGNORECASE
+)
+
+# Well-known venue addresses
+VENUE_ADDRESSES = {
+    'concert hall': 'Bennelong Point, Sydney NSW 2000',
+    'utzon room': 'Bennelong Point, Sydney NSW 2000',
+    'joan sutherland theatre': 'Bennelong Point, Sydney NSW 2000',
+    'drama theatre': 'Bennelong Point, Sydney NSW 2000',
+    'playhouse': 'Bennelong Point, Sydney NSW 2000',
+    'studio': 'Bennelong Point, Sydney NSW 2000',
+    'sydney opera house': 'Bennelong Point, Sydney NSW 2000',
+    'sydney town hall': '483 George St, Sydney NSW 2000',
+    'city recital hall': '2 Angel Pl, Sydney NSW 2000',
+    "st james' church": "173 King St, Sydney NSW 2000",
+    "st james'": "173 King St, Sydney NSW 2000",
+    'state theatre': '49 Market St, Sydney NSW 2000',
+    'the concourse': '409 Victoria Ave, Chatswood NSW 2067',
+    'verbrugghen hall': 'Sydney Conservatorium of Music, Macquarie St, Sydney NSW 2000',
+    'st leonards park': 'Miller St, North Sydney NSW 2060',
+    'smith auditorium': 'Shore School, Blue St, North Sydney NSW 2060',
+    'north sydney girls': '365 Pacific Hwy, Crows Nest NSW 2065',
+    "st philip's church": '3 York St, Sydney NSW 2000',
+}
+
+
+def lookup_venue_address(venue_name: str, default: str = 'Sydney, NSW') -> str:
+    """Map a venue name to a street address if we know it."""
+    lowered = venue_name.lower()
+    for key, addr in VENUE_ADDRESSES.items():
+        if key in lowered:
+            return addr
+    return default
+
+
+def normalize_title(title: str) -> str:
+    """
+    Normalize a concert title for cross-source matching: lowercase,
+    alphanumerics only, standalone years removed ("Last Night of the Proms
+    2026" and "Last Night Of The Proms" must compare equal).
+    """
+    norm = re.sub(r'[^a-z0-9]+', ' ', title.lower())
+    norm = re.sub(r'\b(?:19|20)\d{2}\b', '', norm)
+    return re.sub(r'\s+', ' ', norm).strip()
+
+
 # =============================================================================
 # DATA STRUCTURES
 # =============================================================================
@@ -65,21 +147,29 @@ class Performance:
     """Represents a single performance/concert."""
     performer: str           # Orchestra or performer name
     title: str               # Concert title
-    date: datetime           # Date and time of performance
+    date: datetime           # Date and time of performance (naive, Sydney local)
     venue_name: str          # Name of the venue
     venue_address: str       # Address of the venue
     url: str                 # Direct link to booking/info page
     source: str              # Which website this came from
+    time_confirmed: bool = True  # False when only the date (not the time) is known
 
     @property
     def is_matinee(self) -> bool:
-        """Check if this performance is a matinee (before 5 PM)."""
+        """
+        Check if this performance is a matinee (before 5 PM).
+        Events with unknown/unconfirmed start times are never marked as matinees.
+        """
+        if not self.time_confirmed:
+            return False
+        if self.date.hour == 0 and self.date.minute == 0:
+            return False  # midnight placeholder = time unknown
         return self.date.hour < MATINEE_CUTOFF_HOUR
 
     @property
     def time_str(self) -> str:
         """Return formatted time string."""
-        if self.date.hour == 0 and self.date.minute == 0:
+        if not self.time_confirmed or (self.date.hour == 0 and self.date.minute == 0):
             return "Time TBA"
         return self.date.strftime("%I:%M %p").lstrip("0")
 
@@ -89,11 +179,16 @@ class Performance:
         return self.date.strftime("%A, %d %B %Y")
 
     def unique_key(self) -> str:
-        """Generate a unique key for deduplication."""
-        # Normalize for comparison: lowercase, remove extra spaces
-        title_norm = re.sub(r'\s+', ' ', self.title.lower().strip())
+        """
+        Generate a unique key for deduplication.
+        Normalization is aggressive (alphanumerics only, years stripped) so
+        the same concert listed on two websites - e.g. Willoughby Symphony's
+        own site and The Concourse - merges despite curly quotes, casing, or
+        "... 2026" suffix differences. The performance date carries the year.
+        """
+        title_norm = normalize_title(self.title)
         date_norm = self.date.strftime("%Y-%m-%d %H:%M")
-        venue_norm = self.venue_name.lower().strip()
+        venue_norm = re.sub(r'[^a-z0-9]+', ' ', self.venue_name.lower()).strip()
         return f"{title_norm}|{date_norm}|{venue_norm}"
 
 
@@ -117,52 +212,66 @@ def make_request(url: str, session: requests.Session, headers: dict = None) -> O
         return None
 
 
-def parse_iso_datetime(iso_str: str, convert_utc_to_sydney: bool = True) -> Optional[datetime]:
+def _first_sunday(year: int, month: int) -> int:
+    """Day-of-month of the first Sunday in the given month."""
+    d = datetime(year, month, 1)
+    return 1 + (6 - d.weekday()) % 7
+
+
+def to_sydney_time(dt_aware: datetime) -> datetime:
     """
-    Parse an ISO 8601 datetime string.
+    Convert an aware datetime to naive Sydney local time.
+    Uses zoneinfo when available; otherwise falls back to the actual
+    Australian DST rule (AEDT from first Sunday of October to first
+    Sunday of April).
+    """
+    if SYDNEY_TZ is not None:
+        return dt_aware.astimezone(SYDNEY_TZ).replace(tzinfo=None)
+
+    # Manual fallback: tentatively convert with standard time (UTC+10),
+    # then check whether that local date falls inside the DST window.
+    local = (dt_aware.astimezone(timezone.utc) + timedelta(hours=10)).replace(tzinfo=None)
+    m, y = local.month, local.year
+    in_dst = (
+        m > 10 or m < 4
+        or (m == 10 and local.day >= _first_sunday(y, 10))
+        or (m == 4 and local.day < _first_sunday(y, 4))
+    )
+    return local + timedelta(hours=1) if in_dst else local
+
+
+def parse_iso_datetime(iso_str: str, assume_utc: bool = False) -> Optional[datetime]:
+    """
+    Parse an ISO 8601 datetime string and return naive Sydney local time.
     Handles formats like: 2026-02-25T19:30:00.000+11:00 or 2026-01-30T07:00:00.000Z
 
-    If the time is in UTC (ends with Z), convert to Sydney time by adding 11 hours
-    (AEDT - Australian Eastern Daylight Time, used Oct-Apr).
-
-    Note: This is a simplified timezone handling that doesn't account for
-    daylight saving transitions. For precise handling, use pytz library.
+    - Strings with an explicit offset (or Z) are converted to Sydney time.
+    - Naive strings are returned as-is, unless assume_utc=True, in which case
+      they are treated as UTC and converted (the Sydney Opera House embeds
+      UTC times without any timezone marker).
     """
     if not iso_str:
         return None
 
-    is_utc = iso_str.endswith('Z')
-
+    s = iso_str.strip().replace('Z', '+00:00')
     try:
-        # Remove milliseconds and timezone for simpler parsing
-        # Format: 2026-02-25T19:30:00.000+11:00 or 2026-01-30T07:00:00.000Z
-        clean_str = re.sub(r'\.\d{3}', '', iso_str)  # Remove .000
-        clean_str = clean_str.rstrip('Z')  # Remove Z suffix
-        clean_str = re.sub(r'[+-]\d{2}:\d{2}$', '', clean_str)  # Remove timezone offset
-
-        parsed_dt = datetime.strptime(clean_str, "%Y-%m-%dT%H:%M:%S")
-
-        # Convert UTC to Sydney time if needed
-        # Sydney is UTC+11 during daylight saving (Oct-Apr) and UTC+10 otherwise
-        if is_utc and convert_utc_to_sydney:
-            # Simplified: assume AEDT (UTC+11) for most of the concert season
-            # This covers Oct-Apr which is when most concerts occur
-            month = parsed_dt.month
-            if month >= 4 and month <= 10:
-                # AEST: UTC+10
-                parsed_dt = parsed_dt + timedelta(hours=10)
-            else:
-                # AEDT: UTC+11
-                parsed_dt = parsed_dt + timedelta(hours=11)
-
-        return parsed_dt
-
+        dt = datetime.fromisoformat(s)
     except ValueError:
+        # Fallback: strip milliseconds/offset and try the plain format
+        clean = re.sub(r'\.\d+', '', iso_str.strip()).rstrip('Zz')
+        clean = re.sub(r'[+-]\d{2}:?\d{2}$', '', clean)
         try:
-            # Try simpler format
-            return datetime.strptime(iso_str[:19], "%Y-%m-%dT%H:%M:%S")
+            dt = datetime.strptime(clean[:19], "%Y-%m-%dT%H:%M:%S")
         except ValueError:
             return None
+
+    if dt.tzinfo is None:
+        if assume_utc:
+            dt = dt.replace(tzinfo=timezone.utc)
+        else:
+            return dt
+
+    return to_sydney_time(dt)
 
 
 def parse_date_flexible(date_str: str, time_str: str = None) -> Optional[datetime]:
@@ -195,8 +304,6 @@ def parse_date_flexible(date_str: str, time_str: str = None) -> Optional[datetim
     time_formats = [
         "%I:%M %p",      # 2:00 PM
         "%I:%M%p",       # 2:00PM
-        "%I.%M %p",      # 2.00 PM
-        "%I.%M%p",       # 2.00PM
         "%H:%M",         # 14:00
         "%I %p",         # 2 PM
         "%I%p",          # 2PM
@@ -245,6 +352,23 @@ def parse_date_flexible(date_str: str, time_str: str = None) -> Optional[datetim
     return parsed_date
 
 
+def extract_explicit_datetimes(text: str) -> List[datetime]:
+    """
+    Find all "Saturday, 08 August 2026 07:00 PM" style date+times in a blob
+    of text. Returns parsed datetimes (deduplicated, order preserved).
+    """
+    results = []
+    seen = set()
+    for m in EXPLICIT_DATETIME_PATTERN.finditer(text):
+        day, month, year, hour, minute, ampm = m.groups()
+        minute = minute or "00"
+        dt = parse_date_flexible(f"{day} {month} {year}", f"{hour}:{minute} {ampm.upper()}")
+        if dt and dt not in seen:
+            seen.add(dt)
+            results.append(dt)
+    return results
+
+
 def polite_delay():
     """Wait between requests to be polite to servers."""
     time.sleep(REQUEST_DELAY)
@@ -258,29 +382,11 @@ def scrape_sydney_symphony_api(session: requests.Session) -> List[Performance]:
     """
     Scrape performances from Sydney Symphony Orchestra using their JSON API.
     This is more reliable than parsing HTML as it gives us structured data.
-
-    API Structure:
-    {
-      "docs": [
-        {
-          "title": "Concert Name",
-          "slug": "concert-slug",
-          "startDate": "2026-01-30T07:00:00.000Z",
-          "venue": {"title": "Venue Name", "slug": "venue-slug"},
-          "eventInstances": {
-            "docs": [
-              {"startDate": "2026-01-30T07:00:00.000Z"},
-              {"startDate": "2026-01-31T07:00:00.000Z"}
-            ]
-          }
-        }
-      ]
-    }
+    The API returns UTC timestamps (Z suffix) which are converted to Sydney time.
     """
     print("Scraping Sydney Symphony Orchestra (API)...")
     performances = []
 
-    # The SSO has a public API endpoint that returns event data
     api_url = "https://www.sydneysymphony.com/api/events"
 
     response = make_request(api_url, session, JSON_HEADERS)
@@ -313,26 +419,9 @@ def scrape_sydney_symphony_api(session: requests.Session) -> List[Performance]:
                     venue_name = venue_data.get('title', 'Sydney Opera House Concert Hall')
                 else:
                     venue_name = 'Sydney Opera House Concert Hall'
-
-                # Map common venues to addresses
-                venue_addresses = {
-                    'concert hall': 'Bennelong Point, Sydney NSW 2000',
-                    'utzon room': 'Bennelong Point, Sydney NSW 2000',
-                    'sydney opera house': 'Bennelong Point, Sydney NSW 2000',
-                    'sydney town hall': '483 George St, Sydney NSW 2000',
-                    'city recital hall': '2 Angel Pl, Sydney NSW 2000',
-                    "st james' church": "173 King St, Sydney NSW 2000",
-                    "st james'": "173 King St, Sydney NSW 2000",
-                    'state theatre': '49 Market St, Sydney NSW 2000',
-                }
-                venue_address = 'Sydney, NSW'
-                for key, addr in venue_addresses.items():
-                    if key in venue_name.lower():
-                        venue_address = addr
-                        break
+                venue_address = lookup_venue_address(venue_name)
 
                 # Get all event instances (individual performance dates/times)
-                # The API returns eventInstances as {"docs": [...]}
                 instances_data = event.get('eventInstances', {})
                 if isinstance(instances_data, dict):
                     instances = instances_data.get('docs', [])
@@ -340,6 +429,10 @@ def scrape_sydney_symphony_api(session: requests.Session) -> List[Performance]:
                     instances = instances_data
                 else:
                     instances = []
+
+                # Fall back to the event-level startDate if there are no instances
+                if not instances and event.get('startDate'):
+                    instances = [{'startDate': event['startDate']}]
 
                 for instance in instances:
                     if not isinstance(instance, dict):
@@ -369,25 +462,6 @@ def scrape_sydney_symphony_api(session: requests.Session) -> List[Performance]:
                         source="Sydney Symphony Orchestra"
                     ))
 
-                # If no instances found, try using startDate from the event itself
-                if not instances:
-                    start_date_str = event.get('startDate', '')
-                    if start_date_str:
-                        perf_date = parse_iso_datetime(start_date_str)
-                        if perf_date:
-                            instance_key = f"{title}|{perf_date.strftime('%Y-%m-%d %H:%M')}"
-                            if instance_key not in seen_instances:
-                                seen_instances.add(instance_key)
-                                performances.append(Performance(
-                                    performer="Sydney Symphony Orchestra",
-                                    title=title,
-                                    date=perf_date,
-                                    venue_name=venue_name,
-                                    venue_address=venue_address,
-                                    url=event_url,
-                                    source="Sydney Symphony Orchestra"
-                                ))
-
             except Exception as e:
                 print(f"  [WARNING] Error parsing SSO event '{event.get('title', 'unknown')}': {e}")
                 continue
@@ -402,87 +476,120 @@ def scrape_sydney_symphony_api(session: requests.Session) -> List[Performance]:
 
 def scrape_sydney_opera_house(session: requests.Session) -> List[Performance]:
     """
-    Scrape performances from Sydney Opera House website.
-    Target: Classical music and concerts.
-    Note: SOH uses heavy JavaScript rendering, so results may be limited.
+    Scrape classical music from the Sydney Opera House What's On listing.
+
+    The listing pages are server-rendered Drupal (div.card--event cards).
+    Events presented by the Sydney Symphony Orchestra are skipped because the
+    SSO API already provides them with authoritative times. For the rest, each
+    event page is visited to read the "Dates and times" table; if that is
+    missing, the schema.org JSON-LD startDate is used (it is UTC without a
+    timezone marker, so it is converted to Sydney time).
     """
     print("Scraping Sydney Opera House...")
     performances = []
+    base_url = "https://www.sydneyoperahouse.com"
 
-    # The SOH uses dynamic rendering, but we'll try to get what we can
-    url = "https://www.sydneyoperahouse.com/whats-on?genre%5B%5D=1436&date_range%5Bmin%5D=2026-01-23&date_range%5Bmax%5D=2027-01-23"
+    # Collect event cards across the paginated listing (genre 1436 = Classical Music).
+    # The site defaults the date range to the next 12 months - no hardcoded dates.
+    event_cards = []  # (title, url, venue_name)
+    seen_hrefs = set()
+    for page in range(0, 8):
+        url = f"{base_url}/whats-on?genre%5B%5D=1436&page={page}"
+        response = make_request(url, session)
+        if not response:
+            break
+        soup = BeautifulSoup(response.text, 'html.parser')
+        cards = soup.select('div.card--event')
+        if not cards:
+            break
 
-    response = make_request(url, session)
-    if not response:
-        print("  Could not scrape Sydney Opera House")
-        return performances
-
-    soup = BeautifulSoup(response.text, 'html.parser')
-
-    # Look for JSON data embedded in the page (common pattern for React/Next.js sites)
-    scripts = soup.find_all('script', type='application/json')
-    for script in scripts:
-        try:
-            data = json.loads(script.string)
-            # Try to find event data in the JSON
-            # This would need to be adapted based on actual page structure
-        except:
-            continue
-
-    # Try to find event cards in the HTML
-    # SOH typically uses structured data for events
-    event_links = soup.find_all('a', href=lambda x: x and '/whats-on/' in x and x.count('/') > 2)
-
-    seen_urls = set()
-    for link in event_links[:50]:
-        try:
+        for card in cards:
+            link = card.select_one('a.card__link')
+            if not link:
+                continue
             href = link.get('href', '')
-            if href in seen_urls or not href:
+            if not href or href in seen_hrefs:
                 continue
-            seen_urls.add(href)
+            seen_hrefs.add(href)
 
-            full_url = f"https://www.sydneyoperahouse.com{href}" if not href.startswith('http') else href
-
-            # Try to get title from link text or nearby elements
             title = link.get_text(strip=True)
-            if not title or len(title) < 3:
-                title_elem = link.find(['h2', 'h3', 'h4', 'span'])
-                title = title_elem.get_text(strip=True) if title_elem else ""
-
-            if not title or len(title) < 3:
+            if not title:
                 continue
 
-            # Skip navigation links
-            if title.lower() in ['view', 'book', 'more', 'details', 'buy tickets']:
+            # SSO-presented events are already covered via the SSO API
+            if href.startswith('/sydney-symphony-orchestra'):
                 continue
 
-            # Look for date information in parent container
-            parent = link.find_parent(['article', 'div', 'li'])
-            date_text = ""
-            if parent:
-                date_elem = parent.find(['time', 'span'], class_=lambda x: x and 'date' in str(x).lower())
-                if date_elem:
-                    date_text = date_elem.get('datetime', '') or date_elem.get_text(strip=True)
+            # Venue is the last non-empty text line of the card
+            lines = [t.strip() for t in card.get_text('\n').split('\n') if t.strip()]
+            venue_name = lines[-1] if lines else 'Sydney Opera House'
+            if 'streamline' in venue_name.lower():  # icon alt-text noise
+                venue_name = 'Sydney Opera House'
 
-            perf_date = parse_iso_datetime(date_text) or parse_date_flexible(date_text)
-            if not perf_date:
-                # For SOH, we might not get dates from the listing page
-                # The event page itself would have the details
-                continue
+            full_url = href if href.startswith('http') else f"{base_url}{href}"
+            event_cards.append((title, full_url, venue_name))
 
-            performances.append(Performance(
-                performer="Sydney Opera House",
-                title=title,
-                date=perf_date,
-                venue_name="Sydney Opera House",
-                venue_address="Bennelong Point, Sydney NSW 2000",
-                url=full_url,
-                source="Sydney Opera House"
-            ))
+        polite_delay()
 
-        except Exception as e:
-            print(f"  [WARNING] Error parsing SOH event: {e}")
+    print(f"  Found {len(event_cards)} non-SSO event pages to check...")
+
+    for title, event_url, venue_name in event_cards[:MAX_EVENT_PAGES]:
+        polite_delay()
+        response = make_request(event_url, session)
+        if not response:
             continue
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+        page_text = soup.get_text(' ', strip=True)
+
+        # Primary: the "Dates and times" table rendered on every event page
+        dates = extract_explicit_datetimes(page_text)
+        time_confirmed = True
+
+        # Fallback: schema.org JSON-LD (startDate is UTC, unmarked)
+        if not dates:
+            for script in soup.find_all('script', type='application/ld+json'):
+                try:
+                    data = json.loads(script.string)
+                except (ValueError, TypeError):
+                    continue
+                graph = data.get('@graph', [data]) if isinstance(data, dict) else []
+                for node in graph:
+                    if isinstance(node, dict) and node.get('@type') == 'Event':
+                        dt = parse_iso_datetime(node.get('startDate', ''), assume_utc=True)
+                        if dt:
+                            dates.append(dt)
+
+        if not dates:
+            continue
+
+        # Presenter: derive from the URL path, e.g.
+        # /australian-chamber-orchestra/... -> Australian Chamber Orchestra
+        path_parts = [p for p in event_url.replace(base_url, '').split('/') if p]
+        presenter = 'Sydney Opera House'
+        if path_parts and path_parts[0] not in ('whats-on', 'classical-music', 'events'):
+            presenter = path_parts[0].replace('-', ' ').title()
+
+        if 'opera house' not in venue_name.lower():
+            venue_display = f"{venue_name}, Sydney Opera House"
+        else:
+            venue_display = venue_name
+        # Non-SOH venues (e.g. St Philip's Church) keep their own name
+        if venue_name.lower() not in ('concert hall', 'utzon room', 'joan sutherland theatre',
+                                      'drama theatre', 'playhouse', 'studio', 'sydney opera house'):
+            venue_display = venue_name
+
+        for dt in dates:
+            performances.append(Performance(
+                performer=presenter,
+                title=title,
+                date=dt,
+                venue_name=venue_display,
+                venue_address=lookup_venue_address(venue_display),
+                url=event_url,
+                source="Sydney Opera House",
+                time_confirmed=time_confirmed
+            ))
 
     print(f"  Found {len(performances)} events from Sydney Opera House")
     return performances
@@ -492,7 +599,8 @@ def scrape_willoughby_symphony(session: requests.Session) -> List[Performance]:
     """
     Scrape performances from Willoughby Symphony Orchestra website.
     This scraper fetches the events list and then visits individual event pages
-    to get accurate date/time information.
+    to get accurate date/time information. If no explicit date+time is found,
+    the event is included date-only ("Time TBA") - times are never fabricated.
     """
     print("Scraping Willoughby Symphony Orchestra...")
     performances = []
@@ -511,7 +619,6 @@ def scrape_willoughby_symphony(session: requests.Session) -> List[Performance]:
     event_links = []
     for link in soup.find_all('a', href=True):
         href = link.get('href', '')
-        # Look for event page links (typically /Events/EventName format)
         if '/Events/' in href and href != '/Events' and href != '/Events/':
             full_url = f"{base_url}{href}" if not href.startswith('http') else href
             if full_url not in event_links:
@@ -519,8 +626,7 @@ def scrape_willoughby_symphony(session: requests.Session) -> List[Performance]:
 
     print(f"  Found {len(event_links)} event pages to check...")
 
-    # Visit each event page to get detailed information
-    for event_url in event_links[:15]:  # Limit to prevent too many requests
+    for event_url in event_links[:MAX_EVENT_PAGES]:
         polite_delay()
 
         try:
@@ -530,72 +636,46 @@ def scrape_willoughby_symphony(session: requests.Session) -> List[Performance]:
 
             event_soup = BeautifulSoup(event_response.text, 'html.parser')
 
-            # Extract title from the page
             title_elem = event_soup.find(['h1', 'h2'])
             if not title_elem:
                 continue
             title = title_elem.get_text(strip=True)
-            if not title or 'willoughby' not in title.lower():
-                # Try to make title more descriptive
-                pass
+            if not title:
+                continue
 
-            # Get all text content to search for dates and times
-            page_text = event_soup.get_text()
+            page_text = event_soup.get_text(' ', strip=True)
 
-            # Find all date/time patterns
-            # Pattern: "Saturday, 14 February 2026, 7:00 PM"
-            datetime_pattern = r'(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday),?\s+(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4}),?\s+(\d{1,2})[:\.](\d{2})\s*(AM|PM|am|pm)'
+            # Explicit "Saturday, 14 February 2026, 7:00 PM" style datetimes
+            dates = extract_explicit_datetimes(page_text)
 
-            matches = re.findall(datetime_pattern, page_text, re.IGNORECASE)
-
-            for match in matches:
-                day_name, day, month, year, hour, minute, ampm = match
-                date_str = f"{day} {month} {year}"
-                time_str = f"{hour}:{minute} {ampm.upper()}"
-
-                perf_date = parse_date_flexible(date_str, time_str)
-                if perf_date:
+            if dates:
+                for dt in dates:
                     performances.append(Performance(
                         performer="Willoughby Symphony Orchestra",
                         title=title,
-                        date=perf_date,
+                        date=dt,
                         venue_name="The Concourse Concert Hall",
-                        venue_address="409 Victoria Ave, Chatswood NSW 2067",
+                        venue_address=lookup_venue_address('the concourse'),
                         url=event_url,
                         source="Willoughby Symphony"
                     ))
-
-            # If no datetime pattern found, try simpler date patterns
-            if not matches:
-                date_pattern = r'(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})'
-                date_matches = re.findall(date_pattern, page_text, re.IGNORECASE)
-
-                time_pattern = r'(\d{1,2})[:\.](\d{2})\s*(AM|PM|am|pm)'
-                time_matches = re.findall(time_pattern, page_text, re.IGNORECASE)
-
-                if date_matches:
-                    for date_match in date_matches[:2]:  # Limit to first 2 dates
-                        day, month, year = date_match
-                        date_str = f"{day} {month} {year}"
-
-                        # Use first time found, or default to 7:30 PM (common concert time)
-                        if time_matches:
-                            hour, minute, ampm = time_matches[0]
-                            time_str = f"{hour}:{minute} {ampm.upper()}"
-                        else:
-                            time_str = "7:30 PM"
-
-                        perf_date = parse_date_flexible(date_str, time_str)
-                        if perf_date:
-                            performances.append(Performance(
-                                performer="Willoughby Symphony Orchestra",
-                                title=title,
-                                date=perf_date,
-                                venue_name="The Concourse Concert Hall",
-                                venue_address="409 Victoria Ave, Chatswood NSW 2067",
-                                url=event_url,
-                                source="Willoughby Symphony"
-                            ))
+            else:
+                # Date-only fallback: include the event but mark the time as
+                # unknown rather than inventing one.
+                date_matches = DATE_ONLY_PATTERN.findall(page_text)
+                for day, month, year in date_matches[:2]:
+                    dt = parse_date_flexible(f"{day} {month} {year}")
+                    if dt:
+                        performances.append(Performance(
+                            performer="Willoughby Symphony Orchestra",
+                            title=title,
+                            date=dt,
+                            venue_name="The Concourse Concert Hall",
+                            venue_address=lookup_venue_address('the concourse'),
+                            url=event_url,
+                            source="Willoughby Symphony",
+                            time_confirmed=False
+                        ))
 
         except Exception as e:
             print(f"  [WARNING] Error parsing WSO event page: {e}")
@@ -605,9 +685,102 @@ def scrape_willoughby_symphony(session: requests.Session) -> List[Performance]:
     return performances
 
 
+def scrape_the_concourse(session: requests.Session) -> List[Performance]:
+    """
+    Scrape the Classical Music genre listing at The Concourse, Chatswood.
+
+    This is both an additional source (KPO, Sydney Mozart Society, Live at
+    Lunch, visiting orchestras...) and a crosscheck for Willoughby Symphony,
+    whose home venue is The Concourse. Duplicate performances found on both
+    sites are merged during deduplication.
+    """
+    print("Scraping The Concourse (Chatswood)...")
+    performances = []
+
+    base_url = "https://www.theconcourse.com.au"
+    listing_url = f"{base_url}/genre/music-classical/"
+
+    response = make_request(listing_url, session)
+    if not response:
+        print("  Could not scrape The Concourse")
+        return performances
+
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # Event cards link to /event/<slug>/ pages
+    event_links = []
+    for link in soup.find_all('a', href=True):
+        href = link['href']
+        if '/event/' in href:
+            full_url = href if href.startswith('http') else f"{base_url}{href}"
+            if full_url not in event_links:
+                event_links.append(full_url)
+
+    print(f"  Found {len(event_links)} event pages to check...")
+
+    for event_url in event_links[:MAX_EVENT_PAGES]:
+        polite_delay()
+
+        try:
+            event_response = make_request(event_url, session)
+            if not event_response:
+                continue
+
+            event_soup = BeautifulSoup(event_response.text, 'html.parser')
+
+            title_elem = event_soup.find('h1')
+            title = title_elem.get_text(strip=True) if title_elem else ''
+            if not title:
+                continue
+            # Skip season-package pages: they aggregate every concert date and
+            # would duplicate each performance already listed individually.
+            if re.search(r'subscription|season package', title, re.IGNORECASE):
+                continue
+            # Normalize SHOUTING titles for readability
+            if title.isupper():
+                title = title.title()
+
+            page_text = event_soup.get_text(' ', strip=True)
+            dates = extract_explicit_datetimes(page_text)
+            if not dates:
+                continue
+
+            # Derive the performer from an "Orchestra: Title" style prefix
+            performer = "Various artists"
+            if ':' in title:
+                prefix = title.split(':', 1)[0]
+                if re.search(r'orchestra|symphony|philharmonia|society|choir|ensemble|quartet|band',
+                             prefix, re.IGNORECASE):
+                    performer = prefix.strip()
+
+            for dt in dates:
+                performances.append(Performance(
+                    performer=performer,
+                    title=title,
+                    date=dt,
+                    venue_name="The Concourse Concert Hall",
+                    venue_address=lookup_venue_address('the concourse'),
+                    url=event_url,
+                    source="The Concourse"
+                ))
+
+        except Exception as e:
+            print(f"  [WARNING] Error parsing Concourse event page: {e}")
+            continue
+
+    print(f"  Found {len(performances)} events from The Concourse")
+    return performances
+
+
 def scrape_north_sydney_symphony(session: requests.Session) -> List[Performance]:
     """
     Scrape performances from North Sydney Symphony Orchestra website.
+
+    The NSSO site (WebsiteBuilder) serves an empty HTML shell; the actual page
+    content lives in JavaScript content files on storage.googleapis.com that
+    are referenced from the shell. Those files contain the concert details as
+    escaped HTML, e.g. "SATURDAY 28TH MARCH 2026, 7.30pm / The Verbrugghen
+    Hall, Conservatorium of Music".
     """
     print("Scraping North Sydney Symphony Orchestra...")
     performances = []
@@ -619,120 +792,101 @@ def scrape_north_sydney_symphony(session: requests.Session) -> List[Performance]
         print("  Could not scrape North Sydney Symphony Orchestra")
         return performances
 
-    soup = BeautifulSoup(response.text, 'html.parser')
+    # Content files referenced by the page shell
+    content_urls = re.findall(
+        r'https://storage\.googleapis\.com/te-websitebuilder-sites/[^\s"\'<>\\]+\.js[^\s"\'<>\\]*',
+        response.text
+    )
+    # Keep unique URLs, ignoring cache-buster query variants
+    seen_paths = set()
+    unique_urls = []
+    for u in content_urls:
+        path = u.split('?')[0]
+        if path not in seen_paths:
+            seen_paths.add(path)
+            unique_urls.append(u)
 
-    # Get all text content
-    page_text = soup.get_text()
+    print(f"  Found {len(unique_urls)} content files to check...")
 
-    # NSSO typically lists concerts with dates
-    # Look for patterns like "28 March 2026" or "Saturday 28 March 2026"
-
-    # Find all headings that might be concert titles
-    headings = soup.find_all(['h1', 'h2', 'h3', 'h4'])
-
-    seen_dates = set()
-
-    for heading in headings:
-        title = heading.get_text(strip=True)
-        if not title or len(title) < 5:
+    file_texts = []
+    for content_url in unique_urls[:MAX_EVENT_PAGES]:
+        polite_delay()
+        content_response = make_request(content_url, session)
+        if not content_response:
             continue
+        raw = content_response.text
+        # The content is JSON-escaped HTML; unescape and strip tags
+        raw = raw.replace('\\"', '"').replace('\\/', '/').replace('\\n', ' ')
+        raw = re.sub(r'\\u([0-9a-fA-F]{4})', lambda m: chr(int(m.group(1), 16)), raw)
+        text = re.sub(r'<[^>]+>', ' ', raw)
+        text = text.replace('&nbsp;', ' ').replace('&quot;', '"').replace('&amp;', '&')
+        file_texts.append(text)
+    combined_text = " ".join(file_texts)
 
-        # Skip navigation/generic headings
-        skip_words = ['concert', 'ticket', 'about', 'contact', 'home', 'menu', 'nsso', 'north sydney']
-        if title.lower() in skip_words:
+    def map_nsso_venue(venue_hint: str) -> str:
+        """
+        Map free-text venue hints to a known NSSO venue name.
+        Whitespace is collapsed entirely because the source files sometimes
+        break words apart (e.g. "Verbrugghen Hal l").
+        """
+        hint = re.sub(r'[\s.]+', '', venue_hint.lower())
+        for known, canonical in (
+            ('verbrugghenhall', 'Verbrugghen Hall'),
+            ('stleonardspark', 'St Leonards Park'),
+            ('smithauditorium', 'Smith Auditorium'),
+            ('northsydneygirls', 'North Sydney Girls High School'),
+            ('nsghs', 'North Sydney Girls High School'),
+        ):
+            if known in hint:
+                return canonical
+        return 'See NSSO website'
+
+    seen = set()
+
+    def add_performance(dt: datetime, venue_hint: str):
+        if not dt or dt in seen:
+            return
+        seen.add(dt)
+        venue_name = map_nsso_venue(venue_hint)
+        performances.append(Performance(
+            performer="North Sydney Symphony Orchestra",
+            title="North Sydney Symphony Orchestra in Concert",
+            date=dt,
+            venue_name=venue_name,
+            venue_address=lookup_venue_address(venue_name, 'North Sydney area'),
+            url=url,
+            source="North Sydney Symphony"
+        ))
+
+    # 1. Season summary lists: year-less entries like
+    #    "19 Sep, 7.30pm - Verbrugghen Hall". The year is taken from the
+    #    "2026 CONCERT DATES" heading in the same content file, so past-season
+    #    leftovers can never be mistaken for upcoming concerts.
+    season_entry = re.compile(
+        r'(\d{1,2})\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?,?\s+'
+        r'(\d{1,2})[.:](\d{2})\s*(am|pm)\s*[-–]\s*([A-Za-z.\'’ ]{3,40})',
+        re.IGNORECASE
+    )
+    for text in file_texts:
+        year_match = re.search(r'(\d{4})\s+CONCERT\s+DATES', text, re.IGNORECASE)
+        if not year_match:
             continue
+        year = year_match.group(1)
+        for m in season_entry.finditer(text):
+            day, month, hour, minute, ampm, venue_hint = m.groups()
+            dt = parse_date_flexible(f"{day} {month} {year}", f"{hour}:{minute} {ampm.upper()}")
+            add_performance(dt, venue_hint)
 
-        # Look for date in nearby content
-        parent = heading.find_parent(['section', 'article', 'div'])
-        if parent:
-            parent_text = parent.get_text()
-
-            # Look for date pattern
-            date_pattern = r'(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{4})'
-            date_match = re.search(date_pattern, parent_text, re.IGNORECASE)
-
-            if date_match:
-                day, month, year = date_match.groups()
-                date_str = f"{day} {month} {year}"
-
-                # Avoid duplicate dates
-                if date_str in seen_dates:
-                    continue
-                seen_dates.add(date_str)
-
-                # Look for time
-                time_pattern = r'(\d{1,2})[:\.](\d{2})\s*(AM|PM|am|pm)'
-                time_match = re.search(time_pattern, parent_text, re.IGNORECASE)
-
-                if time_match:
-                    hour, minute, ampm = time_match.groups()
-                    time_str = f"{hour}:{minute} {ampm.upper()}"
-                else:
-                    time_str = "2:30 PM"  # NSSO often has afternoon concerts
-
-                perf_date = parse_date_flexible(date_str, time_str)
-                if perf_date:
-                    # Try to find a link
-                    link = parent.find('a', href=True)
-                    event_url = url
-                    if link:
-                        href = link.get('href', '')
-                        if href.startswith('/'):
-                            event_url = f"https://www.nsso.org.au{href}"
-                        elif href.startswith('http'):
-                            event_url = href
-
-                    performances.append(Performance(
-                        performer="North Sydney Symphony Orchestra",
-                        title=title if len(title) > 10 else f"NSSO Concert - {date_str}",
-                        date=perf_date,
-                        venue_name="Various venues",
-                        venue_address="North Sydney area",
-                        url=event_url,
-                        source="North Sydney Symphony"
-                    ))
-
-    # Also try to find concerts from page structure
-    # Look for links that might be to concert pages
-    concert_links = soup.find_all('a', href=lambda x: x and ('concert' in str(x).lower() or '202' in str(x)))
-
-    for link in concert_links[:10]:
-        try:
-            href = link.get('href', '')
-            if not href or href == url:
-                continue
-
-            link_text = link.get_text(strip=True)
-
-            # Try to extract date from link text or href
-            date_pattern = r'(\d{1,2})[-\s]*(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[-\s]*(\d{4})'
-            date_match = re.search(date_pattern, link_text + ' ' + href, re.IGNORECASE)
-
-            if date_match:
-                day, month, year = date_match.groups()
-                date_str = f"{day} {month} {year}"
-
-                if date_str in seen_dates:
-                    continue
-                seen_dates.add(date_str)
-
-                perf_date = parse_date_flexible(date_str, "2:30 PM")
-                if perf_date:
-                    full_url = f"https://www.nsso.org.au{href}" if href.startswith('/') else href
-
-                    performances.append(Performance(
-                        performer="North Sydney Symphony Orchestra",
-                        title=link_text if len(link_text) > 5 else f"NSSO Concert",
-                        date=perf_date,
-                        venue_name="Various venues",
-                        venue_address="North Sydney area",
-                        url=full_url if full_url.startswith('http') else url,
-                        source="North Sydney Symphony"
-                    ))
-
-        except Exception as e:
-            print(f"  [WARNING] Error parsing NSSO link: {e}")
-            continue
+    # 2. Full-form headers, e.g. "SATURDAY 28TH MARCH 2026, 7.30pm" followed by venue
+    full_pattern = re.compile(
+        rf'(?:{DAY_NAMES})\s+(\d{{1,2}})(?:ST|ND|RD|TH)?\s+({MONTH_NAMES})\s+(\d{{4}}),?\s+'
+        rf'(\d{{1,2}})[.:](\d{{2}})\s*(am|pm)\s+(?:The\s+)?([A-Za-z][A-Za-z .,\']{{3,60}})',
+        re.IGNORECASE
+    )
+    for m in full_pattern.finditer(combined_text):
+        day, month, year, hour, minute, ampm, venue_hint = m.groups()
+        dt = parse_date_flexible(f"{day} {month} {year}", f"{hour}:{minute} {ampm.upper()}")
+        add_performance(dt, venue_hint)
 
     print(f"  Found {len(performances)} events from North Sydney Symphony Orchestra")
     return performances
@@ -759,6 +913,29 @@ def deduplicate_performances(performances: List[Performance]) -> List[Performanc
     return unique_performances
 
 
+def suppress_unconfirmed_duplicates(performances: List[Performance]) -> List[Performance]:
+    """
+    Drop "Time TBA" entries when another source supplies the same concert
+    (same normalized title, same day, same venue) with a confirmed time.
+    E.g. the Willoughby Symphony site often omits times that The Concourse
+    lists exactly - the timed entry should win.
+    """
+    def day_key(perf: Performance) -> str:
+        venue_norm = re.sub(r'[^a-z0-9]+', ' ', perf.venue_name.lower()).strip()
+        return f"{normalize_title(perf.title)}|{perf.date.strftime('%Y-%m-%d')}|{venue_norm}"
+
+    confirmed_days = {day_key(p) for p in performances
+                      if p.time_confirmed and not (p.date.hour == 0 and p.date.minute == 0)}
+
+    kept = []
+    for perf in performances:
+        is_tba = not perf.time_confirmed or (perf.date.hour == 0 and perf.date.minute == 0)
+        if is_tba and day_key(perf) in confirmed_days:
+            continue
+        kept.append(perf)
+    return kept
+
+
 def sort_performances(performances: List[Performance]) -> List[Performance]:
     """
     Sort performances chronologically by date and time.
@@ -770,10 +947,19 @@ def sort_performances(performances: List[Performance]) -> List[Performance]:
 # HTML OUTPUT GENERATION
 # =============================================================================
 
-def generate_html(performances: List[Performance], output_file: str = "sydney_matinees.html"):
+def escape_html(text: str) -> str:
+    """Escape HTML entities in text content."""
+    return (text.replace('&', '&amp;').replace('<', '&lt;')
+                .replace('>', '&gt;').replace('"', '&quot;'))
+
+
+def generate_html(performances: List[Performance],
+                  source_counts: Dict[str, int],
+                  output_file: str = "sydney_matinees.html"):
     """
     Generate a self-contained HTML file with all performances.
     Matinee performances are highlighted with a light yellow background.
+    A per-source status line makes silent scraper failures visible.
     """
 
     # Count matinees for summary
@@ -782,6 +968,14 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
 
     # Generate the current timestamp
     generated_time = datetime.now().strftime("%A, %d %B %Y at %I:%M %p")
+
+    # Per-source status line (a zero flags a possibly-broken scraper)
+    source_bits = []
+    for name, count in source_counts.items():
+        cls = 'source-ok' if count > 0 else 'source-fail'
+        note = '' if count > 0 else ' &#9888;'
+        source_bits.append(f'<span class="{cls}">{escape_html(name)}: {count}{note}</span>')
+    source_status = ' &middot; '.join(source_bits)
 
     html_content = f'''<!DOCTYPE html>
 <html lang="en">
@@ -836,6 +1030,17 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
 
         .summary strong {{
             color: #8B4513;
+        }}
+
+        .source-status {{
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 8px;
+        }}
+
+        .source-fail {{
+            color: #b03a2e;
+            font-weight: bold;
         }}
 
         /* Legend */
@@ -939,6 +1144,17 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
             margin-left: 10px;
         }}
 
+        .tba-badge {{
+            display: inline-block;
+            background-color: #ddd;
+            color: #555;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-left: 10px;
+        }}
+
         .source-tag {{
             display: inline-block;
             background-color: #e8e8e8;
@@ -947,6 +1163,7 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
             border-radius: 3px;
             font-size: 0.75em;
             margin-left: 8px;
+            vertical-align: middle;
         }}
 
         /* Footer */
@@ -995,6 +1212,7 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
         <div class="summary">
             <p>Found <strong>{total_count}</strong> upcoming performances</p>
             <p><strong>{matinee_count}</strong> matinee shows (before 5:00 PM) highlighted in yellow</p>
+            <p class="source-status">{source_status}</p>
         </div>
     </header>
 
@@ -1005,7 +1223,7 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
         </div>
         <div class="legend-item">
             <div class="legend-color legend-evening"></div>
-            <span>Evening performance</span>
+            <span>Evening or time TBA</span>
         </div>
     </div>
 
@@ -1017,19 +1235,24 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
 
         for perf in performances:
             matinee_class = "matinee" if perf.is_matinee else "evening"
-            matinee_badge = '<span class="matinee-badge">MATINEE</span>' if perf.is_matinee else ''
+            badge = ''
+            if perf.is_matinee:
+                badge = '<span class="matinee-badge">MATINEE</span>'
+            elif perf.time_str == "Time TBA":
+                badge = '<span class="tba-badge">TIME TBA</span>'
 
-            # Escape HTML entities in text content
-            title_escaped = perf.title.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-            performer_escaped = perf.performer.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-            venue_escaped = perf.venue_name.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-            address_escaped = perf.venue_address.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-            source_escaped = perf.source.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+            title_escaped = escape_html(perf.title)
+            performer_escaped = escape_html(perf.performer)
+            venue_escaped = escape_html(perf.venue_name)
+            address_escaped = escape_html(perf.venue_address)
+            source_escaped = escape_html(perf.source)
+            url_escaped = escape_html(perf.url)
 
             html_content += f'''            <li class="performance {matinee_class}">
                 <h2 class="performance-title">
-                    <a href="{perf.url}" target="_blank" rel="noopener">{title_escaped}</a>
-                    {matinee_badge}
+                    <a href="{url_escaped}" target="_blank" rel="noopener">{title_escaped}</a>
+                    {badge}
+                    <span class="source-tag">{source_escaped}</span>
                 </h2>
                 <dl class="performance-meta">
                     <div>
@@ -1069,9 +1292,9 @@ def generate_html(performances: List[Performance], output_file: str = "sydney_ma
 
     <footer>
         <p>Generated on {generated_time}</p>
-        <p>Data sources: Sydney Opera House, Sydney Symphony Orchestra,<br>
-           Willoughby Symphony Orchestra, North Sydney Symphony Orchestra</p>
-        <p><em>Sydney Matinee Finder v1.0</em></p>
+        <p>Data sources: Sydney Symphony Orchestra, Sydney Opera House,<br>
+           Willoughby Symphony Orchestra, The Concourse, North Sydney Symphony Orchestra</p>
+        <p><em>Sydney Matinee Finder v2.0</em></p>
     </footer>
 </body>
 </html>
@@ -1093,43 +1316,40 @@ def main():
     Main function that orchestrates the scraping, processing, and output generation.
     """
     print("=" * 60)
-    print("Sydney Matinee Music Finder v1.0")
+    print("Sydney Matinee Music Finder v2.0")
     print("=" * 60)
+    if SYDNEY_TZ is None:
+        print("[NOTE] zoneinfo/tzdata unavailable - using built-in DST rule.")
+        print("       For guaranteed accuracy run: pip install tzdata")
     print()
 
     # Create a session for connection pooling and cookie handling
     session = requests.Session()
 
-    # Collect all performances from each source
-    all_performances = []
-
     # Scrape each source with polite delays between requests
+    scrapers = [
+        ("Sydney Symphony Orchestra", scrape_sydney_symphony_api),
+        ("Sydney Opera House", scrape_sydney_opera_house),
+        ("Willoughby Symphony", scrape_willoughby_symphony),
+        ("The Concourse", scrape_the_concourse),
+        ("North Sydney Symphony", scrape_north_sydney_symphony),
+    ]
 
-    # 1. Sydney Symphony Orchestra (using API - most reliable)
-    performances = scrape_sydney_symphony_api(session)
-    all_performances.extend(performances)
-    polite_delay()
-
-    # 2. Sydney Opera House
-    performances = scrape_sydney_opera_house(session)
-    all_performances.extend(performances)
-    polite_delay()
-
-    # 3. Willoughby Symphony Orchestra
-    performances = scrape_willoughby_symphony(session)
-    all_performances.extend(performances)
-    polite_delay()
-
-    # 4. North Sydney Symphony Orchestra
-    performances = scrape_north_sydney_symphony(session)
-    all_performances.extend(performances)
+    all_performances = []
+    source_counts = {}
+    for name, scraper in scrapers:
+        performances = scraper(session)
+        source_counts[name] = len(performances)
+        all_performances.extend(performances)
+        polite_delay()
 
     print()
     print(f"Total events collected: {len(all_performances)}")
 
-    # Remove duplicates
+    # Remove duplicates (also merges Willoughby <-> Concourse crosscheck overlap)
     print("Removing duplicates...")
     unique_performances = deduplicate_performances(all_performances)
+    unique_performances = suppress_unconfirmed_duplicates(unique_performances)
     print(f"Unique events after deduplication: {len(unique_performances)}")
 
     # Sort chronologically
@@ -1143,14 +1363,16 @@ def main():
 
     # Count matinees
     matinee_count = sum(1 for p in future_performances if p.is_matinee)
-    evening_count = len(future_performances) - matinee_count
+    tba_count = sum(1 for p in future_performances if p.time_str == "Time TBA")
+    evening_count = len(future_performances) - matinee_count - tba_count
     print(f"Matinee performances: {matinee_count}")
     print(f"Evening performances: {evening_count}")
+    print(f"Time TBA (unconfirmed): {tba_count}")
 
     # Generate HTML output
     print()
     print("Generating HTML file...")
-    generate_html(future_performances)
+    generate_html(future_performances, source_counts)
 
     print()
     print("=" * 60)

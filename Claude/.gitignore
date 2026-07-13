@@ -1,6 +1,9 @@
 # Output files (regenerated each run)
 sydney_matinees.html
 
+# Machine-local Claude Code settings
+.claude/settings.local.json
+
 # Python cache
 __pycache__/
 *.py[cod]
