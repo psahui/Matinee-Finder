@@ -5,8 +5,8 @@ focus on **matinees** (shows starting before 5:00 PM). Produces a single
 self-contained HTML page with matinees highlighted in yellow.
 
 The active version lives in the **`Claude/`** folder.
-(`MatineeFinder.ipynb` in the repo root is the original 2025 Jupyter-notebook
-prototype, kept for reference.)
+(Earlier iterations, including the original 2025 Jupyter-notebook prototype,
+are kept in `archive/`.)
 
 ## Data sources
 
