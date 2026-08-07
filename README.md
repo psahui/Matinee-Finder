@@ -131,6 +131,30 @@ Only factual details are republished — date, time, title, venue — and every 
 links back to the venue's own page for booking. No descriptions, images or pricing are
 copied.
 
+## Keeping it running
+
+The workflow runs at 18:47 UTC (about 5:47 AM Sydney) and can be triggered by hand
+from the Actions tab. Two things are worth knowing:
+
+- **A failing source turns the build red**, by design. `--check-freshness` runs after
+  the data is committed, so good listings still publish; the red build is only there
+  to send you an email. The site meanwhile shows that source in amber with a
+  "last known" badge on its events.
+- **GitHub disables scheduled workflows after 60 days without repository activity**,
+  and the bot's own commits do not reliably reset that clock. You will get a warning
+  email; running the workflow manually once re-enables it.
+
+To correct a misclassified event, add an entry to `overrides` in `config.json` keyed
+by the event's `id` (visible in `data/events.json`) or its URL:
+
+```json
+"overrides": {
+  "a3f9c1e2": { "access": "public", "note": "checked with the box office" }
+}
+```
+
+Event ids are stable across refreshes and across time changes, so an override sticks.
+
 ## Repository layout
 
 ```
