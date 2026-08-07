@@ -1,3 +1,31 @@
+# NOTE: data/ and feeds/ are deliberately NOT ignored - the generated
+# events.json, cache.json and .ics feeds are the site's deliverables and
+# must be committed for GitHub Pages to serve them.
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Machine-local Claude Code settings
+.claude/settings.local.json
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Old repo scaffold parked in the archive - it has its own .git inside,
 # so it cannot be tracked as normal files. Kept on disk only.
 archive/Sydney-Matinee-Finder/
