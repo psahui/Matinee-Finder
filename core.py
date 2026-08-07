@@ -255,13 +255,65 @@ def normalize_title(title: str) -> str:
     return re.sub(r'\s+', ' ', norm).strip()
 
 
+# Venues outside Sydney, checked BEFORE the generic hall names below.
+# Without this, "Snow Concert Hall, Canberra" substring-matches the bare key
+# "concert hall" and gets handed the Sydney Opera House's street address -
+# which the site displayed, and which structured data would publish to
+# search engines as fact. City-level only: better a true coarse address than
+# a precise invented one.
+NON_SYDNEY_VENUES = {
+    'newcastle city hall': 'Newcastle, NSW',
+    'newcastle': 'Newcastle, NSW',
+    'snow concert hall': 'Canberra, ACT',
+    'canberra': 'Canberra, ACT',
+    'llewellyn hall': 'Canberra, ACT',
+    'wollongong': 'Wollongong, NSW',
+    'katoomba': 'Katoomba, NSW',
+    'bowral': 'Bowral, NSW',
+}
+
+
 def lookup_venue_address(venue_name: str, default: str = 'Sydney, NSW') -> str:
-    """Map a venue name to a street address if we know it."""
+    """
+    Map a venue name to an address.
+
+    Non-Sydney venues are matched first, then Sydney venues longest-key-first
+    so a specific name beats a generic one.
+    """
     lowered = venue_name.lower()
-    for key, addr in VENUE_ADDRESSES.items():
+
+    for key, addr in NON_SYDNEY_VENUES.items():
         if key in lowered:
             return addr
+
+    for key in sorted(VENUE_ADDRESSES, key=len, reverse=True):
+        if key in lowered:
+            return VENUE_ADDRESSES[key]
+
     return default
+
+
+# "409 Victoria Ave, Chatswood NSW 2067" -> ("Chatswood", "NSW")
+_LOCALITY_RE = re.compile(r'([A-Za-z][A-Za-z\'\- ]+?)\s+(NSW|ACT|VIC|QLD|SA|WA|TAS|NT)\b')
+
+
+def parse_locality(address: str):
+    """
+    Pull (locality, state) out of an address string, or (None, None) when it
+    can't be determined. Callers must omit the fields rather than guess:
+    asserting a wrong suburb in structured data is worse than omitting it.
+    """
+    if not address:
+        return None, None
+    match = _LOCALITY_RE.search(address)
+    if match:
+        return match.group(1).strip().split(",")[-1].strip(), match.group(2)
+    if "," in address:
+        left, right = address.rsplit(",", 1)
+        right = right.strip()
+        if right in ("NSW", "ACT", "VIC", "QLD", "SA", "WA", "TAS", "NT"):
+            return left.strip().split(",")[-1].strip(), right
+    return None, None
 
 
 # =============================================================================
@@ -669,6 +721,66 @@ def build_payload(performances: List[Performance], sources: List[dict],
     }
 
 
+JSONLD_START = "<!-- GENERATED:SEO:START - rebuilt by fetch_events.py, do not edit by hand -->"
+JSONLD_END = "<!-- GENERATED:SEO:END -->"
+
+
+def inject_seo_block(index_path, items: List[dict], config: dict) -> int:
+    """
+    Rewrite the generated <head> block in index.html: canonical link plus
+    schema.org markup.
+
+    The markup is baked into the served HTML rather than injected by the
+    page's JavaScript. Crawlers do execute JS, but structured data present
+    in the initial response is indexed far more reliably - and this page
+    renders from a fetch(), so a JS-injected block would only appear on a
+    second pass.
+
+    Returns the number of events marked up.
+    """
+    html = index_path.read_text(encoding="utf-8")
+    site = config.get("site_url", "").rstrip("/") + "/"
+    jsonld = build_jsonld(items, config)
+    marked = json.loads(jsonld)["@graph"]
+
+    block = (
+        f'{JSONLD_START}\n'
+        f'<link rel="canonical" href="{site}">\n'
+        f'<script type="application/ld+json">\n{jsonld}\n</script>\n'
+        f'{JSONLD_END}'
+    )
+
+    pattern = re.compile(re.escape(JSONLD_START) + r".*?" + re.escape(JSONLD_END), re.S)
+    if pattern.search(html):
+        html = pattern.sub(lambda _: block, html)
+    else:
+        # First run: insert just before </head>
+        html = html.replace("</head>", block + "\n</head>", 1)
+
+    index_path.write_text(html, encoding="utf-8", newline="")
+    return len(marked)
+
+
+def write_sitemap(path, config: dict, lastmod: str) -> None:
+    site = config.get("site_url", "").rstrip("/") + "/"
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>\n'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+           f' <url>\n  <loc>{site}</loc>\n  <lastmod>{lastmod}</lastmod>\n'
+           '  <changefreq>daily</changefreq>\n  <priority>1.0</priority>\n </url>\n'
+           '</urlset>\n')
+    path.write_text(xml, encoding="utf-8", newline="")
+
+
+def write_robots(path, config: dict) -> None:
+    site = config.get("site_url", "").rstrip("/") + "/"
+    path.write_text(
+        "User-agent: *\n"
+        "Allow: /\n"
+        "\n"
+        f"Sitemap: {site}sitemap.xml\n",
+        encoding="utf-8", newline="")
+
+
 def write_events_json(payload: dict, path) -> None:
     """Write events.json with a readable, reviewable daily diff."""
     with open(path, "w", encoding="utf-8") as f:
@@ -796,6 +908,120 @@ def feed_definitions(config: dict) -> List[dict]:
         {"file": "weekend-matinees.ics", "name": "Sydney Classical - Weekend Matinees",
          "filter": lambda i: i["is_matinee"] and i["is_weekend"]},
     ]
+
+
+# =============================================================================
+# OUTPUT: schema.org structured data
+# =============================================================================
+
+def eligible_for_jsonld(item: dict) -> bool:
+    """
+    Which events get structured data.
+
+    Only events a reader could actually attend: schools-only performances
+    and participation workshops are excluded, because marking them up as
+    public events would advertise something nobody can book. Events with no
+    confirmed time are excluded since startDate is a required field, and
+    carried-over stale events are excluded because we can't currently
+    confirm them against the source.
+
+    Region is deliberately NOT filtered: those events are on the page (one
+    checkbox away), and Google's guidelines require markup to describe
+    content the page actually shows.
+    """
+    return (item.get("time_confirmed")
+            and item.get("access") == "public"
+            and not item.get("stale"))
+
+
+def local_iso_with_offset(item: dict) -> Optional[str]:
+    """
+    "2026-08-09T14:00:00+10:00" - local wall-clock plus the real offset.
+
+    Preferred over a bare UTC stamp for schema.org: it states the local
+    start time a reader would turn up for, and carries the offset so the
+    instant is still unambiguous across the daylight-saving boundary.
+    """
+    if not item.get("time") or not item.get("start_utc"):
+        return None
+    local = datetime.fromisoformat(f"{item['date']}T{item['time']}:00")
+    utc = datetime.strptime(item["start_utc"], "%Y%m%dT%H%M%SZ")
+    offset = local - utc
+    total = int(offset.total_seconds())
+    sign = "+" if total >= 0 else "-"
+    hours, remainder = divmod(abs(total), 3600)
+    return f"{local.isoformat()}{sign}{hours:02d}:{remainder // 60:02d}"
+
+
+def address_node(address: str) -> dict:
+    """
+    schema.org PostalAddress, omitting anything we can't stand behind.
+
+    Locality and region are derived from the address rather than assumed to
+    be Sydney/NSW - some listings are in Newcastle and Canberra.
+    """
+    locality, state = parse_locality(address)
+    node = {"@type": "PostalAddress", "addressCountry": "AU"}
+    # Only claim streetAddress when it really is one. City-level fallbacks
+    # like "Newcastle, NSW" are a locality, not a street.
+    if address and re.search(r'\d|\b(st|street|ave|avenue|rd|road|pl|place|point|hwy|highway)\b',
+                             address, re.IGNORECASE):
+        node["streetAddress"] = address
+    if locality:
+        node["addressLocality"] = locality
+    if state:
+        node["addressRegion"] = state
+    return node
+
+
+def build_jsonld(items: List[dict], config: dict) -> str:
+    """
+    schema.org MusicEvent markup for the listing page.
+
+    Deliberately conservative: no price, availability or description is
+    emitted, because this project doesn't scrape those and inventing them
+    would be worse than omitting them. Every event points at the venue's own
+    page as its canonical URL - this site is a directory, not the authority.
+    """
+    duration = timedelta(minutes=config.get("default_duration_minutes", 120))
+    events = []
+
+    for item in items:
+        if not eligible_for_jsonld(item):
+            continue
+        start = local_iso_with_offset(item)
+        if not start:
+            continue
+
+        local = datetime.fromisoformat(f"{item['date']}T{item['time']}:00")
+        end_item = dict(item, time=(local + duration).strftime("%H:%M"),
+                        date=(local + duration).strftime("%Y-%m-%d"))
+        end_utc = datetime.strptime(item["start_utc"], "%Y%m%dT%H%M%SZ") + duration
+        end_item["start_utc"] = end_utc.strftime("%Y%m%dT%H%M%SZ")
+        end = local_iso_with_offset(end_item)
+
+        node = {
+            "@type": "MusicEvent",
+            "name": item["title"],
+            "startDate": start,
+            "eventStatus": "https://schema.org/EventScheduled",
+            "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+            "location": {
+                "@type": "Place",
+                "name": item["venue_name"],
+                "address": address_node(item.get("venue_address", "")),
+            },
+            "url": item["url"],
+        }
+        if end:
+            node["endDate"] = end
+        performer = item.get("performer_group") or item.get("performer")
+        if performer and performer != config.get("performer_other_label"):
+            node["performer"] = {"@type": "PerformingGroup", "name": performer}
+        events.append(node)
+
+    return json.dumps({"@context": "https://schema.org", "@graph": events},
+                      indent=1, ensure_ascii=False)
 
 
 def eligible_for_feeds(item: dict) -> bool:

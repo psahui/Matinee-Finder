@@ -322,6 +322,11 @@ def main(argv: List[str]) -> int:
             core.build_ics(items, feed["name"], config), encoding="utf-8", newline="")
         print(f"Wrote feeds/{feed['file']} ({len(items)} events)")
 
+    marked = core.inject_seo_block(ROOT / "index.html", payload["items"], config)
+    core.write_sitemap(ROOT / "sitemap.xml", config, payload["generated_date"])
+    core.write_robots(ROOT / "robots.txt", config)
+    print(f"Wrote structured data for {marked} events, sitemap.xml, robots.txt")
+
     evicted = fetcher.evict_stale()
     save_cache(cache)
     print(f"Cache: {fetcher.stats['fetched']} fetched, "

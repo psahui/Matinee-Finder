@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-08-07T12:00:01",
+ "generated_at": "2026-08-07T12:32:53",
  "generated_date": "2026-08-07",
  "timezone": "Australia/Sydney",
  "counts": {
@@ -185,7 +185,7 @@
    "status": "ok",
    "count": 93,
    "previous_count": 93,
-   "last_success": "2026-08-07T12:00:01",
+   "last_success": "2026-08-07T12:32:53",
    "message": ""
   },
   {
@@ -193,7 +193,7 @@
    "status": "ok",
    "count": 36,
    "previous_count": 36,
-   "last_success": "2026-08-07T12:00:01",
+   "last_success": "2026-08-07T12:32:53",
    "message": ""
   },
   {
@@ -201,7 +201,7 @@
    "status": "ok",
    "count": 8,
    "previous_count": 8,
-   "last_success": "2026-08-07T12:00:01",
+   "last_success": "2026-08-07T12:32:53",
    "message": ""
   },
   {
@@ -209,7 +209,7 @@
    "status": "ok",
    "count": 19,
    "previous_count": 19,
-   "last_success": "2026-08-07T12:00:01",
+   "last_success": "2026-08-07T12:32:53",
    "message": ""
   },
   {
@@ -217,7 +217,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-07T12:00:01",
+   "last_success": "2026-08-07T12:32:53",
    "message": ""
   }
  ],
@@ -267,7 +267,7 @@
    "programme": null,
    "venue_name": "Newcastle City Hall",
    "venue_group": "Other venues",
-   "venue_address": "Sydney, NSW",
+   "venue_address": "Newcastle, NSW",
    "region": "outside",
    "url": "https://www.sydneysymphony.com/events/hakan-hardenberger-the-sydney-symphony",
    "source": "Sydney Symphony Orchestra",
@@ -291,7 +291,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
+   "last_changed": "2026-08-07T12:32:05",
    "first_seen": "2026-08-07T11:57:59"
   },
   {
@@ -303,7 +303,7 @@
    "programme": null,
    "venue_name": "Newcastle City Hall",
    "venue_group": "Other venues",
-   "venue_address": "Sydney, NSW",
+   "venue_address": "Newcastle, NSW",
    "region": "outside",
    "url": "https://www.sydneysymphony.com/events/hakan-hardenberger-the-sydney-symphony",
    "source": "Sydney Symphony Orchestra",
@@ -327,7 +327,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
+   "last_changed": "2026-08-07T12:32:05",
    "first_seen": "2026-08-07T11:57:59"
   },
   {
@@ -2643,7 +2643,7 @@
    "programme": null,
    "venue_name": "Snow Concert Hall, Canberra",
    "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "venue_address": "Canberra, ACT",
    "region": "outside",
    "url": "https://www.sydneysymphony.com/events/the-sydney-symphony-performs-music-that-moves-you",
    "source": "Sydney Symphony Orchestra",
@@ -2667,7 +2667,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
+   "last_changed": "2026-08-07T12:32:05",
    "first_seen": "2026-08-07T11:57:59"
   },
   {
@@ -2679,7 +2679,7 @@
    "programme": null,
    "venue_name": "Snow Concert Hall, Canberra",
    "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "venue_address": "Canberra, ACT",
    "region": "outside",
    "url": "https://www.sydneysymphony.com/events/the-sydney-symphony-performs-music-that-moves-you",
    "source": "Sydney Symphony Orchestra",
@@ -2703,7 +2703,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
+   "last_changed": "2026-08-07T12:32:05",
    "first_seen": "2026-08-07T11:57:59"
   },
   {
@@ -4839,7 +4839,7 @@
    "programme": null,
    "venue_name": "Newcastle City Hall",
    "venue_group": "Other venues",
-   "venue_address": "Sydney, NSW",
+   "venue_address": "Newcastle, NSW",
    "region": "outside",
    "url": "https://www.sydneysymphony.com/events/the-sydney-symphony-performs-max-richters-four-seasons-newcastle",
    "source": "Sydney Symphony Orchestra",
@@ -4863,7 +4863,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
+   "last_changed": "2026-08-07T12:32:05",
    "first_seen": "2026-08-07T11:57:59"
   },
   {
