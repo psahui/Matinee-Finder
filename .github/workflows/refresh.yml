@@ -1,0 +1,57 @@
+name: Refresh matinee data
+
+on:
+  schedule:
+    # 18:47 UTC ~= 05:47 Sydney. An odd minute avoids the top-of-hour
+    # congestion that delays GitHub's scheduler.
+    - cron: "47 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch event data
+        run: python fetch_events.py
+
+      - name: Job summary
+        if: always()
+        run: python fetch_events.py --summary >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Stage whole directories: listing files individually is how the
+          # generated .ics feeds silently stop being published.
+          git add data feeds
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Refresh event data ($(date -u +%Y-%m-%d))"
+            git push || (git pull --rebase && git push)
+          fi
+
+      # Runs after the commit on purpose: good data still publishes, this
+      # only turns the run red so a persistent failure reaches the inbox.
+      - name: Warn on stale sources
+        run: python fetch_events.py --check-freshness

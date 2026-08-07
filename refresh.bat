@@ -1,26 +1,31 @@
 @echo off
-rem Sydney Matinee Finder - one-click refresh
-rem Runs the scraper (about 4 minutes) and opens the results in your browser.
+rem Sydney Matinee Finder - refresh listings and preview locally.
+rem
+rem The page loads its data with fetch(), which browsers block on file://
+rem URLs, so opening index.html by double-clicking shows an error. This
+rem serves the folder over HTTP instead.
 
 cd /d "%~dp0"
 
 echo ============================================================
-echo  Refreshing Sydney matinee listings - takes about 4 minutes.
-echo  Progress for each source will appear below.
+echo  Refreshing Sydney concert listings.
+echo  First run takes a few minutes; later runs reuse the cache.
 echo ============================================================
 echo.
 
-python sydney_matinee_finder.py
-
+python fetch_events.py
 if errorlevel 1 (
     echo.
-    echo Something went wrong - see the messages above.
+    echo Refresh FAILED - see the messages above.
+    echo Existing data was left untouched.
     pause
     exit /b 1
 )
 
-start "" "sydney_matinees.html"
-
 echo.
-echo Opened sydney_matinees.html in your browser.
-pause
+echo Starting local preview at http://localhost:8000/
+echo Press Ctrl+C in this window when you are finished.
+echo.
+
+start "" http://localhost:8000/
+python -m http.server 8000

@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Calendar feeds MUST keep CRLF line endings: RFC 5545 requires them, and
+# git's autocrlf normalisation would otherwise store them LF-only, which
+# stricter clients (Outlook in particular) reject. -text disables all
+# newline conversion so the bytes the generator writes are the bytes served.
+*.ics -text

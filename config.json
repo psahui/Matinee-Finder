@@ -1,0 +1,189 @@
+{
+  "schema": 1,
+
+  "_comment_fetching": "Politeness and crawl limits. request_delay applies only to real network calls, never to cache hits.",
+  "request_delay_seconds": 2.0,
+  "request_jitter_seconds": 0.8,
+  "request_timeout_seconds": 30,
+  "max_retries": 3,
+  "max_event_pages": 200,
+
+  "_comment_cache": "Days before a cached extraction is refetched. Event pages are tiered by how soon the performance is, because imminent events change and settled ones do not.",
+  "cache_ttl_days": {
+    "listing": 1,
+    "event_near": 2,
+    "event_mid": 7,
+    "event_far": 14,
+    "static_content": 3,
+    "failed": 1
+  },
+  "cache_near_days": 7,
+  "cache_mid_days": 60,
+  "cache_evict_after_days": 30,
+
+  "_comment_resilience": "Floors are measured on PRE-dedup scrape counts. Willoughby scrapes ~8 performances but contributes 1 after The Concourse supplies exact times for the rest - measuring post-dedup would read a working merge as an outage.",
+  "source_floors": {
+    "Sydney Symphony Orchestra": 60,
+    "Sydney Opera House": 20,
+    "Willoughby Symphony": 4,
+    "The Concourse": 8,
+    "North Sydney Symphony": 2
+  },
+  "source_degrade_ratio": 0.6,
+  "global_sanity_ratio": 0.7,
+  "stale_max_days": 14,
+  "freshness_warn_days": 3,
+
+  "_comment_access": "Who may book. Single-valued, first match by priority wins. Verified against the live sites on 2026-08-07.",
+  "access_rules": [
+    {
+      "id": "schools",
+      "label": "Schools only (not publicly bookable)",
+      "default_on": false,
+      "priority": 10,
+      "title_prefixes": ["for schools:"],
+      "title_patterns": ["\\bschools?'? (concert|matinee|performance|day)\\b"]
+    },
+    {
+      "id": "participants",
+      "label": "You perform, not watch",
+      "default_on": false,
+      "priority": 20,
+      "title_patterns": [
+        "\\bworkshop\\b",
+        "young musicians",
+        "junior strings",
+        "\\bcome and sing\\b",
+        "\\bplay ?along\\b",
+        "\\baudition"
+      ]
+    }
+  ],
+  "access_default": "public",
+  "access_public_label": "Publicly bookable",
+
+  "_comment_review": "Titles hinting at restricted access that no access rule caught. Surfaced as a checkbox so a misclassification never silently sends someone to a venue they cannot enter.",
+  "needs_review_patterns": [
+    "\\bschools?\\b",
+    "\\bstudents?\\b",
+    "\\beducation\\b",
+    "\\baudition\\b",
+    "\\bworkshop\\b"
+  ],
+
+  "_comment_format": "What kind of event. Multi-valued - all matching rules apply, because e.g. a film-in-concert can also be a family event.",
+  "format_rules": [
+    {
+      "id": "open_rehearsal",
+      "label": "Open rehearsal",
+      "default_on": true,
+      "title_patterns": ["open rehearsal"]
+    },
+    {
+      "id": "masterclass",
+      "label": "Masterclass",
+      "default_on": true,
+      "title_patterns": ["master ?class"]
+    },
+    {
+      "id": "film",
+      "label": "Film in concert",
+      "default_on": true,
+      "title_patterns": [
+        "\\bin concert\\b",
+        "star wars",
+        "harry potter",
+        "lord of the rings",
+        "\\blive to film\\b"
+      ]
+    },
+    {
+      "id": "family",
+      "label": "Family / children",
+      "default_on": true,
+      "title_patterns": [
+        "carnival of the animals",
+        "ready,? ?set,? ?listen",
+        "\\bfamil(y|ies)\\b",
+        "\\bkids?\\b",
+        "babies proms",
+        "peter and the wolf",
+        "spirited away"
+      ]
+    },
+    {
+      "id": "short_format",
+      "label": "Short format (lunchtime, cocktail hour)",
+      "default_on": true,
+      "title_patterns": [
+        "cocktail hour",
+        "live at lunch",
+        "lunchtime",
+        "morning masters"
+      ]
+    }
+  ],
+  "format_default": "concert",
+  "format_default_label": "Concert",
+
+  "_comment_dayparts": "Time-of-day bands. Anything before 17:00 is a matinee; the frontend exposes that as a quick link over these bands.",
+  "dayparts": [
+    { "id": "morning",          "label": "Morning (before noon)",  "from": 0,  "to": 12 },
+    { "id": "afternoon_early",  "label": "Early afternoon (12-3)", "from": 12, "to": 15 },
+    { "id": "afternoon_late",   "label": "Late afternoon (3-5)",   "from": 15, "to": 17 },
+    { "id": "twilight",         "label": "Twilight (5-7)",         "from": 17, "to": 19 },
+    { "id": "evening",          "label": "Evening (7pm onwards)",  "from": 19, "to": 24 }
+  ],
+  "daypart_tba_label": "Time TBA",
+
+  "_comment_performers": "Alias groups fold spelling variants together. Programme labels are Sydney Opera House strands (derived from the URL path), not ensembles - they render as a badge instead of masquerading as an orchestra in the performer filter.",
+  "performer_groups": {
+    "Sydney Symphony Orchestra": ["sydney symphony orchestra", "sydney symphony", "sso"],
+    "Australian Chamber Orchestra": ["australian chamber orchestra", "aco"],
+    "Willoughby Symphony Orchestra": ["willoughby symphony orchestra", "willoughby symphony"],
+    "Sydney Philharmonia Choirs": ["sydney philharmonia choirs", "sydney philharmonia"],
+    "North Sydney Symphony Orchestra": ["north sydney symphony orchestra", "north sydney symphony"],
+    "Ku-ring-gai Philharmonic": ["ku-ring-gai philharmonic", "kpo"],
+    "Sydney Mozart Society": ["sydney mozart society"]
+  },
+  "programme_labels": [
+    "Utzon Music",
+    "Festival Choral Music",
+    "Festival Instrumental Music"
+  ],
+  "non_performers": [
+    "Sydney Opera House",
+    "Various artists"
+  ],
+  "performer_other_label": "Other / various",
+
+  "_comment_venues": "Venue alias groups for the venue filter. Individual hall names stay on the card; the filter groups them by site.",
+  "venue_groups": {
+    "Sydney Opera House": ["concert hall", "utzon room", "studio", "joan sutherland theatre", "drama theatre", "playhouse", "sydney opera house"],
+    "The Concourse, Chatswood": ["the concourse"],
+    "Sydney Town Hall": ["sydney town hall"],
+    "City Recital Hall": ["city recital hall"],
+    "Verbrugghen Hall": ["verbrugghen hall"],
+    "St James' Church": ["st james"],
+    "North Sydney venues": ["north sydney girls", "st leonards park", "smith auditorium"]
+  },
+  "venue_other_label": "Other venues",
+
+  "_comment_region": "Newcastle and similar are kept but filtered out by default rather than dropped.",
+  "outside_sydney_patterns": [
+    "newcastle",
+    "wollongong",
+    "canberra",
+    "katoomba",
+    "bowral",
+    "orange nsw"
+  ],
+
+  "_comment_overrides": "Manual corrections keyed by event id or exact URL. Set any of: access, formats, needs_review, performer_group, region. Survives re-runs because the id excludes the time.",
+  "overrides": {},
+
+  "_comment_ics": "Calendar feed settings. Only publicly bookable, time-confirmed, Sydney events are ever emitted.",
+  "default_duration_minutes": 120,
+  "site_url": "https://psahui.github.io/Matinee-Finder/",
+  "contact_url": "https://github.com/psahui/Matinee-Finder"
+}

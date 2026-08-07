@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sydney Matinee Finder — classical concerts before 5pm</title>
+<meta name="description" content="Upcoming classical and orchestral concerts in Sydney, with matinee performances (before 5pm) highlighted. Updated daily.">
+<style>
+:root {
+  --bg: #fffdf8;
+  --panel: #fff;
+  --ink: #23201b;
+  --ink-soft: #5f584e;
+  --ink-faint: #8a8279;
+  --rule: #e3ddd2;
+  --accent: #7a4f1d;
+  --link: #1a5276;
+  --matinee-bg: #fffaea;
+  --matinee-edge: #e8b62c;
+  --evening-edge: #c9c2b6;
+  --badge-bg: #efe9dd;
+  --badge-ink: #5f584e;
+  --ok: #2e7d4f;
+  --warn: #a9701a;
+  --bad: #b03a2e;
+  --focus: #1a5276;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #16150f;
+    --panel: #201e17;
+    --ink: #ece7dc;
+    --ink-soft: #b6afa2;
+    --ink-faint: #8b8478;
+    --rule: #34312a;
+    --accent: #e0b877;
+    --link: #7fb8dd;
+    --matinee-bg: #2b2515;
+    --matinee-edge: #d9a72c;
+    --evening-edge: #443f36;
+    --badge-bg: #2e2b23;
+    --badge-ink: #c3bcae;
+    --ok: #6cc48c;
+    --warn: #d9a84e;
+    --bad: #e08072;
+    --focus: #7fb8dd;
+  }
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  background: var(--bg); color: var(--ink);
+  line-height: 1.55; padding: 0 16px 60px;
+  -webkit-text-size-adjust: 100%;
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+a { color: var(--link); }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible {
+  outline: 2px solid var(--focus); outline-offset: 2px;
+}
+
+/* ---------- header ---------- */
+header { padding: 30px 0 18px; border-bottom: 2px solid var(--ink); margin-bottom: 20px; }
+h1 { font-size: 1.9rem; letter-spacing: -0.01em; }
+.tagline { color: var(--ink-soft); font-style: italic; margin-top: 4px; }
+.meta { margin-top: 14px; font-size: 0.86rem; color: var(--ink-soft);
+        font-family: system-ui, -apple-system, sans-serif; }
+.sources { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px 14px;
+           font-size: 0.8rem; font-family: system-ui, -apple-system, sans-serif; }
+.src { white-space: nowrap; }
+.src.ok::before     { content: "● "; color: var(--ok); }
+.src.stale::before  { content: "▲ "; color: var(--warn); }
+.src.failed::before { content: "■ "; color: var(--bad); }
+.src.stale  { color: var(--warn); }
+.src.failed { color: var(--bad); font-weight: 700; }
+
+/* ---------- layout ---------- */
+.layout { display: grid; grid-template-columns: 268px 1fr; gap: 34px; align-items: start; }
+.filters { position: sticky; top: 14px; max-height: calc(100vh - 28px);
+           overflow-y: auto; padding-right: 6px;
+           font-family: system-ui, -apple-system, sans-serif; font-size: 0.88rem; }
+.count-line { font-weight: 700; margin-bottom: 12px; color: var(--accent);
+              font-family: system-ui, -apple-system, sans-serif; font-size: 0.9rem; }
+
+/* ---------- filter groups ---------- */
+.group { border-top: 1px solid var(--rule); padding: 10px 0; }
+.group summary { cursor: pointer; font-weight: 700; list-style: none;
+                 display: flex; justify-content: space-between; align-items: center; }
+.group summary::-webkit-details-marker { display: none; }
+.group summary::after { content: "＋"; color: var(--ink-faint); font-weight: 400; }
+.group[open] summary::after { content: "－"; }
+.quick { margin: 8px 0 4px; font-size: 0.78rem; color: var(--ink-faint); }
+.quick a { color: var(--link); text-decoration: none; cursor: pointer; }
+.quick a:hover { text-decoration: underline; }
+.opt { display: flex; align-items: flex-start; gap: 7px; padding: 3px 0; cursor: pointer; }
+.opt input { margin-top: 4px; flex-shrink: 0; accent-color: var(--accent); }
+.opt .n { margin-left: auto; color: var(--ink-faint); font-variant-numeric: tabular-nums;
+          font-size: 0.8rem; padding-left: 8px; }
+.opt.zero { opacity: 0.45; }
+
+/* ---------- timeline ---------- */
+.month { font-size: 1.15rem; margin: 26px 0 12px; padding-bottom: 5px;
+         border-bottom: 1px solid var(--rule); color: var(--accent); }
+.month:first-child { margin-top: 0; }
+.card { background: var(--panel); border: 1px solid var(--rule);
+        border-left: 4px solid var(--evening-edge); border-radius: 4px;
+        padding: 14px 16px; margin-bottom: 11px; display: grid;
+        grid-template-columns: 1fr auto; gap: 4px 18px; }
+.card.matinee { background: var(--matinee-bg); border-left-color: var(--matinee-edge); }
+.card h3 { font-size: 1.09rem; font-weight: 700; line-height: 1.35; }
+.card h3 a { text-decoration: none; }
+.card h3 a:hover { text-decoration: underline; }
+.when { grid-row: 1 / span 3; grid-column: 2; text-align: right; white-space: nowrap;
+        font-family: system-ui, -apple-system, sans-serif; }
+.when .t { font-size: 1.16rem; font-weight: 700; display: block; }
+.when .d { font-size: 0.82rem; color: var(--ink-soft); display: block; }
+.who { color: var(--ink-soft); font-size: 0.93rem; }
+.where { color: var(--ink-faint); font-size: 0.85rem; }
+.badges { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px;
+          font-family: system-ui, -apple-system, sans-serif; }
+.b { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+     padding: 2px 7px; border-radius: 3px; background: var(--badge-bg); color: var(--badge-ink); }
+.b.matinee  { background: var(--matinee-edge); color: #2b2410; }
+.b.tba      { background: transparent; border: 1px dashed var(--ink-faint); color: var(--ink-faint); }
+.b.schools, .b.participants { background: var(--bad); color: #fff; }
+.b.review   { background: transparent; border: 1px solid var(--warn); color: var(--warn); }
+.b.stale    { background: var(--warn); color: #241a06; }
+.cal { grid-column: 1 / -1; margin-top: 6px; font-size: 0.78rem;
+       font-family: system-ui, -apple-system, sans-serif; }
+
+.empty { padding: 40px 0; color: var(--ink-faint); font-style: italic; text-align: center; }
+footer { margin-top: 46px; padding-top: 18px; border-top: 1px solid var(--rule);
+         font-size: 0.83rem; color: var(--ink-soft); }
+footer h2 { font-size: 0.95rem; margin: 16px 0 5px; color: var(--ink); }
+footer ul { margin-left: 18px; }
+.disclaimer { margin-top: 14px; padding: 10px 13px; border-left: 3px solid var(--matinee-edge);
+              background: var(--matinee-bg); border-radius: 3px; }
+
+@media (max-width: 900px) {
+  .layout { grid-template-columns: 1fr; gap: 18px; }
+  .filters { position: static; max-height: none; border-bottom: 2px solid var(--rule);
+             padding-bottom: 14px; }
+}
+@media (max-width: 560px) {
+  body { padding: 0 11px 40px; }
+  h1 { font-size: 1.45rem; }
+  .card { grid-template-columns: 1fr; }
+  .when { grid-row: auto; grid-column: 1; text-align: left; margin-bottom: 3px; }
+  .when .t, .when .d { display: inline; }
+  .when .d::before { content: " · "; }
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Sydney Matinee Finder</h1>
+  <p class="tagline">Classical and orchestral concerts around Sydney, with afternoon performances highlighted.</p>
+  <p class="meta" id="meta">Loading…</p>
+  <div class="sources" id="srcstrip"></div>
+</header>
+
+<div class="layout">
+  <aside class="filters" id="filters">
+    <div class="count-line" id="countline"></div>
+  </aside>
+  <main id="timeline"><p class="empty">Loading concerts…</p></main>
+</div>
+
+<footer>
+  <p><strong>How this works.</strong> A script visits the listing pages of the venues and
+  orchestras below once a day, extracts the performance dates and times, and rebuilds this
+  page. Nothing is hand-curated, so mistakes are possible.</p>
+
+  <div class="disclaimer">
+    <strong>Always confirm before you travel.</strong> Times, prices and availability change,
+    and concerts are occasionally cancelled or rescheduled. Every listing here links to the
+    venue's own page — treat that as the authority, not this one.
+  </div>
+
+  <h2>Where the listings come from</h2>
+  <ul>
+    <li><a href="https://www.sydneysymphony.com/concert-tickets/whats-on">Sydney Symphony Orchestra</a></li>
+    <li><a href="https://www.sydneyoperahouse.com/whats-on">Sydney Opera House</a></li>
+    <li><a href="https://www.willoughbysymphony.com.au/Events">Willoughby Symphony Orchestra</a></li>
+    <li><a href="https://www.theconcourse.com.au/genre/music-classical/">The Concourse, Chatswood</a></li>
+    <li><a href="https://www.nsso.org.au/concerts">North Sydney Symphony Orchestra</a></li>
+  </ul>
+
+  <h2>Subscribe in your calendar</h2>
+  <p>Add one of these to Google Calendar (Other calendars → From URL), Apple Calendar or
+  Outlook and matinees appear in your own diary. Only publicly bookable events with a
+  confirmed time are included.</p>
+  <ul>
+    <li><a href="feeds/matinees.ics">Matinees</a> — everything before 5pm</li>
+    <li><a href="feeds/weekend-matinees.ics">Weekend matinees</a> — Saturday and Sunday only</li>
+    <li><a href="feeds/all.ics">All concerts</a></li>
+  </ul>
+
+  <p style="margin-top:16px">
+    Built by <a href="https://github.com/psahui/Matinee-Finder">Peter Sahui</a>.
+    Concert details belong to the venues and ensembles listed above.
+  </p>
+</footer>
+
+</div>
+
+<script>
+"use strict";
+
+var DATA = null;
+var state = {};        // group key -> Set of selected ids
+var GROUPS = [];       // filter group definitions, built from the data
+
+/* Escape text before interpolating into HTML. */
+function esc(s) {
+  var d = document.createElement("div");
+  d.textContent = s == null ? "" : String(s);
+  return d.innerHTML;
+}
+
+/* Only ever emit http(s) links. Listing pages are scraped, so a hostile or
+   malformed URL must not become a javascript: link when clicked. */
+function safeURL(u) {
+  try {
+    var p = new URL(u, location.href);
+    return (p.protocol === "http:" || p.protocol === "https:") ? p.href : "#";
+  } catch (e) { return "#"; }
+}
+
+function idsOf(list) { return list.map(function (x) { return typeof x === "string" ? x : x.id; }); }
+function defaultsOf(list) {
+  return list.filter(function (x) { return typeof x === "string" ? true : x.default_on; })
+             .map(function (x) { return typeof x === "string" ? x : x.id; });
+}
+function labelOf(x) { return typeof x === "string" ? x : x.label; }
+
+/* ---------- filter definitions ---------- */
+
+function buildGroups() {
+  var f = DATA.facets;
+  GROUPS = [
+    { key: "daypart",  param: "band",   title: "Time of day", open: true,
+      facets: f.dayparts, match: function (i) { return state.daypart.has(i.daypart); },
+      quick: [{ id: "matinees", label: "matinees only",
+                ids: idsOf(f.dayparts.filter(function (d) { return d.matinee; })) }] },
+
+    { key: "access",   param: "access", title: "Who can book", open: true,
+      facets: f.access, match: function (i) { return state.access.has(i.access); } },
+
+    { key: "review",   param: "review", title: "Classification", open: false,
+      facets: [{ id: "reviewed", label: "Confirmed category", default_on: true },
+               { id: "unreviewed", label: "Unreviewed — check before booking", default_on: true }],
+      match: function (i) { return state.review.has(i.needs_review ? "unreviewed" : "reviewed"); },
+      pick: function (i) { return i.needs_review ? "unreviewed" : "reviewed"; } },
+
+    { key: "formats",  param: "type",   title: "Event type", open: true,
+      facets: f.formats,
+      match: function (i) { return i.formats.some(function (x) { return state.formats.has(x); }); },
+      valuesOf: function (i) { return i.formats; } },
+
+    { key: "weekday",  param: "day",    title: "Day of week", open: false,
+      facets: f.weekdays,
+      match: function (i) { return state.weekday.has(String(i.weekday)); },
+      pick: function (i) { return String(i.weekday); },
+      quick: [{ id: "weekend", label: "weekend only",
+                ids: idsOf(f.weekdays.filter(function (d) { return d.weekend; })) }] },
+
+    { key: "performer", param: "who",   title: "Performer", open: false,
+      facets: f.performers,
+      match: function (i) { return state.performer.has(i.performer_group); },
+      pick: function (i) { return i.performer_group; } },
+
+    { key: "venue",    param: "where",  title: "Venue", open: false,
+      facets: f.venues,
+      match: function (i) { return state.venue.has(i.venue_group); },
+      pick: function (i) { return i.venue_group; } },
+
+    { key: "region",   param: "region", title: "Region", open: false,
+      facets: f.regions, match: function (i) { return state.region.has(i.region); } },
+
+    { key: "source",   param: "src",    title: "Listing source", open: false,
+      facets: f.sources, match: function (i) { return state.source.has(i.source); },
+      pick: function (i) { return i.source; } }
+  ];
+
+  // NB: the accessor is called `pick`, not `valueOf` — every object inherits
+  // Object.prototype.valueOf, so a `valueOf` property is always truthy and
+  // this fallback would never fire, leaving every facet count at zero.
+  GROUPS.forEach(function (g) {
+    if (!g.pick && !g.valuesOf) {
+      g.pick = function (i) { return i[g.key]; };
+    }
+    state[g.key] = new Set(defaultsOf(g.facets));
+  });
+}
+
+/* ---------- URL state: only non-default selections are serialised ---------- */
+
+function syncURL() {
+  var p = new URLSearchParams();
+  GROUPS.forEach(function (g) {
+    var all = idsOf(g.facets);
+    var def = defaultsOf(g.facets).sort().join("|");
+    var cur = all.filter(function (v) { return state[g.key].has(v); }).sort().join("|");
+    if (cur !== def) p.set(g.param, cur);
+  });
+  var qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+}
+
+function applyURL() {
+  var p = new URLSearchParams(location.search);
+  GROUPS.forEach(function (g) {
+    if (!p.has(g.param)) return;
+    var all = idsOf(g.facets);
+    // Validate against known facets so a junk parameter cannot poison state.
+    var wanted = p.get(g.param).split("|").filter(function (v) { return all.indexOf(v) >= 0; });
+    state[g.key] = new Set(wanted);
+  });
+}
+
+/* ---------- rendering ---------- */
+
+function countsFor(g) {
+  var c = {};
+  DATA.items.forEach(function (i) {
+    var vals = g.valuesOf ? g.valuesOf(i) : [g.pick(i)];
+    vals.forEach(function (v) { c[v] = (c[v] || 0) + 1; });
+  });
+  return c;
+}
+
+function renderFilters() {
+  var html = '<div class="count-line" id="countline"></div>';
+  GROUPS.forEach(function (g) {
+    var counts = countsFor(g);
+    html += '<details class="group"' + (g.open ? " open" : "") + '>';
+    html += "<summary>" + esc(g.title) + "</summary>";
+    html += '<div class="quick"><a data-quick="all" data-group="' + g.key + '">all</a> · ' +
+            '<a data-quick="none" data-group="' + g.key + '">none</a>';
+    (g.quick || []).forEach(function (q) {
+      html += ' · <a data-quick="' + esc(q.id) + '" data-group="' + g.key + '">' +
+              esc(q.label) + "</a>";
+    });
+    html += "</div>";
+    g.facets.forEach(function (f) {
+      var id = typeof f === "string" ? f : f.id;
+      var n = counts[id] || 0;
+      html += '<label class="opt' + (n === 0 ? " zero" : "") + '">' +
+              '<input type="checkbox" data-group="' + g.key + '" value="' + esc(id) + '"' +
+              (state[g.key].has(id) ? " checked" : "") + ">" +
+              "<span>" + esc(labelOf(f)) + '</span><span class="n">' + n + "</span></label>";
+    });
+    html += "</details>";
+  });
+  document.getElementById("filters").innerHTML = html;
+}
+
+function matches(item) {
+  return GROUPS.every(function (g) { return g.match(item); });
+}
+
+/* Google Calendar template link. Assumes the same 2-hour default the .ics
+   feeds use, since venues rarely publish an end time. */
+function googleCalURL(i) {
+  var d = i.start_utc;                       // YYYYMMDDTHHMMSSZ
+  var startMs = Date.UTC(+d.slice(0, 4), +d.slice(4, 6) - 1, +d.slice(6, 8),
+                         +d.slice(9, 11), +d.slice(11, 13));
+  var e = new Date(startMs + 2 * 3600 * 1000);
+  function pad(n) { return String(n).padStart(2, "0"); }
+  var end = e.getUTCFullYear() + pad(e.getUTCMonth() + 1) + pad(e.getUTCDate()) + "T" +
+            pad(e.getUTCHours()) + pad(e.getUTCMinutes()) + "00Z";
+  return "https://www.google.com/calendar/render?action=TEMPLATE" +
+         "&text=" + encodeURIComponent(i.title) +
+         "&dates=" + d + "/" + end +
+         "&location=" + encodeURIComponent(i.venue_name + ", " + i.venue_address) +
+         "&details=" + encodeURIComponent("Book: " + i.url);
+}
+
+function cardHTML(i) {
+  var badges = "";
+  if (i.is_matinee) badges += '<span class="b matinee">Matinee</span>';
+  if (!i.time_confirmed) badges += '<span class="b tba">Time TBA</span>';
+  if (i.access === "schools") badges += '<span class="b schools">Schools only</span>';
+  if (i.access === "participants") badges += '<span class="b participants">You perform</span>';
+  if (i.needs_review) badges += '<span class="b review">Check category</span>';
+  if (i.stale) badges += '<span class="b stale">Last known</span>';
+  (i.formats || []).forEach(function (f) {
+    if (f !== "concert") badges += '<span class="b">' + esc(f.replace(/_/g, " ")) + "</span>";
+  });
+  if (i.programme) badges += '<span class="b">' + esc(i.programme) + "</span>";
+  badges += '<span class="b">' + esc(i.source) + "</span>";
+
+  var cal = i.start_utc ? '<div class="cal"><a href="' + esc(googleCalURL(i)) +
+            '" target="_blank" rel="noopener">Add to Google Calendar</a></div>' : "";
+
+  return '<article class="card' + (i.is_matinee ? " matinee" : "") + '">' +
+    "<h3><a href=\"" + esc(safeURL(i.url)) + "\" target=\"_blank\" rel=\"noopener\">" +
+      esc(i.title) + "</a></h3>" +
+    '<div class="when"><span class="t">' + esc(i.time_string) + "</span>" +
+      '<span class="d">' + esc(i.date_string) + "</span></div>" +
+    '<div class="who">' + esc(i.performer) + "</div>" +
+    '<div class="where">' + esc(i.venue_name) +
+      (i.venue_address ? " · " + esc(i.venue_address) : "") + "</div>" +
+    '<div class="badges">' + badges + "</div>" + cal +
+    "</article>";
+}
+
+function render() {
+  var shown = DATA.items.filter(matches);
+  var html = "", currentMonth = null;
+  shown.forEach(function (i) {
+    if (i.month_key !== currentMonth) {
+      currentMonth = i.month_key;
+      html += '<h2 class="month">' + esc(i.month_label) + "</h2>";
+    }
+    html += cardHTML(i);
+  });
+  document.getElementById("timeline").innerHTML =
+    html || '<p class="empty">Nothing matches the current filters.</p>';
+
+  var mats = shown.filter(function (i) { return i.is_matinee; }).length;
+  var line = document.getElementById("countline");
+  if (line) {
+    line.textContent = shown.length + " of " + DATA.items.length + " shown · " +
+                       mats + " matinee" + (mats === 1 ? "" : "s");
+  }
+  syncURL();
+}
+
+/* ---------- header ---------- */
+
+function renderHeader() {
+  var when = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  var pretty = when && !isNaN(when) ?
+      when.toLocaleDateString(undefined, { weekday: "long", day: "numeric",
+                                           month: "long", year: "numeric" }) :
+      DATA.generated_date || "unknown";
+  document.getElementById("meta").textContent =
+    "Listings last refreshed " + pretty + ". Times are Sydney local.";
+
+  document.getElementById("srcstrip").innerHTML =
+    (DATA.sources || []).map(function (s) {
+      var note = s.status === "ok" ? "" : " — " + (s.message || s.status);
+      return '<span class="src ' + esc(s.status) + '" title="' + esc(s.message || "") + '">' +
+             esc(s.name) + ": " + s.count + esc(note) + "</span>";
+    }).join("");
+}
+
+/* ---------- events: two delegated listeners, so re-rendering the sidebar
+                never leaks handlers ---------- */
+
+document.getElementById("filters").addEventListener("change", function (e) {
+  var cb = e.target;
+  if (cb.tagName !== "INPUT") return;
+  var set = state[cb.dataset.group];
+  if (!set) return;
+  if (cb.checked) set.add(cb.value); else set.delete(cb.value);
+  render();
+});
+
+document.getElementById("filters").addEventListener("click", function (e) {
+  var q = e.target.dataset && e.target.dataset.quick;
+  if (!q) return;
+  e.preventDefault();
+  var key = e.target.dataset.group;
+  var g = GROUPS.filter(function (x) { return x.key === key; })[0];
+  if (!g) return;
+
+  var all = idsOf(g.facets);
+  var wanted;
+  if (q === "all") wanted = all;
+  else if (q === "none") wanted = [];
+  else {
+    var quick = (g.quick || []).filter(function (x) { return x.id === q; })[0];
+    wanted = quick ? quick.ids : all;
+  }
+  state[key] = new Set(wanted);
+  document.querySelectorAll('input[data-group="' + key + '"]').forEach(function (cb) {
+    cb.checked = state[key].has(cb.value);
+  });
+  render();
+});
+
+/* ---------- boot ---------- */
+
+fetch("data/events.json")
+  .then(function (r) {
+    if (!r.ok) throw new Error("HTTP " + r.status);
+    return r.json();
+  })
+  .then(function (d) {
+    DATA = d;
+    buildGroups();
+    applyURL();
+    renderHeader();
+    renderFilters();
+    render();
+  })
+  .catch(function (err) {
+    document.getElementById("timeline").innerHTML =
+      '<p class="empty">Could not load concert data (' + esc(String(err)) + ").<br>" +
+      "If you opened this file directly from disk, serve it over HTTP instead — " +
+      "run <code>refresh.bat</code>, or <code>python -m http.server</code> in this folder.</p>";
+    document.getElementById("meta").textContent = "Data unavailable.";
+  });
+</script>
+</body>
+</html>
