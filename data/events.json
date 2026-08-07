@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-08-07T12:32:53",
- "generated_date": "2026-08-07",
+ "generated_at": "2026-08-08T05:38:45",
+ "generated_date": "2026-08-08",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 147,
-  "public": 137,
+  "total": 145,
+  "public": 135,
   "matinee": 61,
   "public_matinee": 51,
   "tba": 0,
@@ -185,7 +185,7 @@
    "status": "ok",
    "count": 93,
    "previous_count": 93,
-   "last_success": "2026-08-07T12:32:53",
+   "last_success": "2026-08-08T05:38:45",
    "message": ""
   },
   {
@@ -193,7 +193,7 @@
    "status": "ok",
    "count": 36,
    "previous_count": 36,
-   "last_success": "2026-08-07T12:32:53",
+   "last_success": "2026-08-08T05:38:45",
    "message": ""
   },
   {
@@ -201,7 +201,7 @@
    "status": "ok",
    "count": 8,
    "previous_count": 8,
-   "last_success": "2026-08-07T12:32:53",
+   "last_success": "2026-08-08T05:38:45",
    "message": ""
   },
   {
@@ -209,7 +209,7 @@
    "status": "ok",
    "count": 19,
    "previous_count": 19,
-   "last_success": "2026-08-07T12:32:53",
+   "last_success": "2026-08-08T05:38:45",
    "message": ""
   },
   {
@@ -217,83 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-07T12:32:53",
+   "last_success": "2026-08-08T05:38:45",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "e08ed0b7",
-   "title": "Endeavour Concert",
-   "raw_title": "Endeavour Concert",
-   "performer": "Festival Choral Music",
-   "performer_group": "Other / various",
-   "programme": "Festival Choral Music",
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/festival-choral-music/endeavour",
-   "source": "Sydney Opera House",
-   "date": "2026-08-07",
-   "time": "18:30",
-   "start_utc": "20260807T083000Z",
-   "time_confirmed": true,
-   "sort_key": 202608071830,
-   "date_string": "Friday, 07 August 2026",
-   "time_string": "6:30 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "twilight",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
-  {
-   "id": "5794fece",
-   "title": "Håkan Hardenberger & the Sydney Symphony",
-   "raw_title": "Håkan Hardenberger & the Sydney Symphony",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Newcastle City Hall",
-   "venue_group": "Other venues",
-   "venue_address": "Newcastle, NSW",
-   "region": "outside",
-   "url": "https://www.sydneysymphony.com/events/hakan-hardenberger-the-sydney-symphony",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-08-07",
-   "time": "19:30",
-   "start_utc": "20260807T093000Z",
-   "time_confirmed": true,
-   "sort_key": 202608071930,
-   "date_string": "Friday, 07 August 2026",
-   "time_string": "7:30 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T12:32:05",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "a3708608",
    "title": "Håkan Hardenberger & the Sydney Symphony",
