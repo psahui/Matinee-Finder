@@ -294,7 +294,7 @@ def main(argv: List[str]) -> int:
     future = core.sort_performances(future)
     print(f"Future events: {len(future)}")
 
-    payload = core.build_payload(future, source_status, config)
+    payload = core.build_payload(future, source_status, config, previous_items)
     counts = payload["counts"]
     print(f"  matinees: {counts['matinee']} "
           f"({counts['public_matinee']} publicly bookable)")

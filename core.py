@@ -612,10 +612,42 @@ def build_facets(items: List[dict], config: dict) -> dict:
     }
 
 
+# Fields that define whether an event has genuinely changed. Volatile
+# bookkeeping (stale flags, timestamps) is excluded on purpose.
+_CHANGE_FIELDS = ("title", "date", "time", "venue_name", "venue_address",
+                  "url", "access", "formats", "performer", "source")
+
+
+def stamp_changes(items: List[dict], previous_items: List[dict]) -> List[dict]:
+    """
+    Give each event a `last_changed` timestamp that only moves when the event
+    itself moves.
+
+    Calendar feeds put this in DTSTAMP. Regenerating DTSTAMP on every build
+    instead would rewrite every line of every .ics file daily - hundreds of
+    kilobytes of git churn a day, and a diff nobody can read - while also
+    misrepresenting what DTSTAMP means in RFC 5545.
+    """
+    prev = {i["id"]: i for i in previous_items}
+    now = now_sydney().isoformat(timespec="seconds")
+
+    for item in items:
+        old = prev.get(item["id"])
+        unchanged = old and all(old.get(f) == item.get(f) for f in _CHANGE_FIELDS)
+        if unchanged and old.get("last_changed"):
+            item["last_changed"] = old["last_changed"]
+            item["first_seen"] = old.get("first_seen", old["last_changed"])
+        else:
+            item["last_changed"] = now
+            item["first_seen"] = (old or {}).get("first_seen", now)
+    return items
+
+
 def build_payload(performances: List[Performance], sources: List[dict],
-                  config: dict) -> dict:
+                  config: dict, previous_items: List[dict] = None) -> dict:
     """Assemble the full events.json structure."""
     items = [build_item(p, config) for p in performances]
+    stamp_changes(items, previous_items or [])
     public = [i for i in items if i["access"] == "public"]
     return {
         "schema": SCHEMA_VERSION,
@@ -702,11 +734,20 @@ def build_ics(items: List[dict], name: str, config: dict) -> str:
         "REFRESH-INTERVAL;VALUE=DURATION:P1D",
     ]
 
-    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    fallback_stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
 
     for item in items:
         if not item.get("start_utc"):
             continue
+
+        # DTSTAMP tracks when this event last changed, not when the file was
+        # built, so an unchanged feed is byte-identical between runs.
+        if item.get("last_changed"):
+            stamp = sydney_to_utc(
+                datetime.fromisoformat(item["last_changed"])
+            ).strftime("%Y%m%dT%H%M%SZ")
+        else:
+            stamp = fallback_stamp
         start = datetime.strptime(item["start_utc"], "%Y%m%dT%H%M%SZ")
         end = start + duration
 
