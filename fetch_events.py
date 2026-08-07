@@ -31,6 +31,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime, timedelta, timezone
 import time
 import re
+import sys
 from typing import List, Dict, Optional
 from dataclasses import dataclass, field
 import json
@@ -240,6 +241,17 @@ def to_sydney_time(dt_aware: datetime) -> datetime:
     return local + timedelta(hours=1) if in_dst else local
 
 
+def now_sydney() -> datetime:
+    """
+    Current Sydney wall-clock time, as a naive datetime.
+
+    Never use datetime.now() for anything date-related: GitHub Actions
+    runners are UTC, and a run at 18:45 UTC is already 05:45 the next day
+    in Sydney. That would shift the "future events" cutoff by a full day.
+    """
+    return to_sydney_time(datetime.now(timezone.utc))
+
+
 def parse_iso_datetime(iso_str: str, assume_utc: bool = False) -> Optional[datetime]:
     """
     Parse an ISO 8601 datetime string and return naive Sydney local time.
@@ -318,11 +330,11 @@ def parse_date_flexible(date_str: str, time_str: str = None) -> Optional[datetim
             parsed_date = datetime.strptime(date_str, fmt)
             # Handle year-less formats
             if parsed_date.year == 1900:
-                current_year = datetime.now().year
-                parsed_date = parsed_date.replace(year=current_year)
+                today = now_sydney()
+                parsed_date = parsed_date.replace(year=today.year)
                 # If the date has passed, assume next year
-                if parsed_date < datetime.now():
-                    parsed_date = parsed_date.replace(year=current_year + 1)
+                if parsed_date < today:
+                    parsed_date = parsed_date.replace(year=today.year + 1)
             break
         except ValueError:
             continue
@@ -967,7 +979,7 @@ def generate_html(performances: List[Performance],
     total_count = len(performances)
 
     # Generate the current timestamp
-    generated_time = datetime.now().strftime("%A, %d %B %Y at %I:%M %p")
+    generated_time = now_sydney().strftime("%A, %d %B %Y at %I:%M %p")
 
     # Per-source status line (a zero flags a possibly-broken scraper)
     source_bits = []
@@ -1356,9 +1368,11 @@ def main():
     print("Sorting by date...")
     sorted_performances = sort_performances(unique_performances)
 
-    # Filter to only future performances
-    now = datetime.now()
-    future_performances = [p for p in sorted_performances if p.date >= now]
+    # Filter to performances from the start of today onwards. Using the start
+    # of the Sydney day (rather than "now") keeps this afternoon's 2pm matinee
+    # on the page at 2:01pm, which is what a listings site should do.
+    today_start = now_sydney().replace(hour=0, minute=0, second=0, microsecond=0)
+    future_performances = [p for p in sorted_performances if p.date >= today_start]
     print(f"Future events: {len(future_performances)}")
 
     # Count matinees
@@ -1378,7 +1392,10 @@ def main():
     print("=" * 60)
     print("Done! Open 'sydney_matinees.html' in your web browser.")
     print("=" * 60)
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    # Propagate the exit code: the sanity check must be able to fail the
+    # GitHub Actions run rather than exiting 0 with bad data.
+    sys.exit(main())
