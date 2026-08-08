@@ -8,24 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:18385a6e@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260808T090000Z
-DTEND:20260808T110000Z
-SUMMARY:Willoughby Symphony Orchestra: Last Night Of The Proms - Willoughby
-  Symphony Orchestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Willoughby Symphony Orchestra\\nVenue: The Concourse Concert Ha
- ll\\nConfirm details and book: https://www.theconcourse.com.au/event/willo
- ughby-symphony-orchestra-last-night-of-the-proms/\\nListing source: The Co
- ncourse. Times and availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-las
- t-night-of-the-proms/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:17a1f50b@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260809T040000Z
