@@ -5,50 +5,106 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sydney Matinee Finder — classical concerts before 5pm</title>
 <meta name="description" content="Upcoming classical and orchestral concerts in Sydney, with matinee performances (before 5pm) highlighted. Updated daily.">
+<script>
+/* Set the theme before first paint, otherwise the page flashes the default
+   palette before the main script runs at the end of <body>. Kept inline and
+   tiny for that reason. Falls back to the reader's system preference when
+   they have not chosen one. */
+(function () {
+  var THEMES = ["sepia", "light", "dark"];
+  var saved = null;
+  try { saved = localStorage.getItem("theme"); } catch (e) { /* private mode */ }
+  if (THEMES.indexOf(saved) < 0) {
+    saved = (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ? "dark" : "sepia";
+  }
+  document.documentElement.setAttribute("data-theme", saved);
+})();
+</script>
 <style>
-:root {
+/* Themes are pure custom-property swaps — every rule below reads from these
+   variables, so a theme never touches layout. The font is part of the theme
+   because the serif/sans choice is most of what separates the editorial
+   "sepia" look from the clean one. */
+
+:root, :root[data-theme="sepia"] {
+  --font-body: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  --font-ui: system-ui, -apple-system, sans-serif;
   --bg: #fffdf8;
   --panel: #fff;
   --ink: #23201b;
   --ink-soft: #5f584e;
-  --ink-faint: #8a8279;
+  --ink-faint: #6f685e;
   --rule: #e3ddd2;
   --accent: #7a4f1d;
   --link: #1a5276;
   --matinee-bg: #fffaea;
   --matinee-edge: #e8b62c;
+  --matinee-ink: #2b2410;
   --evening-edge: #c9c2b6;
   --badge-bg: #efe9dd;
   --badge-ink: #5f584e;
   --ok: #2e7d4f;
   --warn: #a9701a;
+  --warn-ink: #241a06;
   --bad: #b03a2e;
   --focus: #1a5276;
+  --shadow: rgba(0,0,0,0.06);
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #16150f;
-    --panel: #201e17;
-    --ink: #ece7dc;
-    --ink-soft: #b6afa2;
-    --ink-faint: #8b8478;
-    --rule: #34312a;
-    --accent: #e0b877;
-    --link: #7fb8dd;
-    --matinee-bg: #2b2515;
-    --matinee-edge: #d9a72c;
-    --evening-edge: #443f36;
-    --badge-bg: #2e2b23;
-    --badge-ink: #c3bcae;
-    --ok: #6cc48c;
-    --warn: #d9a84e;
-    --bad: #e08072;
-    --focus: #7fb8dd;
-  }
+
+/* Clean/light — palette taken from releases.matchstickeyes.com */
+:root[data-theme="light"] {
+  --font-body: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-ui: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --bg: #efefef;
+  --panel: #ffffff;
+  --ink: #3a3a3a;
+  --ink-soft: #6b6b6b;
+  --ink-faint: #656565;
+  --rule: #e2e2e2;
+  --accent: #1a66a8;
+  --link: #1a66a8;
+  --matinee-bg: #fdf3e0;
+  --matinee-edge: #d99b16;
+  --matinee-ink: #4a3208;
+  --evening-edge: #d8d8d8;
+  --badge-bg: #eeeeee;
+  --badge-ink: #555555;
+  --ok: #2c6b33;
+  --warn: #8a5a10;
+  --warn-ink: #fff;
+  --bad: #a8342a;
+  --focus: #1e73be;
+  --shadow: rgba(0,0,0,0.10);
+}
+
+:root[data-theme="dark"] {
+  --font-body: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-ui: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  --bg: #15161a;
+  --panel: #1e2027;
+  --ink: #e6e8ec;
+  --ink-soft: #aeb3bd;
+  --ink-faint: #99a0ab;
+  --rule: #2f323b;
+  --accent: #e0b877;
+  --link: #7fb8dd;
+  --matinee-bg: #2c2718;
+  --matinee-edge: #d9a72c;
+  --matinee-ink: #241a06;
+  --evening-edge: #3c404a;
+  --badge-bg: #2a2d35;
+  --badge-ink: #bfc4cd;
+  --ok: #6cc48c;
+  --warn: #d9a84e;
+  --warn-ink: #241a06;
+  --bad: #e08072;
+  --focus: #7fb8dd;
+  --shadow: rgba(0,0,0,0.5);
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
-  font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif;
+  font-family: var(--font-body);
   background: var(--bg); color: var(--ink);
   line-height: 1.55; padding: 0 16px 60px;
   -webkit-text-size-adjust: 100%;
@@ -64,9 +120,9 @@ header { padding: 30px 0 18px; border-bottom: 2px solid var(--ink); margin-botto
 h1 { font-size: 1.9rem; letter-spacing: -0.01em; }
 .tagline { color: var(--ink-soft); font-style: italic; margin-top: 4px; }
 .meta { margin-top: 14px; font-size: 0.86rem; color: var(--ink-soft);
-        font-family: system-ui, -apple-system, sans-serif; }
+        font-family: var(--font-ui); }
 .sources { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px 14px;
-           font-size: 0.8rem; font-family: system-ui, -apple-system, sans-serif; }
+           font-size: 0.8rem; font-family: var(--font-ui); }
 .src { white-space: nowrap; }
 .src.ok::before     { content: "● "; color: var(--ok); }
 .src.stale::before  { content: "▲ "; color: var(--warn); }
@@ -78,9 +134,9 @@ h1 { font-size: 1.9rem; letter-spacing: -0.01em; }
 .layout { display: grid; grid-template-columns: 268px 1fr; gap: 34px; align-items: start; }
 .filters { position: sticky; top: 14px; max-height: calc(100vh - 28px);
            overflow-y: auto; padding-right: 6px;
-           font-family: system-ui, -apple-system, sans-serif; font-size: 0.88rem; }
+           font-family: var(--font-ui); font-size: 0.88rem; }
 .count-line { font-weight: 700; margin-bottom: 12px; color: var(--accent);
-              font-family: system-ui, -apple-system, sans-serif; font-size: 0.9rem; }
+              font-family: var(--font-ui); font-size: 0.9rem; }
 
 /* ---------- filter groups ---------- */
 .group { border-top: 1px solid var(--rule); padding: 10px 0; }
@@ -111,22 +167,42 @@ h1 { font-size: 1.9rem; letter-spacing: -0.01em; }
 .card h3 a { text-decoration: none; }
 .card h3 a:hover { text-decoration: underline; }
 .when { grid-row: 1 / span 3; grid-column: 2; text-align: right; white-space: nowrap;
-        font-family: system-ui, -apple-system, sans-serif; }
+        font-family: var(--font-ui); }
 .when .t { font-size: 1.16rem; font-weight: 700; display: block; }
 .when .d { font-size: 0.82rem; color: var(--ink-soft); display: block; }
 .who { color: var(--ink-soft); font-size: 0.93rem; }
 .where { color: var(--ink-faint); font-size: 0.85rem; }
 .badges { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px;
-          font-family: system-ui, -apple-system, sans-serif; }
+          font-family: var(--font-ui); }
 .b { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
      padding: 2px 7px; border-radius: 3px; background: var(--badge-bg); color: var(--badge-ink); }
-.b.matinee  { background: var(--matinee-edge); color: #2b2410; }
+.b.matinee  { background: var(--matinee-edge); color: var(--matinee-ink); }
 .b.tba      { background: transparent; border: 1px dashed var(--ink-faint); color: var(--ink-faint); }
 .b.schools, .b.participants { background: var(--bad); color: #fff; }
 .b.review   { background: transparent; border: 1px solid var(--warn); color: var(--warn); }
-.b.stale    { background: var(--warn); color: #241a06; }
+.b.stale    { background: var(--warn); color: var(--warn-ink); }
 .cal { grid-column: 1 / -1; margin-top: 6px; font-size: 0.78rem;
-       font-family: system-ui, -apple-system, sans-serif; }
+       font-family: var(--font-ui); }
+
+/* ---------- theme selector ---------- */
+.themes { display: flex; margin-top: 12px; font-family: var(--font-ui); }
+.themes button {
+  font: inherit; font-size: 0.76rem; cursor: pointer;
+  background: var(--panel); color: var(--ink-soft);
+  border: 1px solid var(--rule); border-right-width: 0;
+  padding: 4px 11px;
+}
+.themes button:first-child { border-radius: 4px 0 0 4px; }
+.themes button:last-child { border-radius: 0 4px 4px 0; border-right-width: 1px; }
+.themes button[aria-pressed="true"] {
+  background: var(--accent); color: var(--panel);
+  border-color: var(--accent); font-weight: 700;
+}
+.themes button:hover:not([aria-pressed="true"]) { color: var(--ink); }
+@media (min-width: 760px) {
+  header { position: relative; }
+  .themes { position: absolute; top: 32px; right: 0; margin-top: 0; }
+}
 
 .empty { padding: 40px 0; color: var(--ink-faint); font-style: italic; text-align: center; }
 footer { margin-top: 46px; padding-top: 18px; border-top: 1px solid var(--rule);
@@ -3294,6 +3370,11 @@ footer ul { margin-left: 18px; }
   <p class="tagline">Classical and orchestral concerts around Sydney, with afternoon performances highlighted.</p>
   <p class="meta" id="meta">Loading…</p>
   <div class="sources" id="srcstrip"></div>
+  <div class="themes" id="themes" role="group" aria-label="Colour theme">
+    <button type="button" data-theme-set="sepia">Sepia</button>
+    <button type="button" data-theme-set="light">Light</button>
+    <button type="button" data-theme-set="dark">Dark</button>
+  </div>
 </header>
 
 <div class="layout">
@@ -3618,6 +3699,24 @@ document.getElementById("filters").addEventListener("click", function (e) {
   });
   render();
 });
+
+/* ---------- theme ---------- */
+
+function applyTheme(name) {
+  document.documentElement.setAttribute("data-theme", name);
+  try { localStorage.setItem("theme", name); } catch (e) { /* private mode */ }
+  [].forEach.call(document.querySelectorAll("#themes button"), function (b) {
+    b.setAttribute("aria-pressed", String(b.dataset.themeSet === name));
+  });
+}
+
+document.getElementById("themes").addEventListener("click", function (e) {
+  var name = e.target.dataset && e.target.dataset.themeSet;
+  if (name) applyTheme(name);
+});
+
+// Reflect whatever the inline <head> script already chose.
+applyTheme(document.documentElement.getAttribute("data-theme") || "sepia");
 
 /* ---------- boot ---------- */
 
