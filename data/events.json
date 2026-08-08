@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-08-08T05:38:45",
+ "generated_at": "2026-08-08T13:22:04",
  "generated_date": "2026-08-08",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 145,
-  "public": 135,
+  "total": 146,
+  "public": 136,
   "matinee": 61,
   "public_matinee": 51,
   "tba": 0,
@@ -185,15 +185,15 @@
    "status": "ok",
    "count": 93,
    "previous_count": 93,
-   "last_success": "2026-08-08T05:38:45",
+   "last_success": "2026-08-08T13:21:36",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 36,
+   "count": 35,
    "previous_count": 36,
-   "last_success": "2026-08-08T05:38:45",
+   "last_success": "2026-08-08T13:21:51",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 8,
    "previous_count": 8,
-   "last_success": "2026-08-08T05:38:45",
+   "last_success": "2026-08-08T13:21:55",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 19,
+   "count": 20,
    "previous_count": 19,
-   "last_success": "2026-08-08T05:38:45",
+   "last_success": "2026-08-08T13:22:00",
    "message": ""
   },
   {
@@ -217,7 +217,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-08T05:38:45",
+   "last_success": "2026-08-08T13:22:04",
    "message": ""
   }
  ],
@@ -1337,6 +1337,42 @@
    "stale": false,
    "last_changed": "2026-08-07T11:57:59",
    "first_seen": "2026-08-07T11:57:59"
+  },
+  {
+   "id": "9a1cb4c5",
+   "title": "The Australian Christian Proms",
+   "raw_title": "The Australian Christian Proms",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "url": "https://www.theconcourse.com.au/event/the-australian-christian-proms/",
+   "source": "The Concourse",
+   "date": "2026-08-29",
+   "time": "19:30",
+   "start_utc": "20260829T093000Z",
+   "time_confirmed": true,
+   "sort_key": 202608291930,
+   "date_string": "Saturday, 29 August 2026",
+   "time_string": "7:30 PM",
+   "month_key": "2026-08",
+   "month_label": "August 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-08-08T13:22:04",
+   "first_seen": "2026-08-08T13:22:04"
   },
   {
    "id": "576e6257",

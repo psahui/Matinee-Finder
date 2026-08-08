@@ -523,6 +523,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:9a1cb4c5@matinee-finder
+DTSTAMP:20260808T032204Z
+DTSTART:20260829T093000Z
+DTEND:20260829T113000Z
+SUMMARY:The Australian Christian Proms
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/the-australian-chri
+ stian-proms/\\nListing source: The Concourse. Times and availability chang
+ e - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/the-australian-christian-proms/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:576e6257@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260830T050000Z
