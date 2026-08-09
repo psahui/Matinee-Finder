@@ -8,43 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:17a1f50b@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260809T040000Z
-DTEND:20260809T060000Z
-SUMMARY:From Winter’s Stillness - Australian Chamber Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Australian Chamber Orchestra\\nVenue: Concert Hall\, Sydney Ope
- ra House\\nConfirm details and book: https://www.sydneyoperahouse.com/aust
- ralian-chamber-orchestra/2026-season/from-winters-stillness\\nListing sour
- ce: Sydney Opera House. Times and availability change - always confirm wit
- h the venue.
-URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2026-seas
- on/from-winters-stillness
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ec50ea57@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260809T040000Z
-DTEND:20260809T060000Z
-SUMMARY:Willoughby Symphony Orchestra: Last Night Of The Proms - Willoughby
-  Symphony Orchestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Willoughby Symphony Orchestra\\nVenue: The Concourse Concert Ha
- ll\\nConfirm details and book: https://www.theconcourse.com.au/event/willo
- ughby-symphony-orchestra-last-night-of-the-proms/\\nListing source: The Co
- ncourse. Times and availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-las
- t-night-of-the-proms/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:e6928e61@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260823T040000Z
@@ -692,6 +655,125 @@ DESCRIPTION:Sydney Symphony Orchestra\\nVenue: Sydney Town Hall\\nConfirm d
  es and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/rowdy-classics-with-the-sydney-sy
  mphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e54cad4c@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20270221T030000Z
+DTEND:20270221T050000Z
+SUMMARY:Willoughby Symphony Orchestra 2027 – Fate
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-2027-fate/\\nListing source: The Concourse. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-202
+ 7-fate/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fc91421e@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20270516T040000Z
+DTEND:20270516T060000Z
+SUMMARY:Willoughby Symphony Orchestra – Sea And Stars
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-sea-and-stars/\\nListing source: The Concourse. Times and avail
+ ability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-sea
+ -and-stars/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:99c1a023@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20270725T040000Z
+DTEND:20270725T060000Z
+SUMMARY:Willoughby Symphony Orchestra – Highland Cathedral
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-highland-cathedral/\\nListing source: The Concourse. Times and 
+ availability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-hig
+ hland-cathedral/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7fcafb43@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20270815T040000Z
+DTEND:20270815T060000Z
+SUMMARY:Willoughby Symphony Orchestra – Opera Gala
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-opera-gala/\\nListing source: The Concourse. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-ope
+ ra-gala/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eb70ce98@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20270926T040000Z
+DTEND:20270926T060000Z
+SUMMARY:Willoughby Symphony Orchestra – Pines Of Rome
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-pines-of-rome/\\nListing source: The Concourse. Times and avail
+ ability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-pin
+ es-of-rome/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e5e5e1d@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20271107T030000Z
+DTEND:20271107T050000Z
+SUMMARY:Willoughby Symphony Orchestra – Carmina Burana
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-carmina-burana/\\nListing source: The Concourse. Times and avai
+ lability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-car
+ mina-burana/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ed5457a8@matinee-finder
+DTSTAMP:20260809T192129Z
+DTSTART:20271212T030000Z
+DTEND:20271212T050000Z
+SUMMARY:Willoughby Symphony Orchestra – Spirit Of Christmas 2027
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\\nVenue: The Concourse Concert Hall\\nConfirm d
+ etails and book: https://www.theconcourse.com.au/event/willoughby-symphony
+ -orchestra-spirit-of-christmas-2027/\\nListing source: The Concourse. Time
+ s and availability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
+ rit-of-christmas-2027/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
