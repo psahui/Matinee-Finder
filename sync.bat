@@ -81,6 +81,18 @@ if errorlevel 1 (
 )
 echo.
 
+rem ---- report what came down, BEFORE publishing. Pushing moves
+rem      origin/main again, so measuring after the push would report your
+rem      own commit back to you as an incoming update.
+for /f "delims=" %%i in ('git rev-parse origin/main') do set AFTER=%%i
+if "!BEFORE!"=="!AFTER!" (
+    echo   Nothing new had been published elsewhere.
+) else (
+    echo   Came down from the live site:
+    git log --oneline --no-decorate !BEFORE!..!AFTER!
+)
+echo.
+
 rem ---- publish, if we committed something above -------------------------
 if defined PUBLISH (
     echo   Publishing to the live site...
@@ -100,16 +112,6 @@ if defined PUBLISH (
     echo.
 )
 
-rem ---- what actually arrived from elsewhere? -----------------------------
-for /f "delims=" %%i in ('git rev-parse origin/main') do set AFTER=%%i
-if "!BEFORE!"=="!AFTER!" (
-    echo   Nothing new had been published elsewhere.
-) else (
-    echo   Came down from the live site:
-    git log --oneline --no-decorate !BEFORE!..!AFTER!
-)
-
-echo.
 echo   PC and live site are now in step.
 echo.
 pause
