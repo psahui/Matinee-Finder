@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Sydney Matinee Finder">
+  <title>Sydney Matinee Finder</title>
+  <!-- Radiant notehead: the quaver's head doubles as an afternoon sun.
+       Slender on purpose - the thin stem and curling flag are what make it
+       read as a musical note rather than a blob. Used at 32px and above.
+       favicon.ico carries a pixel-grid-aligned variant for 16px, where
+       these proportions blur across pixel boundaries. -->
+  <g stroke="#e8a11c" stroke-width="4.4" stroke-linecap="round">
+    <line x1="24" y1="21" x2="24" y2="15"/>
+    <line x1="7" y1="42" x2="13" y2="42"/>
+    <line x1="11.6" y1="27.4" x2="15.8" y2="31.6"/>
+    <line x1="11.6" y1="56.6" x2="15.8" y2="52.4"/>
+    <line x1="24" y1="63" x2="24" y2="59"/>
+  </g>
+  <g fill="#e8a11c">
+    <circle cx="26" cy="42" r="12"/>
+    <rect x="34" y="10" width="4.6" height="32"/>
+    <path d="M38.6 10c9 3.8 12.6 10 8.9 18.2 1.2-7.9-1.9-11.5-8.9-12.7z"/>
+  </g>
+</svg>
