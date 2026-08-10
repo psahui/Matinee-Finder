@@ -4,7 +4,7 @@ Finds upcoming classical and orchestral concerts around Sydney and highlights th
 **matinees** — performances starting before 5:00 PM. It refreshes itself daily and
 publishes to a static site, with calendar feeds you can subscribe to.
 
-**Live site:** https://psahui.github.io/Matinee-Finder/
+**Live site:** https://matinees.petersahui.com/
 
 The problem it solves: matinee performances are scattered across a dozen venue and
 orchestra websites, each with its own format, and none of them let you filter by

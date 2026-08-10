@@ -184,6 +184,6 @@
 
   "_comment_ics": "Calendar feed settings. Only publicly bookable, time-confirmed, Sydney events are ever emitted.",
   "default_duration_minutes": 120,
-  "site_url": "https://psahui.github.io/Matinee-Finder/",
+  "site_url": "https://matinees.petersahui.com/",
   "contact_url": "https://github.com/psahui/Matinee-Finder"
 }

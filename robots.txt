@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://psahui.github.io/Matinee-Finder/sitemap.xml
+Sitemap: https://matinees.petersahui.com/sitemap.xml
