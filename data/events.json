@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-08-10T15:34:01",
- "generated_date": "2026-08-10",
+ "generated_at": "2026-08-11T05:42:14",
+ "generated_date": "2026-08-11",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 156,
@@ -186,15 +186,15 @@
    "status": "ok",
    "count": 90,
    "previous_count": 90,
-   "last_success": "2026-08-10T15:34:01",
+   "last_success": "2026-08-11T05:41:42",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 35,
+   "count": 34,
    "previous_count": 35,
-   "last_success": "2026-08-10T15:34:01",
+   "last_success": "2026-08-11T05:42:03",
    "message": ""
   },
   {
@@ -202,7 +202,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-10T15:34:01",
+   "last_success": "2026-08-11T05:42:07",
    "message": ""
   },
   {
@@ -210,7 +210,7 @@
    "status": "ok",
    "count": 30,
    "previous_count": 30,
-   "last_success": "2026-08-10T15:34:01",
+   "last_success": "2026-08-11T05:42:11",
    "message": ""
   },
   {
@@ -218,7 +218,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-10T15:34:01",
+   "last_success": "2026-08-11T05:42:14",
    "message": ""
   }
  ],
