@@ -867,10 +867,14 @@ def build_ics(items: List[dict], name: str, config: dict) -> str:
         if item.get("performer_group") and item["performer_group"] not in ("Other / various",):
             summary = f"{item['title']} - {item['performer_group']}"
 
+        # Real newlines here - ics_escape converts them to the RFC's \n
+        # exactly once. Writing pre-escaped "\n" text instead gets the
+        # backslash escaped AGAIN, so clients show literal "\n" and Google's
+        # link detector swallows "\nListing" into the booking URL -> 404.
         description = (
-            f"{item.get('performer', '')}\\n"
-            f"Venue: {item.get('venue_name', '')}\\n"
-            f"Confirm details and book: {item.get('url', '')}\\n"
+            f"{item.get('performer', '')}\n"
+            f"Venue: {item.get('venue_name', '')}\n"
+            f"Confirm details and book: {item.get('url', '')}\n"
             f"Listing source: {item.get('source', '')}. "
             f"Times and availability change - always confirm with the venue."
         )
