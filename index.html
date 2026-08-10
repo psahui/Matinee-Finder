@@ -3719,7 +3719,10 @@ function googleCalURL(i) {
   function pad(n) { return String(n).padStart(2, "0"); }
   var end = e.getUTCFullYear() + pad(e.getUTCMonth() + 1) + pad(e.getUTCDate()) + "T" +
             pad(e.getUTCHours()) + pad(e.getUTCMinutes()) + "00Z";
-  return "https://www.google.com/calendar/render?action=TEMPLATE" +
+  // calendar.google.com, not www.google.com/calendar - Google retired the
+  // old host and it now 404s for signed-in users (marketing redirect when
+  // signed out, which is why a naive HTTP check reports it as fine).
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE" +
          "&text=" + encodeURIComponent(i.title) +
          "&dates=" + d + "/" + end +
          "&location=" + encodeURIComponent(i.venue_name + ", " + i.venue_address) +
