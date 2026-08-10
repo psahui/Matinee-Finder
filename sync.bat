@@ -18,8 +18,10 @@ if errorlevel 1 (
     exit /b 1
 )
 
-rem ---- remember where we started, so we can report what arrived --------
-for /f "delims=" %%i in ('git rev-parse HEAD') do set BEFORE=%%i
+rem ---- remember where the live site was, so we can report what arrived.
+rem      Tracking origin rather than HEAD keeps your own commit from being
+rem      reported back to you as though it were someone else's update.
+for /f "delims=" %%i in ('git rev-parse origin/main') do set BEFORE=%%i
 
 rem ---- do you have unpublished edits on this PC? -----------------------
 set DIRTY=
@@ -37,8 +39,9 @@ if defined DIRTY (
     if /i "!ANSWER:~0,1!"=="Y" (
         set /p MSG="  Short description of the change [Enter for 'Update text']: "
         if "!MSG!"=="" set MSG=Update text
-        git add -A
-        git commit -m "!MSG!" >nul
+        rem 2>nul hides git's harmless "LF will be replaced by CRLF" chatter
+        git add -A 2>nul
+        git commit -m "!MSG!" >nul 2>nul
         if errorlevel 1 (
             echo   Could not save the change. Nothing published.
             echo.
@@ -97,13 +100,13 @@ if defined PUBLISH (
     echo.
 )
 
-rem ---- what actually arrived? -------------------------------------------
-for /f "delims=" %%i in ('git rev-parse HEAD') do set AFTER=%%i
-if "%BEFORE%"=="%AFTER%" (
-    echo   Already up to date - nothing new came down.
+rem ---- what actually arrived from elsewhere? -----------------------------
+for /f "delims=" %%i in ('git rev-parse origin/main') do set AFTER=%%i
+if "!BEFORE!"=="!AFTER!" (
+    echo   Nothing new had been published elsewhere.
 ) else (
-    echo   Updates received:
-    git log --oneline %BEFORE%..%AFTER%
+    echo   Came down from the live site:
+    git log --oneline --no-decorate !BEFORE!..!AFTER!
 )
 
 echo.
