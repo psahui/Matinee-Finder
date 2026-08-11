@@ -8,41 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:575fefb8@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260811T090000Z
-DTEND:20260811T110000Z
-SUMMARY:Masterclass with Håkan Hardenberger - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-hakan-hardenberger\nListing source: Sydney Symphony Orchestra
- . Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-hakan-hardenberg
- er
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:fbb1861a@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260811T090000Z
-DTEND:20260811T110000Z
-SUMMARY:Sydney Northwest Music Festival 2026
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/sydney-northwest-musi
- c-festival-2026/\nListing source: The Concourse. Times and availability ch
- ange - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/sydney-northwest-music-festival-2
- 026/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:ef4e5e05@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260812T090000Z
