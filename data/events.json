@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-08-12T05:46:03",
- "generated_date": "2026-08-12",
+ "generated_at": "2026-08-13T05:48:07",
+ "generated_date": "2026-08-13",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 153,
-  "public": 144,
+  "total": 151,
+  "public": 142,
   "matinee": 64,
   "public_matinee": 55,
   "tba": 2,
@@ -184,9 +184,9 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 89,
-   "previous_count": 90,
-   "last_success": "2026-08-12T05:45:32",
+   "count": 88,
+   "previous_count": 89,
+   "last_success": "2026-08-13T05:47:37",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 34,
    "previous_count": 34,
-   "last_success": "2026-08-12T05:45:52",
+   "last_success": "2026-08-13T05:47:57",
    "message": ""
   },
   {
@@ -202,7 +202,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-12T05:45:56",
+   "last_success": "2026-08-13T05:48:01",
    "message": ""
   },
   {
@@ -210,7 +210,7 @@
    "status": "ok",
    "count": 30,
    "previous_count": 30,
-   "last_success": "2026-08-12T05:46:00",
+   "last_success": "2026-08-13T05:48:04",
    "message": ""
   },
   {
@@ -218,83 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-12T05:46:03",
+   "last_success": "2026-08-13T05:48:07",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "ef4e5e05",
-   "title": "Sydney Northwest Music Festival 2026",
-   "raw_title": "Sydney Northwest Music Festival 2026",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "url": "https://www.theconcourse.com.au/event/sydney-northwest-music-festival-2026/",
-   "source": "The Concourse",
-   "date": "2026-08-12",
-   "time": "19:00",
-   "start_utc": "20260812T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202608121900,
-   "date_string": "Wednesday, 12 August 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
-  {
-   "id": "db14d77b",
-   "title": "Orchestral Dances with Håkan Hardenberger",
-   "raw_title": "Orchestral Dances with Håkan Hardenberger",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/orchestral-dances-with-hakan-hardenberger",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-08-12",
-   "time": "20:00",
-   "start_utc": "20260812T100000Z",
-   "time_confirmed": true,
-   "sort_key": 202608122000,
-   "date_string": "Wednesday, 12 August 2026",
-   "time_string": "8:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "88bdc031",
    "title": "Orchestral Dances with Håkan Hardenberger",
