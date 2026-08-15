@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-08-15T05:39:54",
- "generated_date": "2026-08-15",
+ "generated_at": "2026-08-16T05:02:30",
+ "generated_date": "2026-08-16",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 149,
-  "public": 140,
+  "total": 147,
+  "public": 138,
   "matinee": 63,
   "public_matinee": 54,
   "tba": 2,
@@ -186,7 +186,7 @@
    "status": "ok",
    "count": 88,
    "previous_count": 88,
-   "last_success": "2026-08-15T05:36:44",
+   "last_success": "2026-08-16T05:02:27",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 34,
    "previous_count": 34,
-   "last_success": "2026-08-15T05:38:57",
+   "last_success": "2026-08-16T05:02:27",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-15T05:39:12",
+   "last_success": "2026-08-16T05:02:27",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 28,
-   "previous_count": 30,
-   "last_success": "2026-08-15T05:39:50",
+   "previous_count": 28,
+   "last_success": "2026-08-16T05:02:30",
    "message": ""
   },
   {
@@ -218,83 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-15T05:39:54",
+   "last_success": "2026-08-16T05:02:30",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "7a7e2af7",
-   "title": "North Sydney Youth Orchestra",
-   "raw_title": "North Sydney Youth Orchestra",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "url": "https://www.theconcourse.com.au/event/north-sydney-youth-orchestra/",
-   "source": "The Concourse",
-   "date": "2026-08-15",
-   "time": "19:00",
-   "start_utc": "20260815T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202608151900,
-   "date_string": "Saturday, 15 August 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
-  {
-   "id": "45f4c32c",
-   "title": "Orchestral Dances with Håkan Hardenberger",
-   "raw_title": "Orchestral Dances with Håkan Hardenberger",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/orchestral-dances-with-hakan-hardenberger",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-08-15",
-   "time": "20:00",
-   "start_utc": "20260815T100000Z",
-   "time_confirmed": true,
-   "sort_key": 202608152000,
-   "date_string": "Saturday, 15 August 2026",
-   "time_string": "8:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "afe24828",
    "title": "AWO: Stravinsky, Mills & Shostakovich",

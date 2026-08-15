@@ -8,41 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:7a7e2af7@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260815T090000Z
-DTEND:20260815T110000Z
-SUMMARY:North Sydney Youth Orchestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/north-sydney-youth-or
- chestra/\nListing source: The Concourse. Times and availability change - a
- lways confirm with the venue.
-URL:https://www.theconcourse.com.au/event/north-sydney-youth-orchestra/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:45f4c32c@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260815T100000Z
-DTEND:20260815T120000Z
-SUMMARY:Orchestral Dances with Håkan Hardenberger - Sydney Symphony Orches
- tra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/orch
- estral-dances-with-hakan-hardenberger\nListing source: Sydney Symphony Orc
- hestra. Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/orchestral-dances-with-hakan-hard
- enberger
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:afe24828@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260820T100000Z
