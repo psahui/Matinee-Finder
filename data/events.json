@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-08-16T05:02:30",
- "generated_date": "2026-08-16",
+ "generated_at": "2026-08-17T05:02:23",
+ "generated_date": "2026-08-17",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 147,
-  "public": 138,
+  "total": 148,
+  "public": 139,
   "matinee": 63,
   "public_matinee": 54,
   "tba": 2,
@@ -184,17 +184,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 88,
+   "count": 84,
    "previous_count": 88,
-   "last_success": "2026-08-16T05:02:27",
+   "last_success": "2026-08-17T05:01:49",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 34,
+   "count": 35,
    "previous_count": 34,
-   "last_success": "2026-08-16T05:02:27",
+   "last_success": "2026-08-17T05:02:13",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-16T05:02:27",
+   "last_success": "2026-08-17T05:02:17",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 28,
+   "count": 27,
    "previous_count": 28,
-   "last_success": "2026-08-16T05:02:30",
+   "last_success": "2026-08-17T05:02:20",
    "message": ""
   },
   {
@@ -218,7 +218,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-16T05:02:30",
+   "last_success": "2026-08-17T05:02:23",
    "message": ""
   }
  ],
@@ -2238,6 +2238,42 @@
    "stale": false,
    "last_changed": "2026-08-07T11:57:59",
    "first_seen": "2026-08-07T11:57:59"
+  },
+  {
+   "id": "4c389d0b",
+   "title": "Mahk Making Spaces",
+   "raw_title": "Mahk Making Spaces",
+   "performer": "Sydney Opera House",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "Utzon Room, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.sydneyoperahouse.com/classical-music/mahk-making-spaces",
+   "source": "Sydney Opera House",
+   "date": "2026-09-27",
+   "time": "17:00",
+   "start_utc": "20260927T070000Z",
+   "time_confirmed": true,
+   "sort_key": 202609271700,
+   "date_string": "Sunday, 27 September 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-09",
+   "month_label": "September 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-08-17T05:02:23",
+   "first_seen": "2026-08-17T05:02:23"
   },
   {
    "id": "524aacdf",
