@@ -1577,23 +1577,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:fc75a136@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20261101T040000Z
-DTEND:20261101T060000Z
-SUMMARY:Hansori Music\, Sunshine Philharmonic Orchestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
- e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
- ic-orchestra/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:d31ccdcd@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261101T080000Z
@@ -2084,6 +2067,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:6bb15d83@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270128T070000Z
+DTEND:20270128T090000Z
+SUMMARY:Cocktail Hour with Richard Lynn - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-richard-lynn-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-richard-lynn-2
+ 027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:61a7632a@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20270129T013000Z
@@ -2097,6 +2098,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Sydney Town Hall\nConfirm det
  mes and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/lunchtime-classics-with-the-sydne
  y-symphony-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0d189e03@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270129T070000Z
+DTEND:20270129T090000Z
+SUMMARY:Cocktail Hour with Richard Lynn - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-richard-lynn-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-richard-lynn-2
+ 027
 CATEGORIES:short_format
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2136,6 +2155,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:c70198fb@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270130T070000Z
+DTEND:20270130T090000Z
+SUMMARY:Cocktail Hour with Richard Lynn - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-richard-lynn-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-richard-lynn-2
+ 027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:04c724a8@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20270130T080000Z
@@ -2148,6 +2185,112 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Sydney Town Hall\nConfirm det
  and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/dance-classics-with-the-sydney-sy
  mphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3a68d7c0@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270203T080000Z
+DTEND:20270203T100000Z
+SUMMARY:Ben Folds with the Sydney Symphony - Sydney Symphony Orchestra
+LOCATION:Hordern Pavilion\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Hordern Pavilion\nConfirm det
+ ails and book: https://www.sydneysymphony.com/events/ben-folds-with-the-sy
+ dney-symphony-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ben-folds-with-the-sydney-symphon
+ y-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4861c7a2@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270204T080000Z
+DTEND:20270204T100000Z
+SUMMARY:Ben Folds with the Sydney Symphony - Sydney Symphony Orchestra
+LOCATION:Hordern Pavilion\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Hordern Pavilion\nConfirm det
+ ails and book: https://www.sydneysymphony.com/events/ben-folds-with-the-sy
+ dney-symphony-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ben-folds-with-the-sydney-symphon
+ y-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c7a1dc70@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270212T080000Z
+DTEND:20270212T100000Z
+SUMMARY:Titanic Live in Concert - Sydney Symphony Orchestra
+LOCATION:TikTok Entertainment Centre\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: TikTok Entertainment Centre\n
+ Confirm details and book: https://www.sydneysymphony.com/events/titanic-li
+ ve-in-concert-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/titanic-live-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:75724b09@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270213T060000Z
+DTEND:20270213T080000Z
+SUMMARY:Meet the Fellows - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/meet-the-fellows-2
+ 027\nListing source: Sydney Symphony Orchestra. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/meet-the-fellows-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:05bc644b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270217T080000Z
+DTEND:20270217T100000Z
+SUMMARY:Simone Young conducts Mahler’s Seventh Symphony - Sydney Symphony
+  Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-mahlers-seventh-symphony-2027\nListing source: Sydney Sy
+ mphony Orchestra. Times and availability change - always confirm with the 
+ venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-mahlers-sev
+ enth-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:65015e75@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270219T090000Z
+DTEND:20270219T110000Z
+SUMMARY:Simone Young conducts Mahler’s Seventh Symphony - Sydney Symphony
+  Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-mahlers-seventh-symphony-2027\nListing source: Sydney Sy
+ mphony Orchestra. Times and availability change - always confirm with the 
+ venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-mahlers-sev
+ enth-symphony-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2170,6 +2313,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:37fed47d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270220T090000Z
+DTEND:20270220T110000Z
+SUMMARY:Simone Young conducts Mahler’s Seventh Symphony - Sydney Symphony
+  Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-mahlers-seventh-symphony-2027\nListing source: Sydney Sy
+ mphony Orchestra. Times and availability change - always confirm with the 
+ venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-mahlers-sev
+ enth-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:e54cad4c@matinee-finder
 DTSTAMP:20260809T192129Z
 DTSTART:20270221T030000Z
@@ -2182,6 +2345,795 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
   change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-202
  7-fate/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:28abdc3d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270224T080000Z
+DTEND:20270224T100000Z
+SUMMARY:Masterclass with Gautier Capuçon - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
+ erclass-with-gautier-capucon-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/masterclass-with-gautier-capucon-
+ 2027
+CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6f736344@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270224T080000Z
+DTEND:20270224T100000Z
+SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
+ erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
+CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0b284319@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270225T023000Z
+DTEND:20270225T043000Z
+SUMMARY:Simone Young & Gautier Capuçon - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-gautier-capucon-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-gautier-capucon-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9d1a5581@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270226T080000Z
+DTEND:20270226T100000Z
+SUMMARY:Simone Young & Gautier Capuçon - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-gautier-capucon-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-gautier-capucon-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:45963aa8@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270227T080000Z
+DTEND:20270227T100000Z
+SUMMARY:Simone Young & Gautier Capuçon - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-gautier-capucon-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-gautier-capucon-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ab18218c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270228T030000Z
+DTEND:20270228T050000Z
+SUMMARY:Simone Young & Gautier Capuçon - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-gautier-capucon-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-gautier-capucon-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f1a8ae4d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270304T080000Z
+DTEND:20270304T100000Z
+SUMMARY:Beethoven & Schumann - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/beet
+ hoven-and-schumann-2027\nListing source: Sydney Symphony Orchestra. Times 
+ and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/beethoven-and-schumann-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3e7bd6@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270305T000000Z
+DTEND:20270305T020000Z
+SUMMARY:Echoes of Beethoven - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/echo
+ es-of-beethoven-2027\nListing source: Sydney Symphony Orchestra. Times and
+  availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/echoes-of-beethoven-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6f494c5f@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270306T030000Z
+DTEND:20270306T050000Z
+SUMMARY:Beethoven & Schumann - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/beet
+ hoven-and-schumann-2027\nListing source: Sydney Symphony Orchestra. Times 
+ and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/beethoven-and-schumann-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e01ee251@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270309T080000Z
+DTEND:20270309T100000Z
+SUMMARY:Listen to this: Discover Dvořák - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/list
+ en-to-this-discover-dvorak-2027\nListing source: Sydney Symphony Orchestra
+ . Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/listen-to-this-discover-dvorak-20
+ 27
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:211b1119@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270312T230000Z
+DTEND:20270313T010000Z
+SUMMARY:Ready\, Set\, Listen! Peer Gynt - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-peer-gynt-2027\nListing source: Sydney Symphony Orchestra. Time
+ s and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-peer-gynt-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:71f7e17b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270313T003000Z
+DTEND:20270313T023000Z
+SUMMARY:Ready\, Set\, Listen! Peer Gynt - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-peer-gynt-2027\nListing source: Sydney Symphony Orchestra. Time
+ s and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-peer-gynt-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b1ae835a@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270313T020000Z
+DTEND:20270313T040000Z
+SUMMARY:Ready\, Set\, Listen! Peer Gynt - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-peer-gynt-2027\nListing source: Sydney Symphony Orchestra. Time
+ s and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-peer-gynt-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:044dd2c5@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270317T080000Z
+DTEND:20270317T100000Z
+SUMMARY:Víkingur Ólafsson Returns - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/viki
+ ngur-olafsson-returns-2027\nListing source: Sydney Symphony Orchestra. Tim
+ es and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/vikingur-olafsson-returns-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9d29cb03@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270318T023000Z
+DTEND:20270318T043000Z
+SUMMARY:Víkingur Ólafsson Returns - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/viki
+ ngur-olafsson-returns-2027\nListing source: Sydney Symphony Orchestra. Tim
+ es and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/vikingur-olafsson-returns-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:91f03322@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270319T090000Z
+DTEND:20270319T110000Z
+SUMMARY:Víkingur Ólafsson Returns - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/viki
+ ngur-olafsson-returns-2027\nListing source: Sydney Symphony Orchestra. Tim
+ es and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/vikingur-olafsson-returns-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:603df14c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270320T090000Z
+DTEND:20270320T110000Z
+SUMMARY:Víkingur Ólafsson Returns - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/viki
+ ngur-olafsson-returns-2027\nListing source: Sydney Symphony Orchestra. Tim
+ es and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/vikingur-olafsson-returns-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:49d59250@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270321T080000Z
+DTEND:20270321T100000Z
+SUMMARY:Víkingur Ólafsson in Recital - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/viki
+ ngur-olafsson-in-recital-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/vikingur-olafsson-in-recital-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:08b4d910@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270401T070000Z
+DTEND:20270401T090000Z
+SUMMARY:Cocktail Hour with Louisic Dulbecco - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-louisic-dulbecco-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-louisic-dulbec
+ co-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:97295c18@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270401T080000Z
+DTEND:20270401T100000Z
+SUMMARY:Spotlight: Alexander Gavrylyuk and the Sydney Symphony - Sydney Sym
+ phony Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.sydneysymphony.com/events/spotlight-alexander-
+ gavrylyuk-and-the-sydney-symphony-2027\nListing source: Sydney Symphony Or
+ chestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/spotlight-alexander-gavrylyuk-and
+ -the-sydney-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c2d7ddf5@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270402T070000Z
+DTEND:20270402T090000Z
+SUMMARY:Cocktail Hour with Louisic Dulbecco - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-louisic-dulbecco-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-louisic-dulbec
+ co-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bd8f8eae@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270402T080000Z
+DTEND:20270402T100000Z
+SUMMARY:Spotlight: Alexander Gavrylyuk and the Sydney Symphony - Sydney Sym
+ phony Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.sydneysymphony.com/events/spotlight-alexander-
+ gavrylyuk-and-the-sydney-symphony-2027\nListing source: Sydney Symphony Or
+ chestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/spotlight-alexander-gavrylyuk-and
+ -the-sydney-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ff0f83eb@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270403T070000Z
+DTEND:20270403T090000Z
+SUMMARY:Cocktail Hour with Louisic Dulbecco - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-louisic-dulbecco-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-louisic-dulbec
+ co-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e577ae04@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270404T060000Z
+DTEND:20270404T080000Z
+SUMMARY:Playerlink - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
+ erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:303d2bb5@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270407T090000Z
+DTEND:20270407T110000Z
+SUMMARY:Rufus Wainwright’s Dream Requiem - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rufu
+ s-wainwrights-dream-requiem-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rufus-wainwrights-dream-requiem-2
+ 027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:68128b0c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270408T090000Z
+DTEND:20270408T110000Z
+SUMMARY:Rufus Wainwright’s Dream Requiem - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rufu
+ s-wainwrights-dream-requiem-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rufus-wainwrights-dream-requiem-2
+ 027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5a59d7d3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270410T090000Z
+DTEND:20270410T110000Z
+SUMMARY:Rufus Wainwright’s Want Symphonic - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rufu
+ s-wainwrights-want-symphonic-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rufus-wainwrights-want-symphonic-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:613b87fd@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270411T040000Z
+DTEND:20270411T060000Z
+SUMMARY:Rufus Wainwright’s Want Symphonic - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rufu
+ s-wainwrights-want-symphonic-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rufus-wainwrights-want-symphonic-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b397cdbf@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270417T070000Z
+DTEND:20270417T090000Z
+SUMMARY:Rejoice in Music - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/rejoice-in-music-2
+ 027\nListing source: Sydney Symphony Orchestra. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rejoice-in-music-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ff754dae@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270421T090000Z
+DTEND:20270421T110000Z
+SUMMARY:Dalia Stasevska conducts Dvořák - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dali
+ a-stasevska-conducts-dvorak-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
+ 027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:86a58301@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270422T033000Z
+DTEND:20270422T053000Z
+SUMMARY:Dalia Stasevska conducts Dvořák - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dali
+ a-stasevska-conducts-dvorak-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
+ 027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e2c450@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270423T100000Z
+DTEND:20270423T120000Z
+SUMMARY:Dalia Stasevska conducts Dvořák - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dali
+ a-stasevska-conducts-dvorak-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
+ 027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a97a316c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270424T100000Z
+DTEND:20270424T120000Z
+SUMMARY:Dalia Stasevska conducts Dvořák - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dali
+ a-stasevska-conducts-dvorak-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
+ 027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:65622bb4@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270501T000000Z
+DTEND:20270501T020000Z
+SUMMARY:Ready\, Set\, Listen! Peter and the Wolf - Sydney Symphony Orchestr
+ a
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-peter-and-the-wolf-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-peter-and-the-wo
+ lf-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7de43647@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270501T013000Z
+DTEND:20270501T033000Z
+SUMMARY:Ready\, Set\, Listen! Peter and the Wolf - Sydney Symphony Orchestr
+ a
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-peter-and-the-wolf-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-peter-and-the-wo
+ lf-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9d513254@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270501T030000Z
+DTEND:20270501T050000Z
+SUMMARY:Ready\, Set\, Listen! Peter and the Wolf - Sydney Symphony Orchestr
+ a
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-peter-and-the-wolf-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-peter-and-the-wo
+ lf-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a9887d31@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270507T010000Z
+DTEND:20270507T030000Z
+SUMMARY:The Sydney Symphony Fellows in Concert - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/the-
+ sydney-symphony-fellows-in-concert-2027\nListing source: Sydney Symphony O
+ rchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/the-sydney-symphony-fellows-in-co
+ ncert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fb7b5662@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270507T090000Z
+DTEND:20270507T110000Z
+SUMMARY:Donald Runnicles conducts Mahler’s First Symphony - Sydney Sympho
+ ny Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-mahlers-first-symphony-2027\nListing source: Sydney 
+ Symphony Orchestra. Times and availability change - always confirm with th
+ e venue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-mahlers
+ -first-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3ec272c5@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270508T090000Z
+DTEND:20270508T110000Z
+SUMMARY:Donald Runnicles conducts Mahler’s First Symphony - Sydney Sympho
+ ny Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-mahlers-first-symphony-2027\nListing source: Sydney 
+ Symphony Orchestra. Times and availability change - always confirm with th
+ e venue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-mahlers
+ -first-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:36299082@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270509T040000Z
+DTEND:20270509T060000Z
+SUMMARY:Donald Runnicles conducts Mahler’s First Symphony - Sydney Sympho
+ ny Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-mahlers-first-symphony-2027\nListing source: Sydney 
+ Symphony Orchestra. Times and availability change - always confirm with th
+ e venue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-mahlers
+ -first-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:621f2149@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270512T090000Z
+DTEND:20270512T110000Z
+SUMMARY:Open Rehearsal with Donald Runnicles - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/open
+ -rehearsal-with-donald-runnicles-2027\nListing source: Sydney Symphony Orc
+ hestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/open-rehearsal-with-donald-runnic
+ les-2027
+CATEGORIES:open_rehearsal
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:49ffb5d3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270513T090000Z
+DTEND:20270513T110000Z
+SUMMARY:Donald Runnicles conducts Beethoven's Missa Solemnis - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-beethovens-missa-solemnis-2027\nListing source: Sydn
+ ey Symphony Orchestra. Times and availability change - always confirm with
+  the venue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-beethov
+ ens-missa-solemnis-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8afb6941@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270515T000000Z
+DTEND:20270515T020000Z
+SUMMARY:The Flying Orchestra - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/the-
+ flying-orchestra-2027\nListing source: Sydney Symphony Orchestra. Times an
+ d availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/the-flying-orchestra-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:28306b83@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270515T040000Z
+DTEND:20270515T060000Z
+SUMMARY:Donald Runnicles conducts Beethoven's Missa Solemnis - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-beethovens-missa-solemnis-2027\nListing source: Sydn
+ ey Symphony Orchestra. Times and availability change - always confirm with
+  the venue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-beethov
+ ens-missa-solemnis-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2200,6 +3152,545 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-sea
  -and-stars/
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6d91ede3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270519T090000Z
+DTEND:20270519T110000Z
+SUMMARY:Pietari Inkinen conducts Shostakovich - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/piet
+ ari-inkinen-conducts-shostakovich-2027\nListing source: Sydney Symphony Or
+ chestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/pietari-inkinen-conducts-shostako
+ vich-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a3074c77@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270521T100000Z
+DTEND:20270521T120000Z
+SUMMARY:Pietari Inkinen conducts Shostakovich - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/piet
+ ari-inkinen-conducts-shostakovich-2027\nListing source: Sydney Symphony Or
+ chestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/pietari-inkinen-conducts-shostako
+ vich-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd7910b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270522T100000Z
+DTEND:20270522T120000Z
+SUMMARY:Pietari Inkinen conducts Shostakovich - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/piet
+ ari-inkinen-conducts-shostakovich-2027\nListing source: Sydney Symphony Or
+ chestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/pietari-inkinen-conducts-shostako
+ vich-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:52170c0c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270523T040000Z
+DTEND:20270523T060000Z
+SUMMARY:Ovation 2027 Tour
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/ovation-2027-tour/\nL
+ isting source: The Concourse. Times and availability change - always confi
+ rm with the venue.
+URL:https://www.theconcourse.com.au/event/ovation-2027-tour/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f77c46dd@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270530T060000Z
+DTEND:20270530T080000Z
+SUMMARY:Playerlink - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
+ erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1cb38f68@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270610T033000Z
+DTEND:20270610T053000Z
+SUMMARY:Dvořák’s New World Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dvor
+ aks-new-world-symphony-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dvoraks-new-world-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ce0175e3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270610T080000Z
+DTEND:20270610T100000Z
+SUMMARY:Cocktail Hour with Alexandra Osborne - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-alexandra-osborne-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandra-osbo
+ rne-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:521def1d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270611T010000Z
+DTEND:20270611T030000Z
+SUMMARY:Dvořák’s New World Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dvor
+ aks-new-world-symphony-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dvoraks-new-world-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:23049c98@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270611T080000Z
+DTEND:20270611T100000Z
+SUMMARY:Cocktail Hour with Alexandra Osborne - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-alexandra-osborne-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandra-osbo
+ rne-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8bc1f555@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270612T080000Z
+DTEND:20270612T100000Z
+SUMMARY:Cocktail Hour with Alexandra Osborne - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-alexandra-osborne-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandra-osbo
+ rne-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:56ac4a03@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270612T090000Z
+DTEND:20270612T110000Z
+SUMMARY:Dvořák’s New World Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dvor
+ aks-new-world-symphony-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/dvoraks-new-world-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:204387b5@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270616T090000Z
+DTEND:20270616T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 1\, 2 & 3 - Sydney S
+ ymphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-1-2-and-3-2027\nListing source: Syd
+ ney Symphony Orchestra. Times and availability change - always confirm wit
+ h the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-1-2-and-3-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d7e8ee@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270617T090000Z
+DTEND:20270617T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 1\, 2 & 3 - Sydney S
+ ymphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-1-2-and-3-2027\nListing source: Syd
+ ney Symphony Orchestra. Times and availability change - always confirm wit
+ h the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-1-2-and-3-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:88dbd159@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270618T090000Z
+DTEND:20270618T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 4 & 5 - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-4-and-5-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-4-and-5-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0cc0575f@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270619T090000Z
+DTEND:20270619T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 4 & 5 - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-4-and-5-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-4-and-5-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8ba27414@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270622T090000Z
+DTEND:20270622T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 6 & 7 - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-6-and-7-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-6-and-7-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c02bc545@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270623T090000Z
+DTEND:20270623T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 6 & 7 - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-6-and-7-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-6-and-7-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:12f4564b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270625T090000Z
+DTEND:20270625T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 8 & 9 - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-8-and-9-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-8-and-9-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4aaa11ee@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270626T090000Z
+DTEND:20270626T110000Z
+SUMMARY:Simone Young conducts Beethoven’s Symphonies 8 & 9 - Sydney Symph
+ ony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-beethoven-symphonies-8-and-9-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
+ ymphonies-8-and-9-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:130e9c22@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270701T090000Z
+DTEND:20270701T110000Z
+SUMMARY:Joyce Yang performs Prokofiev - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/joyc
+ e-yang-performs-prokofiev-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/joyce-yang-performs-prokofiev-202
+ 7
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3c1747f3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270702T090000Z
+DTEND:20270702T110000Z
+SUMMARY:Joyce Yang performs Prokofiev - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/joyc
+ e-yang-performs-prokofiev-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/joyce-yang-performs-prokofiev-202
+ 7
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0dd3ebdd@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270703T040000Z
+DTEND:20270703T060000Z
+SUMMARY:Joyce Yang performs Prokofiev - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/joyc
+ e-yang-performs-prokofiev-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/joyce-yang-performs-prokofiev-202
+ 7
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:22541cf7@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270705T090000Z
+DTEND:20270705T110000Z
+SUMMARY:Andrea Lam in Recital - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/andr
+ ea-lam-in-recital-2027\nListing source: Sydney Symphony Orchestra. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/andrea-lam-in-recital-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f1b2ed13@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270708T090000Z
+DTEND:20270708T110000Z
+SUMMARY:Spotlight: Chad Kelly and the Sydney Symphony - Sydney Symphony Orc
+ hestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.sydneysymphony.com/events/spotlight-chad-kelly
+ -and-the-sydney-symphony-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/spotlight-chad-kelly-and-the-sydn
+ ey-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:50a9472c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270714T090000Z
+DTEND:20270714T110000Z
+SUMMARY:Karen Gomyo performs Brahms’s Violin Concerto - Sydney Symphony O
+ rchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/kare
+ n-gomyo-performs-brahmss-violin-concerto-2027\nListing source: Sydney Symp
+ hony Orchestra. Times and availability change - always confirm with the ve
+ nue.
+URL:https://www.sydneysymphony.com/events/karen-gomyo-performs-brahmss-viol
+ in-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:baca0df4@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270715T033000Z
+DTEND:20270715T053000Z
+SUMMARY:Karen Gomyo performs Brahms’s Violin Concerto - Sydney Symphony O
+ rchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/kare
+ n-gomyo-performs-brahmss-violin-concerto-2027\nListing source: Sydney Symp
+ hony Orchestra. Times and availability change - always confirm with the ve
+ nue.
+URL:https://www.sydneysymphony.com/events/karen-gomyo-performs-brahmss-viol
+ in-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f7b5ac29@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270716T100000Z
+DTEND:20270716T120000Z
+SUMMARY:Karen Gomyo performs Brahms’s Violin Concerto - Sydney Symphony O
+ rchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/kare
+ n-gomyo-performs-brahmss-violin-concerto-2027\nListing source: Sydney Symp
+ hony Orchestra. Times and availability change - always confirm with the ve
+ nue.
+URL:https://www.sydneysymphony.com/events/karen-gomyo-performs-brahmss-viol
+ in-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:42ada79e@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270717T100000Z
+DTEND:20270717T120000Z
+SUMMARY:Karen Gomyo performs Brahms’s Violin Concerto - Sydney Symphony O
+ rchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/kare
+ n-gomyo-performs-brahmss-violin-concerto-2027\nListing source: Sydney Symp
+ hony Orchestra. Times and availability change - always confirm with the ve
+ nue.
+URL:https://www.sydneysymphony.com/events/karen-gomyo-performs-brahmss-viol
+ in-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4e879a42@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270719T000000Z
+DTEND:20270719T020000Z
+SUMMARY:Teachers Conducting Masterclass - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/teac
+ hers-conducting-masterclass-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/teachers-conducting-masterclass-2
+ 027
+CATEGORIES:masterclass
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2238,6 +3729,302 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:21de8bcf@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270727T090000Z
+DTEND:20270727T110000Z
+SUMMARY:Listen to this: Discover Beethoven - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/list
+ en-to-this-discover-beethoven-2027\nListing source: Sydney Symphony Orches
+ tra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/listen-to-this-discover-beethoven
+ -2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6df256ad@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270730T010000Z
+DTEND:20270730T030000Z
+SUMMARY:Tchaikovsky’s Violin Concerto - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-violin-concerto-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-violin-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4a310298@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270731T070000Z
+DTEND:20270731T090000Z
+SUMMARY:Fellows Choice - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/fellows-choice-202
+ 7\nListing source: Sydney Symphony Orchestra. Times and availability chang
+ e - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/fellows-choice-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:324e3f3d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270731T090000Z
+DTEND:20270731T110000Z
+SUMMARY:Tchaikovsky’s Violin Concerto - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-violin-concerto-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-violin-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:175d2f92@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270801T040000Z
+DTEND:20270801T060000Z
+SUMMARY:Tchaikovsky’s Violin Concerto - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-violin-concerto-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-violin-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c75eca7a@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270804T090000Z
+DTEND:20270804T110000Z
+SUMMARY:Troy Cassar-Daley with the Sydney Symphony - Sydney Symphony Orches
+ tra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/troy
+ -cassar-daley-with-the-sydney-symphony-2027\nListing source: Sydney Sympho
+ ny Orchestra. Times and availability change - always confirm with the venu
+ e.
+URL:https://www.sydneysymphony.com/events/troy-cassar-daley-with-the-sydney
+ -symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:edfe79c4@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270805T080000Z
+DTEND:20270805T100000Z
+SUMMARY:Cocktail Hour with Matthew Wilkie - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-matthew-wilkie-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-matthew-wilkie
+ -2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f2196e64@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270806T080000Z
+DTEND:20270806T100000Z
+SUMMARY:Cocktail Hour with Matthew Wilkie - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-matthew-wilkie-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-matthew-wilkie
+ -2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a771e0a4@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270806T090000Z
+DTEND:20270806T110000Z
+SUMMARY:An Evening on Broadway - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/an-e
+ vening-on-broadway-2027\nListing source: Sydney Symphony Orchestra. Times 
+ and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/an-evening-on-broadway-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:897db61c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270807T040000Z
+DTEND:20270807T060000Z
+SUMMARY:An Evening on Broadway - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/an-e
+ vening-on-broadway-2027\nListing source: Sydney Symphony Orchestra. Times 
+ and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/an-evening-on-broadway-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2fd57fec@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270807T080000Z
+DTEND:20270807T100000Z
+SUMMARY:Cocktail Hour with Matthew Wilkie - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-matthew-wilkie-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-matthew-wilkie
+ -2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:539b9989@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270807T090000Z
+DTEND:20270807T110000Z
+SUMMARY:An Evening on Broadway - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/an-e
+ vening-on-broadway-2027\nListing source: Sydney Symphony Orchestra. Times 
+ and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/an-evening-on-broadway-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fcd1cdb1@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270808T060000Z
+DTEND:20270808T080000Z
+SUMMARY:Playerlink - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
+ erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2525447a@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270810T070000Z
+DTEND:20270810T090000Z
+SUMMARY:Open Rehearsal with Joshua Weilerstein - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/open
+ -rehearsal-with-joshua-weilerstein-2027\nListing source: Sydney Symphony O
+ rchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/open-rehearsal-with-joshua-weiler
+ stein-2027
+CATEGORIES:open_rehearsal
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:62b4b635@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270811T090000Z
+DTEND:20270811T110000Z
+SUMMARY:Tchaikovsky’s Sixth Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-sixth-symphony-2027\nListing source: Sydney Symphony Orchestra. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-sixth-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:acd5f85d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270812T033000Z
+DTEND:20270812T053000Z
+SUMMARY:Tchaikovsky’s Sixth Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-sixth-symphony-2027\nListing source: Sydney Symphony Orchestra. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-sixth-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:28399c36@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270813T100000Z
+DTEND:20270813T120000Z
+SUMMARY:Tchaikovsky’s Sixth Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-sixth-symphony-2027\nListing source: Sydney Symphony Orchestra. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-sixth-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:07301c0f@matinee-finder
 DTSTAMP:20260809T192129Z
 DTSTART:20270814T070000Z
@@ -2250,6 +4037,23 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
  y change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-ope
  ra-gala/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ef61755a@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270814T100000Z
+DTEND:20270814T120000Z
+SUMMARY:Tchaikovsky’s Sixth Symphony - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
+ ikovskys-sixth-symphony-2027\nListing source: Sydney Symphony Orchestra. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/tchaikovskys-sixth-symphony-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2268,6 +4072,495 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-ope
  ra-gala/
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:39f77b08@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270817T090000Z
+DTEND:20270817T110000Z
+SUMMARY:Listen to This: Discover Rimsky-Korsakov - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/list
+ en-to-this-discover-rimsky-korsakov-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/listen-to-this-discover-rimsky-ko
+ rsakov-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7b02be50@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270819T090000Z
+DTEND:20270819T110000Z
+SUMMARY:Shostakovich & Prokofiev - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/shos
+ takovich-and-prokofiev-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/shostakovich-and-prokofiev-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:02c593db@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270821T000000Z
+DTEND:20270821T020000Z
+SUMMARY:Symphony of Stories - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/symp
+ hony-of-stories-2027\nListing source: Sydney Symphony Orchestra. Times and
+  availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/symphony-of-stories-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7f2aa1f4@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270821T023000Z
+DTEND:20270821T043000Z
+SUMMARY:Symphony of Stories - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/symp
+ hony-of-stories-2027\nListing source: Sydney Symphony Orchestra. Times and
+  availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/symphony-of-stories-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6a449751@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270826T090000Z
+DTEND:20270826T110000Z
+SUMMARY:Spotlight: Xavier de Maistre and the Sydney Symphony - Sydney Symph
+ ony Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.sydneysymphony.com/events/spotlight-xavier-de-
+ maistre-and-the-sydney-symphony-2027\nListing source: Sydney Symphony Orch
+ estra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/spotlight-xavier-de-maistre-and-t
+ he-sydney-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1ce1e9e7@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270826T090000Z
+DTEND:20270826T110000Z
+SUMMARY:Symphonic Fantastic - Sydney Symphony Orchestra
+LOCATION:Coliseum Theatre\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Coliseum Theatre\nConfirm det
+ ails and book: https://www.sydneysymphony.com/events/symphonic-fantastic-2
+ 027\nListing source: Sydney Symphony Orchestra. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/symphonic-fantastic-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5b701959@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270827T093000Z
+DTEND:20270827T113000Z
+SUMMARY:Spotlight: Xavier de Maistre and the Sydney Symphony - Sydney Symph
+ ony Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.sydneysymphony.com/events/spotlight-xavier-de-
+ maistre-and-the-sydney-symphony-2027\nListing source: Sydney Symphony Orch
+ estra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/spotlight-xavier-de-maistre-and-t
+ he-sydney-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e1ebf045@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270831T090000Z
+DTEND:20270831T110000Z
+SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
+ erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
+CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:af60b48b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270903T090000Z
+DTEND:20270903T110000Z
+SUMMARY:Glière’s Harp Concerto with Xavier de Maistre - Sydney Symphony 
+ Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/glie
+ res-harp-concerto-2027\nListing source: Sydney Symphony Orchestra. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/glieres-harp-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:05ce9c2e@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270904T040000Z
+DTEND:20270904T060000Z
+SUMMARY:Glière’s Harp Concerto with Xavier de Maistre - Sydney Symphony 
+ Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/glie
+ res-harp-concerto-2027\nListing source: Sydney Symphony Orchestra. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/glieres-harp-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:811bdbb2@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270908T090000Z
+DTEND:20270908T110000Z
+SUMMARY:Rachmaninov’s Second Piano Concerto with Behzod Abduraimov - Sydn
+ ey Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rach
+ maninovs-second-piano-concerto-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rachmaninovs-second-piano-concert
+ o-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:96c9511e@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270909T033000Z
+DTEND:20270909T053000Z
+SUMMARY:Rachmaninov’s Second Piano Concerto with Behzod Abduraimov - Sydn
+ ey Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rach
+ maninovs-second-piano-concerto-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rachmaninovs-second-piano-concert
+ o-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:386850bb@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270910T100000Z
+DTEND:20270910T120000Z
+SUMMARY:Rachmaninov’s Second Piano Concerto with Behzod Abduraimov - Sydn
+ ey Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rach
+ maninovs-second-piano-concerto-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rachmaninovs-second-piano-concert
+ o-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:97af1e2e@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270911T000000Z
+DTEND:20270911T020000Z
+SUMMARY:Ready\, Set\, Listen! Beethoven's Fifth Symphony - Sydney Symphony 
+ Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-beethovens-fifth-symphony-2027\nListing source: Sydney Symphony
+  Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-beethovens-fifth
+ -symphony-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1d3b2b49@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270911T013000Z
+DTEND:20270911T033000Z
+SUMMARY:Ready\, Set\, Listen! Beethoven's Fifth Symphony - Sydney Symphony 
+ Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-beethovens-fifth-symphony-2027\nListing source: Sydney Symphony
+  Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-beethovens-fifth
+ -symphony-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:85657c33@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270911T030000Z
+DTEND:20270911T050000Z
+SUMMARY:Ready\, Set\, Listen! Beethoven's Fifth Symphony - Sydney Symphony 
+ Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-beethovens-fifth-symphony-2027\nListing source: Sydney Symphony
+  Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-beethovens-fifth
+ -symphony-2027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8afc0eb1@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270911T100000Z
+DTEND:20270911T120000Z
+SUMMARY:Rachmaninov’s Second Piano Concerto with Behzod Abduraimov - Sydn
+ ey Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/rach
+ maninovs-second-piano-concerto-2027\nListing source: Sydney Symphony Orche
+ stra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/rachmaninovs-second-piano-concert
+ o-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c7b50f26@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270914T090000Z
+DTEND:20270914T110000Z
+SUMMARY:Listen to This: Discover Elgar - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/list
+ en-to-this-discover-elgar-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/listen-to-this-discover-elgar-202
+ 7
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:340324e0@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270917T010000Z
+DTEND:20270917T030000Z
+SUMMARY:Infernal Dances with Kirill Gerstein - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/infe
+ rnal-dances-2027\nListing source: Sydney Symphony Orchestra. Times and ava
+ ilability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/infernal-dances-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3bfb662d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270918T090000Z
+DTEND:20270918T110000Z
+SUMMARY:Infernal Dances with Kirill Gerstein - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/infe
+ rnal-dances-2027\nListing source: Sydney Symphony Orchestra. Times and ava
+ ilability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/infernal-dances-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2105b96f@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270919T040000Z
+DTEND:20270919T060000Z
+SUMMARY:Infernal Dances with Kirill Gerstein - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/infe
+ rnal-dances-2027\nListing source: Sydney Symphony Orchestra. Times and ava
+ ilability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/infernal-dances-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:61d0f152@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270920T090000Z
+DTEND:20270920T110000Z
+SUMMARY:Kirill Gerstein in Recital - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/kiri
+ ll-gerstein-in-recital-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/kirill-gerstein-in-recital-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a27cf174@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270922T090000Z
+DTEND:20270922T110000Z
+SUMMARY:Star Wars: Return of the Jedi in Concert - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
+ -wars-return-of-the-jedi-in-concert-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/star-wars-return-of-the-jedi-in-c
+ oncert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d6c0c484@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270923T090000Z
+DTEND:20270923T110000Z
+SUMMARY:Star Wars: Return of the Jedi in Concert - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
+ -wars-return-of-the-jedi-in-concert-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/star-wars-return-of-the-jedi-in-c
+ oncert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a92ea0b7@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270924T090000Z
+DTEND:20270924T110000Z
+SUMMARY:Star Wars: Return of the Jedi in Concert - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
+ -wars-return-of-the-jedi-in-concert-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/star-wars-return-of-the-jedi-in-c
+ oncert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:042e5986@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270925T040000Z
+DTEND:20270925T060000Z
+SUMMARY:Star Wars: Return of the Jedi in Concert - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
+ -wars-return-of-the-jedi-in-concert-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/star-wars-return-of-the-jedi-in-c
+ oncert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:30c1578d@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20270925T090000Z
+DTEND:20270925T110000Z
+SUMMARY:Star Wars: Return of the Jedi in Concert - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
+ -wars-return-of-the-jedi-in-concert-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/star-wars-return-of-the-jedi-in-c
+ oncert-2027
+CATEGORIES:film
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2306,6 +4599,417 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:aa581aa4@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271001T060000Z
+DTEND:20271001T080000Z
+SUMMARY:Playerlink - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
+ erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:35f775bb@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271005T080000Z
+DTEND:20271005T100000Z
+SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
+ erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
+CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6b4443cb@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271007T080000Z
+DTEND:20271007T100000Z
+SUMMARY:Donald Runnicles conducts Ravel & Turley - Sydney Symphony Orchestr
+ a
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-ravel-and-turley-2027\nListing source: Sydney Sympho
+ ny Orchestra. Times and availability change - always confirm with the venu
+ e.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-ravel-a
+ nd-turley-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d7b904e5@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271008T080000Z
+DTEND:20271008T100000Z
+SUMMARY:Andrea Lam performs Mozart - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/andr
+ ea-lam-performs-mozart-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/andrea-lam-performs-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6da93363@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271009T030000Z
+DTEND:20271009T050000Z
+SUMMARY:Andrea Lam performs Mozart - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/andr
+ ea-lam-performs-mozart-2027\nListing source: Sydney Symphony Orchestra. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/andrea-lam-performs-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fa1d1c30@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271013T080000Z
+DTEND:20271013T100000Z
+SUMMARY:Donald Runnicles conducts Brahms & Mozart - Sydney Symphony Orchest
+ ra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-brahms-and-mozart-2027\nListing source: Sydney Symph
+ ony Orchestra. Times and availability change - always confirm with the ven
+ ue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-brahms-
+ and-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e53ad2a0@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271014T023000Z
+DTEND:20271014T043000Z
+SUMMARY:Donald Runnicles conducts Brahms & Mozart - Sydney Symphony Orchest
+ ra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-brahms-and-mozart-2027\nListing source: Sydney Symph
+ ony Orchestra. Times and availability change - always confirm with the ven
+ ue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-brahms-
+ and-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:70b614da@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271015T090000Z
+DTEND:20271015T110000Z
+SUMMARY:Donald Runnicles conducts Brahms & Mozart - Sydney Symphony Orchest
+ ra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-brahms-and-mozart-2027\nListing source: Sydney Symph
+ ony Orchestra. Times and availability change - always confirm with the ven
+ ue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-brahms-
+ and-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4df3226b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271016T090000Z
+DTEND:20271016T110000Z
+SUMMARY:Donald Runnicles conducts Brahms & Mozart - Sydney Symphony Orchest
+ ra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/dona
+ ld-runnicles-conducts-brahms-and-mozart-2027\nListing source: Sydney Symph
+ ony Orchestra. Times and availability change - always confirm with the ven
+ ue.
+URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-brahms-
+ and-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:daf714ee@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271021T070000Z
+DTEND:20271021T090000Z
+SUMMARY:Cocktail Hour with Alexandre Oguey - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-alexandre-oguey-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandre-ogue
+ y-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:38975310@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271021T080000Z
+DTEND:20271021T100000Z
+SUMMARY:Colourful Characters - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/colourful-characte
+ rs-2027\nListing source: Sydney Symphony Orchestra. Times and availability
+  change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/colourful-characters-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:71bff1b6@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271021T080000Z
+DTEND:20271021T100000Z
+SUMMARY:Spotlight: Percussionists of the Sydney Symphony - Sydney Symphony 
+ Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.sydneysymphony.com/events/spotlight-percussion
+ ists-of-the-sydney-symphony-2027\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/spotlight-percussionists-of-the-s
+ ydney-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:79a96795@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271022T070000Z
+DTEND:20271022T090000Z
+SUMMARY:Cocktail Hour with Alexandre Oguey - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-alexandre-oguey-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandre-ogue
+ y-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f6bf2540@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271022T080000Z
+DTEND:20271022T100000Z
+SUMMARY:Colourful Characters - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/colourful-characte
+ rs-2027\nListing source: Sydney Symphony Orchestra. Times and availability
+  change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/colourful-characters-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dc30dcdf@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271023T030000Z
+DTEND:20271023T050000Z
+SUMMARY:Colourful Characters - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/colourful-characte
+ rs-2027\nListing source: Sydney Symphony Orchestra. Times and availability
+  change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/colourful-characters-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4905f9fd@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271023T070000Z
+DTEND:20271023T090000Z
+SUMMARY:Cocktail Hour with Alexandre Oguey - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-alexandre-oguey-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandre-ogue
+ y-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ae60d25c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271029T000000Z
+DTEND:20271029T020000Z
+SUMMARY:Mozart & Strauss - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/moza
+ rt-and-strauss-2027\nListing source: Sydney Symphony Orchestra. Times and 
+ availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/mozart-and-strauss-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3fcc5533@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271030T080000Z
+DTEND:20271030T100000Z
+SUMMARY:Mozart & Strauss - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/moza
+ rt-and-strauss-2027\nListing source: Sydney Symphony Orchestra. Times and 
+ availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/mozart-and-strauss-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ff816efa@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271031T030000Z
+DTEND:20271031T050000Z
+SUMMARY:Mozart & Strauss - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/moza
+ rt-and-strauss-2027\nListing source: Sydney Symphony Orchestra. Times and 
+ availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/mozart-and-strauss-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a479f602@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271101T080000Z
+DTEND:20271101T100000Z
+SUMMARY:Pierre-Laurent Aimard in Recital - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/pier
+ re-laurent-aimard-in-recital-2027\nListing source: Sydney Symphony Orchest
+ ra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/pierre-laurent-aimard-in-recital-
+ 2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4091ff54@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271104T080000Z
+DTEND:20271104T100000Z
+SUMMARY:Simone Young & Pierre-Laurent Aimard - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-pierre-laurent-aimard-2027\nListing source: Sydney Symphony O
+ rchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-pierre-laurent-a
+ imard-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc29dd3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271105T080000Z
+DTEND:20271105T100000Z
+SUMMARY:Simone Young & Pierre-Laurent Aimard - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-pierre-laurent-aimard-2027\nListing source: Sydney Symphony O
+ rchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-pierre-laurent-a
+ imard-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2d3cb04c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271106T030000Z
+DTEND:20271106T050000Z
+SUMMARY:Simone Young & Pierre-Laurent Aimard - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-pierre-laurent-aimard-2027\nListing source: Sydney Symphony O
+ rchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-pierre-laurent-a
+ imard-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:f62dd1b7@matinee-finder
 DTSTAMP:20260809T192129Z
 DTSTART:20271106T080000Z
@@ -2335,6 +5039,387 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
  ility change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-car
  mina-burana/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bcefd3b9@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271112T080000Z
+DTEND:20271112T100000Z
+SUMMARY:Simone Young conducts Salome - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-salome-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-salome-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:106de4db@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271113T080000Z
+DTEND:20271113T100000Z
+SUMMARY:Simone Young conducts Salome - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-conducts-salome-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-conducts-salome-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d150afab@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271116T080000Z
+DTEND:20271116T100000Z
+SUMMARY:Masterclass with James Ehnes - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
+ erclass-with-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/masterclass-with-james-ehnes-2027
+CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:24ef2c4c@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271116T080000Z
+DTEND:20271116T100000Z
+SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
+ erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
+CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:92a942a0@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271117T080000Z
+DTEND:20271117T100000Z
+SUMMARY:Simone Young & James Ehnes - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-james-ehnes-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cf472f67@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271118T023000Z
+DTEND:20271118T043000Z
+SUMMARY:Simone Young & James Ehnes - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-james-ehnes-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a799fc08@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271119T090000Z
+DTEND:20271119T110000Z
+SUMMARY:Simone Young & James Ehnes - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-james-ehnes-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6b4d0a36@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271119T230000Z
+DTEND:20271120T010000Z
+SUMMARY:Ready\, Set\, Listen! The Nutcracker - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-the-nutcracker-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-the-nutcracker-2
+ 027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:54a7664f@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271120T003000Z
+DTEND:20271120T023000Z
+SUMMARY:Ready\, Set\, Listen! The Nutcracker - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-the-nutcracker-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-the-nutcracker-2
+ 027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:60f7e934@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271120T020000Z
+DTEND:20271120T040000Z
+SUMMARY:Ready\, Set\, Listen! The Nutcracker - Sydney Symphony Orchestra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/ready-
+ set-listen-the-nutcracker-2027\nListing source: Sydney Symphony Orchestra.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/ready-set-listen-the-nutcracker-2
+ 027
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a4acdfc3@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271120T090000Z
+DTEND:20271120T110000Z
+SUMMARY:Simone Young & James Ehnes - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/simo
+ ne-young-and-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
+ Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/simone-young-and-james-ehnes-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d449f215@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271124T080000Z
+DTEND:20271124T100000Z
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert - Sydney Symp
+ hony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/harr
+ y-potter-and-the-chamber-of-secrets-in-concert-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
+ ecrets-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9e2f01fb@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271125T070000Z
+DTEND:20271125T090000Z
+SUMMARY:Cocktail Hour with First Nations Composers - Sydney Symphony Orches
+ tra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-first-nations-composers-2027\nListing source: Sydney Symphony
+  Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-first-nations-
+ composers-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ee835df8@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271125T080000Z
+DTEND:20271125T100000Z
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert - Sydney Symp
+ hony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/harr
+ y-potter-and-the-chamber-of-secrets-in-concert-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
+ ecrets-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:82abf726@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271126T070000Z
+DTEND:20271126T090000Z
+SUMMARY:Cocktail Hour with First Nations Composers - Sydney Symphony Orches
+ tra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-first-nations-composers-2027\nListing source: Sydney Symphony
+  Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-first-nations-
+ composers-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2b8a3741@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271126T080000Z
+DTEND:20271126T100000Z
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert - Sydney Symp
+ hony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/harr
+ y-potter-and-the-chamber-of-secrets-in-concert-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
+ ecrets-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9c3a725a@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271127T030000Z
+DTEND:20271127T050000Z
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert - Sydney Symp
+ hony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/harr
+ y-potter-and-the-chamber-of-secrets-in-concert-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
+ ecrets-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b5cdf336@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271127T070000Z
+DTEND:20271127T090000Z
+SUMMARY:Cocktail Hour with First Nations Composers - Sydney Symphony Orches
+ tra
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
+ se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
+ il-hour-with-first-nations-composers-2027\nListing source: Sydney Symphony
+  Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/cocktail-hour-with-first-nations-
+ composers-2027
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9cc297aa@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271127T080000Z
+DTEND:20271127T100000Z
+SUMMARY:Harry Potter and the Chamber of Secrets™ in Concert - Sydney Symp
+ hony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/harr
+ y-potter-and-the-chamber-of-secrets-in-concert-2027\nListing source: Sydne
+ y Symphony Orchestra. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
+ ecrets-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:783b5137@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271202T080000Z
+DTEND:20271202T100000Z
+SUMMARY:Christmas Spectacular in Western Sydney - Sydney Symphony Orchestra
+LOCATION:Coliseum Theatre\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Coliseum Theatre\nConfirm det
+ ails and book: https://www.sydneysymphony.com/events/christmas-spectacular
+ -in-western-sydney-2027\nListing source: Sydney Symphony Orchestra. Times 
+ and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/christmas-spectacular-in-western-
+ sydney-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:46bcf03b@matinee-finder
+DTSTAMP:20260819T190746Z
+DTSTART:20271212T003000Z
+DTEND:20271212T023000Z
+SUMMARY:A Classical Christmas - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/a-cl
+ assical-christmas-2027\nListing source: Sydney Symphony Orchestra. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/a-classical-christmas-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
