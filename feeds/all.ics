@@ -8,24 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:afe24828@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260820T100000Z
-DTEND:20260820T120000Z
-SUMMARY:AWO: Stravinsky\, Mills & Shostakovich
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
- onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
- awo-stravinsky-mills-shostakovich\nListing source: Sydney Opera House. Tim
- es and availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/awo-stravinsky-mills-s
- hostakovich
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:d7f2bcef@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260821T010000Z
