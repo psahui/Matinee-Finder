@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-08-21T05:20:05",
- "generated_date": "2026-08-21",
+ "generated_at": "2026-08-22T05:13:34",
+ "generated_date": "2026-08-22",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 348,
-  "public": 318,
-  "matinee": 137,
-  "public_matinee": 107,
+  "total": 346,
+  "public": 316,
+  "matinee": 136,
+  "public_matinee": 106,
   "tba": 2,
   "needs_review": 0,
   "stale": 0
@@ -185,16 +185,16 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 285,
-   "previous_count": 315,
-   "last_success": "2026-08-21T05:18:36",
+   "previous_count": 285,
+   "last_success": "2026-08-22T05:13:34",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 34,
-   "previous_count": 35,
-   "last_success": "2026-08-21T05:18:57",
+   "previous_count": 34,
+   "last_success": "2026-08-22T05:13:34",
    "message": ""
   },
   {
@@ -202,7 +202,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-21T05:19:01",
+   "last_success": "2026-08-22T05:13:34",
    "message": ""
   },
   {
@@ -210,7 +210,7 @@
    "status": "ok",
    "count": 27,
    "previous_count": 27,
-   "last_success": "2026-08-21T05:19:04",
+   "last_success": "2026-08-22T05:13:34",
    "message": ""
   },
   {
@@ -218,83 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-21T05:20:05",
+   "last_success": "2026-08-22T05:13:34",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "d7f2bcef",
-   "title": "Tchaikovsky’s First Piano Concerto",
-   "raw_title": "Tchaikovsky’s First Piano Concerto",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/tchaikovskys-first-piano-concerto",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-08-21",
-   "time": "11:00",
-   "start_utc": "20260821T010000Z",
-   "time_confirmed": true,
-   "sort_key": 202608211100,
-   "date_string": "Friday, 21 August 2026",
-   "time_string": "11:00 AM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "morning",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
-  {
-   "id": "f1f68040",
-   "title": "Ensemble Q play Bartók & Brahms",
-   "raw_title": "Ensemble Q play Bartók & Brahms",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/classical-music/ensemble-q-play-bartok-brahms",
-   "source": "Sydney Opera House",
-   "date": "2026-08-21",
-   "time": "19:00",
-   "start_utc": "20260821T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202608211900,
-   "date_string": "Friday, 21 August 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "170152f0",
    "title": "Tchaikovsky’s First Piano Concerto",

@@ -8,23 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:d7f2bcef@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260821T010000Z
-DTEND:20260821T030000Z
-SUMMARY:Tchaikovsky’s First Piano Concerto - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/tcha
- ikovskys-first-piano-concerto\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/tchaikovskys-first-piano-concerto
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:e6928e61@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260823T040000Z
