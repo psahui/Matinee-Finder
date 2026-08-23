@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-08-23T05:06:03",
- "generated_date": "2026-08-23",
+ "generated_at": "2026-08-24T05:03:02",
+ "generated_date": "2026-08-24",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 344,
-  "public": 314,
-  "matinee": 136,
-  "public_matinee": 106,
+  "total": 342,
+  "public": 312,
+  "matinee": 134,
+  "public_matinee": 104,
   "tba": 2,
   "needs_review": 0,
   "stale": 0
@@ -185,16 +185,16 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 284,
-   "previous_count": 285,
-   "last_success": "2026-08-23T05:03:22",
+   "previous_count": 284,
+   "last_success": "2026-08-24T05:02:59",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 33,
-   "previous_count": 34,
-   "last_success": "2026-08-23T05:05:09",
+   "previous_count": 33,
+   "last_success": "2026-08-24T05:03:02",
    "message": ""
   },
   {
@@ -202,7 +202,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-23T05:05:23",
+   "last_success": "2026-08-24T05:03:02",
    "message": ""
   },
   {
@@ -210,7 +210,7 @@
    "status": "ok",
    "count": 27,
    "previous_count": 27,
-   "last_success": "2026-08-23T05:05:59",
+   "last_success": "2026-08-24T05:03:02",
    "message": ""
   },
   {
@@ -218,83 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-23T05:06:03",
+   "last_success": "2026-08-24T05:03:02",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "e6928e61",
-   "title": "Tchaikovsky’s First Piano Concerto",
-   "raw_title": "Tchaikovsky’s First Piano Concerto",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/tchaikovskys-first-piano-concerto",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-08-23",
-   "time": "14:00",
-   "start_utc": "20260823T040000Z",
-   "time_confirmed": true,
-   "sort_key": 202608231400,
-   "date_string": "Sunday, 23 August 2026",
-   "time_string": "2:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
-  {
-   "id": "cce30460",
-   "title": "Liam Byrne & Laura Vaughan",
-   "raw_title": "Liam Byrne & Laura Vaughan",
-   "performer": "Utzon Music",
-   "performer_group": "Other / various",
-   "programme": "Utzon Music",
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/utzon-music/liam-byrne-laura-vaughan",
-   "source": "Sydney Opera House",
-   "date": "2026-08-23",
-   "time": "15:00",
-   "start_utc": "20260823T050000Z",
-   "time_confirmed": true,
-   "sort_key": 202608231500,
-   "date_string": "Sunday, 23 August 2026",
-   "time_string": "3:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "acc4b951",
    "title": "Sydney Mozart Society – Flinders Quartet",
