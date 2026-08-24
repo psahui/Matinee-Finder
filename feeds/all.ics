@@ -2264,23 +2264,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:6f736344@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20270224T080000Z
-DTEND:20270224T100000Z
-SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:0b284319@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270225T023000Z
@@ -2608,24 +2591,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/cocktail-hour-with-louisic-dulbec
  co-2027
 CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:bd8f8eae@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20270402T080000Z
-DTEND:20270402T100000Z
-SUMMARY:Spotlight: Alexander Gavrylyuk and the Sydney Symphony - Sydney Sym
- phony Orchestra
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
- tails and book: https://www.sydneysymphony.com/events/spotlight-alexander-
- gavrylyuk-and-the-sydney-symphony-2027\nListing source: Sydney Symphony Or
- chestra. Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/spotlight-alexander-gavrylyuk-and
- -the-sydney-symphony-2027
-CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4076,41 +4041,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:5b701959@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20270827T093000Z
-DTEND:20270827T113000Z
-SUMMARY:Spotlight: Xavier de Maistre and the Sydney Symphony - Sydney Symph
- ony Orchestra
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
- tails and book: https://www.sydneysymphony.com/events/spotlight-xavier-de-
- maistre-and-the-sydney-symphony-2027\nListing source: Sydney Symphony Orch
- estra. Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/spotlight-xavier-de-maistre-and-t
- he-sydney-symphony-2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:e1ebf045@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20270831T090000Z
-DTEND:20270831T110000Z
-SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:af60b48b@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270903T090000Z
@@ -4733,38 +4663,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:f6bf2540@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20271022T080000Z
-DTEND:20271022T100000Z
-SUMMARY:Colourful Characters - Sydney Symphony Orchestra
-LOCATION:St James’ King St\, Sydney\, NSW
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
- details and book: https://www.sydneysymphony.com/events/colourful-characte
- rs-2027\nListing source: Sydney Symphony Orchestra. Times and availability
-  change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/colourful-characters-2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:dc30dcdf@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20271023T030000Z
-DTEND:20271023T050000Z
-SUMMARY:Colourful Characters - Sydney Symphony Orchestra
-LOCATION:St James’ King St\, Sydney\, NSW
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
- details and book: https://www.sydneysymphony.com/events/colourful-characte
- rs-2027\nListing source: Sydney Symphony Orchestra. Times and availability
-  change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/colourful-characters-2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:4905f9fd@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20271023T070000Z
@@ -4986,23 +4884,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  erclass-with-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/masterclass-with-james-ehnes-2027
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:24ef2c4c@matinee-finder
-DTSTAMP:20260819T190746Z
-DTSTART:20271116T080000Z
-DTEND:20271116T100000Z
-SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
 CATEGORIES:masterclass
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
