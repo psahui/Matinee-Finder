@@ -8,60 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:16690674@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260828T080000Z
-DTEND:20260828T100000Z
-SUMMARY:Cocktail Hour with Brent Grapes - Sydney Symphony Orchestra
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
- se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
- il-hour-with-brent-grapes\nListing source: Sydney Symphony Orchestra. Time
- s and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/cocktail-hour-with-brent-grapes
-CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:b3ca64ca@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260828T090000Z
-DTEND:20260828T110000Z
-SUMMARY:Sing with the Sydney Symphony - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/sing
- -with-the-sydney-symphony\nListing source: Sydney Symphony Orchestra. Time
- s and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/sing-with-the-sydney-symphony
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:e1bfa437@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260828T090000Z
-DTEND:20260828T110000Z
-SUMMARY:The Cat Empire with the Sydney Symphony Orchestra - Sydney Symphony
-  Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/the-
- cat-empire-with-the-sydney-symphony-orchestra\nListing source: Sydney Symp
- hony Orchestra. Times and availability change - always confirm with the ve
- nue.
-URL:https://www.sydneysymphony.com/events/the-cat-empire-with-the-sydney-sy
- mphony-orchestra
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:7c432bc7@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260829T070000Z
