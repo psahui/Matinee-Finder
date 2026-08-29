@@ -1207,6 +1207,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:dc30dcdf@matinee-finder
+DTSTAMP:20260829T211637Z
+DTSTART:20271023T030000Z
+DTEND:20271023T050000Z
+SUMMARY:Colourful Characters - Sydney Symphony Orchestra
+LOCATION:St James’ King St\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
+ details and book: https://www.sydneysymphony.com/events/colourful-characte
+ rs-2027\nListing source: Sydney Symphony Orchestra. Times and availability
+  change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/colourful-characters-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ff816efa@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20271031T030000Z
