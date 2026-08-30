@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-08-30T07:16:37",
- "generated_date": "2026-08-30",
+ "generated_at": "2026-08-31T07:35:06",
+ "generated_date": "2026-08-31",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 333,
-  "public": 303,
-  "matinee": 135,
-  "public_matinee": 105,
+  "total": 332,
+  "public": 302,
+  "matinee": 134,
+  "public_matinee": 104,
   "tba": 2,
   "needs_review": 0,
   "stale": 0
@@ -184,9 +184,9 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 282,
-   "previous_count": 272,
-   "last_success": "2026-08-30T07:14:13",
+   "count": 273,
+   "previous_count": 282,
+   "last_success": "2026-08-31T07:34:32",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 33,
    "previous_count": 33,
-   "last_success": "2026-08-30T07:15:51",
+   "last_success": "2026-08-31T07:34:55",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-08-30T07:16:05",
+   "last_success": "2026-08-31T07:34:59",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 25,
-   "previous_count": 26,
-   "last_success": "2026-08-30T07:16:34",
+   "count": 24,
+   "previous_count": 25,
+   "last_success": "2026-08-31T07:35:02",
    "message": ""
   },
   {
@@ -218,47 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-08-30T07:16:37",
+   "last_success": "2026-08-31T07:35:06",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "576e6257",
-   "title": "KPO – Spirited Away",
-   "raw_title": "KPO – Spirited Away",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "url": "https://www.theconcourse.com.au/event/kpo-spirited-away/",
-   "source": "The Concourse",
-   "date": "2026-08-30",
-   "time": "15:00",
-   "start_utc": "20260830T050000Z",
-   "time_confirmed": true,
-   "sort_key": 202608301500,
-   "date_string": "Sunday, 30 August 2026",
-   "time_string": "3:00 PM",
-   "month_key": "2026-08",
-   "month_label": "August 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "family"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "7c40ef63",
    "title": "Lucas & Arthur Jussen in Recital",
