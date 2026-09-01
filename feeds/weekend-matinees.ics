@@ -340,11 +340,12 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:fc75a136@matinee-finder
-DTSTAMP:20260825T191807Z
+UID:60f45fba@matinee-finder
+DTSTAMP:20260901T212015Z
 DTSTART:20261101T040000Z
 DTEND:20261101T060000Z
-SUMMARY:Hansori Music\, Sunshine Philharmonic Orchestra
+SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
+ chestra
 LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
 DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
  ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
