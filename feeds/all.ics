@@ -8,23 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:45b07304@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260902T020000Z
-DTEND:20260902T040000Z
-SUMMARY:Live at Lunch – Birdsong\, Sky and Flutes
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/live-at-lunch-birdson
- g-sky-and-flutes/\nListing source: The Concourse. Times and availability c
- hange - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/live-at-lunch-birdsong-sky-and-fl
- utes/
-CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:d2ee9c31@matinee-finder
 DTSTAMP:20260814T193954Z
 DTSTART:20260903T080000Z
@@ -3249,10 +3232,10 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:84994518@matinee-finder
-DTSTAMP:20260831T230403Z
+DTSTAMP:20260902T211803Z
 DTSTART:20270711T070000Z
 DTEND:20270711T090000Z
-SUMMARY:The Choir of King's College
+SUMMARY:The Choir of King’s College
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC

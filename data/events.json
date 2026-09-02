@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-09-02T07:20:15",
- "generated_date": "2026-09-02",
+ "generated_at": "2026-09-03T07:18:03",
+ "generated_date": "2026-09-03",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 324,
-  "public": 294,
-  "matinee": 132,
-  "public_matinee": 102,
+  "total": 323,
+  "public": 293,
+  "matinee": 131,
+  "public_matinee": 101,
   "tba": 2,
   "needs_review": 0,
   "stale": 0
@@ -184,9 +184,9 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 266,
+   "count": 265,
    "previous_count": 266,
-   "last_success": "2026-09-02T07:20:13",
+   "last_success": "2026-09-03T07:17:32",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 33,
    "previous_count": 33,
-   "last_success": "2026-09-02T07:20:13",
+   "last_success": "2026-09-03T07:17:50",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-02T07:20:13",
+   "last_success": "2026-09-03T07:17:54",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 24,
+   "count": 23,
    "previous_count": 24,
-   "last_success": "2026-09-02T07:20:15",
+   "last_success": "2026-09-03T07:18:00",
    "message": ""
   },
   {
@@ -218,47 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-02T07:20:15",
+   "last_success": "2026-09-03T07:18:03",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "45b07304",
-   "title": "Live at Lunch – Birdsong, Sky and Flutes",
-   "raw_title": "Live at Lunch – Birdsong, Sky and Flutes",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "url": "https://www.theconcourse.com.au/event/live-at-lunch-birdsong-sky-and-flutes/",
-   "source": "The Concourse",
-   "date": "2026-09-02",
-   "time": "12:00",
-   "start_utc": "20260902T020000Z",
-   "time_confirmed": true,
-   "sort_key": 202609021200,
-   "date_string": "Wednesday, 02 September 2026",
-   "time_string": "12:00 PM",
-   "month_key": "2026-09",
-   "month_label": "September 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "short_format"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "d2ee9c31",
    "title": "Chatswood PS Performing Arts Showcase",
@@ -7677,8 +7641,8 @@
   },
   {
    "id": "84994518",
-   "title": "The Choir of King's College",
-   "raw_title": "The Choir of King's College",
+   "title": "The Choir of King’s College",
+   "raw_title": "The Choir of King’s College",
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
@@ -7708,7 +7672,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-01T09:04:03",
+   "last_changed": "2026-09-03T07:18:03",
    "first_seen": "2026-09-01T09:04:03"
   },
   {
