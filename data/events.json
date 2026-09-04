@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-09-04T07:20:59",
- "generated_date": "2026-09-04",
+ "generated_at": "2026-09-05T07:03:50",
+ "generated_date": "2026-09-05",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 320,
-  "public": 290,
+  "total": 319,
+  "public": 289,
   "matinee": 131,
   "public_matinee": 101,
   "tba": 2,
@@ -186,7 +186,7 @@
    "status": "ok",
    "count": 265,
    "previous_count": 265,
-   "last_success": "2026-09-04T07:20:29",
+   "last_success": "2026-09-05T07:02:44",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 33,
    "previous_count": 33,
-   "last_success": "2026-09-04T07:20:49",
+   "last_success": "2026-09-05T07:02:44",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-04T07:20:53",
+   "last_success": "2026-09-05T07:02:47",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 21,
-   "previous_count": 23,
-   "last_success": "2026-09-04T07:20:56",
+   "previous_count": 21,
+   "last_success": "2026-09-05T07:02:47",
    "message": ""
   },
   {
@@ -218,47 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-04T07:20:59",
+   "last_success": "2026-09-05T07:03:50",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "b6e30afe",
-   "title": "Lucas & Arthur Jussen perform Poulenc",
-   "raw_title": "Lucas & Arthur Jussen perform Poulenc",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/lucas-and-arthur-jussen-perform-poulenc",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-09-04",
-   "time": "19:00",
-   "start_utc": "20260904T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202609041900,
-   "date_string": "Friday, 04 September 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-09",
-   "month_label": "September 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "7df39bb4",
    "title": "Lucas & Arthur Jussen perform Poulenc",
