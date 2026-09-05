@@ -8,41 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:7df39bb4@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260905T040000Z
-DTEND:20260905T060000Z
-SUMMARY:Lucas & Arthur Jussen perform Poulenc - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/luca
- s-and-arthur-jussen-perform-poulenc\nListing source: Sydney Symphony Orche
- stra. Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/lucas-and-arthur-jussen-perform-p
- oulenc
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:b9b5a4c9@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260905T043000Z
-DTEND:20260905T063000Z
-SUMMARY:Hwa Sheng Choir- 50Th Anniversary Concert
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/hwa-sheng-choir-50th-
- anniversary-concert/\nListing source: The Concourse. Times and availabilit
- y change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/hwa-sheng-choir-50th-anniversary-
- concert/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:9be6fe7f@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260906T050000Z
@@ -1950,23 +1915,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:6f736344@matinee-finder
-DTSTAMP:20260829T211637Z
-DTSTART:20270224T080000Z
-DTEND:20270224T100000Z
-SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:0b284319@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270225T023000Z
@@ -3761,23 +3709,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:e1ebf045@matinee-finder
-DTSTAMP:20260829T211637Z
-DTSTART:20270831T090000Z
-DTEND:20270831T110000Z
-SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:af60b48b@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270903T090000Z
@@ -4621,23 +4552,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  erclass-with-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/masterclass-with-james-ehnes-2027
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:24ef2c4c@matinee-finder
-DTSTAMP:20260829T211637Z
-DTSTART:20271116T080000Z
-DTEND:20271116T100000Z
-SUMMARY:Masterclass with Sasha Cooke - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-sasha-cooke-2027\nListing source: Sydney Symphony Orchestra. 
- Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-sasha-cooke-2027
 CATEGORIES:masterclass
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
