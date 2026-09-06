@@ -8,40 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:9be6fe7f@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260906T050000Z
-DTEND:20260906T070000Z
-SUMMARY:Thomas Dunford
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/thomas-dunfor
- d\nListing source: Sydney Opera House. Times and availability change - alw
- ays confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/thomas-dunford
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:d021f020@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260906T070000Z
-DTEND:20260906T090000Z
-SUMMARY:ROMCA: Anniversary X
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
- onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
- romca-anniversary-x\nListing source: Sydney Opera House. Times and availab
- ility change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/romca-anniversary-x
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:2f290dd7@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260907T090000Z
