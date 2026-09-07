@@ -271,6 +271,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:87d9a3b7@matinee-finder
+DTSTAMP:20260907T214814Z
+DTSTART:20261101T023000Z
+DTEND:20261101T043000Z
+SUMMARY:Suzuki 48th Annual Graduation Concert
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
+ onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
+ suzuki-48th-annual-graduation-concert\nListing source: Sydney Opera House.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/suzuki-48th-annual-gra
+ duation-concert
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:11479266@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261101T040000Z

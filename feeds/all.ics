@@ -8,24 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:2f290dd7@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260907T090000Z
-DTEND:20260907T110000Z
-SUMMARY:Open Rehearsal with Stephen Layton - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/open
- -rehearsal-with-stephen-layton\nListing source: Sydney Symphony Orchestra.
-  Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/open-rehearsal-with-stephen-layto
- n
-CATEGORIES:open_rehearsal
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:a9353d7b@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260909T100000Z
@@ -600,6 +582,23 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:bc97be03@matinee-finder
+DTSTAMP:20260907T214814Z
+DTSTART:20261013T090000Z
+DTEND:20261013T110000Z
+SUMMARY:Sydney Mozart Society – Selby & Friends
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/sydney-mozart-society
+ -selby-friends/\nListing source: The Concourse. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/sydney-mozart-society-selby-frien
+ ds/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:b6c40faf@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261014T090000Z
@@ -1050,6 +1049,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  a. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/mendelssohns-elijah-with-bryn-ter
  fel
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:87d9a3b7@matinee-finder
+DTSTAMP:20260907T214814Z
+DTSTART:20261101T023000Z
+DTEND:20261101T043000Z
+SUMMARY:Suzuki 48th Annual Graduation Concert
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
+ onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
+ suzuki-48th-annual-graduation-concert\nListing source: Sydney Opera House.
+  Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/suzuki-48th-annual-gra
+ duation-concert
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
