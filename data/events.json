@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-09-08T07:48:14",
- "generated_date": "2026-09-08",
+ "generated_at": "2026-09-09T07:26:18",
+ "generated_date": "2026-09-09",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 313,
@@ -186,15 +186,15 @@
    "status": "ok",
    "count": 259,
    "previous_count": 259,
-   "last_success": "2026-09-08T07:46:38",
+   "last_success": "2026-09-09T07:25:28",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 32,
-   "previous_count": 31,
-   "last_success": "2026-09-08T07:47:00",
+   "previous_count": 32,
+   "last_success": "2026-09-09T07:25:31",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-08T07:47:05",
+   "last_success": "2026-09-09T07:25:54",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 21,
-   "previous_count": 20,
-   "last_success": "2026-09-08T07:47:10",
+   "previous_count": 21,
+   "last_success": "2026-09-09T07:26:18",
    "message": ""
   },
   {
@@ -218,7 +218,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-08T07:48:14",
+   "last_success": "2026-09-09T07:26:18",
    "message": ""
   }
  ],
