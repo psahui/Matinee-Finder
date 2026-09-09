@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-09-09T07:26:18",
- "generated_date": "2026-09-09",
+ "generated_at": "2026-09-10T07:11:59",
+ "generated_date": "2026-09-10",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 313,
-  "public": 283,
+  "total": 312,
+  "public": 282,
   "matinee": 129,
   "public_matinee": 99,
   "tba": 2,
@@ -186,7 +186,7 @@
    "status": "ok",
    "count": 259,
    "previous_count": 259,
-   "last_success": "2026-09-09T07:25:28",
+   "last_success": "2026-09-10T07:11:33",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 32,
    "previous_count": 32,
-   "last_success": "2026-09-09T07:25:31",
+   "last_success": "2026-09-10T07:11:49",
    "message": ""
   },
   {
@@ -202,7 +202,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-09T07:25:54",
+   "last_success": "2026-09-10T07:11:53",
    "message": ""
   },
   {
@@ -210,7 +210,7 @@
    "status": "ok",
    "count": 21,
    "previous_count": 21,
-   "last_success": "2026-09-09T07:26:18",
+   "last_success": "2026-09-10T07:11:56",
    "message": ""
   },
   {
@@ -218,47 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-09T07:26:18",
+   "last_success": "2026-09-10T07:11:59",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "a9353d7b",
-   "title": "Mozart’s Requiem with Stephen Layton",
-   "raw_title": "Mozart’s Requiem with Stephen Layton",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/mozarts-requiem-with-stephen-layton",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-09-09",
-   "time": "20:00",
-   "start_utc": "20260909T100000Z",
-   "time_confirmed": true,
-   "sort_key": 202609092000,
-   "date_string": "Wednesday, 09 September 2026",
-   "time_string": "8:00 PM",
-   "month_key": "2026-09",
-   "month_label": "September 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "360b1e1f",
    "title": "Mozart’s Requiem with Stephen Layton",

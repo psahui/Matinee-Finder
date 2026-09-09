@@ -8,24 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:a9353d7b@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260909T100000Z
-DTEND:20260909T120000Z
-SUMMARY:Mozart’s Requiem with Stephen Layton - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/moza
- rts-requiem-with-stephen-layton\nListing source: Sydney Symphony Orchestra
- . Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/mozarts-requiem-with-stephen-layt
- on
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:360b1e1f@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260910T033000Z
