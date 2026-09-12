@@ -8,40 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:50387947@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260912T000000Z
-DTEND:20260912T020000Z
-SUMMARY:Carnival of the Animals - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/carn
- ival-of-the-animals\nListing source: Sydney Symphony Orchestra. Times and 
- availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/carnival-of-the-animals
-CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:df162b1e@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260912T023000Z
-DTEND:20260912T043000Z
-SUMMARY:Carnival of the Animals - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/carn
- ival-of-the-animals\nListing source: Sydney Symphony Orchestra. Times and 
- availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/carnival-of-the-animals
-CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:8166646b@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260918T010000Z
