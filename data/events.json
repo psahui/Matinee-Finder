@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-09-13T06:57:14",
- "generated_date": "2026-09-13",
+ "generated_at": "2026-09-14T07:09:42",
+ "generated_date": "2026-09-14",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 313,
-  "public": 285,
-  "matinee": 128,
-  "public_matinee": 100,
+  "total": 314,
+  "public": 286,
+  "matinee": 129,
+  "public_matinee": 101,
   "tba": 2,
   "needs_review": 0,
   "stale": 0
@@ -184,17 +184,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 259,
+   "count": 251,
    "previous_count": 259,
-   "last_success": "2026-09-13T06:57:14",
+   "last_success": "2026-09-14T07:07:36",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 32,
+   "count": 31,
    "previous_count": 32,
-   "last_success": "2026-09-13T06:57:14",
+   "last_success": "2026-09-14T07:09:09",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-13T06:57:14",
+   "last_success": "2026-09-14T07:09:24",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 29,
+   "count": 30,
    "previous_count": 29,
-   "last_success": "2026-09-13T06:57:14",
+   "last_success": "2026-09-14T07:09:40",
    "message": ""
   },
   {
@@ -218,7 +218,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-13T06:57:14",
+   "last_success": "2026-09-14T07:09:42",
    "message": ""
   }
  ],
@@ -2850,6 +2850,42 @@
    "stale": false,
    "last_changed": "2026-08-07T11:57:59",
    "first_seen": "2026-08-07T11:57:59"
+  },
+  {
+   "id": "60f45fba",
+   "title": "Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Orchestra",
+   "raw_title": "Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Orchestra",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "url": "https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmonic-orchestra/",
+   "source": "The Concourse",
+   "date": "2026-11-01",
+   "time": "15:00",
+   "start_utc": "20261101T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202611011500,
+   "date_string": "Sunday, 01 November 2026",
+   "time_string": "3:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-09-14T07:09:42",
+   "first_seen": "2026-09-14T07:09:42"
   },
   {
    "id": "d31ccdcd",
