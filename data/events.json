@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-09-14T07:09:42",
- "generated_date": "2026-09-14",
+ "generated_at": "2026-09-15T08:04:57",
+ "generated_date": "2026-09-15",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 314,
-  "public": 286,
+  "total": 316,
+  "public": 288,
   "matinee": 129,
   "public_matinee": 101,
   "tba": 2,
@@ -184,17 +184,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 251,
-   "previous_count": 259,
-   "last_success": "2026-09-14T07:07:36",
+   "count": 252,
+   "previous_count": 251,
+   "last_success": "2026-09-15T08:03:18",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 31,
-   "previous_count": 32,
-   "last_success": "2026-09-14T07:09:09",
+   "count": 32,
+   "previous_count": 31,
+   "last_success": "2026-09-15T08:03:44",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-14T07:09:24",
+   "last_success": "2026-09-15T08:03:48",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 30,
-   "previous_count": 29,
-   "last_success": "2026-09-14T07:09:40",
+   "previous_count": 30,
+   "last_success": "2026-09-15T08:03:53",
    "message": ""
   },
   {
@@ -218,7 +218,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-14T07:09:42",
+   "last_success": "2026-09-15T08:04:57",
    "message": ""
   }
  ],
@@ -3716,6 +3716,42 @@
    "first_seen": "2026-08-07T11:57:59"
   },
   {
+   "id": "dd40b65a",
+   "title": "Voices of Angels",
+   "raw_title": "Voices of Angels",
+   "performer": "Sydney Opera House",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "Concert Hall, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.sydneyoperahouse.com/classical-music/voices-angels",
+   "source": "Sydney Opera House",
+   "date": "2026-12-10",
+   "time": "19:00",
+   "start_utc": "20261210T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202612101900,
+   "date_string": "Thursday, 10 December 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-09-15T08:04:57",
+   "first_seen": "2026-09-15T08:04:57"
+  },
+  {
    "id": "4f9de233",
    "title": "Handel’s Messiah",
    "raw_title": "Handel’s Messiah",
@@ -4218,6 +4254,42 @@
    "stale": false,
    "last_changed": "2026-08-20T05:07:46",
    "first_seen": "2026-08-20T05:07:46"
+  },
+  {
+   "id": "e1bd1fa0",
+   "title": "Disney’s Moana Live-to-Film Concert",
+   "raw_title": "Disney’s Moana Live-to-Film Concert",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "venue_name": "TikTok Entertainment Centre",
+   "venue_group": "Other venues",
+   "venue_address": "Sydney, NSW",
+   "region": "sydney",
+   "url": "https://www.sydneysymphony.com/events/moana-2027",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-02-10",
+   "time": "19:00",
+   "start_utc": "20270210T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702101900,
+   "date_string": "Wednesday, 10 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-09-15T08:04:57",
+   "first_seen": "2026-09-15T08:04:57"
   },
   {
    "id": "c7a1dc70",
