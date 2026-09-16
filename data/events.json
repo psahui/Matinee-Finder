@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-09-16T07:46:16",
- "generated_date": "2026-09-16",
+ "generated_at": "2026-09-17T07:44:18",
+ "generated_date": "2026-09-17",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 315,
@@ -184,9 +184,9 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 252,
+   "count": 251,
    "previous_count": 252,
-   "last_success": "2026-09-16T07:45:26",
+   "last_success": "2026-09-17T07:43:49",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 32,
    "previous_count": 32,
-   "last_success": "2026-09-16T07:45:29",
+   "last_success": "2026-09-17T07:44:08",
    "message": ""
   },
   {
@@ -202,7 +202,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-16T07:45:52",
+   "last_success": "2026-09-17T07:44:12",
    "message": ""
   },
   {
@@ -210,7 +210,7 @@
    "status": "ok",
    "count": 30,
    "previous_count": 30,
-   "last_success": "2026-09-16T07:46:16",
+   "last_success": "2026-09-17T07:44:15",
    "message": ""
   },
   {
@@ -218,7 +218,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-16T07:46:16",
+   "last_success": "2026-09-17T07:44:18",
    "message": ""
   }
  ],
@@ -2888,9 +2888,9 @@
    "first_seen": "2026-08-07T11:57:59"
   },
   {
-   "id": "e5c0c2b0",
-   "title": "ABC Young Performers Award Grand Final",
-   "raw_title": "ABC Young Performers Award Grand Final",
+   "id": "d85593cf",
+   "title": "ABC Young Performers Awards Grand Final",
+   "raw_title": "ABC Young Performers Awards Grand Final",
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
@@ -2920,8 +2920,8 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-09-17T07:44:18",
+   "first_seen": "2026-09-17T07:44:18"
   },
   {
    "id": "e742476f",
@@ -7388,9 +7388,9 @@
    "first_seen": "2026-08-20T05:07:46"
   },
   {
-   "id": "84994518",
-   "title": "The Choir of King’s College",
-   "raw_title": "The Choir of King’s College",
+   "id": "a5f64d92",
+   "title": "The Choir of King’s College, Cambridge & William Barton",
+   "raw_title": "The Choir of King’s College, Cambridge & William Barton",
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
@@ -7398,7 +7398,7 @@
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
    "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/classical-music/choir-kings-college",
+   "url": "https://www.sydneyoperahouse.com/classical-music/choir-kings-college-cambridge-william-barton",
    "source": "Sydney Opera House",
    "date": "2027-07-11",
    "time": "17:00",
@@ -7420,8 +7420,8 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-03T07:18:03",
-   "first_seen": "2026-09-01T09:04:03"
+   "last_changed": "2026-09-17T07:44:18",
+   "first_seen": "2026-09-17T07:44:18"
   },
   {
    "id": "50a9472c",

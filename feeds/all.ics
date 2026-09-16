@@ -1128,11 +1128,11 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:e5c0c2b0@matinee-finder
-DTSTAMP:20260807T015759Z
+UID:d85593cf@matinee-finder
+DTSTAMP:20260916T214418Z
 DTSTART:20261103T080000Z
 DTEND:20261103T100000Z
-SUMMARY:ABC Young Performers Award Grand Final - Sydney Symphony Orchestra
+SUMMARY:ABC Young Performers Awards Grand Final - Sydney Symphony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -3129,18 +3129,19 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:84994518@matinee-finder
-DTSTAMP:20260902T211803Z
+UID:a5f64d92@matinee-finder
+DTSTAMP:20260916T214418Z
 DTSTART:20270711T070000Z
 DTEND:20270711T090000Z
-SUMMARY:The Choir of King’s College
+SUMMARY:The Choir of King’s College\, Cambridge & William Barton
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
  onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
- choir-kings-college\nListing source: Sydney Opera House. Times and availab
- ility change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/choir-kings-college
+ choir-kings-college-cambridge-william-barton\nListing source: Sydney Opera
+  House. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/choir-kings-college-ca
+ mbridge-william-barton
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
