@@ -8,22 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:9dab93c1@matinee-finder
-DTSTAMP:20260910T211249Z
-DTSTART:20260917T090000Z
-DTEND:20260917T110000Z
-SUMMARY:Nsswe
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/nsswe/\nListing sourc
- e: The Concourse. Times and availability change - always confirm with the 
- venue.
-URL:https://www.theconcourse.com.au/event/nsswe/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:8166646b@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260918T010000Z
@@ -446,17 +430,17 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bd5339a7@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260917T214618Z
 DTSTART:20261004T040000Z
 DTEND:20261004T060000Z
 SUMMARY:Za Górami
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/za-gorami\nLi
- sting source: Sydney Opera House. Times and availability change - always c
- onfirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/za-gorami
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/za-
+ gorami\nListing source: Sydney Opera House. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/za-gorami
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

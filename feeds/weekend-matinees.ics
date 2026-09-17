@@ -160,17 +160,17 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bd5339a7@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260917T214618Z
 DTSTART:20261004T040000Z
 DTEND:20261004T060000Z
 SUMMARY:Za Górami
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/za-gorami\nLi
- sting source: Sydney Opera House. Times and availability change - always c
- onfirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/za-gorami
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/za-
+ gorami\nListing source: Sydney Opera House. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/za-gorami
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

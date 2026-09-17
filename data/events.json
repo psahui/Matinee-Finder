@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-09-17T07:44:18",
- "generated_date": "2026-09-17",
+ "generated_at": "2026-09-18T07:46:18",
+ "generated_date": "2026-09-18",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 315,
-  "public": 287,
+  "total": 314,
+  "public": 286,
   "matinee": 129,
   "public_matinee": 101,
   "tba": 2,
@@ -185,8 +185,8 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 251,
-   "previous_count": 252,
-   "last_success": "2026-09-17T07:43:49",
+   "previous_count": 251,
+   "last_success": "2026-09-18T07:45:44",
    "message": ""
   },
   {
@@ -194,7 +194,7 @@
    "status": "ok",
    "count": 32,
    "previous_count": 32,
-   "last_success": "2026-09-17T07:44:08",
+   "last_success": "2026-09-18T07:46:01",
    "message": ""
   },
   {
@@ -202,15 +202,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-17T07:44:12",
+   "last_success": "2026-09-18T07:46:05",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 30,
+   "count": 29,
    "previous_count": 30,
-   "last_success": "2026-09-17T07:44:15",
+   "last_success": "2026-09-18T07:46:15",
    "message": ""
   },
   {
@@ -218,47 +218,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-17T07:44:18",
+   "last_success": "2026-09-18T07:46:18",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "9dab93c1",
-   "title": "Nsswe",
-   "raw_title": "Nsswe",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "url": "https://www.theconcourse.com.au/event/nsswe/",
-   "source": "The Concourse",
-   "date": "2026-09-17",
-   "time": "19:00",
-   "start_utc": "20260917T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202609171900,
-   "date_string": "Thursday, 17 September 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-09",
-   "month_label": "September 2026",
-   "weekday": 3,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-09-11T07:12:49",
-   "first_seen": "2026-09-11T07:12:49"
-  },
   {
    "id": "8166646b",
    "title": "Umberto Clerici conducts Dvořák",
@@ -1379,14 +1343,14 @@
    "id": "bd5339a7",
    "title": "Za Górami",
    "raw_title": "Za Górami",
-   "performer": "Utzon Music",
+   "performer": "Utzon Music 2026",
    "performer_group": "Other / various",
-   "programme": "Utzon Music",
+   "programme": null,
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
    "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/utzon-music/za-gorami",
+   "url": "https://www.sydneyoperahouse.com/utzon-music-2026/za-gorami",
    "source": "Sydney Opera House",
    "date": "2026-10-04",
    "time": "15:00",
@@ -1408,7 +1372,7 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
+   "last_changed": "2026-09-18T07:46:18",
    "first_seen": "2026-08-07T11:57:59"
   },
   {
