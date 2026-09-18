@@ -8,23 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:8166646b@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260918T010000Z
-DTEND:20260918T030000Z
-SUMMARY:Umberto Clerici conducts Dvořák - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/umbe
- rto-clerici-conducts-dvorak\nListing source: Sydney Symphony Orchestra. Ti
- mes and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/umberto-clerici-conducts-dvorak
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:d82c82b6@matinee-finder
 DTSTAMP:20260910T211249Z
 DTSTART:20260919T000000Z
