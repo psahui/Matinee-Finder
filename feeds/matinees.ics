@@ -253,24 +253,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:60f45fba@matinee-finder
-DTSTAMP:20260913T210942Z
-DTSTART:20261101T040000Z
-DTEND:20261101T060000Z
-SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
- chestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
- e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
- ic-orchestra/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:e742476f@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261106T000000Z
@@ -284,6 +266,114 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ra. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/simone-young-conducts-mozart-and-
  bach
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bb47757a@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261106T233000Z
+DTEND:20261107T013000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3326a694@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261107T010000Z
+DTEND:20261107T030000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:86542ed4@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261107T023000Z
+DTEND:20261107T043000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:934cb31c@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261107T223000Z
+DTEND:20261108T003000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:37219cc0@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261108T000000Z
+DTEND:20261108T020000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:763b7feb@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261108T020000Z
+DTEND:20261108T040000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -325,6 +415,60 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:65d5e49c@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261108T040000Z
+DTEND:20261108T060000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:af691825@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261114T233000Z
+DTEND:20261115T013000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:563d6d71@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261115T013000Z
+DTEND:20261115T033000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:04dcf341@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261115T030000Z
@@ -339,6 +483,24 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
  venue.
 URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2026-seas
  on/beethovens-pastoral
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:da4b3f7a@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20261115T033000Z
+DTEND:20261115T053000Z
+SUMMARY:48th Suzuki Graduation Piano Recitals
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/48
+ th-suzuki-graduation-piano-recitals\nListing source: Sydney Opera House. T
+ imes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
+ -piano-recitals
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -575,6 +737,23 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:8e8bcb0b@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270207T040000Z
+DTEND:20270207T060000Z
+SUMMARY:Quartet X
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/quartet-x\nLi
+ sting source: Sydney Opera House. Times and availability change - always c
+ onfirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/quartet-x
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:e54cad4c@matinee-finder
 DTSTAMP:20260809T192129Z
 DTSTART:20270221T030000Z
@@ -587,6 +766,23 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
   change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-202
  7-fate/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a12c95e6@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270221T040000Z
+DTEND:20270221T060000Z
+SUMMARY:Filippo Gorini
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/filippo-gorin
+ i\nListing source: Sydney Opera House. Times and availability change - alw
+ ays confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/filippo-gorini
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -713,6 +909,23 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:59b04857@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270314T040000Z
+DTEND:20270314T060000Z
+SUMMARY:The Haar
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/the-haar\nLis
+ ting source: Sydney Opera House. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/the-haar
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:9d29cb03@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270318T023000Z
@@ -760,6 +973,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ra. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/rufus-wainwrights-want-symphonic-
  2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f877b3f2@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270411T050000Z
+DTEND:20270411T070000Z
+SUMMARY:Melisa Yıldırım & Swarupa Ananth
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/melisa-yildir
+ im-swarupa-ananth\nListing source: Sydney Opera House. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/melisa-yildirim-swarupa-an
+ anth
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -836,6 +1067,39 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/ready-set-listen-peter-and-the-wo
  lf-2027
 CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dadb7e25@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270501T040000Z
+DTEND:20270501T060000Z
+SUMMARY:Mark Vincent
+LOCATION:Studio\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2000
+DESCRIPTION:Sydney Opera House\nVenue: Studio\, Sydney Opera House\nConfirm
+  details and book: https://www.sydneyoperahouse.com/classical-music/mark-v
+ incent\nListing source: Sydney Opera House. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/mark-vincent
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5398c6dd@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270502T050000Z
+DTEND:20270502T070000Z
+SUMMARY:Rosin Octet
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/rosin-octet\n
+ Listing source: Sydney Opera House. Times and availability change - always
+  confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/rosin-octet
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -999,6 +1263,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:7efcfd5a@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270620T050000Z
+DTEND:20270620T070000Z
+SUMMARY:Paul Grabowsky & Mindy Meng Wang
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/paul-grabowsk
+ y-mindy-meng-wang\nListing source: Sydney Opera House. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/paul-grabowsky-mindy-meng-
+ wang
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:0dd3ebdd@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270703T040000Z
@@ -1072,6 +1354,23 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:dffe4288@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270725T050000Z
+DTEND:20270725T070000Z
+SUMMARY:Ballaké Sissoko
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/ballake-sisso
+ ko\nListing source: Sydney Opera House. Times and availability change - al
+ ways confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/ballake-sissoko
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:6df256ad@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270730T010000Z
@@ -1118,6 +1417,23 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  vening-on-broadway-2027\nListing source: Sydney Symphony Orchestra. Times 
  and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/an-evening-on-broadway-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9966874b@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270808T050000Z
+DTEND:20270808T070000Z
+SUMMARY:Les Kapsber’girls
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/les-kapsbergi
+ rls\nListing source: Sydney Opera House. Times and availability change - a
+ lways confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/les-kapsbergirls
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1331,6 +1647,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  rnal-dances-2027\nListing source: Sydney Symphony Orchestra. Times and ava
  ilability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/infernal-dances-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:36026b46@matinee-finder
+DTSTAMP:20260921T221809Z
+DTSTART:20270919T050000Z
+DTEND:20270919T070000Z
+SUMMARY:Francesca Dego & Andrea Lam
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/andrea-lam-an
+ d-francesca-dego\nListing source: Sydney Opera House. Times and availabili
+ ty change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/andrea-lam-and-francesca-d
+ ego
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
