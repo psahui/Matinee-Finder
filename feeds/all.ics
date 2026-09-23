@@ -8,40 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:d2ffd270@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260923T083000Z
-DTEND:20260923T103000Z
-SUMMARY:Banksia Concert
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Festival Instrumental Music\nVenue: Concert Hall\, Sydney Opera
-  House\nConfirm details and book: https://www.sydneyoperahouse.com/festiva
- l-instrumental-music/banksia\nListing source: Sydney Opera House. Times an
- d availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/festival-instrumental-music/banksia
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:2a6df0ff@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260924T083000Z
-DTEND:20260924T103000Z
-SUMMARY:Jacaranda Concert
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Festival Instrumental Music\nVenue: Concert Hall\, Sydney Opera
-  House\nConfirm details and book: https://www.sydneyoperahouse.com/festiva
- l-instrumental-music/jacaranda\nListing source: Sydney Opera House. Times 
- and availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/festival-instrumental-music/jacaranda
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:186123fd@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260924T090000Z
@@ -53,23 +19,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
  dney-symphony\nListing source: Sydney Symphony Orchestra. Times and availa
  bility change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/bryce-dessner-the-sydney-symphony
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:5c5d54db@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260925T083000Z
-DTEND:20260925T103000Z
-SUMMARY:Mimosa Concert
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Festival Instrumental Music\nVenue: Concert Hall\, Sydney Opera
-  House\nConfirm details and book: https://www.sydneyoperahouse.com/festiva
- l-instrumental-music/mimosa\nListing source: Sydney Opera House. Times and
-  availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/festival-instrumental-music/mimosa
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -775,34 +724,54 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:11479266@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260923T214913Z
 DTSTART:20261101T040000Z
 DTEND:20261101T060000Z
 SUMMARY:Australian Guitar Quartet
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/australian-gu
- itar-quartet\nListing source: Sydney Opera House. Times and availability c
- hange - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/australian-guitar-quartet
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/aus
+ tralian-guitar-quartet\nListing source: Sydney Opera House. Times and avai
+ lability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/australian-guitar-qua
+ rtet
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:60f45fba@matinee-finder
+DTSTAMP:20260923T214913Z
+DTSTART:20261101T040000Z
+DTEND:20261101T060000Z
+SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
+ chestra
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
+ e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
+ bility change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
+ ic-orchestra/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:d31ccdcd@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260923T214913Z
 DTSTART:20261101T080000Z
 DTEND:20261101T100000Z
 SUMMARY:Australian Guitar Quartet
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/australian-gu
- itar-quartet\nListing source: Sydney Opera House. Times and availability c
- hange - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/australian-guitar-quartet
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/aus
+ tralian-guitar-quartet\nListing source: Sydney Opera House. Times and avai
+ lability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/australian-guitar-qua
+ rtet
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1078,6 +1047,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:bde426da@matinee-finder
+DTSTAMP:20260923T214913Z
+DTSTART:20261113T083000Z
+DTEND:20261113T103000Z
+SUMMARY:James Dekleva in Recital | Tchaikovsky's Nutcracker
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/ja
+ mes-dekleva-recital-tchaikovskys-nutcracker\nListing source: Sydney Opera 
+ House. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/james-dekleva-recital-
+ tchaikovskys-nutcracker
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:af691825@matinee-finder
 DTSTAMP:20260921T221809Z
 DTSTART:20261114T233000Z
@@ -1222,6 +1209,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:d67e25e6@matinee-finder
+DTSTAMP:20260923T214913Z
+DTSTART:20261122T030000Z
+DTEND:20261122T050000Z
+SUMMARY:Willoughby Band presents: Explorers on the Moon
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Willoughby Band presents\nVenue: The Concourse Concert Hall\nCo
+ nfirm details and book: https://www.theconcourse.com.au/event/willoughby-b
+ and/\nListing source: The Concourse. Times and availability change - alway
+ s confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-band/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:a9de52a4@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261127T080000Z
@@ -1258,17 +1261,17 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:cbb24b11@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260923T214913Z
 DTSTART:20261129T040000Z
 DTEND:20261129T060000Z
 SUMMARY:Yasamin Shahhosseini
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/yasamin-shahh
- osseini\nListing source: Sydney Opera House. Times and availability change
-  - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/yasamin-shahhosseini
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/yas
+ amin-shahhosseini\nListing source: Sydney Opera House. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/yasamin-shahhosseini
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

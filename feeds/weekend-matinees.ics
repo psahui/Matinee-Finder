@@ -203,17 +203,36 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:11479266@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260923T214913Z
 DTSTART:20261101T040000Z
 DTEND:20261101T060000Z
 SUMMARY:Australian Guitar Quartet
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/australian-gu
- itar-quartet\nListing source: Sydney Opera House. Times and availability c
- hange - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/australian-guitar-quartet
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/aus
+ tralian-guitar-quartet\nListing source: Sydney Opera House. Times and avai
+ lability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/australian-guitar-qua
+ rtet
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:60f45fba@matinee-finder
+DTSTAMP:20260923T214913Z
+DTSTART:20261101T040000Z
+DTEND:20261101T060000Z
+SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
+ chestra
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
+ e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
+ bility change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
+ ic-orchestra/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -507,6 +526,22 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:d67e25e6@matinee-finder
+DTSTAMP:20260923T214913Z
+DTSTART:20261122T030000Z
+DTEND:20261122T050000Z
+SUMMARY:Willoughby Band presents: Explorers on the Moon
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Willoughby Band presents\nVenue: The Concourse Concert Hall\nCo
+ nfirm details and book: https://www.theconcourse.com.au/event/willoughby-b
+ and/\nListing source: The Concourse. Times and availability change - alway
+ s confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-band/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:9e347d0c@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261128T003000Z
@@ -524,17 +559,17 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:cbb24b11@matinee-finder
-DTSTAMP:20260807T015759Z
+DTSTAMP:20260923T214913Z
 DTSTART:20261129T040000Z
 DTEND:20261129T060000Z
 SUMMARY:Yasamin Shahhosseini
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/yasamin-shahh
- osseini\nListing source: Sydney Opera House. Times and availability change
-  - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/yasamin-shahhosseini
+DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
+ rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/yas
+ amin-shahhosseini\nListing source: Sydney Opera House. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music-2026/yasamin-shahhosseini
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
