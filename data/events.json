@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-09-24T07:49:13",
- "generated_date": "2026-09-24",
+ "generated_at": "2026-09-25T07:49:40",
+ "generated_date": "2026-09-25",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 327,
-  "public": 299,
+  "total": 326,
+  "public": 298,
   "matinee": 141,
   "public_matinee": 113,
   "tba": 10,
@@ -184,16 +184,16 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 247,
-   "previous_count": 248,
-   "last_success": "2026-09-24T07:47:33",
+   "previous_count": 247,
+   "last_success": "2026-09-25T07:49:04",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 49,
-   "previous_count": 52,
-   "last_success": "2026-09-24T07:48:01",
+   "previous_count": 49,
+   "last_success": "2026-09-25T07:49:26",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-09-24T07:48:39",
+   "last_success": "2026-09-25T07:49:31",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 22,
-   "previous_count": 20,
-   "last_success": "2026-09-24T07:49:10",
+   "previous_count": 22,
+   "last_success": "2026-09-25T07:49:37",
    "message": ""
   },
   {
@@ -217,47 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-09-24T07:49:13",
+   "last_success": "2026-09-25T07:49:40",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "186123fd",
-   "title": "Bryce Dessner & the Sydney Symphony",
-   "raw_title": "Bryce Dessner & the Sydney Symphony",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "City Recital Hall",
-   "venue_group": "City Recital Hall",
-   "venue_address": "2 Angel Pl, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/bryce-dessner-the-sydney-symphony",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-09-24",
-   "time": "19:00",
-   "start_utc": "20260924T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202609241900,
-   "date_string": "Thursday, 24 September 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-09",
-   "month_label": "September 2026",
-   "weekday": 3,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "9263f6ab",
    "title": "Bryce Dessner & the Sydney Symphony",

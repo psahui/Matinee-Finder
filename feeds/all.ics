@@ -8,22 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:186123fd@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260924T090000Z
-DTEND:20260924T110000Z
-SUMMARY:Bryce Dessner & the Sydney Symphony - Sydney Symphony Orchestra
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
- tails and book: https://www.sydneysymphony.com/events/bryce-dessner-the-sy
- dney-symphony\nListing source: Sydney Symphony Orchestra. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/bryce-dessner-the-sydney-symphony
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:9263f6ab@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260925T093000Z
