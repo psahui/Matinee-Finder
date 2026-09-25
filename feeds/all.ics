@@ -8,22 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:9263f6ab@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260925T093000Z
-DTEND:20260925T113000Z
-SUMMARY:Bryce Dessner & the Sydney Symphony - Sydney Symphony Orchestra
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
- tails and book: https://www.sydneysymphony.com/events/bryce-dessner-the-sy
- dney-symphony\nListing source: Sydney Symphony Orchestra. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/bryce-dessner-the-sydney-symphony
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:ba95768a@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260927T040000Z
@@ -1228,22 +1212,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:9e347d0c@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20261128T003000Z
-DTEND:20261128T023000Z
-SUMMARY:Forces of Nature - Sydney Symphony Orchestra
-LOCATION:Coliseum Theatre\, Sydney\, NSW
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Coliseum Theatre\nConfirm det
- ails and book: https://www.sydneysymphony.com/events/forces-of-nature\nLis
- ting source: Sydney Symphony Orchestra. Times and availability change - al
- ways confirm with the venue.
-URL:https://www.sydneysymphony.com/events/forces-of-nature
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:cbb24b11@matinee-finder
 DTSTAMP:20260923T214913Z
 DTSTART:20261129T040000Z
@@ -1341,6 +1309,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:00e4248c@matinee-finder
+DTSTAMP:20260925T215130Z
+DTSTART:20261205T050000Z
+DTEND:20261205T070000Z
+SUMMARY:SPAIN: SONG\, PASSION AND FLAMENCO
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/sp
+ ain-song-passion-and-flamenco\nListing source: Sydney Opera House. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/spain-song-passion-and
+ -flamenco
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:940e4575@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261205T080000Z
@@ -1357,6 +1343,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/harry-potter-and-the-philosophers
  -stone-in-concert
 CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:57629898@matinee-finder
+DTSTAMP:20260925T215130Z
+DTSTART:20261205T080000Z
+DTEND:20261205T100000Z
+SUMMARY:SPAIN: SONG\, PASSION AND FLAMENCO
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/sp
+ ain-song-passion-and-flamenco\nListing source: Sydney Opera House. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/spain-song-passion-and
+ -flamenco
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
