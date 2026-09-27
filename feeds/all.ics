@@ -8,41 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:ba95768a@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260927T040000Z
-DTEND:20260927T060000Z
-SUMMARY:Willoughby Symphony Orchestra: Hymn Of Praise - Willoughby Symphony
-  Orchestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
- l\nConfirm details and book: https://www.theconcourse.com.au/event/willoug
- hby-symphony-orchestra-hymn-of-praise/\nListing source: The Concourse. Tim
- es and availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-hym
- n-of-praise/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:4c389d0b@matinee-finder
-DTSTAMP:20260816T190223Z
-DTSTART:20260927T070000Z
-DTEND:20260927T090000Z
-SUMMARY:Mahk Making Spaces
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/ma
- hk-making-spaces\nListing source: Sydney Opera House. Times and availabili
- ty change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/mahk-making-spaces
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:945ce6a4@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20260929T100000Z
