@@ -8,23 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:945ce6a4@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20260929T100000Z
-DTEND:20260929T120000Z
-SUMMARY:Sydney Mozart Society – Sonus Piano Quartet With Simon Tedeschi
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/sydney-mozart-society
- -sonus-piano-quartet-with-simon-tedeschi/\nListing source: The Concourse. 
- Times and availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/sydney-mozart-society-sonus-piano
- -quartet-with-simon-tedeschi/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bd5339a7@matinee-finder
 DTSTAMP:20260917T214618Z
 DTSTART:20261004T040000Z
