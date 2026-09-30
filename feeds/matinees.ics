@@ -945,23 +945,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:59b04857@matinee-finder
-DTSTAMP:20260921T221809Z
-DTSTART:20270314T040000Z
-DTEND:20270314T060000Z
-SUMMARY:The Haar
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/the-haar\nLis
- ting source: Sydney Opera House. Times and availability change - always co
- nfirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/the-haar
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:9d29cb03@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270318T023000Z
@@ -1009,24 +992,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ra. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/rufus-wainwrights-want-symphonic-
  2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:f877b3f2@matinee-finder
-DTSTAMP:20260921T221809Z
-DTSTART:20270411T050000Z
-DTEND:20270411T070000Z
-SUMMARY:Melisa Yıldırım & Swarupa Ananth
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/melisa-yildir
- im-swarupa-ananth\nListing source: Sydney Opera House. Times and availabil
- ity change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/melisa-yildirim-swarupa-an
- anth
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1299,24 +1264,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:7efcfd5a@matinee-finder
-DTSTAMP:20260921T221809Z
-DTSTART:20270620T050000Z
-DTEND:20270620T070000Z
-SUMMARY:Paul Grabowsky & Mindy Meng Wang
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/paul-grabowsk
- y-mindy-meng-wang\nListing source: Sydney Opera House. Times and availabil
- ity change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/paul-grabowsky-mindy-meng-
- wang
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:0dd3ebdd@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270703T040000Z
@@ -1330,6 +1277,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
   Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/joyce-yang-performs-prokofiev-202
  7
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4f05ab6c@matinee-finder
+DTSTAMP:20260930T223937Z
+DTSTART:20270710T040000Z
+DTEND:20270710T060000Z
+SUMMARY:The Legend Of Zelda™ 40th Anniversary Concert - Sydney Symphony O
+ rchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/the-
+ legend-of-zelda-2027\nListing source: Sydney Symphony Orchestra. Times and
+  availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/the-legend-of-zelda-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1385,23 +1350,6 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
  ilability change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-hig
  hland-cathedral/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:dffe4288@matinee-finder
-DTSTAMP:20260921T221809Z
-DTSTART:20270725T050000Z
-DTEND:20270725T070000Z
-SUMMARY:Ballaké Sissoko
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
- tails and book: https://www.sydneyoperahouse.com/utzon-music/ballake-sisso
- ko\nListing source: Sydney Opera House. Times and availability change - al
- ways confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music/ballake-sissoko
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
