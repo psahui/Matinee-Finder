@@ -219,24 +219,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:60f45fba@matinee-finder
-DTSTAMP:20260923T214913Z
-DTSTART:20261101T040000Z
-DTEND:20261101T060000Z
-SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
- chestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
- e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
- ic-orchestra/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bb47757a@matinee-finder
 DTSTAMP:20260921T221809Z
 DTSTART:20261106T233000Z
@@ -472,23 +454,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:323414c5@matinee-finder
-DTSTAMP:20260807T015759Z
-DTSTART:20261121T040000Z
-DTEND:20261121T060000Z
-SUMMARY:Future Classics 2026
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/fu
- ture-classics\nListing source: Sydney Opera House. Times and availability 
- change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/future-classics
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:d2a983b5@matinee-finder
 DTSTAMP:20260807T015759Z
 DTSTART:20261121T040000Z
@@ -702,6 +667,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:30d103e6@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270214T030000Z
+DTEND:20270214T050000Z
+SUMMARY:Nicolas Altstaedt - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/nicolas-altstaedt\nListing source: Sydn
+ ey Opera House. Times and availability change - always confirm with the ve
+ nue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/nicolas-altstaedt
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:e54cad4c@matinee-finder
 DTSTAMP:20260809T192129Z
 DTSTART:20270221T030000Z
@@ -822,6 +806,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:0dd72486@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270321T030000Z
+DTEND:20270321T050000Z
+SUMMARY:Bach’s St John Passion - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/bachs-st-john-passion\nListing source: 
+ Sydney Opera House. Times and availability change - always confirm with th
+ e venue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/bachs-st-john-passion
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:e577ae04@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270404T060000Z
@@ -852,6 +855,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ra. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/rufus-wainwrights-want-symphonic-
  2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6df45c74@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270418T040000Z
+DTEND:20270418T060000Z
+SUMMARY:Arvo Pärt Masterworks - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/arvo-part-masterworks\nListing source: 
+ Sydney Opera House. Times and availability change - always confirm with th
+ e venue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/arvo-part-masterworks
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1004,6 +1026,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:10a25194@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270516T040000Z
+DTEND:20270516T060000Z
+SUMMARY:Alina Ibragimova Plays Tchaikovsky’s Violin Concerto - Australian
+  Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/alina-ibragimova-plays-tchaikovskys-vio
+ lin-concerto\nListing source: Sydney Opera House. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/alina-ibragimova-plays-tchaikovskys-violin-concerto
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:fc91421e@matinee-finder
 DTSTAMP:20260809T192129Z
 DTSTART:20270516T040000Z
@@ -1049,6 +1091,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
  lity change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9dd98f39@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270627T040000Z
+DTEND:20270627T060000Z
+SUMMARY:Richard Tognetti Directs Mozart - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/richard-tognetti-directs-mozart\nListin
+ g source: Sydney Opera House. Times and availability change - always confi
+ rm with the venue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/richard-tognetti-directs-mozart
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1170,6 +1231,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
  lity change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:4e9b24da@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270815T040000Z
+DTEND:20270815T060000Z
+SUMMARY:ACO In Motion - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/aco-in-motion\nListing source: Sydney O
+ pera House. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/aco-in-motion
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1297,6 +1376,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/ready-set-listen-beethovens-fifth
  -symphony-2027
 CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9e02051b@matinee-finder
+DTSTAMP:20261001T225539Z
+DTSTART:20270912T040000Z
+DTEND:20270912T060000Z
+SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/john-adams-almanac\nListing source: Syd
+ ney Opera House. Times and availability change - always confirm with the v
+ enue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/john-adams-almanac
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
