@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "generated_at": "2026-10-02T08:55:39",
- "generated_date": "2026-10-02",
+ "generated_at": "2026-10-03T08:34:31",
+ "generated_date": "2026-10-03",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 322,
+  "total": 321,
   "public": 297,
-  "matinee": 139,
+  "matinee": 138,
   "public_matinee": 114,
   "tba": 10,
   "needs_review": 1,
@@ -185,15 +185,15 @@
    "status": "ok",
    "count": 242,
    "previous_count": 242,
-   "last_success": "2026-10-02T08:54:45",
+   "last_success": "2026-10-03T08:33:29",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 52,
-   "previous_count": 46,
-   "last_success": "2026-10-02T08:55:25",
+   "previous_count": 52,
+   "last_success": "2026-10-03T08:33:32",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-02T08:55:29",
+   "last_success": "2026-10-03T08:33:32",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 19,
-   "previous_count": 20,
-   "last_success": "2026-10-02T08:55:36",
+   "previous_count": 19,
+   "last_success": "2026-10-03T08:33:32",
    "message": ""
   },
   {
@@ -217,47 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-02T08:55:39",
+   "last_success": "2026-10-03T08:34:31",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "9b74311d",
-   "title": "Young Musicians Workshop",
-   "raw_title": "Young Musicians Workshop",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "St Patrick's Marist College Dundas",
-   "venue_group": "Other venues",
-   "venue_address": "Sydney, NSW",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/young-musicians-workshop-2026",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-10-02",
-   "time": "10:00",
-   "start_utc": "20261002T000000Z",
-   "time_confirmed": true,
-   "sort_key": 202610021000,
-   "date_string": "Friday, 02 October 2026",
-   "time_string": "10:00 AM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "morning",
-   "access": "participants",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "keyword",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "bd5339a7",
    "title": "Za Górami",
