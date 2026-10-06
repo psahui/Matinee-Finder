@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-10-05T08:57:47",
- "generated_date": "2026-10-05",
+ "generated_at": "2026-10-06T11:23:15",
+ "generated_date": "2026-10-06",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 322,
-  "public": 298,
+  "total": 323,
+  "public": 299,
   "matinee": 139,
   "public_matinee": 115,
   "tba": 10,
@@ -185,15 +185,15 @@
    "status": "ok",
    "count": 239,
    "previous_count": 239,
-   "last_success": "2026-10-05T08:57:14",
+   "last_success": "2026-10-06T11:20:27",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 52,
+   "count": 53,
    "previous_count": 52,
-   "last_success": "2026-10-05T08:57:33",
+   "last_success": "2026-10-06T11:21:53",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-05T08:57:41",
+   "last_success": "2026-10-06T11:21:57",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 20,
-   "previous_count": 19,
-   "last_success": "2026-10-05T08:57:44",
+   "previous_count": 20,
+   "last_success": "2026-10-06T11:22:12",
    "message": ""
   },
   {
@@ -217,7 +217,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-05T08:57:47",
+   "last_success": "2026-10-06T11:23:15",
    "message": ""
   }
  ],
@@ -4973,6 +4973,42 @@
    "stale": false,
    "last_changed": "2026-08-20T05:07:46",
    "first_seen": "2026-08-20T05:07:46"
+  },
+  {
+   "id": "8e1cca5a",
+   "title": "Ray Chen: The Eight Seasons with Melbourne Chamber Orchestra",
+   "raw_title": "Ray Chen: The Eight Seasons with Melbourne Chamber Orchestra",
+   "performer": "Sydney Opera House",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "Concert Hall, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.sydneyoperahouse.com/classical-music/ray-chen-eight-seasons-melbourne-chamber-orchestra",
+   "source": "Sydney Opera House",
+   "date": "2027-04-01",
+   "time": "19:30",
+   "start_utc": "20270401T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202704011930,
+   "date_string": "Thursday, 01 April 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-10-06T11:23:15",
+   "first_seen": "2026-10-06T11:23:15"
   },
   {
    "id": "c2d7ddf5",

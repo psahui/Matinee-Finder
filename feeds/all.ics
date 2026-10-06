@@ -2173,6 +2173,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:8e1cca5a@matinee-finder
+DTSTAMP:20261006T002315Z
+DTSTART:20270401T083000Z
+DTEND:20270401T103000Z
+SUMMARY:Ray Chen: The Eight Seasons with Melbourne Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
+ onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
+ ray-chen-eight-seasons-melbourne-chamber-orchestra\nListing source: Sydney
+  Opera House. Times and availability change - always confirm with the venu
+ e.
+URL:https://www.sydneyoperahouse.com/classical-music/ray-chen-eight-seasons
+ -melbourne-chamber-orchestra
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:c2d7ddf5@matinee-finder
 DTSTAMP:20260819T190746Z
 DTSTART:20270402T070000Z
