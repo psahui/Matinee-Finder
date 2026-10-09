@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-10-09T10:34:31",
- "generated_date": "2026-10-09",
+ "generated_at": "2026-10-10T09:54:59",
+ "generated_date": "2026-10-10",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 320,
-  "public": 296,
+  "total": 319,
+  "public": 295,
   "matinee": 138,
   "public_matinee": 114,
   "tba": 10,
@@ -185,7 +185,7 @@
    "status": "ok",
    "count": 239,
    "previous_count": 239,
-   "last_success": "2026-10-09T10:33:33",
+   "last_success": "2026-10-10T09:53:57",
    "message": ""
   },
   {
@@ -193,7 +193,7 @@
    "status": "ok",
    "count": 53,
    "previous_count": 53,
-   "last_success": "2026-10-09T10:34:18",
+   "last_success": "2026-10-10T09:54:00",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-09T10:34:22",
+   "last_success": "2026-10-10T09:54:00",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 18,
-   "previous_count": 20,
-   "last_success": "2026-10-09T10:34:28",
+   "previous_count": 18,
+   "last_success": "2026-10-10T09:54:00",
    "message": ""
   },
   {
@@ -217,47 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-09T10:34:31",
+   "last_success": "2026-10-10T09:54:59",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "00d1d8d7",
-   "title": "Ying Fang sings Songs of the Auvergne",
-   "raw_title": "Ying Fang sings Songs of the Auvergne",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/ying-fang-sings-songs-of-the-auvergne",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-10-09",
-   "time": "19:00",
-   "start_utc": "20261009T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202610091900,
-   "date_string": "Friday, 09 October 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
-  },
   {
    "id": "beb54778",
    "title": "Ying Fang sings Songs of the Auvergne",
