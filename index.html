@@ -6920,10 +6920,14 @@ footer ul { margin-left: 18px; }
   <p>Add one of these to Google Calendar (Other calendars → From URL), Apple Calendar or
   Outlook and matinees appear in your own diary. Only includes publicly bookable events with a
   confirmed time.</p>
+  <!-- ?v=2: Google caches subscribed feeds per URL server-side, so copies
+       fetched before the Oct 2026 description fix never refreshed. Pages
+       ignores the query string; it only gives subscribers a URL Google has
+       not cached. Bump it only if a future fix must bypass that cache too. -->
   <ul>
-    <li><a href="feeds/matinees.ics">Matinees</a> — everything before 5pm</li>
-    <li><a href="feeds/weekend-matinees.ics">Weekend matinees</a> — Saturday and Sunday only</li>
-    <li><a href="feeds/all.ics">All concerts</a></li>
+    <li><a href="feeds/matinees.ics?v=2">Matinees</a> — everything before 5pm</li>
+    <li><a href="feeds/weekend-matinees.ics?v=2">Weekend matinees</a> — Saturday and Sunday only</li>
+    <li><a href="feeds/all.ics?v=2">All concerts</a></li>
   </ul>
 
   <p style="margin-top:16px">
