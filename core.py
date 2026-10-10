@@ -669,6 +669,13 @@ def build_facets(items: List[dict], config: dict) -> dict:
 _CHANGE_FIELDS = ("title", "date", "time", "venue_name", "venue_address",
                   "url", "access", "formats", "performer", "source")
 
+# Bump whenever the .ics output for an event changes shape without the event
+# data changing (description wording, escaping, new properties). Calendar
+# clients only rewrite cached events whose DTSTAMP/LAST-MODIFIED/SEQUENCE
+# moved, so a format fix without a bump never reaches existing subscribers.
+# v2: fixed double-escaped newlines that broke every booking link (Oct 2026).
+FEED_FORMAT = 2
+
 
 def stamp_changes(items: List[dict], previous_items: List[dict]) -> List[dict]:
     """
@@ -685,13 +692,20 @@ def stamp_changes(items: List[dict], previous_items: List[dict]) -> List[dict]:
 
     for item in items:
         old = prev.get(item["id"])
-        unchanged = old and all(old.get(f) == item.get(f) for f in _CHANGE_FIELDS)
+        unchanged = (old
+                     and old.get("feed_format") == FEED_FORMAT
+                     and all(old.get(f) == item.get(f) for f in _CHANGE_FIELDS))
         if unchanged and old.get("last_changed"):
             item["last_changed"] = old["last_changed"]
             item["first_seen"] = old.get("first_seen", old["last_changed"])
+            item["sequence"] = old.get("sequence", 0)
         else:
             item["last_changed"] = now
             item["first_seen"] = (old or {}).get("first_seen", now)
+            # A previously published event with no stored sequence was
+            # implicitly 0 to subscribers, so any change must go to >= 1.
+            item["sequence"] = old.get("sequence", 0) + 1 if old else 0
+        item["feed_format"] = FEED_FORMAT
     return items
 
 
@@ -883,6 +897,10 @@ def build_ics(items: List[dict], name: str, config: dict) -> str:
             "BEGIN:VEVENT",
             f"UID:{item['id']}@matinee-finder",
             f"DTSTAMP:{stamp}",
+            # LAST-MODIFIED and SEQUENCE are what clients actually check
+            # before overwriting a cached event; DTSTAMP alone is not enough.
+            f"LAST-MODIFIED:{stamp}",
+            f"SEQUENCE:{item.get('sequence', 0)}",
             f"DTSTART:{start.strftime('%Y%m%dT%H%M%SZ')}",
             f"DTEND:{end.strftime('%Y%m%dT%H%M%SZ')}",
             f"SUMMARY:{ics_escape(summary)}",

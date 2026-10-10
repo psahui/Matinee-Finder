@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-10-10T09:54:59",
+ "generated_at": "2026-10-10T16:43:15",
  "generated_date": "2026-10-10",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 319,
-  "public": 295,
-  "matinee": 138,
-  "public_matinee": 114,
+  "total": 320,
+  "public": 296,
+  "matinee": 139,
+  "public_matinee": 115,
   "tba": 10,
   "needs_review": 1,
   "stale": 0
@@ -185,7 +185,7 @@
    "status": "ok",
    "count": 239,
    "previous_count": 239,
-   "last_success": "2026-10-10T09:53:57",
+   "last_success": "2026-10-10T16:43:15",
    "message": ""
   },
   {
@@ -193,7 +193,7 @@
    "status": "ok",
    "count": 53,
    "previous_count": 53,
-   "last_success": "2026-10-10T09:54:00",
+   "last_success": "2026-10-10T16:43:15",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-10T09:54:00",
+   "last_success": "2026-10-10T16:43:15",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 18,
-   "previous_count": 18,
-   "last_success": "2026-10-10T09:54:00",
+   "count": 19,
+   "previous_count": 19,
+   "last_success": "2026-10-10T16:43:15",
    "message": ""
   },
   {
@@ -217,7 +217,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-10T09:54:59",
+   "last_success": "2026-10-10T16:43:15",
    "message": ""
   }
  ],
@@ -255,8 +255,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "64cf3ef0",
@@ -291,8 +293,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a3e22160",
@@ -327,8 +331,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4c092b64",
@@ -363,8 +369,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "bc97be03",
@@ -399,8 +407,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-08T07:48:14",
-   "first_seen": "2026-09-08T07:48:14"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-08T07:48:14",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b6c40faf",
@@ -435,8 +445,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "29bc2d94",
@@ -471,8 +483,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d962221c",
@@ -507,8 +521,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f124d491",
@@ -543,8 +559,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "aad850e4",
@@ -579,8 +597,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "caca389d",
@@ -615,8 +635,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ee0d375f",
@@ -651,8 +673,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8a0a78d0",
@@ -687,8 +711,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d2f1f746",
@@ -723,8 +749,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9e8df8b4",
@@ -759,8 +787,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a4eb2385",
@@ -795,8 +825,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "844ea01a",
@@ -831,8 +863,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "28c48c35",
@@ -867,8 +901,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "26c7628c",
@@ -903,8 +939,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "216086e8",
@@ -939,8 +977,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c50ebb74",
@@ -975,8 +1015,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "06b31396",
@@ -1011,8 +1053,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-29T09:33:59",
-   "first_seen": "2026-09-29T09:33:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-29T09:33:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f1b50eba",
@@ -1047,8 +1091,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9bb6f24a",
@@ -1083,8 +1129,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3bbad2d2",
@@ -1119,8 +1167,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "19a4a019",
@@ -1155,8 +1205,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "47cbb171",
@@ -1191,8 +1243,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "94683aa1",
@@ -1227,8 +1281,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e59194aa",
@@ -1263,8 +1319,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8096e917",
@@ -1299,8 +1357,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "fa4caeac",
@@ -1335,8 +1395,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5a06ec17",
@@ -1371,8 +1433,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "666addec",
@@ -1407,8 +1471,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0a9725a5",
@@ -1443,8 +1509,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9573c0f0",
@@ -1479,8 +1547,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "87d9a3b7",
@@ -1515,8 +1585,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-08T07:48:14",
-   "first_seen": "2026-09-08T07:48:14"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-08T07:48:14",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "11479266",
@@ -1551,8 +1623,48 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "60f45fba",
+   "title": "Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Orchestra",
+   "raw_title": "Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Orchestra",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "url": "https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmonic-orchestra/",
+   "source": "The Concourse",
+   "date": "2026-11-01",
+   "time": "15:00",
+   "start_utc": "20261101T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202611011500,
+   "date_string": "Sunday, 01 November 2026",
+   "time_string": "3:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-10T16:43:13",
+   "sequence": 0,
+   "feed_format": 2
   },
   {
    "id": "d31ccdcd",
@@ -1587,8 +1699,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d85593cf",
@@ -1623,8 +1737,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-17T07:44:18",
-   "first_seen": "2026-09-17T07:44:18"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-17T07:44:18",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e742476f",
@@ -1659,8 +1775,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "bb47757a",
@@ -1695,8 +1813,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3326a694",
@@ -1731,8 +1851,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "86542ed4",
@@ -1767,8 +1889,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "684ac5ce",
@@ -1803,8 +1927,10 @@
    "needs_review": true,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0d352e0c",
@@ -1839,8 +1965,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c05b1146",
@@ -1875,8 +2003,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ce7dd73a",
@@ -1911,8 +2041,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "934cb31c",
@@ -1947,8 +2079,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "37219cc0",
@@ -1983,8 +2117,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "763b7feb",
@@ -2019,8 +2155,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "41921a09",
@@ -2055,8 +2193,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3548a278",
@@ -2091,8 +2231,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "65d5e49c",
@@ -2127,8 +2269,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4f2c4e85",
@@ -2163,8 +2307,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "bde426da",
@@ -2199,8 +2345,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "af691825",
@@ -2235,8 +2383,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "563d6d71",
@@ -2271,8 +2421,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "04dcf341",
@@ -2307,8 +2459,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "da4b3f7a",
@@ -2343,8 +2497,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c1c3756f",
@@ -2379,8 +2535,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "323414c5",
@@ -2415,8 +2573,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-05T08:57:47",
-   "first_seen": "2026-10-05T08:57:47"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-05T08:57:47",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d2a983b5",
@@ -2451,8 +2611,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "544b7152",
@@ -2487,8 +2649,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d67e25e6",
@@ -2523,8 +2687,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4d118eba",
@@ -2559,8 +2725,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T12:32:05",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a9de52a4",
@@ -2595,8 +2763,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "cbb24b11",
@@ -2631,8 +2801,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "02b0d573",
@@ -2667,8 +2839,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b0a2c57f",
@@ -2703,8 +2877,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "41ed9558",
@@ -2739,8 +2915,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c12af4be",
@@ -2775,8 +2953,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "00e4248c",
@@ -2811,8 +2991,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-26T07:51:30",
-   "first_seen": "2026-09-26T07:51:30"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-26T07:51:30",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "940e4575",
@@ -2847,8 +3029,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "57629898",
@@ -2883,8 +3067,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-26T07:51:30",
-   "first_seen": "2026-09-26T07:51:30"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-26T07:51:30",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "7c51ecf2",
@@ -2919,8 +3105,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "dd40b65a",
@@ -2955,8 +3143,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-15T08:04:57",
-   "first_seen": "2026-09-15T08:04:57"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-15T08:04:57",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4f9de233",
@@ -2991,8 +3181,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "aada6ecd",
@@ -3027,8 +3219,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "7595f144",
@@ -3063,8 +3257,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f4ce1183",
@@ -3099,8 +3295,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "87cde13f",
@@ -3135,8 +3333,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0e3701cf",
@@ -3171,8 +3371,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8a11436d",
@@ -3207,8 +3409,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-01T08:39:37",
-   "first_seen": "2026-10-01T08:39:37"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-01T08:39:37",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6bb15d83",
@@ -3243,8 +3447,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "61a7632a",
@@ -3279,8 +3485,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0d189e03",
@@ -3315,8 +3523,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "829fcecf",
@@ -3351,8 +3561,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "73c6fc21",
@@ -3387,8 +3599,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c70198fb",
@@ -3423,8 +3637,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "04c724a8",
@@ -3459,8 +3675,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-07T11:57:59",
-   "first_seen": "2026-08-07T11:57:59"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3a68d7c0",
@@ -3495,8 +3713,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4861c7a2",
@@ -3531,8 +3751,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8e8bcb0b",
@@ -3567,8 +3789,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4192882a",
@@ -3603,8 +3827,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e1bd1fa0",
@@ -3639,8 +3865,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-15T08:04:57",
-   "first_seen": "2026-09-15T08:04:57"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-15T08:04:57",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c7a1dc70",
@@ -3675,8 +3903,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "75724b09",
@@ -3711,8 +3941,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "30d103e6",
@@ -3747,8 +3979,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "05bc644b",
@@ -3783,8 +4017,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "65015e75",
@@ -3819,8 +4055,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8ec27db4",
@@ -3855,8 +4093,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "37fed47d",
@@ -3891,8 +4131,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5c6789df",
@@ -3927,8 +4169,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e54cad4c",
@@ -3963,8 +4207,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a12c95e6",
@@ -3999,8 +4245,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "28abdc3d",
@@ -4035,8 +4283,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0b284319",
@@ -4071,8 +4321,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9d1a5581",
@@ -4107,8 +4359,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "45963aa8",
@@ -4143,8 +4397,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ab18218c",
@@ -4179,8 +4435,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f1a8ae4d",
@@ -4215,8 +4473,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "1f3e7bd6",
@@ -4251,8 +4511,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6f494c5f",
@@ -4287,8 +4549,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e01ee251",
@@ -4323,8 +4587,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a0836aef",
@@ -4359,8 +4625,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5069d18f",
@@ -4395,8 +4663,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c1a81e65",
@@ -4431,8 +4701,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "211b1119",
@@ -4467,8 +4739,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "71f7e17b",
@@ -4503,8 +4777,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b1ae835a",
@@ -4539,8 +4815,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "044dd2c5",
@@ -4575,8 +4853,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9d29cb03",
@@ -4611,8 +4891,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "91f03322",
@@ -4647,8 +4929,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "603df14c",
@@ -4683,8 +4967,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0dd72486",
@@ -4719,8 +5005,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "49d59250",
@@ -4755,8 +5043,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "08b4d910",
@@ -4791,8 +5081,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "97295c18",
@@ -4827,8 +5119,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8e1cca5a",
@@ -4863,8 +5157,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-06T11:23:15",
-   "first_seen": "2026-10-06T11:23:15"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-06T11:23:15",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c2d7ddf5",
@@ -4899,8 +5195,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8899d8f4",
@@ -4935,8 +5233,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ff0f83eb",
@@ -4971,8 +5271,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e577ae04",
@@ -5007,8 +5309,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "303d2bb5",
@@ -5043,8 +5347,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "68128b0c",
@@ -5079,8 +5385,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5a59d7d3",
@@ -5115,8 +5423,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "613b87fd",
@@ -5151,8 +5461,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b397cdbf",
@@ -5187,8 +5499,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6df45c74",
@@ -5223,8 +5537,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ff754dae",
@@ -5259,8 +5575,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "86a58301",
@@ -5295,8 +5613,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b2e2c450",
@@ -5331,8 +5651,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a97a316c",
@@ -5367,8 +5689,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3d2c17ec",
@@ -5403,8 +5727,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c5807eec",
@@ -5439,8 +5765,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6bbe783f",
@@ -5475,8 +5803,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "65622bb4",
@@ -5511,8 +5841,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "7de43647",
@@ -5547,8 +5879,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9d513254",
@@ -5583,8 +5917,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "dadb7e25",
@@ -5619,8 +5955,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5398c6dd",
@@ -5655,8 +5993,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a9887d31",
@@ -5691,8 +6031,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "fb7b5662",
@@ -5727,8 +6069,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3ec272c5",
@@ -5763,8 +6107,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "36299082",
@@ -5799,8 +6145,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "621f2149",
@@ -5835,8 +6183,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "49ffb5d3",
@@ -5871,8 +6221,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "03012862",
@@ -5907,8 +6259,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b2ec5f1e",
@@ -5943,8 +6297,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8afb6941",
@@ -5979,8 +6335,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "28306b83",
@@ -6015,8 +6373,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "10a25194",
@@ -6051,8 +6411,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "fc91421e",
@@ -6087,8 +6449,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "90637013",
@@ -6123,8 +6487,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9467fe4b",
@@ -6159,8 +6525,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6d91ede3",
@@ -6195,8 +6563,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a3074c77",
@@ -6231,8 +6601,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "bfd7910b",
@@ -6267,8 +6639,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "52170c0c",
@@ -6303,8 +6677,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f77c46dd",
@@ -6339,8 +6715,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "acf11e8f",
@@ -6375,8 +6753,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "1cb38f68",
@@ -6411,8 +6791,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ce0175e3",
@@ -6447,8 +6829,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "521def1d",
@@ -6483,8 +6867,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "23049c98",
@@ -6519,8 +6905,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8bc1f555",
@@ -6555,8 +6943,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "56ac4a03",
@@ -6591,8 +6981,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "204387b5",
@@ -6627,8 +7019,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c8d7e8ee",
@@ -6663,8 +7057,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "88dbd159",
@@ -6699,8 +7095,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0cc0575f",
@@ -6735,8 +7133,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8ba27414",
@@ -6771,8 +7171,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c02bc545",
@@ -6807,8 +7209,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "12f4564b",
@@ -6843,8 +7247,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4aaa11ee",
@@ -6879,8 +7285,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9dd98f39",
@@ -6915,8 +7323,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "130e9c22",
@@ -6951,8 +7361,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3c1747f3",
@@ -6987,8 +7399,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "0dd3ebdd",
@@ -7023,8 +7437,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "22541cf7",
@@ -7059,8 +7475,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f1b2ed13",
@@ -7095,8 +7513,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "bd53e7da",
@@ -7131,8 +7551,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "42c5a9c4",
@@ -7167,8 +7589,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-01T08:39:37",
-   "first_seen": "2026-10-01T08:39:37"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-01T08:39:37",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4f05ab6c",
@@ -7203,8 +7627,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-01T08:39:37",
-   "first_seen": "2026-10-01T08:39:37"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-01T08:39:37",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "cb75df2a",
@@ -7239,8 +7665,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-01T08:39:37",
-   "first_seen": "2026-10-01T08:39:37"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-01T08:39:37",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a5f64d92",
@@ -7275,8 +7703,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-17T07:44:18",
-   "first_seen": "2026-09-17T07:44:18"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-17T07:44:18",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "50a9472c",
@@ -7311,8 +7741,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "baca0df4",
@@ -7347,8 +7779,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f7b5ac29",
@@ -7383,8 +7817,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "42ada79e",
@@ -7419,8 +7855,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4e879a42",
@@ -7455,8 +7893,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e05bd198",
@@ -7491,8 +7931,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6df69d52",
@@ -7527,8 +7969,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "99c1a023",
@@ -7563,8 +8007,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "21de8bcf",
@@ -7599,8 +8045,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "25d0bf4d",
@@ -7635,8 +8083,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6df256ad",
@@ -7671,8 +8121,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4a310298",
@@ -7707,8 +8159,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "324e3f3d",
@@ -7743,8 +8197,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "175d2f92",
@@ -7779,8 +8235,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c75eca7a",
@@ -7815,8 +8273,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "edfe79c4",
@@ -7851,8 +8311,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f2196e64",
@@ -7887,8 +8349,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a771e0a4",
@@ -7923,8 +8387,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "897db61c",
@@ -7959,8 +8425,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2fd57fec",
@@ -7995,8 +8463,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "539b9989",
@@ -8031,8 +8501,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9966874b",
@@ -8067,8 +8539,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "fcd1cdb1",
@@ -8103,8 +8577,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2525447a",
@@ -8139,8 +8615,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "62b4b635",
@@ -8175,8 +8653,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "acd5f85d",
@@ -8211,8 +8691,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "28399c36",
@@ -8247,8 +8729,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "07301c0f",
@@ -8283,8 +8767,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ef61755a",
@@ -8319,8 +8805,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f7be326b",
@@ -8355,8 +8843,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4e9b24da",
@@ -8391,8 +8881,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "7fcafb43",
@@ -8427,8 +8919,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "39f77b08",
@@ -8463,8 +8957,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "7b02be50",
@@ -8499,8 +8995,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "55598e14",
@@ -8535,8 +9033,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9bc9ad8f",
@@ -8571,8 +9071,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "02c593db",
@@ -8607,8 +9109,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "7f2aa1f4",
@@ -8643,8 +9147,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5499e249",
@@ -8679,8 +9185,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-11T07:12:49",
-   "first_seen": "2026-09-11T07:12:49"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-11T07:12:49",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6a449751",
@@ -8715,8 +9223,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "1ce1e9e7",
@@ -8751,8 +9261,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2740b31f",
@@ -8787,8 +9299,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6ded95b3",
@@ -8823,8 +9337,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-30T07:16:37",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "af60b48b",
@@ -8859,8 +9375,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "05ce9c2e",
@@ -8895,8 +9413,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d8e79816",
@@ -8931,8 +9451,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "811bdbb2",
@@ -8967,8 +9489,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "96c9511e",
@@ -9003,8 +9527,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5719fcf8",
@@ -9039,8 +9565,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a787b0a2",
@@ -9075,8 +9603,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "70d17537",
@@ -9111,8 +9641,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-21T05:20:05",
-   "first_seen": "2026-08-21T05:20:05"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-21T05:20:05",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "386850bb",
@@ -9147,8 +9679,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "97af1e2e",
@@ -9183,8 +9717,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "1d3b2b49",
@@ -9219,8 +9755,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "85657c33",
@@ -9255,8 +9793,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "8afc0eb1",
@@ -9291,8 +9831,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9e02051b",
@@ -9327,8 +9869,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-02T08:55:39",
-   "first_seen": "2026-10-02T08:55:39"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-10-02T08:55:39",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "c7b50f26",
@@ -9363,8 +9907,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "340324e0",
@@ -9399,8 +9945,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3bfb662d",
@@ -9435,8 +9983,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2105b96f",
@@ -9471,8 +10021,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "36026b46",
@@ -9507,8 +10059,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-22T08:18:09",
-   "first_seen": "2026-09-22T08:18:09"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-22T08:18:09",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ef163807",
@@ -9543,8 +10097,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "61d0f152",
@@ -9579,8 +10135,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a27cf174",
@@ -9615,8 +10173,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d6c0c484",
@@ -9651,8 +10211,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a92ea0b7",
@@ -9687,8 +10249,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "042e5986",
@@ -9723,8 +10287,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "30c1578d",
@@ -9759,8 +10325,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ea0ee4fd",
@@ -9795,8 +10363,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "485c02d3",
@@ -9831,8 +10401,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "eb70ce98",
@@ -9867,8 +10439,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "aa581aa4",
@@ -9903,8 +10477,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "35f775bb",
@@ -9939,8 +10515,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6b4443cb",
@@ -9975,8 +10553,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d7b904e5",
@@ -10011,8 +10591,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6da93363",
@@ -10047,8 +10629,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "fa1d1c30",
@@ -10083,8 +10667,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "e53ad2a0",
@@ -10119,8 +10705,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "70b614da",
@@ -10155,8 +10743,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4df3226b",
@@ -10191,8 +10781,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "daf714ee",
@@ -10227,8 +10819,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "38975310",
@@ -10263,8 +10857,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "71bff1b6",
@@ -10299,8 +10895,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "79a96795",
@@ -10335,8 +10933,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "499686ee",
@@ -10371,8 +10971,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4905f9fd",
@@ -10407,8 +11009,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ae60d25c",
@@ -10443,8 +11047,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "3fcc5533",
@@ -10479,8 +11085,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ff816efa",
@@ -10515,8 +11123,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a479f602",
@@ -10551,8 +11161,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "4091ff54",
@@ -10587,8 +11199,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6bc29dd3",
@@ -10623,8 +11237,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2d3cb04c",
@@ -10659,8 +11275,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "f62dd1b7",
@@ -10695,8 +11313,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "fa7dd305",
@@ -10731,8 +11351,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-28T07:38:12",
-   "first_seen": "2026-09-28T07:38:12"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-28T07:38:12",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "590ee475",
@@ -10767,8 +11389,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-09-24T07:49:13",
-   "first_seen": "2026-09-24T07:49:13"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-09-24T07:49:13",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "5e5e5e1d",
@@ -10803,8 +11427,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "bcefd3b9",
@@ -10839,8 +11465,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "106de4db",
@@ -10875,8 +11503,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d150afab",
@@ -10911,8 +11541,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "92a942a0",
@@ -10947,8 +11579,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "cf472f67",
@@ -10983,8 +11617,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2088742a",
@@ -11019,8 +11655,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-21T05:20:05",
-   "first_seen": "2026-08-21T05:20:05"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-21T05:20:05",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "693f67ae",
@@ -11055,8 +11693,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-21T05:20:05",
-   "first_seen": "2026-08-21T05:20:05"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-21T05:20:05",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "01e5fe16",
@@ -11091,8 +11731,10 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-08-21T05:20:05",
-   "first_seen": "2026-08-21T05:20:05"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-21T05:20:05",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a799fc08",
@@ -11127,8 +11769,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "6b4d0a36",
@@ -11163,8 +11807,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "54a7664f",
@@ -11199,8 +11845,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "60f7e934",
@@ -11235,8 +11883,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "a4acdfc3",
@@ -11271,8 +11921,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "d449f215",
@@ -11307,8 +11959,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9e2f01fb",
@@ -11343,8 +11997,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ee835df8",
@@ -11379,8 +12035,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "82abf726",
@@ -11415,8 +12073,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "2b8a3741",
@@ -11451,8 +12111,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9c3a725a",
@@ -11487,8 +12149,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "b5cdf336",
@@ -11523,8 +12187,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "9cc297aa",
@@ -11559,8 +12225,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "783b5137",
@@ -11595,8 +12263,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "521403f5",
@@ -11631,8 +12301,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "46bcf03b",
@@ -11667,8 +12339,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-20T05:07:46",
-   "first_seen": "2026-08-20T05:07:46"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-20T05:07:46",
+   "sequence": 1,
+   "feed_format": 2
   },
   {
    "id": "ed5457a8",
@@ -11703,8 +12377,10 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-08-10T05:21:29",
-   "first_seen": "2026-08-10T05:21:29"
+   "last_changed": "2026-10-10T16:43:13",
+   "first_seen": "2026-08-10T05:21:29",
+   "sequence": 1,
+   "feed_format": 2
   }
  ]
 }
