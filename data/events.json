@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-10-13T12:01:13",
- "generated_date": "2026-10-13",
+ "generated_at": "2026-10-14T10:07:31",
+ "generated_date": "2026-10-14",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 318,
-  "public": 294,
+  "total": 317,
+  "public": 293,
   "matinee": 138,
   "public_matinee": 114,
   "tba": 10,
@@ -184,16 +184,16 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 235,
-   "previous_count": 236,
-   "last_success": "2026-10-13T11:58:26",
+   "previous_count": 235,
+   "last_success": "2026-10-14T10:07:31",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 53,
-   "previous_count": 52,
-   "last_success": "2026-10-13T11:59:52",
+   "previous_count": 53,
+   "last_success": "2026-10-14T10:07:31",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-13T11:59:57",
+   "last_success": "2026-10-14T10:07:31",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 19,
-   "previous_count": 18,
-   "last_success": "2026-10-13T12:00:09",
+   "previous_count": 19,
+   "last_success": "2026-10-14T10:07:31",
    "message": ""
   },
   {
@@ -217,49 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-13T12:01:13",
+   "last_success": "2026-10-14T10:07:31",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "bc97be03",
-   "title": "Sydney Mozart Society – Selby & Friends",
-   "raw_title": "Sydney Mozart Society – Selby & Friends",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "url": "https://www.theconcourse.com.au/event/sydney-mozart-society-selby-friends/",
-   "source": "The Concourse",
-   "date": "2026-10-13",
-   "time": "20:00",
-   "start_utc": "20261013T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202610132000,
-   "date_string": "Tuesday, 13 October 2026",
-   "time_string": "8:00 PM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 1,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-09-08T07:48:14",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "b6c40faf",
    "title": "Beethoven & Tchaikovsky",

@@ -8,25 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:bc97be03@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261013T090000Z
-DTEND:20261013T110000Z
-SUMMARY:Sydney Mozart Society – Selby & Friends
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/sydney-mozart-society
- -selby-friends/\nListing source: The Concourse. Times and availability cha
- nge - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/sydney-mozart-society-selby-frien
- ds/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:b6c40faf@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
