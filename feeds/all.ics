@@ -8,25 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:4c092b64@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261012T080000Z
-DTEND:20261012T100000Z
-SUMMARY:Isata Kanneh-Mason in Recital - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/isat
- a-kanneh-mason-in-recital\nListing source: Sydney Symphony Orchestra. Time
- s and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/isata-kanneh-mason-in-recital
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bc97be03@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -607,6 +588,26 @@ DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
  lability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/utzon-music-2026/australian-guitar-qua
  rtet
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:60f45fba@matinee-finder
+DTSTAMP:20261013T010113Z
+LAST-MODIFIED:20261013T010113Z
+SEQUENCE:0
+DTSTART:20261101T040000Z
+DTEND:20261101T060000Z
+SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
+ chestra
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
+ e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
+ bility change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
+ ic-orchestra/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1758,6 +1759,26 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm
  027\nListing source: Sydney Symphony Orchestra. Times and availability cha
  nge - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/meet-the-fellows-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bc481aef@matinee-finder
+DTSTAMP:20261013T010113Z
+LAST-MODIFIED:20261013T010113Z
+SEQUENCE:0
+DTSTART:20270213T070000Z
+DTEND:20270213T090000Z
+SUMMARY:Australian Youth Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
+ onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
+ australian-youth-orchestra\nListing source: Sydney Opera House. Times and 
+ availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/australian-youth-orche
+ stra
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
