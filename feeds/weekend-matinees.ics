@@ -916,25 +916,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:e577ae04@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270404T060000Z
-DTEND:20270404T080000Z
-SUMMARY:Playerlink - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
- erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
- lity change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/playerlink-2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:613b87fd@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1198,12 +1179,12 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:f77c46dd@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270530T060000Z
-DTEND:20270530T080000Z
+UID:35e5617c@matinee-finder
+DTSTAMP:20261016T214525Z
+LAST-MODIFIED:20261016T214525Z
+SEQUENCE:0
+DTSTART:20270529T000000Z
+DTEND:20270529T020000Z
 SUMMARY:Playerlink - Sydney Symphony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
@@ -1349,25 +1330,6 @@ DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
  rls\nListing source: Sydney Opera House. Times and availability change - a
  lways confirm with the venue.
 URL:https://www.sydneyoperahouse.com/utzon-music/les-kapsbergirls
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:fcd1cdb1@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270808T060000Z
-DTEND:20270808T080000Z
-SUMMARY:Playerlink - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
- erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
- lity change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/playerlink-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

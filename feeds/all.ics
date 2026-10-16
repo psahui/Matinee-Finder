@@ -8,44 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:d962221c@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261016T083000Z
-DTEND:20261016T103000Z
-SUMMARY:The Encounter
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/en
- counter\nListing source: Sydney Opera House. Times and availability change
-  - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/encounter
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:f124d491@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261016T090000Z
-DTEND:20261016T110000Z
-SUMMARY:Beethoven & Tchaikovsky - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/beet
- hoven-and-tchaikovsky-2026\nListing source: Sydney Symphony Orchestra. Tim
- es and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/beethoven-and-tchaikovsky-2026
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:aad850e4@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2282,6 +2244,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:fbf44757@matinee-finder
+DTSTAMP:20261016T214525Z
+LAST-MODIFIED:20261016T214525Z
+SEQUENCE:0
+DTSTART:20270401T230000Z
+DTEND:20270402T010000Z
+SUMMARY:Playerlink - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
+ erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:c2d7ddf5@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2318,25 +2299,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/cocktail-hour-with-louisic-dulbec
  co-2027
 CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:e577ae04@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270404T060000Z
-DTEND:20270404T080000Z
-SUMMARY:Playerlink - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
- erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
- lity change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/playerlink-2027
-CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2928,12 +2890,12 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:f77c46dd@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270530T060000Z
-DTEND:20270530T080000Z
+UID:35e5617c@matinee-finder
+DTSTAMP:20261016T214525Z
+LAST-MODIFIED:20261016T214525Z
+SEQUENCE:0
+DTSTART:20270529T000000Z
+DTEND:20270529T020000Z
 SUMMARY:Playerlink - Sydney Symphony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
@@ -3723,6 +3685,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:9dc85835@matinee-finder
+DTSTAMP:20261016T214525Z
+LAST-MODIFIED:20261016T214525Z
+SEQUENCE:0
+DTSTART:20270806T000000Z
+DTEND:20270806T020000Z
+SUMMARY:Playerlink - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
+ erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:f2196e64@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3834,25 +3815,6 @@ DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
  rls\nListing source: Sydney Opera House. Times and availability change - a
  lways confirm with the venue.
 URL:https://www.sydneyoperahouse.com/utzon-music/les-kapsbergirls
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:fcd1cdb1@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270808T060000Z
-DTEND:20270808T080000Z
-SUMMARY:Playerlink - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/play
- erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
- lity change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/playerlink-2027
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -4614,12 +4576,12 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:aa581aa4@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20271001T060000Z
-DTEND:20271001T080000Z
+UID:3390732e@matinee-finder
+DTSTAMP:20261016T214525Z
+LAST-MODIFIED:20261016T214525Z
+SEQUENCE:0
+DTSTART:20270929T000000Z
+DTEND:20270929T020000Z
 SUMMARY:Playerlink - Sydney Symphony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
