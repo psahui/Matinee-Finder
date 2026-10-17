@@ -8,64 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:aad850e4@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261017T020000Z
-DTEND:20261017T040000Z
-SUMMARY:Britten’s War Requiem - Sydney Philharmonia Choirs
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Philharmonia Choirs\nVenue: Concert Hall\, Sydney Opera 
- House\nConfirm details and book: https://www.sydneyoperahouse.com/sydney-p
- hilharmonia-choirs/2026-season/brittens-war-requiem\nListing source: Sydne
- y Opera House. Times and availability change - always confirm with the ven
- ue.
-URL:https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2026-season
- /brittens-war-requiem
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:caca389d@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261017T060000Z
-DTEND:20261017T080000Z
-SUMMARY:Fellows Farewell - Sydney Symphony Orchestra
-LOCATION:St James’ King St\, Sydney\, NSW
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: St James’ King St\nConfirm 
- details and book: https://www.sydneysymphony.com/events/fellows-farewell\n
- Listing source: Sydney Symphony Orchestra. Times and availability change -
-  always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/fellows-farewell
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ee0d375f@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261017T090000Z
-DTEND:20261017T110000Z
-SUMMARY:Beethoven & Tchaikovsky - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/beet
- hoven-and-tchaikovsky-2026\nListing source: Sydney Symphony Orchestra. Tim
- es and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/beethoven-and-tchaikovsky-2026
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:8a0a78d0@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
