@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-10-18T07:58:30",
- "generated_date": "2026-10-18",
+ "generated_at": "2026-10-19T08:02:47",
+ "generated_date": "2026-10-19",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 310,
-  "public": 286,
-  "matinee": 136,
-  "public_matinee": 112,
+  "total": 309,
+  "public": 285,
+  "matinee": 135,
+  "public_matinee": 111,
   "tba": 10,
   "needs_review": 1,
   "stale": 0
@@ -183,17 +183,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 235,
+   "count": 230,
    "previous_count": 235,
-   "last_success": "2026-10-18T07:58:27",
+   "last_success": "2026-10-19T08:02:17",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 52,
+   "count": 50,
    "previous_count": 52,
-   "last_success": "2026-10-18T07:58:30",
+   "last_success": "2026-10-19T08:02:38",
    "message": ""
   },
   {
@@ -201,7 +201,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-18T07:58:30",
+   "last_success": "2026-10-19T08:02:42",
    "message": ""
   },
   {
@@ -209,7 +209,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-10-18T07:58:30",
+   "last_success": "2026-10-19T08:02:45",
    "message": ""
   },
   {
@@ -217,49 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-18T07:58:30",
+   "last_success": "2026-10-19T08:02:47",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "8a0a78d0",
-   "title": "Pekka Kuusisto",
-   "raw_title": "Pekka Kuusisto",
-   "performer": "Australian Chamber Orchestra",
-   "performer_group": "Australian Chamber Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/australian-chamber-orchestra/2026-season/pekka-kuusisto",
-   "source": "Sydney Opera House",
-   "date": "2026-10-18",
-   "time": "14:00",
-   "start_utc": "20261018T030000Z",
-   "time_confirmed": true,
-   "sort_key": 202610181400,
-   "date_string": "Sunday, 18 October 2026",
-   "time_string": "2:00 PM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "d2f1f746",
    "title": "Voyager",
