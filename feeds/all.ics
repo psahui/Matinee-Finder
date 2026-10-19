@@ -1931,6 +1931,44 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a6fbfe8d@matinee-finder
+DTSTAMP:20261019T223957Z
+LAST-MODIFIED:20261019T223957Z
+SEQUENCE:0
+DTSTART:20270311T080000Z
+DTEND:20270311T100000Z
+SUMMARY:Disney in Concert - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/disn
+ ey-in-concert-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/disney-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1cb8be90@matinee-finder
+DTSTAMP:20261019T223957Z
+LAST-MODIFIED:20261019T223957Z
+SEQUENCE:0
+DTSTART:20270312T080000Z
+DTEND:20270312T100000Z
+SUMMARY:Disney in Concert - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/disn
+ ey-in-concert-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/disney-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:211b1119@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1984,6 +2022,44 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
  s and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/ready-set-listen-peer-gynt-2027
 CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d669a69f@matinee-finder
+DTSTAMP:20261019T223957Z
+LAST-MODIFIED:20261019T223957Z
+SEQUENCE:0
+DTSTART:20270313T030000Z
+DTEND:20270313T050000Z
+SUMMARY:Disney in Concert - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/disn
+ ey-in-concert-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/disney-in-concert-2027
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:17da5c15@matinee-finder
+DTSTAMP:20261019T223957Z
+LAST-MODIFIED:20261019T223957Z
+SEQUENCE:0
+DTSTART:20270313T080000Z
+DTEND:20270313T100000Z
+SUMMARY:Disney in Concert - Sydney Symphony Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/disn
+ ey-in-concert-2027\nListing source: Sydney Symphony Orchestra. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/disney-in-concert-2027
+CATEGORIES:film
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
