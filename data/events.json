@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-10-20T09:39:57",
- "generated_date": "2026-10-20",
+ "generated_at": "2026-10-21T08:54:02",
+ "generated_date": "2026-10-21",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 313,
-  "public": 289,
-  "matinee": 136,
-  "public_matinee": 112,
+  "total": 312,
+  "public": 288,
+  "matinee": 135,
+  "public_matinee": 111,
   "tba": 10,
   "needs_review": 1,
   "stale": 0
@@ -184,8 +184,8 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 234,
-   "previous_count": 230,
-   "last_success": "2026-10-20T09:38:19",
+   "previous_count": 234,
+   "last_success": "2026-10-21T08:52:49",
    "message": ""
   },
   {
@@ -193,7 +193,7 @@
    "status": "ok",
    "count": 50,
    "previous_count": 50,
-   "last_success": "2026-10-20T09:38:42",
+   "last_success": "2026-10-21T08:53:56",
    "message": ""
   },
   {
@@ -201,7 +201,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-20T09:38:49",
+   "last_success": "2026-10-21T08:53:56",
    "message": ""
   },
   {
@@ -209,7 +209,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-10-20T09:38:52",
+   "last_success": "2026-10-21T08:54:02",
    "message": ""
   },
   {
@@ -217,49 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-20T09:39:57",
+   "last_success": "2026-10-21T08:54:02",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "d2f1f746",
-   "title": "Voyager",
-   "raw_title": "Voyager",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/classical-music/voyager",
-   "source": "Sydney Opera House",
-   "date": "2026-10-20",
-   "time": "10:30",
-   "start_utc": "20261019T233000Z",
-   "time_confirmed": true,
-   "sort_key": 202610201030,
-   "date_string": "Tuesday, 20 October 2026",
-   "time_string": "10:30 AM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 1,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "morning",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "9e8df8b4",
    "title": "Star Wars: The Empire Strikes Back in Concert",

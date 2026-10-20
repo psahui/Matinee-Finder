@@ -8,25 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:d2f1f746@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261019T233000Z
-DTEND:20261020T013000Z
-SUMMARY:Voyager
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/vo
- yager\nListing source: Sydney Opera House. Times and availability change -
-  always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/voyager
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:9e8df8b4@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
