@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-10-21T08:54:02",
- "generated_date": "2026-10-21",
+ "generated_at": "2026-10-22T08:59:33",
+ "generated_date": "2026-10-22",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 312,
@@ -185,15 +185,15 @@
    "status": "ok",
    "count": 234,
    "previous_count": 234,
-   "last_success": "2026-10-21T08:52:49",
+   "last_success": "2026-10-22T08:59:00",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 50,
+   "count": 49,
    "previous_count": 50,
-   "last_success": "2026-10-21T08:53:56",
+   "last_success": "2026-10-22T08:59:19",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-21T08:53:56",
+   "last_success": "2026-10-22T08:59:23",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 18,
+   "count": 19,
    "previous_count": 18,
-   "last_success": "2026-10-21T08:54:02",
+   "last_success": "2026-10-22T08:59:30",
    "message": ""
   },
   {
@@ -217,49 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-21T08:54:02",
+   "last_success": "2026-10-22T08:59:33",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "9e8df8b4",
-   "title": "Star Wars: The Empire Strikes Back in Concert",
-   "raw_title": "Star Wars: The Empire Strikes Back in Concert",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/star-wars-the-empire-strikes-back-in-concert",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-10-21",
-   "time": "19:00",
-   "start_utc": "20261021T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202610211900,
-   "date_string": "Wednesday, 21 October 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "film"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "a4eb2385",
    "title": "Star Wars: The Empire Strikes Back in Concert",
@@ -11810,6 +11772,44 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "512f5113",
+   "title": "Nsswe 2027",
+   "raw_title": "Nsswe 2027",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "url": "https://www.theconcourse.com.au/event/nsswe-2/",
+   "source": "The Concourse",
+   "date": "2027-11-26",
+   "time": "19:00",
+   "start_utc": "20271126T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711261900,
+   "date_string": "Friday, 26 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-10-22T08:59:33",
+   "first_seen": "2026-10-22T08:59:33",
+   "sequence": 0,
    "feed_format": 2
   },
   {
