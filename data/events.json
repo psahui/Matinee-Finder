@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-10-22T08:59:33",
- "generated_date": "2026-10-22",
+ "generated_at": "2026-10-23T08:56:29",
+ "generated_date": "2026-10-23",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 312,
-  "public": 288,
+  "total": 311,
+  "public": 287,
   "matinee": 135,
   "public_matinee": 111,
   "tba": 10,
@@ -185,15 +185,15 @@
    "status": "ok",
    "count": 234,
    "previous_count": 234,
-   "last_success": "2026-10-22T08:59:00",
+   "last_success": "2026-10-23T08:55:20",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 49,
-   "previous_count": 50,
-   "last_success": "2026-10-22T08:59:19",
+   "previous_count": 49,
+   "last_success": "2026-10-23T08:55:32",
    "message": ""
   },
   {
@@ -201,15 +201,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-22T08:59:23",
+   "last_success": "2026-10-23T08:56:02",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 19,
-   "previous_count": 18,
-   "last_success": "2026-10-22T08:59:30",
+   "previous_count": 19,
+   "last_success": "2026-10-23T08:56:29",
    "message": ""
   },
   {
@@ -217,49 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-22T08:59:33",
+   "last_success": "2026-10-23T08:56:29",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "a4eb2385",
-   "title": "Star Wars: The Empire Strikes Back in Concert",
-   "raw_title": "Star Wars: The Empire Strikes Back in Concert",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneysymphony.com/events/star-wars-the-empire-strikes-back-in-concert",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-10-22",
-   "time": "19:00",
-   "start_utc": "20261022T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202610221900,
-   "date_string": "Thursday, 22 October 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 3,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "film"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "844ea01a",
    "title": "Cocktail Hour with David Campbell",
