@@ -8,46 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:844ea01a@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261023T070000Z
-DTEND:20261023T090000Z
-SUMMARY:Cocktail Hour with David Campbell - Sydney Symphony Orchestra
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
- se\nConfirm details and book: https://www.sydneysymphony.com/events/cockta
- il-hour-with-david-campbell\nListing source: Sydney Symphony Orchestra. Ti
- mes and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/cocktail-hour-with-david-campbell
-CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:28c48c35@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261023T080000Z
-DTEND:20261023T100000Z
-SUMMARY:Star Wars: The Empire Strikes Back in Concert - Sydney Symphony Orc
- hestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
- -wars-the-empire-strikes-back-in-concert\nListing source: Sydney Symphony 
- Orchestra. Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/star-wars-the-empire-strikes-back
- -in-concert
-CATEGORIES:film
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:26c7628c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -699,12 +659,12 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:bde426da@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261023T214245Z
+LAST-MODIFIED:20261023T214245Z
+SEQUENCE:2
 DTSTART:20261113T083000Z
 DTEND:20261113T103000Z
-SUMMARY:James Dekleva in Recital | Tchaikovsky's Nutcracker
+SUMMARY:James Dekleva in Recital | Tchaikovsky’s Nutcracker
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
 DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
@@ -4796,6 +4756,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:19bbb1f0@matinee-finder
+DTSTAMP:20261023T214245Z
+LAST-MODIFIED:20261023T214245Z
+SEQUENCE:0
+DTSTART:20271024T040000Z
+DTEND:20271024T060000Z
+SUMMARY:Caroline Shaw & Kamus Quartet
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/caroline-shaw
+ -kamus-quartet\nListing source: Sydney Opera House. Times and availability
+  change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/caroline-shaw-kamus-quarte
+ t
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ae60d25c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -5268,24 +5248,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
  ecrets-in-concert-2027
 CATEGORIES:film
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:512f5113@matinee-finder
-DTSTAMP:20261021T215933Z
-LAST-MODIFIED:20261021T215933Z
-SEQUENCE:0
-DTSTART:20271126T080000Z
-DTEND:20271126T100000Z
-SUMMARY:Nsswe 2027
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/nsswe-2/\nListing sou
- rce: The Concourse. Times and availability change - always confirm with th
- e venue.
-URL:https://www.theconcourse.com.au/event/nsswe-2/
-CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT

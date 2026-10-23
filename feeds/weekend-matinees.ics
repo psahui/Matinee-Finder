@@ -1591,6 +1591,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:19bbb1f0@matinee-finder
+DTSTAMP:20261023T214245Z
+LAST-MODIFIED:20261023T214245Z
+SEQUENCE:0
+DTSTART:20271024T040000Z
+DTEND:20271024T060000Z
+SUMMARY:Caroline Shaw & Kamus Quartet
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
+ tails and book: https://www.sydneyoperahouse.com/utzon-music/caroline-shaw
+ -kamus-quartet\nListing source: Sydney Opera House. Times and availability
+  change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/utzon-music/caroline-shaw-kamus-quarte
+ t
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ff816efa@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
