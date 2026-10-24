@@ -8,27 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:26c7628c@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261024T030000Z
-DTEND:20261024T050000Z
-SUMMARY:Star Wars: The Empire Strikes Back in Concert - Sydney Symphony Orc
- hestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/star
- -wars-the-empire-strikes-back-in-concert\nListing source: Sydney Symphony 
- Orchestra. Times and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/star-wars-the-empire-strikes-back
- -in-concert
-CATEGORIES:film
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:06b31396@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
