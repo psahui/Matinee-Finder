@@ -8,25 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:06b31396@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261025T033000Z
-DTEND:20261025T053000Z
-SUMMARY:Musical Wanderlust
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/mu
- sical-wanderlust\nListing source: Sydney Opera House. Times and availabili
- ty change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/musical-wanderlust
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:5a06ec17@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1447,27 +1428,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/ready-set-listen-beethovens-fifth
  -symphony-2027
 CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:9e02051b@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20270912T040000Z
-DTEND:20270912T060000Z
-SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
- a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
- lian-chamber-orchestra/2027-season/john-adams-almanac\nListing source: Syd
- ney Opera House. Times and availability change - always confirm with the v
- enue.
-URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
- on/john-adams-almanac
-CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT

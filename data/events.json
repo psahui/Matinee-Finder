@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-10-25T08:12:01",
- "generated_date": "2026-10-25",
+ "generated_at": "2026-10-26T08:14:52",
+ "generated_date": "2026-10-26",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 306,
-  "public": 282,
-  "matinee": 135,
-  "public_matinee": 111,
+  "total": 304,
+  "public": 280,
+  "matinee": 133,
+  "public_matinee": 109,
   "tba": 10,
   "needs_review": 1,
   "stale": 0
@@ -183,17 +183,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 234,
+   "count": 227,
    "previous_count": 234,
-   "last_success": "2026-10-25T08:11:34",
+   "last_success": "2026-10-26T08:14:26",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 50,
+   "count": 48,
    "previous_count": 50,
-   "last_success": "2026-10-25T08:11:58",
+   "last_success": "2026-10-26T08:14:42",
    "message": ""
   },
   {
@@ -201,7 +201,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-10-25T08:11:58",
+   "last_success": "2026-10-26T08:14:46",
    "message": ""
   },
   {
@@ -209,7 +209,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-10-25T08:12:01",
+   "last_success": "2026-10-26T08:14:49",
    "message": ""
   },
   {
@@ -217,49 +217,11 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-10-25T08:12:01",
+   "last_success": "2026-10-26T08:14:52",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "06b31396",
-   "title": "Musical Wanderlust",
-   "raw_title": "Musical Wanderlust",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/classical-music/musical-wanderlust",
-   "source": "Sydney Opera House",
-   "date": "2026-10-25",
-   "time": "14:30",
-   "start_utc": "20261025T033000Z",
-   "time_confirmed": true,
-   "sort_key": 202610251430,
-   "date_string": "Sunday, 25 October 2026",
-   "time_string": "2:30 PM",
-   "month_key": "2026-10",
-   "month_label": "October 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-09-29T09:33:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "f1b50eba",
    "title": "The Voice of Bryn Terfel",
@@ -9263,44 +9225,6 @@
    "stale": false,
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "9e02051b",
-   "title": "The John Adams Almanac",
-   "raw_title": "The John Adams Almanac",
-   "performer": "Australian Chamber Orchestra",
-   "performer_group": "Australian Chamber Orchestra",
-   "programme": null,
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "url": "https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-season/john-adams-almanac",
-   "source": "Sydney Opera House",
-   "date": "2027-09-12",
-   "time": "14:00",
-   "start_utc": "20270912T040000Z",
-   "time_confirmed": true,
-   "sort_key": 202709121400,
-   "date_string": "Sunday, 12 September 2027",
-   "time_string": "2:00 PM",
-   "month_key": "2027-09",
-   "month_label": "September 2027",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-10-02T08:55:39",
    "sequence": 1,
    "feed_format": 2
   },
