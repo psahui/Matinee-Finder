@@ -8,25 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:f1b50eba@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261026T080000Z
-DTEND:20261026T100000Z
-SUMMARY:The Voice of Bryn Terfel - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/the-
- voice-of-bryn-terfel\nListing source: Sydney Symphony Orchestra. Times and
-  availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/the-voice-of-bryn-terfel
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:9bb6f24a@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -836,13 +817,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:02b0d573@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20261202T080000Z
 DTEND:20261202T100000Z
-SUMMARY:Harry Potter and the Philosopher's Stone In Concert - Sydney Sympho
- ny Orchestra
+SUMMARY:Harry Potter and the Philosopher’s Stone In Concert - Sydney Symp
+ hony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -858,13 +839,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:b0a2c57f@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20261203T080000Z
 DTEND:20261203T100000Z
-SUMMARY:Harry Potter and the Philosopher's Stone In Concert - Sydney Sympho
- ny Orchestra
+SUMMARY:Harry Potter and the Philosopher’s Stone In Concert - Sydney Symp
+ hony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -880,13 +861,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:41ed9558@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20261204T080000Z
 DTEND:20261204T100000Z
-SUMMARY:Harry Potter and the Philosopher's Stone In Concert - Sydney Sympho
- ny Orchestra
+SUMMARY:Harry Potter and the Philosopher’s Stone In Concert - Sydney Symp
+ hony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -902,13 +883,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:c12af4be@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20261205T030000Z
 DTEND:20261205T050000Z
-SUMMARY:Harry Potter and the Philosopher's Stone In Concert - Sydney Sympho
- ny Orchestra
+SUMMARY:Harry Potter and the Philosopher’s Stone In Concert - Sydney Symp
+ hony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -944,13 +925,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:940e4575@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20261205T080000Z
 DTEND:20261205T100000Z
-SUMMARY:Harry Potter and the Philosopher's Stone In Concert - Sydney Sympho
- ny Orchestra
+SUMMARY:Harry Potter and the Philosopher’s Stone In Concert - Sydney Symp
+ hony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -2525,13 +2506,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:49ffb5d3@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20270513T090000Z
 DTEND:20270513T110000Z
-SUMMARY:Donald Runnicles conducts Beethoven's Missa Solemnis - Sydney Symph
- ony Orchestra
+SUMMARY:Donald Runnicles conducts Beethoven’s Missa Solemnis - Sydney Sym
+ phony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -2566,13 +2547,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:28306b83@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20270515T040000Z
 DTEND:20270515T060000Z
-SUMMARY:Donald Runnicles conducts Beethoven's Missa Solemnis - Sydney Symph
- ony Orchestra
+SUMMARY:Donald Runnicles conducts Beethoven’s Missa Solemnis - Sydney Sym
+ phony Orchestra
 LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
  000
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
@@ -4029,13 +4010,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:97af1e2e@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20270911T000000Z
 DTEND:20270911T020000Z
-SUMMARY:Ready\, Set\, Listen! Beethoven's Fifth Symphony - Sydney Symphony 
- Orchestra
+SUMMARY:Ready\, Set\, Listen! Beethoven’s Fifth Symphony - Sydney Symphon
+ y Orchestra
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
@@ -4050,13 +4031,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:1d3b2b49@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20270911T013000Z
 DTEND:20270911T033000Z
-SUMMARY:Ready\, Set\, Listen! Beethoven's Fifth Symphony - Sydney Symphony 
- Orchestra
+SUMMARY:Ready\, Set\, Listen! Beethoven’s Fifth Symphony - Sydney Symphon
+ y Orchestra
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
@@ -4071,13 +4052,13 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:85657c33@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
 DTSTART:20270911T030000Z
 DTEND:20270911T050000Z
-SUMMARY:Ready\, Set\, Listen! Beethoven's Fifth Symphony - Sydney Symphony 
- Orchestra
+SUMMARY:Ready\, Set\, Listen! Beethoven’s Fifth Symphony - Sydney Symphon
+ y Orchestra
 LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
  0
 DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
@@ -4107,6 +4088,27 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  stra. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/rachmaninovs-second-piano-concert
  o-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9e02051b@matinee-finder
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:0
+DTSTART:20270912T040000Z
+DTEND:20270912T060000Z
+SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/john-adams-almanac\nListing source: Syd
+ ney Opera House. Times and availability change - always confirm with the v
+ enue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/john-adams-almanac
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -4171,9 +4173,29 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2105b96f@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:2
+DTSTART:20270919T010000Z
+DTEND:20270919T030000Z
+SUMMARY:Infernal Dances with Kirill Gerstein
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney\nVenue: Concert Hall\, Sydney Opera House\nConfirm detai
+ ls and book: https://www.sydneyoperahouse.com/sydney/symphony-orchestra/20
+ 27-season/infernal-dances-with-kirill-gerstein\nListing source: Sydney Ope
+ ra House. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/sydney/symphony-orchestra/2027-season/
+ infernal-dances-with-kirill-gerstein
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:0bc75b9e@matinee-finder
+DTSTAMP:20261026T225430Z
+LAST-MODIFIED:20261026T225430Z
+SEQUENCE:0
 DTSTART:20270919T040000Z
 DTEND:20270919T060000Z
 SUMMARY:Infernal Dances with Kirill Gerstein - Sydney Symphony Orchestra
