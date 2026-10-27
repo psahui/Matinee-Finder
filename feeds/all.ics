@@ -8,25 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:9bb6f24a@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261027T080000Z
-DTEND:20261027T100000Z
-SUMMARY:Masterclass with Bryn Terfel - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/mast
- erclass-with-bryn-terfel\nListing source: Sydney Symphony Orchestra. Times
-  and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/masterclass-with-bryn-terfel
-CATEGORIES:masterclass
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:3bbad2d2@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1080,6 +1061,25 @@ DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
  ourse. Times and availability change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
  rit-of-christmas-2026/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:81af48ad@matinee-finder
+DTSTAMP:20261027T223825Z
+LAST-MODIFIED:20261027T223825Z
+SEQUENCE:0
+DTSTART:20261217T080000Z
+DTEND:20261217T100000Z
+SUMMARY:Lessons & Carols - Sydney Philharmonia Choirs
+LOCATION:St Philip’s Church York Street\, Sydney\, NSW
+DESCRIPTION:Sydney Philharmonia Choirs\nVenue: St Philip’s Church York St
+ reet\nConfirm details and book: https://www.sydneyoperahouse.com/sydney-ph
+ ilharmonia-choirs/2026-season/lessons-carols\nListing source: Sydney Opera
+  House. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2026-season
+ /lessons-carols
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
