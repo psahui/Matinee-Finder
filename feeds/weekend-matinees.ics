@@ -102,26 +102,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:60f45fba@matinee-finder
-DTSTAMP:20261013T010113Z
-LAST-MODIFIED:20261013T010113Z
-SEQUENCE:0
-DTSTART:20261101T040000Z
-DTEND:20261101T060000Z
-SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
- chestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
- e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
- ic-orchestra/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bb47757a@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -455,25 +435,6 @@ DESCRIPTION:Willoughby Band presents\nVenue: The Concourse Concert Hall\nCo
  and/\nListing source: The Concourse. Times and availability change - alway
  s confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-band/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a63b8402@matinee-finder
-DTSTAMP:20261011T222844Z
-LAST-MODIFIED:20261011T222844Z
-SEQUENCE:0
-DTSTART:20261129T040000Z
-DTEND:20261129T060000Z
-SUMMARY:Hamed Sadeghi
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
- rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/ham
- ed-sadeghi\nListing source: Sydney Opera House. Times and availability cha
- nge - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music-2026/hamed-sadeghi
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1454,29 +1415,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:2105b96f@matinee-finder
-DTSTAMP:20261026T225430Z
-LAST-MODIFIED:20261026T225430Z
-SEQUENCE:2
-DTSTART:20270919T010000Z
-DTEND:20270919T030000Z
-SUMMARY:Infernal Dances with Kirill Gerstein
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney\nVenue: Concert Hall\, Sydney Opera House\nConfirm detai
- ls and book: https://www.sydneyoperahouse.com/sydney/symphony-orchestra/20
- 27-season/infernal-dances-with-kirill-gerstein\nListing source: Sydney Ope
- ra House. Times and availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/sydney/symphony-orchestra/2027-season/
- infernal-dances-with-kirill-gerstein
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:0bc75b9e@matinee-finder
-DTSTAMP:20261026T225430Z
-LAST-MODIFIED:20261026T225430Z
-SEQUENCE:0
+DTSTAMP:20261028T225225Z
+LAST-MODIFIED:20261028T225225Z
+SEQUENCE:3
 DTSTART:20270919T040000Z
 DTEND:20270919T060000Z
 SUMMARY:Infernal Dances with Kirill Gerstein - Sydney Symphony Orchestra
