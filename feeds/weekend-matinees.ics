@@ -8,60 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:5a06ec17@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261030T230000Z
-DTEND:20261031T010000Z
-SUMMARY:Ready\, Set\, Listen! The Planets - Sydney Symphony Orchestra
-LOCATION:Studio\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Studio\, Sydney Opera House\n
- Confirm details and book: https://www.sydneysymphony.com/events/ready-set-
- listen-the-planets\nListing source: Sydney Symphony Orchestra. Times and a
- vailability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/ready-set-listen-the-planets
-CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:666addec@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261031T003000Z
-DTEND:20261031T023000Z
-SUMMARY:Ready\, Set\, Listen! The Planets - Sydney Symphony Orchestra
-LOCATION:Studio\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Studio\, Sydney Opera House\n
- Confirm details and book: https://www.sydneysymphony.com/events/ready-set-
- listen-the-planets\nListing source: Sydney Symphony Orchestra. Times and a
- vailability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/ready-set-listen-the-planets
-CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:0a9725a5@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261031T020000Z
-DTEND:20261031T040000Z
-SUMMARY:Ready\, Set\, Listen! The Planets - Sydney Symphony Orchestra
-LOCATION:Studio\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Studio\, Sydney Opera House\n
- Confirm details and book: https://www.sydneysymphony.com/events/ready-set-
- listen-the-planets\nListing source: Sydney Symphony Orchestra. Times and a
- vailability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/ready-set-listen-the-planets
-CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:87d9a3b7@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
