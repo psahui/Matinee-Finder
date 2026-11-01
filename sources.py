@@ -771,17 +771,20 @@ _COS_DATE_LINE = re.compile(
     re.IGNORECASE)
 
 
-def _cos_date(weekday: str, day: str, month: str, year: str) -> Optional[datetime]:
+def _date_for_weekday(weekday: str, day: str, month: str, year: str,
+                      prefer: Optional[int] = None) -> Optional[datetime]:
     """
     Resolve a date that may lack its year. The weekday decides: 7 February is
     a Saturday in 2026 and a Sunday in 2027, so a year-less "Saturday 7
     February" read in November is February 2026 (past), never a phantom 2027
-    concert. No nearby year fitting the weekday means the line is dropped.
+    concert. `prefer` (e.g. a season's year) is tried first. No nearby year
+    fitting the weekday means the line is dropped.
     """
     if year:
         return parse_date_flexible(f"{day} {month} {year}")
     this_year = now_sydney().year
-    for y in (this_year, this_year + 1, this_year - 1):
+    candidates = ([prefer] if prefer else []) + [this_year, this_year + 1, this_year - 1]
+    for y in candidates:
         dt = parse_date_flexible(f"{day} {month} {y}")
         if dt and dt.strftime("%A").lower() == weekday.lower():
             return dt
@@ -842,7 +845,8 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
         url = f"{base}/events/{ev['slug']}"
         nxt = parse_date_flexible(ev.get("next") or "")
         cached = fetcher.cached(url, fetcher.tier_for_event(nxt))
-        if cached is not None:
+        # Extractions cached before organisers were read lack the key; refetch.
+        if cached is not None and "organiser" in cached:
             result = cached
         else:
             html = fetcher.get(url)
@@ -853,7 +857,7 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
             dates = []
             for weekday, day, month, year, hour, minute, ampm in \
                     _COS_DATE_LINE.findall(data.get("datesHumanised") or ""):
-                dt = _cos_date(weekday, day, month, year)
+                dt = _date_for_weekday(weekday, day, month, year)
                 if not dt:
                     continue
                 if hour:
@@ -864,6 +868,7 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
                 "title": (data.get("name") or "").strip(),
                 "venue": venue.get("name") or suburb.get("name") or "",
                 "address": venue.get("addressText") or data.get("addressText") or "",
+                "organiser": (data.get("eventOrganiser") or "").strip(),
                 "dates": dates,
             }
             fetcher.store(url, result)
@@ -871,9 +876,16 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
         if not result.get("title") or covered(result.get("venue"), result.get("address")):
             continue
         venue_name = result.get("venue") or "See event page"
+        # The organiser is usually the ensemble, but sometimes the hosting
+        # church, a street address or a contact person - not a performer.
+        organiser = re.sub(r"\s*\([^)]*\)\s*$", "", result.get("organiser") or "").strip()
+        place = f"{venue_name} {result.get('address', '')}".lower()
+        if not organiser or organiser.lower() in place \
+                or re.search(r"\b(church|cathedral|chapel)\b", organiser, re.IGNORECASE):
+            organiser = "Various artists"
         for d in result.get("dates", []):
             performances.append(Performance(
-                performer="Various artists",
+                performer=organiser,
                 title=result["title"],
                 date=datetime.fromisoformat(d["iso"]),
                 venue_name=venue_name,
@@ -885,6 +897,127 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
     return performances
 
 
+# "Sydney: Sunday 15 November, 3.00pm Verbrugghen Hall, Conservatorium of Music"
+_SALUT_SYDNEY_LINE = re.compile(
+    rf"^Sydney\s*:\s*(?:({DAY_NAMES}),?\s+)?(\d{{1,2}})\s+({MONTH_NAMES}),?(?:\s+(\d{{4}}),?)?"
+    r"\s+(\d{1,2})(?:[.:](\d{2}))?\s*(am|pm)\s*(.*)$",
+    re.IGNORECASE)
+
+
+def scrape_salut_baroque(fetcher: Fetcher) -> List[Performance]:
+    """
+    Salut! Baroque: a Canberra/Sydney period-instrument ensemble whose Sydney
+    concerts are Sunday afternoons. The City of Sydney guide lists them with
+    no programme; the ensemble's season page has every composer and work, so
+    this source supplies them and the guide's copy is dropped as a duplicate.
+
+    The season page moves each year (/2026-concert-series-power-passion-politics/),
+    so it is found from /concerts/. Each concert is an <h3>Concert N: Title</h3>
+    followed by a "Sydney: Sunday 15 November, 3.00pm <venue>" line and a
+    programme written either "Composer – Work" or "<strong>Composer</strong> Work".
+    Canberra dates are ignored.
+    """
+    base = "https://baroque.com.au"
+    index_url = f"{base}/concerts/"
+
+    cached = fetcher.cached(index_url, "listing")
+    if cached is not None:
+        season_urls = cached.get("seasons", [])
+    else:
+        soup = BeautifulSoup(fetcher.get(index_url), "html.parser")
+        season_urls = []
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if re.search(r"/\d{4}-concert-series", href) and href not in season_urls:
+                season_urls.append(href if href.startswith("http") else f"{base}{href}")
+        fetcher.store(index_url, {"seasons": season_urls})
+
+    performances: List[Performance] = []
+    for season_url in season_urls[:3]:
+        cached = fetcher.cached(season_url, "listing")
+        if cached is not None:
+            concerts = cached.get("concerts", [])
+        else:
+            concerts = _parse_salut_season(fetcher.get(season_url))
+            fetcher.store(season_url, {"concerts": concerts})
+
+        for c in concerts:
+            performances.append(Performance(
+                performer="Salut! Baroque",
+                title=c["title"],
+                date=datetime.fromisoformat(c["iso"]),
+                venue_name=c["venue"],
+                venue_address=lookup_venue_address(c["venue"]),
+                url=season_url,
+                source="Salut! Baroque",
+                works=c["works"],
+            ))
+    return performances
+
+
+def _parse_salut_season(html: str) -> List[dict]:
+    """Extract each concert's Sydney performance and programme from a season page."""
+    soup = BeautifulSoup(html, "html.parser")
+    title_tag = soup.find("title")
+    season = re.search(r"(\d{4})", title_tag.get_text() if title_tag else "")
+    prefer = int(season.group(1)) if season else None
+
+    concerts = []
+    headings = [h for h in soup.find_all("h3")
+                if re.match(r"\s*Concert\s+\d+\s*:", h.get_text())]
+    for heading in headings:
+        title = re.sub(r"^\s*Concert\s+\d+\s*:\s*", "", heading.get_text(" ", strip=True))
+        paragraphs = []
+        for el in heading.find_all_next(["p", "h3"]):
+            if el.name == "h3":
+                if el in headings:
+                    break
+                continue
+            paragraphs.append(el)
+
+        when, works = None, []
+        for i, p in enumerate(paragraphs):
+            text = re.sub(r"\s+", " ", p.get_text(" ", strip=True)).replace(" ,", ",")
+            m = _SALUT_SYDNEY_LINE.match(text)
+            if m and not when:
+                weekday, day, month, year, hour, minute, ampm, venue = m.groups()
+                dt = (_date_for_weekday(weekday, day, month, year, prefer) if weekday
+                      else parse_date_flexible(f"{day} {month} {year or prefer}"))
+                if dt:
+                    h = int(hour) % 12 + (12 if ampm.lower() == "pm" else 0)
+                    when = (dt.replace(hour=h, minute=int(minute or 0)),
+                            venue.strip(" ,") or "See Salut! Baroque website")
+            if re.match(r"^Program\b", text) and i + 1 < len(paragraphs) and not works:
+                works = _salut_programme(paragraphs[i + 1])
+
+        if when:
+            concerts.append({"title": title, "iso": when[0].isoformat(),
+                             "venue": when[1], "works": works})
+    return concerts
+
+
+def _salut_programme(paragraph) -> List[dict]:
+    """One work per <br>-separated line: 'Composer – Work' or '<strong>Composer</strong> Work'."""
+    works = []
+    for fragment in re.split(r"<br\s*/?>", str(paragraph)):
+        line = BeautifulSoup(fragment, "html.parser")
+        text = re.sub(r"\s+", " ", line.get_text(" ", strip=True)).strip()
+        text = re.sub(r"\s+([,;\]])", r"\1", text).replace("[ ", "[")
+        if not text:
+            continue
+        parts = re.split(r"\s+[–—-]\s+", text, maxsplit=1)
+        if len(parts) == 2:
+            composer, work = parts
+        else:
+            strong = line.find("strong")
+            if not strong:
+                continue
+            composer = strong.get_text(" ", strip=True)
+            work = text[len(composer):] if text.startswith(composer) else text
+        works.append({"composer": composer.strip(), "work": work.strip(" –—-")})
+    return works
+
+
 SCRAPERS: List[Tuple[str, Callable[[Fetcher], List[Performance]]]] = [
     ("Sydney Symphony Orchestra", scrape_sydney_symphony),
     ("Sydney Opera House", scrape_sydney_opera_house),
@@ -893,4 +1026,5 @@ SCRAPERS: List[Tuple[str, Callable[[Fetcher], List[Performance]]]] = [
     ("North Sydney Symphony", scrape_north_sydney_symphony),
     ("City Recital Hall", scrape_city_recital_hall),
     ("City of Sydney What's On", scrape_city_of_sydney),
+    ("Salut! Baroque", scrape_salut_baroque),
 ]

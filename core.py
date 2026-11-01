@@ -75,6 +75,7 @@ VENUE_ADDRESSES = {
     'state theatre': '49 Market St, Sydney NSW 2000',
     'the concourse': '409 Victoria Ave, Chatswood NSW 2067',
     'verbrugghen hall': 'Sydney Conservatorium of Music, Macquarie St, Sydney NSW 2000',
+    'customs house': '31 Alfred St, Sydney NSW 2000',
     'st leonards park': 'Miller St, North Sydney NSW 2060',
     'smith auditorium': 'Shore School, Blue St, North Sydney NSW 2060',
     'north sydney girls': '365 Pacific Hwy, Crows Nest NSW 2065',
@@ -1042,8 +1043,9 @@ def build_ics(items: List[dict], name: str, config: dict) -> str:
         end = start + duration
 
         summary = item["title"]
-        if item.get("performer_group") and item["performer_group"] not in ("Other / various",):
-            summary = f"{item['title']} - {item['performer_group']}"
+        group = item.get("performer_group")
+        if group and group != "Other / various" and fold(group) not in fold(item["title"]):
+            summary = f"{item['title']} - {group}"
 
         # Real newlines here - ics_escape converts them to the RFC's \n
         # exactly once. Writing pre-escaped "\n" text instead gets the

@@ -15,7 +15,7 @@ orchestra websites, each with its own format, and none of them let you filter by
 ```
 config.json ──┐
               ├─> fetch_events.py ──> data/events.json ──> index.html (renders + filters)
-7 websites ───┘        │                                        client-side, no build step
+8 websites ───┘        │                                        client-side, no build step
                        ├──> data/cache.json   (extracted-result HTTP cache)
                        └──> feeds/*.ics       (calendar subscriptions)
 ```
@@ -34,13 +34,15 @@ step — `index.html` is plain HTML, CSS and JavaScript with no dependencies.
 | [The Concourse, Chatswood](https://www.theconcourse.com.au/genre/music-classical/) | Genre listing + event pages |
 | [North Sydney Symphony Orchestra](https://www.nsso.org.au/concerts) | Season content files behind the site's JS shell |
 | [City Recital Hall](https://www.cityrecitalhall.com/whats-on/) | JSON endpoint behind the What's On page; the hall's own genre picks out classical and opera, and its programme list supplies composers |
-| [City of Sydney What's On](https://whatson.cityofsydney.nsw.gov.au/categories/music) | Aggregator: events their organisers tag *classical*, then each event page for every date and time |
+| [City of Sydney What's On](https://whatson.cityofsydney.nsw.gov.au/categories/music) | Aggregator: events their organisers tag *classical*, then each event page for every date, time and organiser |
+| [Salut! Baroque](https://baroque.com.au/concerts/) | Season page, found from `/concerts/` because its address changes yearly; Sydney dates and the full programme. Supersedes the guide's programme-less copy |
 
 City of Sydney What's On is an aggregator of organiser-submitted listings, so it is
 handled defensively: talks and films carrying the classical tag are dropped, venues
 another source covers are skipped by name and street address, and any listing that
 starts at the same minute as another source's concert with mostly the same title words
-is treated as a duplicate. Its date text omits the year for the current year, and the
+is treated as a duplicate. The guide's organiser becomes the performer, unless it is
+really the venue (a hosting church, a street address). Its date text omits the year for the current year, and the
 weekday decides which year is meant rather than assuming the next occurrence.
 
 Sydney Symphony events presented at the Opera House are taken from the SSO API rather
@@ -183,7 +185,7 @@ Event ids are stable across refreshes and across time changes, so an override st
 index.html            frontend: renders and filters events.json
 fetch_events.py       entry point, orchestration, per-source degradation
 core.py               data model, timezones, parsing, classification, .ics output
-sources.py            cached HTTP layer and the seven scrapers
+sources.py            cached HTTP layer and the eight scrapers
 config.json           classification rules, aliases, cache TTLs, source floors
 data/                 generated: events.json and the HTTP cache (committed)
 feeds/                generated: .ics subscription feeds (committed)

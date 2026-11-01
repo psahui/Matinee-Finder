@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T17:38:25",
+ "generated_at": "2026-11-01T17:55:06",
  "generated_date": "2026-11-01",
  "timezone": "Australia/Sydney",
  "counts": {
@@ -147,10 +147,12 @@
   "performers": [
    "Australian Brandenburg Orchestra",
    "Australian Chamber Orchestra",
+   "Australian Haydn Ensemble",
    "Musica Viva Australia",
    "North Sydney Symphony Orchestra",
    "Omega Ensemble",
    "Pinchgut Opera",
+   "Salut! Baroque",
    "Selby & Friends",
    "Sydney Philharmonia Choirs",
    "Sydney Symphony Orchestra",
@@ -203,16 +205,20 @@
    "Corbet",
    "d'Ambruys",
    "Debussy",
+   "John Dowland",
    "Dukas",
    "Dvořák",
    "Ross Edwards",
    "Elgar",
    "Ēriks Ešenvalds",
    "Van Eyck",
+   "Johann Friedrich Fasch",
+   "Mateo Flecha",
    "Françaix",
    "Gershwin",
    "Gibbons",
    "Glière",
+   "Christoph Graupner",
    "Grieg",
    "HK Gruber",
    "Guilmant",
@@ -255,6 +261,7 @@
    "Orff",
    "Palestrina",
    "Arvo Pärt",
+   "Pergolesi",
    "Picforth",
    "Pierpont",
    "Lauri Porra",
@@ -289,10 +296,11 @@
    "Stockhausen",
    "Richard Strauss",
    "Stravinsky",
+   "Barbara Strozzi",
    "Jack Symonds",
    "Joseph Tawadros",
    "Tchaikovsky",
-   "Teleman",
+   "Telemann",
    "Anna Thorvaldsdottir",
    "Alex Turley",
    "Joseph Twist",
@@ -322,6 +330,7 @@
    "City Recital Hall",
    "City of Sydney What's On",
    "North Sydney Symphony",
+   "Salut! Baroque",
    "Sydney Opera House",
    "Sydney Symphony Orchestra",
    "The Concourse",
@@ -334,7 +343,7 @@
    "status": "ok",
    "count": 221,
    "previous_count": 221,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   },
   {
@@ -342,7 +351,7 @@
    "status": "ok",
    "count": 48,
    "previous_count": 48,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   },
   {
@@ -350,7 +359,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   },
   {
@@ -358,7 +367,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   },
   {
@@ -366,7 +375,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   },
   {
@@ -374,7 +383,7 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   },
   {
@@ -382,7 +391,15 @@
    "status": "ok",
    "count": 27,
    "previous_count": 27,
-   "last_success": "2026-11-01T17:38:25",
+   "last_success": "2026-11-01T17:55:06",
+   "message": ""
+  },
+  {
+   "name": "Salut! Baroque",
+   "status": "ok",
+   "count": 4,
+   "previous_count": 4,
+   "last_success": "2026-11-01T17:55:06",
    "message": ""
   }
  ],
@@ -551,8 +568,8 @@
    "id": "1a9cc9fa",
    "title": "Haydn’s Oxford | Australian Haydn Ensemble",
    "raw_title": "Haydn’s Oxford | Australian Haydn Ensemble",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
+   "performer": "Australian Haydn Ensemble",
+   "performer_group": "Australian Haydn Ensemble",
    "programme": null,
    "composers": [
     "Haydn"
@@ -584,9 +601,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -681,9 +698,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 2,
    "feed_format": 2
   },
   {
@@ -797,9 +814,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 2,
    "feed_format": 2
   },
   {
@@ -1016,9 +1033,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 2,
    "feed_format": 2
   },
   {
@@ -1065,7 +1082,7 @@
    "id": "f79ea4ae",
    "title": "Bittersweet",
    "raw_title": "Bittersweet",
-   "performer": "Various artists",
+   "performer": "Ian Warwick",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -1096,9 +1113,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -1505,8 +1522,8 @@
    "id": "cb7de629",
    "title": "Haydn’s Oxford | Australian Haydn Ensemble",
    "raw_title": "Haydn’s Oxford | Australian Haydn Ensemble",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
+   "performer": "Australian Haydn Ensemble",
+   "performer_group": "Australian Haydn Ensemble",
    "programme": null,
    "composers": [
     "Haydn"
@@ -1538,9 +1555,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -1629,7 +1646,7 @@
    "id": "bbe11041",
    "title": "Cantos Sagrados",
    "raw_title": "Cantos Sagrados",
-   "performer": "Various artists",
+   "performer": "Sydney Chamber Choir",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -1660,9 +1677,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -1883,20 +1900,70 @@
    "feed_format": 2
   },
   {
-   "id": "89def83a",
-   "title": "Salut! Baroque presents Charms in Musick",
-   "raw_title": "Salut! Baroque presents Charms in Musick",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
+   "id": "bc91e606",
+   "title": "Charms in Musick",
+   "raw_title": "Charms in Musick",
+   "performer": "Salut! Baroque",
+   "performer_group": "Salut! Baroque",
    "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Sydney Conservatorium of Music",
+   "composers": [
+    "Handel",
+    "Johann Friedrich Fasch",
+    "Barbara Strozzi",
+    "John Dowland",
+    "Christoph Graupner",
+    "Pergolesi",
+    "Telemann",
+    "Mateo Flecha"
+   ],
+   "works": [
+    {
+     "composer": "Handel",
+     "work": "Air Guardian Angels, Oh Protect me (1757)"
+    },
+    {
+     "composer": "Johann Friedrich Fasch",
+     "work": "Orchestral Suite in G Minor FWV K:g 2 (c1740)"
+    },
+    {
+     "composer": "Barbara Strozzi",
+     "work": "Aria Che si può fare Op. 8 No. 6 (1664)"
+    },
+    {
+     "composer": "John Dowland",
+     "work": "Shall I strive with words to move from A Pilgrim’s Solace (1612)"
+    },
+    {
+     "composer": "John Dowland",
+     "work": "Fine knacks for ladies from Second Booke of Songes (1600)"
+    },
+    {
+     "composer": "Christoph Graupner",
+     "work": "Ouverture-Suite in E minor GWV 442 (c1735)"
+    },
+    {
+     "composer": "Pergolesi",
+     "work": "Aria Lieto Così Talvolta (1734)"
+    },
+    {
+     "composer": "Telemann",
+     "work": "Concerto in A minor TWV 53:a1 (c1721)"
+    },
+    {
+     "composer": "Christoph Graupner",
+     "work": "Aria Seufzt und weint, ihr matten Augen (1711)"
+    },
+    {
+     "composer": "Mateo Flecha",
+     "work": "from El fuego (c1550?)"
+    }
+   ],
+   "venue_name": "Verbrugghen Hall, Conservatorium of Music",
    "venue_group": "Verbrugghen Hall",
-   "venue_address": "Macquarie Street, Sydney NSW 2000",
+   "venue_address": "Sydney Conservatorium of Music, Macquarie St, Sydney NSW 2000",
    "region": "sydney",
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/salut-baroque-presents-charms-in-musick",
-   "source": "City of Sydney What's On",
+   "url": "https://baroque.com.au/2026-concert-series-power-passion-politics/",
+   "source": "Salut! Baroque",
    "date": "2026-11-15",
    "time": "15:00",
    "start_utc": "20261115T040000Z",
@@ -1917,8 +1984,8 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:34:55",
-   "first_seen": "2026-11-01T17:34:55",
+   "last_changed": "2026-11-01T17:54:12",
+   "first_seen": "2026-11-01T17:54:12",
    "sequence": 0,
    "feed_format": 2
   },
@@ -1926,7 +1993,7 @@
    "id": "224398ed",
    "title": "Bach & Charpentier – Music for Christmas",
    "raw_title": "Bach & Charpentier – Music for Christmas",
-   "performer": "Various artists",
+   "performer": "Bach Akademie Australia",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [
@@ -1959,9 +2026,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -2138,9 +2205,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 2,
    "feed_format": 2
   },
   {
@@ -2329,7 +2396,7 @@
    "id": "7b1e7c7f",
    "title": "10 Years of Modést Orchestra - Scheherazade & Pictures",
    "raw_title": "10 Years of Modést Orchestra - Scheherazade & Pictures",
-   "performer": "Various artists",
+   "performer": "Modest Orchestra",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [
@@ -2362,9 +2429,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -2458,7 +2525,7 @@
    "id": "71cef235",
    "title": "ANAM in Sydney: Folk Journeys",
    "raw_title": "ANAM in Sydney: Folk Journeys",
-   "performer": "Various artists",
+   "performer": "Australian National Academy of Music",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -2489,9 +2556,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -2529,16 +2596,16 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 2,
    "feed_format": 2
   },
   {
    "id": "38e8e88c",
    "title": "Sleep and Awake",
    "raw_title": "Sleep and Awake",
-   "performer": "Various artists",
+   "performer": "Christine Urbanski",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -2569,16 +2636,16 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 2,
    "feed_format": 2
   },
   {
    "id": "886025e4",
    "title": "Neeman Piano Duo in Concert",
    "raw_title": "Neeman Piano Duo in Concert",
-   "performer": "Various artists",
+   "performer": "Master Music Studio",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -2609,9 +2676,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -2716,7 +2783,7 @@
    "id": "a1042e15",
    "title": "Come Sit With Me",
    "raw_title": "Come Sit With Me",
-   "performer": "Various artists",
+   "performer": "ARMINÉ",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -2747,9 +2814,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -2854,8 +2921,8 @@
    "id": "80be561c",
    "title": "The Trout",
    "raw_title": "The Trout",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
+   "performer": "Omega Ensemble",
+   "performer_group": "Omega Ensemble",
    "programme": null,
    "composers": [],
    "works": [],
@@ -2885,17 +2952,17 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
    "id": "cd6543db",
    "title": "The Trout",
    "raw_title": "The Trout",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
+   "performer": "Omega Ensemble",
+   "performer_group": "Omega Ensemble",
    "programme": null,
    "composers": [],
    "works": [],
@@ -2925,16 +2992,16 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
    "id": "d1bad25b",
    "title": "An afternoon with accordionist James Crabb",
    "raw_title": "An afternoon with accordionist James Crabb",
-   "performer": "Various artists",
+   "performer": "Hunters Hill Music",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -2965,9 +3032,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -3408,7 +3475,7 @@
    "id": "fd9ae62e",
    "title": "Christmas Concert - Sydney Sings®",
    "raw_title": "Christmas Concert - Sydney Sings®",
-   "performer": "Various artists",
+   "performer": "Sydney University Graduate Choir",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -3439,9 +3506,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -4252,7 +4319,7 @@
    "id": "89b735e7",
    "title": "Monthly QVB Classical Pop-Up Concert",
    "raw_title": "Monthly QVB Classical Pop-Up Concert",
-   "performer": "Various artists",
+   "performer": "Concerts for All",
    "performer_group": "Other / various",
    "programme": null,
    "composers": [],
@@ -4283,9 +4350,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:36:30",
+   "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 0,
+   "sequence": 1,
    "feed_format": 2
   },
   {
@@ -16996,7 +17063,7 @@
    "composers": [
     "Bach",
     "Heinchen",
-    "Teleman"
+    "Telemann"
    ],
    "works": [
     {
@@ -17008,7 +17075,7 @@
      "work": "Concerto a 7 in G major, SeiH 214"
     },
     {
-     "composer": "Teleman",
+     "composer": "Telemann",
      "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
     }
    ],
@@ -17157,7 +17224,7 @@
    "composers": [
     "Bach",
     "Heinchen",
-    "Teleman"
+    "Telemann"
    ],
    "works": [
     {
@@ -17169,7 +17236,7 @@
      "work": "Concerto a 7 in G major, SeiH 214"
     },
     {
-     "composer": "Teleman",
+     "composer": "Telemann",
      "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
     }
    ],
@@ -17266,7 +17333,7 @@
    "composers": [
     "Bach",
     "Heinchen",
-    "Teleman"
+    "Telemann"
    ],
    "works": [
     {
@@ -17278,7 +17345,7 @@
      "work": "Concerto a 7 in G major, SeiH 214"
     },
     {
-     "composer": "Teleman",
+     "composer": "Telemann",
      "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
     }
    ],
@@ -17323,7 +17390,7 @@
    "composers": [
     "Bach",
     "Heinchen",
-    "Teleman"
+    "Telemann"
    ],
    "works": [
     {
@@ -17335,7 +17402,7 @@
      "work": "Concerto a 7 in G major, SeiH 214"
     },
     {
-     "composer": "Teleman",
+     "composer": "Telemann",
      "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
     }
    ],
@@ -17534,7 +17601,7 @@
    "composers": [
     "Bach",
     "Heinchen",
-    "Teleman"
+    "Telemann"
    ],
    "works": [
     {
@@ -17546,7 +17613,7 @@
      "work": "Concerto a 7 in G major, SeiH 214"
     },
     {
-     "composer": "Teleman",
+     "composer": "Telemann",
      "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
     }
    ],
