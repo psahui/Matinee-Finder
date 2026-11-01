@@ -33,6 +33,12 @@
     "City of Sydney What's On": 5
   },
 
+  "_comment_sydney_opera_house": "Opera House genre listings to read (ids from the What's On genre filter). A genre with a format tags its events with that Event type. Musical Theatre (1456) is deliberately excluded.",
+  "sydney_opera_house_genres": [
+    { "id": "1436", "label": "Classical Music" },
+    { "id": "1441", "label": "Opera", "format": "opera" }
+  ],
+
   "_comment_city_recital_hall": "The hall's own genre labels that count as classical.",
   "city_recital_hall_genres": ["Classical Music", "Opera"],
 
@@ -127,6 +133,12 @@
       ]
     },
     {
+      "id": "opera",
+      "label": "Opera",
+      "default_on": true,
+      "title_patterns": []
+    },
+    {
       "id": "short_format",
       "label": "Short format (lunchtime, cocktail hour)",
       "default_on": true,
@@ -166,7 +178,9 @@
     "Selby & Friends": ["selby & friends", "selby and friends"],
     "Omega Ensemble": ["omega ensemble"],
     "Australian Haydn Ensemble": ["australian haydn ensemble"],
-    "Salut! Baroque": ["salut! baroque", "salut baroque"]
+    "Salut! Baroque": ["salut! baroque", "salut baroque"],
+    "Opera Australia": ["opera australia"],
+    "Sydney Chamber Opera": ["sydney chamber opera"]
   },
   "programme_labels": [
     "Utzon Music",
@@ -225,7 +239,7 @@
     "Schumann": ["robert schumann", "r schumann", "r. schumann"], "Clara Schumann": [], "Peter Sculthorpe": ["sculthorpe"],
     "Shostakovich": ["dmitri shostakovich"], "Sibelius": ["jean sibelius"], "Smetana": ["bedrich smetana"],
     "Johann Strauss II": ["johann strauss", "strauss ii"], "Richard Strauss": ["r strauss", "r. strauss"],
-    "Strauss": [], "Stravinsky": ["igor stravinsky"], "Dobrinka Tabakova": ["tabakova"],
+    "Strauss": [], "Stravinsky": ["igor stravinsky"], "Dobrinka Tabakova": ["tabakova"], "Donizetti": ["gaetano donizetti"], "Gounod": ["charles gounod"],
     "Tchaikovsky": ["tchaikowsky", "pyotr ilyich tchaikovsky"], "Telemann": ["georg philipp telemann", "teleman"],
     "Vaughan Williams": ["ralph vaughan williams"], "Verdi": ["giuseppe verdi"],
     "Vivaldi": ["antonio vivaldi"], "Wagner": ["richard wagner"], "Webern": ["anton webern"],
@@ -268,6 +282,11 @@
     "la traviata": "Verdi",
     "\\bcarmen\\b": "Bizet",
     "west side story": "Bernstein",
+    "elixir of love|l'elisir d'amore": "Donizetti",
+    "^faust$": "Gounod",
+    "a masked ball|un ballo in maschera": "Verdi",
+    "la voix humaine": "Poulenc",
+    "l'enfant et les sortileges": "Ravel",
     "pines of rome": "Respighi",
     "\\bsalome\\b": "Richard Strauss",
     "harry potter and the (philosopher's stone|sorcerer's stone|chamber of secrets|prisoner of azkaban)": "John Williams"

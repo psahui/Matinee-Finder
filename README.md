@@ -1,6 +1,6 @@
 # Sydney Matinee Finder
 
-Finds upcoming classical and orchestral concerts around Sydney and highlights the
+Finds upcoming classical concerts and opera around Sydney and highlights the
 **matinees** — performances starting before 5:00 PM. It refreshes itself daily and
 publishes to a static site, with calendar feeds you can subscribe to.
 
@@ -29,7 +29,7 @@ step — `index.html` is plain HTML, CSS and JavaScript with no dependencies.
 | Source | Method |
 |---|---|
 | [Sydney Symphony Orchestra](https://www.sydneysymphony.com/) | JSON API (UTC timestamps), plus each upcoming event page's programme panel |
-| [Sydney Opera House](https://www.sydneyoperahouse.com/whats-on) | Listing pagination + per-event "Dates and times" tables, JSON-LD fallback |
+| [Sydney Opera House](https://www.sydneyoperahouse.com/whats-on) | Classical and Opera genre listings (musical theatre excluded); listing pagination + per-event "Dates and times" tables, JSON-LD fallback |
 | [Willoughby Symphony Orchestra](https://www.willoughbysymphony.com.au/Events) | Event pages |
 | [The Concourse, Chatswood](https://www.theconcourse.com.au/genre/music-classical/) | Genre listing + event pages |
 | [North Sydney Symphony Orchestra](https://www.nsso.org.au/concerts) | Season content files behind the site's JS shell |
@@ -70,7 +70,9 @@ Sydney.
 booked by teachers, not sold to the public), or `participants` (workshops you attend to
 play in, not listen to; the Young Musicians Workshop page states outright that it "is
 not a performance"). *Format* is what kind of event it is — concert, film in concert,
-family, open rehearsal, masterclass, short format. They are deliberately separate: a
+family, open rehearsal, masterclass, short format, opera. Opera comes from the sources' own
+genres (the Opera House's Opera listing, City Recital Hall's Opera genre, the guide's
+*opera* tag), since opera titles rarely say so. They are deliberately separate: a
 10 AM schools concert genuinely *is* a matinee, it simply isn't bookable. Open
 rehearsals and masterclasses **are** publicly bookable and stay on by default.
 

@@ -518,9 +518,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:45cd906e@matinee-finder
-DTSTAMP:20261101T063455Z
-LAST-MODIFIED:20261101T063455Z
-SEQUENCE:0
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:1
 DTSTART:20261128T030000Z
 DTEND:20261128T050000Z
 SUMMARY:Semele by Handel - Pinchgut Opera
@@ -530,7 +530,7 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  sting source: City Recital Hall. Times and availability change - always co
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
-CATEGORIES:concert
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -748,6 +748,105 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:01b0e741@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20261227T030000Z
+DTEND:20261227T050000Z
+SUMMARY:Great Opera Hits 2026 - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2026-season/great-opera-hits-2026\nListing source: Sydney Opera Ho
+ use. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2026-season/great-oper
+ a-hits-2026
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:78b65c72@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270102T013000Z
+DTEND:20270102T033000Z
+SUMMARY:La Bohème - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/la-boheme\nListing source: Sydney Opera House. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/la-boheme
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:548bb5eb@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270116T013000Z
+DTEND:20270116T033000Z
+SUMMARY:The Magic Flute - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/magic-flute\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/magic-flut
+ e
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:880c6298@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270123T030000Z
+DTEND:20270123T050000Z
+SUMMARY:Great Opera Hits 2027 - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/great-opera-hits-2027\nListing source: Sydney Opera Ho
+ use. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/great-oper
+ a-hits-2027
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9b342f8f@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270124T030000Z
+DTEND:20270124T050000Z
+SUMMARY:Great Opera Hits 2027 - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/great-opera-hits-2027\nListing source: Sydney Opera Ho
+ use. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/great-oper
+ a-hits-2027
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:73c6fc21@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -767,10 +866,49 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:acb9641d@matinee-finder
-DTSTAMP:20261101T063455Z
-LAST-MODIFIED:20261101T063455Z
+UID:01f26c93@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
 SEQUENCE:0
+DTSTART:20270130T013000Z
+DTEND:20270130T033000Z
+SUMMARY:The Magic Flute - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/magic-flute\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/magic-flut
+ e
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:754a4f3b@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270206T013000Z
+DTEND:20270206T033000Z
+SUMMARY:La Bohème - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/la-boheme\nListing source: Sydney Opera House. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/la-boheme
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:acb9641d@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:1
 DTSTART:20270206T030000Z
 DTEND:20270206T050000Z
 SUMMARY:Pyramus and Thisbe by Lampe - Pinchgut Opera
@@ -781,7 +919,7 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  - always confirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
  ampe/
-CATEGORIES:concert
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -805,6 +943,46 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ce261d47@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270213T013000Z
+DTEND:20270213T033000Z
+SUMMARY:The Magic Flute - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/magic-flute\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/magic-flut
+ e
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:67c0c4bc@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270214T030000Z
+DTEND:20270214T050000Z
+SUMMARY:Great Opera Hits 2027 - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/great-opera-hits-2027\nListing source: Sydney Opera Ho
+ use. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/great-oper
+ a-hits-2027
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:30d103e6@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -822,6 +1000,25 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
 URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
  on/nicolas-altstaedt
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7eb0c7ad@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270220T013000Z
+DTEND:20270220T033000Z
+SUMMARY:La Bohème - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/la-boheme\nListing source: Sydney Opera House. Times a
+ nd availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/la-boheme
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -882,6 +1079,46 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a4a8d92b@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270227T013000Z
+DTEND:20270227T033000Z
+SUMMARY:The Magic Flute - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/magic-flute\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/magic-flut
+ e
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c9bb9c69@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270228T030000Z
+DTEND:20270228T050000Z
+SUMMARY:Great Opera Hits 2027 - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/great-opera-hits-2027\nListing source: Sydney Opera Ho
+ use. Times and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/great-oper
+ a-hits-2027
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ab18218c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -898,6 +1135,26 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/simone-young-and-gautier-capucon-
  2027
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:117a2e04@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270306T013000Z
+DTEND:20270306T033000Z
+SUMMARY:The Elixir of Love - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/elixir-love\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/elixir-lov
+ e
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -955,6 +1212,26 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
  s and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/ready-set-listen-peer-gynt-2027
 CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ca6585ed@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270313T013000Z
+DTEND:20270313T033000Z
+SUMMARY:The Magic Flute - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/magic-flute\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/magic-flut
+ e
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1397,6 +1674,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:5aef870b@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270717T020000Z
+DTEND:20270717T040000Z
+SUMMARY:Faust - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/faust\nListing source: Sydney Opera House. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/faust
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:99c1a023@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1412,6 +1708,25 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-hig
  hland-cathedral/
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:03ac74e9@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270731T020000Z
+DTEND:20270731T040000Z
+SUMMARY:Faust - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/faust\nListing source: Sydney Opera House. Times and a
+ vailability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/faust
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1450,6 +1765,26 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/tchaikovskys-violin-concerto-2027
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a1e8390b@matinee-finder
+DTSTAMP:20261101T070321Z
+LAST-MODIFIED:20261101T070321Z
+SEQUENCE:0
+DTSTART:20270807T023000Z
+DTEND:20270807T043000Z
+SUMMARY:A Masked Ball - Opera Australia
+LOCATION:Joan Sutherland Theatre\, Sydney Opera House\, Bennelong Point\, S
+ ydney NSW 2000
+DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera 
+ House\nConfirm details and book: https://www.sydneyoperahouse.com/opera-au
+ stralia/2027-season/masked-ball\nListing source: Sydney Opera House. Times
+  and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/opera-australia/2027-season/masked-bal
+ l
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT

@@ -334,6 +334,7 @@ class Performance:
     source: str
     time_confirmed: bool = True
     works: List[dict] = field(default_factory=list)   # [{"composer", "work"}] as published
+    format_hints: List[str] = field(default_factory=list)  # e.g. ["opera"] from a source genre
 
     # Populated by classify()
     composers: List[str] = field(default_factory=list)
@@ -675,8 +676,11 @@ def classify(perf: Performance, config: dict) -> Performance:
     )
 
     # --- formats: multi-valued, all matches apply
+    # A source's own genre (the Opera House's opera listing) counts as a
+    # match; titles rarely say "opera".
     perf.formats = [r["id"] for r in config.get("format_rules", [])
-                    if _matches_any(raw, r.get("title_patterns", []))]
+                    if _matches_any(raw, r.get("title_patterns", []))
+                    or r["id"] in perf.format_hints]
     if not perf.formats:
         perf.formats = [config.get("format_default", "concert")]
 

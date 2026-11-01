@@ -77,6 +77,7 @@ def item_to_performance(item: dict) -> Performance:
         source=item.get("source", ""),
         time_confirmed=bool(item.get("time_confirmed")),
         works=item.get("works") or [],
+        format_hints=item.get("formats") or [],
         stale=True,
     )
 

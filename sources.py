@@ -329,55 +329,65 @@ def sso_programme(fetcher: Fetcher, url: str, first_date: datetime) -> Tuple[Lis
     return works, True
 
 
+def _soh_listing_cards(fetcher: Fetcher, listing_url: str) -> List[dict]:
+    """One page of an Opera House genre listing, as {href, title, venue} cards."""
+    cached = fetcher.cached(listing_url, "listing")
+    if cached is not None:
+        return cached.get("cards", [])
+    soup = BeautifulSoup(fetcher.get(listing_url), "html.parser")
+    page_cards = []
+    for card in soup.select("div.card--event"):
+        link = card.select_one("a.card__link")
+        if not link:
+            continue
+        href = link.get("href", "")
+        title = link.get_text(strip=True)
+        if not href or not title:
+            continue
+        lines = [t.strip() for t in card.get_text("\n").split("\n") if t.strip()]
+        venue = lines[-1] if lines else "Sydney Opera House"
+        if "streamline" in venue.lower():   # icon alt-text noise
+            venue = "Sydney Opera House"
+        page_cards.append({"href": href, "title": title, "venue": venue})
+    fetcher.store(listing_url, {"cards": page_cards})
+    return page_cards
+
+
 def scrape_sydney_opera_house(fetcher: Fetcher) -> List[Performance]:
     """
-    Sydney Opera House classical listing.
+    Sydney Opera House classical and opera listings (genres from config).
 
     The listing pages are server-rendered Drupal (div.card--event). Events
     presented by the SSO are skipped because the SSO API already supplies
     them with authoritative times. For the rest, each event page carries a
     "Dates and times" table; JSON-LD is the fallback, and its startDate is
-    UTC with no timezone marker.
+    UTC with no timezone marker. A genre with a "format" (opera) tags its
+    events so the Event type filter can show or hide them.
     """
     base = "https://www.sydneyoperahouse.com"
     max_pages = fetcher.config.get("max_event_pages", 200)
+    genres = fetcher.config.get("sydney_opera_house_genres",
+                                [{"id": "1436", "label": "Classical Music"}])
     cards: List[Tuple[str, str, str]] = []
+    hints: Dict[str, List[str]] = {}     # full URL -> format hints
     seen_hrefs = set()
 
-    for page in range(0, 8):
-        listing_url = f"{base}/whats-on?genre%5B%5D=1436&page={page}"
-        cached = fetcher.cached(listing_url, "listing")
-        if cached is not None:
-            page_cards = cached.get("cards", [])
-        else:
-            html = fetcher.get(listing_url)
-            soup = BeautifulSoup(html, "html.parser")
-            page_cards = []
-            for card in soup.select("div.card--event"):
-                link = card.select_one("a.card__link")
-                if not link:
-                    continue
-                href = link.get("href", "")
-                title = link.get_text(strip=True)
-                if not href or not title:
-                    continue
-                lines = [t.strip() for t in card.get_text("\n").split("\n") if t.strip()]
-                venue = lines[-1] if lines else "Sydney Opera House"
-                if "streamline" in venue.lower():   # icon alt-text noise
-                    venue = "Sydney Opera House"
-                page_cards.append({"href": href, "title": title, "venue": venue})
-            fetcher.store(listing_url, {"cards": page_cards})
+    for genre in genres:
+        for page in range(0, 8):
+            listing_url = f"{base}/whats-on?genre%5B%5D={genre['id']}&page={page}"
+            page_cards = _soh_listing_cards(fetcher, listing_url)
+            if not page_cards:
+                break
 
-        if not page_cards:
-            break
-
-        for c in page_cards:
-            href = c["href"]
-            if href in seen_hrefs or href.startswith("/sydney-symphony-orchestra"):
-                continue
-            seen_hrefs.add(href)
-            full = href if href.startswith("http") else f"{base}{href}"
-            cards.append((c["title"], full, c["venue"]))
+            for c in page_cards:
+                href = c["href"]
+                full = href if href.startswith("http") else f"{base}{href}"
+                if genre.get("format"):
+                    hints.setdefault(full, []).append(genre["format"])
+                if href in seen_hrefs or href.startswith("/sydney-symphony-orchestra"):
+                    continue
+                seen_hrefs.add(href)
+                cards.append((c["title"], full, c["venue"]))
 
     if len(cards) > max_pages:
         print(f"  [WARNING] SOH event pages capped at {max_pages}; "
@@ -435,6 +445,7 @@ def scrape_sydney_opera_house(fetcher: Fetcher) -> List[Performance]:
                 venue_address=lookup_venue_address(display_venue),
                 url=url,
                 source="Sydney Opera House",
+                format_hints=hints.get(url, []),
             ))
 
     return performances
@@ -710,7 +721,8 @@ def scrape_city_recital_hall(fetcher: Fetcher) -> List[Performance]:
     genres = fetcher.config.get("city_recital_hall_genres", ["Classical Music", "Opera"])
 
     cached = fetcher.cached(api_url, "listing")
-    if cached is not None:
+    # Extractions cached before genres were kept lack the key; refetch.
+    if cached is not None and all("genres" in ev for ev in cached.get("events", [])):
         events = cached.get("events", [])
     else:
         data = fetcher.get(api_url, as_json=True)
@@ -737,6 +749,7 @@ def scrape_city_recital_hall(fetcher: Fetcher) -> List[Performance]:
                 "presenter": (v.get("presenter") or "").strip(),
                 "path": v.get("url", ""),
                 "starts": (v.get("eventShowDateTimes") or "").split(),
+                "genres": event_genres,
                 "works": works,
             })
         fetcher.store(api_url, {"events": events})
@@ -759,6 +772,7 @@ def scrape_city_recital_hall(fetcher: Fetcher) -> List[Performance]:
                 url=f"{base}{ev['path']}" if ev["path"].startswith("/") else ev["path"] or base,
                 source="City Recital Hall",
                 works=ev["works"],
+                format_hints=["opera"] if any("opera" in g.lower() for g in ev["genres"]) else [],
             ))
     return performances
 
@@ -830,7 +844,8 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
             print(f"  [WARNING] City of Sydney lists {listing['nbHits']} music events; "
                   f"only {len(listing['hits'])} were returned.")
         events = [{"slug": h["slug"], "venue": h.get("venueName") or "",
-                   "next": h.get("upcomingDate")}
+                   "next": h.get("upcomingDate"),
+                   "opera": "opera" in (h.get("tags") or [])}
                   for h in listing.get("hits", [])
                   if "classical" in (h.get("tags") or [])
                   and not skip_tags & set(h.get("tags") or [])
@@ -893,6 +908,7 @@ def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
                 url=url,
                 source="City of Sydney What's On",
                 time_confirmed=d["timed"],
+                format_hints=["opera"] if ev.get("opera") else [],
             ))
     return performances
 
