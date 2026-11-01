@@ -338,6 +338,7 @@ class Performance:
 
     # Populated by classify()
     composers: List[str] = field(default_factory=list)
+    metro: Optional[dict] = None     # {"station", "minutes", "on_line"} for listed venues
     display_title: str = ""
     performer_group: str = ""
     programme: Optional[str] = None
@@ -645,6 +646,27 @@ def assign_composers(perf: Performance, config: dict) -> None:
                       else composers_from_title(perf.title, config))
 
 
+def assign_metro(perf: Performance, config: dict) -> None:
+    """
+    Nearest Metro station and walk for venues in config["metro"]. Only
+    listed venues are tagged: an unknown venue is never assumed to be near
+    the line. Longest match first, as with venue groups.
+    """
+    metro = config.get("metro", {})
+    text = fold(f"{perf.venue_name} {perf.venue_address}")
+    pairs = [(m, v) for v in metro.get("venues", []) for m in v.get("match", [])]
+    for match, venue in sorted(pairs, key=lambda p: len(p[0]), reverse=True):
+        if match in text:
+            perf.metro = {
+                "station": venue["station"],
+                "minutes": venue["minutes"],
+                "on_line": bool(venue.get("include"))
+                           or venue["minutes"] <= metro.get("max_walk_minutes", 15),
+            }
+            return
+    perf.metro = None
+
+
 def classify(perf: Performance, config: dict) -> Performance:
     """Assign access, formats, region, groups and review flag. Mutates in place."""
     raw = perf.title
@@ -712,6 +734,7 @@ def classify(perf: Performance, config: dict) -> Performance:
                    else "sydney")
 
     assign_composers(perf, config)
+    assign_metro(perf, config)
 
     # --- manual overrides win over everything
     overrides = config.get("overrides", {})
@@ -756,6 +779,7 @@ def build_item(perf: Performance, config: dict) -> dict:
         "venue_group": perf.venue_group,
         "venue_address": perf.venue_address,
         "region": perf.region,
+        "metro": perf.metro,
         "url": perf.url,
         "source": perf.source,
         "date": perf.date.strftime("%Y-%m-%d"),
@@ -829,6 +853,9 @@ def build_facets(items: List[dict], config: dict) -> dict:
                             key=lambda c: (fold(c.split()[-1]), fold(c))),
         "regions": [{"id": "sydney", "label": "Greater Sydney", "default_on": True},
                     {"id": "outside", "label": "Outside Sydney", "default_on": False}],
+        "metro": [{"id": "metro", "default_on": True,
+                   "label": "Near a Metro station (Tallawong to Central)"},
+                  {"id": "elsewhere", "label": "Elsewhere", "default_on": True}],
         "sources": sorted(set(i["source"] for i in items)),
     }
 

@@ -296,6 +296,26 @@
   "composer_skip": ["various", "various composers", "tba", "tbc", "to be announced",
                     "program to be announced", "traditional", "trad", "anon", "anonymous"],
 
+  "_comment_metro": "Venues within a walk of a Metro station from Tallawong to Central (not Waterloo, Sydenham or the Bankstown branch). Walks were measured on OpenStreetMap foot routing on 2026-11-01 and rounded. A venue counts if its walk is within max_walk_minutes or it is marked include; venues not listed never count, so a new venue is not guessed onto the Metro. Matched against the folded venue name and address, longest match first.",
+  "metro": {
+    "max_walk_minutes": 15,
+    "venues": [
+      { "match": ["sydney town hall", "483 george st"], "station": "Gadigal", "minutes": 4 },
+      { "match": ["city recital hall", "angel pl"], "station": "Martin Place", "minutes": 5 },
+      { "match": ["173 king st", "st james' king st", "st james king st"], "station": "Martin Place", "minutes": 5 },
+      { "match": ["queen victoria building", "455 george st"], "station": "Gadigal", "minutes": 5 },
+      { "match": ["church st, north sydney"], "station": "Victoria Cross", "minutes": 6 },
+      { "match": ["the concourse", "409 victoria ave"], "station": "Chatswood", "minutes": 7 },
+      { "match": ["the neilson", "walsh bay", "dawes point"], "station": "Barangaroo", "minutes": 9 },
+      { "match": ["verbrugghen", "conservatorium"], "station": "Martin Place", "minutes": 10 },
+      { "match": ["st philip's church york st", "st philip's york st", "3 york st"], "station": "Barangaroo", "minutes": 10 },
+      { "match": ["smith auditorium", "shore school"], "station": "Victoria Cross", "minutes": 10 },
+      { "match": ["st leonards park"], "station": "Victoria Cross", "minutes": 11 },
+      { "match": ["north sydney girls"], "station": "Crows Nest", "minutes": 15 },
+      { "match": ["sydney opera house", "bennelong point"], "station": "Martin Place", "minutes": 18, "include": true }
+    ]
+  },
+
   "_comment_region": "Newcastle and similar are kept but filtered out by default rather than dropped.",
   "outside_sydney_patterns": [
     "newcastle",

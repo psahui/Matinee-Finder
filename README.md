@@ -88,6 +88,14 @@ than serving stale listings indefinitely. If the total event count collapses bel
 of the previous run, nothing is written at all and the workflow fails loudly — a red
 build and an email beat a silently blank page.
 
+**"Along the Metro" means a measured walk, not a guess.** Venues within 15 minutes' walk
+of a Metro station from Tallawong to Central (not Waterloo, Sydenham or the Bankstown
+branch) are tagged with that station and walk, measured on OpenStreetMap foot routing and
+listed in `config.json` under `metro`. The Opera House, at 18 minutes from Martin Place, is
+included by override. A venue not in that list is never assumed to be near the line, so a
+new venue from the City of Sydney guide only counts once someone adds it. Cards show the
+station and walk; the "Getting there" filter can narrow to Metro venues only.
+
 **The cache stores extractions, not pages.** Caching raw HTML for ~80 event pages would
 add megabytes to every daily commit. `data/cache.json` holds only the parsed fields per
 URL, with TTLs tiered by how soon each performance is: imminent concerts are rechecked

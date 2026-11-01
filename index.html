@@ -202,6 +202,7 @@ h1 { font-size: 1.9rem; letter-spacing: -0.01em; }
 .comp:hover { border-color: var(--link); }
 .comp.on { background: var(--accent); border-color: var(--accent); color: var(--panel); }
 .prog .w { margin-left: 4px; font-style: italic; }
+.where .metro { display: block; }
 .composer-pick { width: 100%; margin-top: 8px; font: inherit; padding: 4px 6px;
                  background: var(--panel); color: var(--ink);
                  border: 1px solid var(--rule); border-radius: 4px; }
@@ -11633,6 +11634,10 @@ function defaultsOf(list) {
 }
 function labelOf(x) { return typeof x === "string" ? x : x.label; }
 
+/* Only venues listed in config.json's metro table carry a station; anything
+   else is "elsewhere", never guessed onto the line. */
+function metroOf(i) { return i.metro && i.metro.on_line ? "metro" : "elsewhere"; }
+
 /* ---------- filter definitions ---------- */
 
 function buildGroups() {
@@ -11676,6 +11681,11 @@ function buildGroups() {
 
     { key: "region",   param: "region", title: "Region", open: false,
       facets: f.regions, match: function (i) { return state.region.has(i.region); } },
+
+    { key: "metro",    param: "metro",  title: "Getting there", open: false,
+      facets: f.metro || [], pick: metroOf,
+      match: function (i) { return state.metro.has(metroOf(i)); },
+      quick: [{ id: "metro-only", label: "Metro only", ids: ["metro"] }] },
 
     { key: "source",   param: "src",    title: "Listing source", open: false,
       facets: f.sources, match: function (i) { return state.source.has(i.source); },
@@ -11851,7 +11861,9 @@ function cardHTML(i) {
       '<span class="d">' + esc(i.date_string) + "</span></div>" +
     '<div class="who">' + esc(i.performer) + "</div>" +
     '<div class="where">' + esc(i.venue_name) +
-      (i.venue_address ? " · " + esc(i.venue_address) : "") + "</div>" + prog +
+      (i.venue_address ? " · " + esc(i.venue_address) : "") +
+      (i.metro ? '<span class="metro">' + esc(i.metro.station) + " Metro · " +
+                 esc(i.metro.minutes) + " min walk</span>" : "") + "</div>" + prog +
     '<div class="badges">' + badges + "</div>" + cal +
     "</article>";
 }
