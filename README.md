@@ -28,7 +28,7 @@ step — `index.html` is plain HTML, CSS and JavaScript with no dependencies.
 
 | Source | Method |
 |---|---|
-| [Sydney Symphony Orchestra](https://www.sydneysymphony.com/) | JSON API (UTC timestamps) |
+| [Sydney Symphony Orchestra](https://www.sydneysymphony.com/) | JSON API (UTC timestamps), plus each upcoming event page's programme panel |
 | [Sydney Opera House](https://www.sydneyoperahouse.com/whats-on) | Listing pagination + per-event "Dates and times" tables, JSON-LD fallback |
 | [Willoughby Symphony Orchestra](https://www.willoughbysymphony.com.au/Events) | Event pages |
 | [The Concourse, Chatswood](https://www.theconcourse.com.au/genre/music-classical/) | Genre listing + event pages |
@@ -81,6 +81,18 @@ URL, with TTLs tiered by how soon each performance is: imminent concerts are rec
 every two days, distant ones every fortnight. The request delay applies only to real
 network calls, so a warm run makes a handful of requests instead of eighty.
 
+**Composers come from published programmes, then titles.** The Sydney Symphony API
+carries no repertoire, but every event page has a structured programme panel
+(`TCHAIKOVSKY` / *Violin Concerto*), which is fetched and cached like any other event
+page. Other sources publish nothing as consistent, so their composers come from the
+title: names and aliases in `config.json` under `composers`, plus signature works under
+`composer_title_works` ("Carmina Burana" → Orff). A bare surname maps onto the alias
+list, but a credit with a given name must match in full, so "Fanny MENDELSSOHN" is never
+folded into her brother. An event whose programme and title name no composer shows
+none; nothing is inferred beyond what is published. On the page, clicking a composer
+(or choosing one in the sidebar) shows only concerts featuring them, and the choice
+is kept in the URL (`?composer=Brahms`) so it can be shared.
+
 ## Running it locally
 
 ```bash
@@ -127,7 +139,8 @@ visibly and the fix is to ask the Opera House, not to disguise the request. If y
 maintain one of these sites and would like the scraper to stop or change behaviour,
 open an issue and it will be honoured.
 
-Only factual details are republished — date, time, title, venue — and every listing
+Only factual details are republished — date, time, title, venue, and the composers and
+works on the programme — and every listing
 links back to the venue's own page for booking. No descriptions, images or pricing are
 copied.
 

@@ -76,6 +76,7 @@ def item_to_performance(item: dict) -> Performance:
         url=item.get("url", ""),
         source=item.get("source", ""),
         time_confirmed=bool(item.get("time_confirmed")),
+        works=item.get("works") or [],
         stale=True,
     )
 

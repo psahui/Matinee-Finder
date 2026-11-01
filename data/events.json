@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T08:53:08",
+ "generated_at": "2026-11-01T17:19:08",
  "generated_date": "2026-11-01",
  "timezone": "Australia/Sydney",
  "counts": {
@@ -159,6 +159,92 @@
    "Sydney Town Hall",
    "Other venues"
   ],
+  "composers": [
+   "John Adams",
+   "Thomas Adès",
+   "Anderson",
+   "Bach",
+   "Barber",
+   "Bartók",
+   "Mason Bates",
+   "Beethoven",
+   "Berlioz",
+   "Bernstein",
+   "Boieldieu",
+   "Brahms",
+   "Britten",
+   "Bruckner",
+   "André Caplet",
+   "Alice Chance",
+   "Chopin",
+   "Copland",
+   "Dukas",
+   "Dvořák",
+   "Ross Edwards",
+   "Elgar",
+   "Françaix",
+   "Gershwin",
+   "Gibbons",
+   "Glière",
+   "Grieg",
+   "HK Gruber",
+   "Guilmant",
+   "Handel",
+   "Haydn",
+   "Holst",
+   "James Horner",
+   "Andrew Howes",
+   "Jens Joneleit",
+   "Elena Kats-Chernin",
+   "Klein",
+   "Ligeti",
+   "Liszt",
+   "Ella Macens",
+   "Mahler",
+   "Mark Mancina",
+   "Adam Manning",
+   "Mendelssohn",
+   "Richard Mills",
+   "Mozart",
+   "Nielsen",
+   "Sean O'Boyle",
+   "Orff",
+   "Arvo Pärt",
+   "Pierpont",
+   "Lauri Porra",
+   "Poulenc",
+   "Prokofiev",
+   "Rachmaninov",
+   "Ravel",
+   "Steve Reich",
+   "Henriette Renié",
+   "Respighi",
+   "Max Richter",
+   "Rimsky-Korsakov",
+   "Saint-Saëns",
+   "Schoenberg",
+   "Schubert",
+   "Schumann",
+   "Harry Sdraulig",
+   "Caroline Shaw",
+   "Shostakovich",
+   "Sibelius",
+   "Smyth",
+   "Stockhausen",
+   "Richard Strauss",
+   "Stravinsky",
+   "Tchaikovsky",
+   "Anna Thorvaldsdottir",
+   "Alex Turley",
+   "Joseph Twist",
+   "Vine",
+   "Wagner",
+   "Rufus Wainwright",
+   "John Williams",
+   "Justin Williams",
+   "Vaughan Williams",
+   "Alan Parsons and Eric Woolfson"
+  ],
   "regions": [
    {
     "id": "sydney",
@@ -184,8 +270,8 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 221,
-   "previous_count": 224,
-   "last_success": "2026-11-01T08:52:05",
+   "previous_count": 221,
+   "last_success": "2026-11-01T17:19:08",
    "message": ""
   },
   {
@@ -193,7 +279,7 @@
    "status": "ok",
    "count": 48,
    "previous_count": 48,
-   "last_success": "2026-11-01T08:52:56",
+   "last_success": "2026-11-01T17:19:08",
    "message": ""
   },
   {
@@ -201,7 +287,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-01T08:53:00",
+   "last_success": "2026-11-01T17:19:08",
    "message": ""
   },
   {
@@ -209,7 +295,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-01T08:53:05",
+   "last_success": "2026-11-01T17:19:08",
    "message": ""
   },
   {
@@ -217,7 +303,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-01T08:53:08",
+   "last_success": "2026-11-01T17:19:08",
    "message": ""
   }
  ],
@@ -229,6 +315,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -267,6 +355,8 @@
    "performer": "Utzon Music 2026",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -305,6 +395,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -343,6 +435,8 @@
    "performer": "Utzon Music 2026",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -381,6 +475,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elgar",
+    "Prokofiev",
+    "Chopin"
+   ],
+   "works": [
+    {
+     "composer": "Elgar",
+     "work": "Cello Concerto"
+    },
+    {
+     "composer": "Prokofiev",
+     "work": "Violin Concerto No.2"
+    },
+    {
+     "composer": "Chopin",
+     "work": "Piano Concerto No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -419,6 +532,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Bach",
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "Before Me, There Was You"
+    },
+    {
+     "composer": "Bach",
+     "work": "Orchestral Suite No.3"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.39"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -457,6 +589,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -495,6 +629,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -533,6 +669,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -571,6 +709,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -609,6 +749,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Bach",
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "Before Me, There Was You"
+    },
+    {
+     "composer": "Bach",
+     "work": "Orchestral Suite No.3"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.39"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -647,6 +806,10 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Saint-Saëns"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -685,6 +848,10 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Saint-Saëns"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -723,6 +890,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -761,6 +930,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -799,6 +970,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -837,6 +1010,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Bach",
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "Before Me, There Was You"
+    },
+    {
+     "composer": "Bach",
+     "work": "Orchestral Suite No.3"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.39"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -875,6 +1067,10 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Saint-Saëns"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -913,6 +1109,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -951,6 +1149,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -989,6 +1189,10 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1027,6 +1231,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1065,6 +1271,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1103,6 +1311,10 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1141,6 +1353,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1179,6 +1393,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Wagner"
+   ],
+   "works": [
+    {
+     "composer": "Wagner",
+     "work": "Götterdämmerung"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1217,6 +1440,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1255,6 +1480,8 @@
    "performer": "Sydney Philharmonia Choirs",
    "performer_group": "Sydney Philharmonia Choirs",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "White Bay Power Station",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -1293,6 +1520,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Wagner"
+   ],
+   "works": [
+    {
+     "composer": "Wagner",
+     "work": "Götterdämmerung"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1331,6 +1567,8 @@
    "performer": "Willoughby Band presents",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -1369,6 +1607,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Barber",
+    "Max Richter"
+   ],
+   "works": [
+    {
+     "composer": "Barber",
+     "work": "Adagio for strings"
+    },
+    {
+     "composer": "Max Richter",
+     "work": "On the Nature of Daylight"
+    },
+    {
+     "composer": "Max Richter",
+     "work": "Recomposed: Vivaldi – The Four Seasons"
+    }
+   ],
    "venue_name": "Newcastle City Hall",
    "venue_group": "Other venues",
    "venue_address": "Newcastle, NSW",
@@ -1407,6 +1663,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Barber",
+    "Max Richter"
+   ],
+   "works": [
+    {
+     "composer": "Barber",
+     "work": "Adagio for strings"
+    },
+    {
+     "composer": "Max Richter",
+     "work": "On the Nature of Daylight"
+    },
+    {
+     "composer": "Max Richter",
+     "work": "Recomposed: Vivaldi – The Four Seasons"
+    }
+   ],
    "venue_name": "Coliseum Theatre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -1445,6 +1719,8 @@
    "performer": "Utzon Music 2026",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1483,6 +1759,8 @@
    "performer": "Utzon Music 2026",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1521,6 +1799,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Philosopher’s Stone"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1559,6 +1846,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Philosopher’s Stone"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1597,6 +1893,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Philosopher’s Stone"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1635,6 +1940,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Philosopher’s Stone"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1673,6 +1987,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1711,6 +2027,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Philosopher’s Stone"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1749,6 +2074,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1787,6 +2114,8 @@
    "performer": "North Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "North Sydney Girls High School",
    "venue_group": "North Sydney venues",
    "venue_address": "365 Pacific Hwy, Crows Nest NSW 2065",
@@ -1825,6 +2154,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1863,6 +2194,10 @@
    "performer": "Sydney Philharmonia Choirs",
    "performer_group": "Sydney Philharmonia Choirs",
    "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1901,6 +2236,10 @@
    "performer": "Sydney Philharmonia Choirs",
    "performer_group": "Sydney Philharmonia Choirs",
    "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1939,6 +2278,10 @@
    "performer": "Sydney Philharmonia Choirs",
    "performer_group": "Sydney Philharmonia Choirs",
    "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -1977,6 +2320,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -2015,6 +2360,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -2053,6 +2400,8 @@
    "performer": "Sydney Philharmonia Choirs",
    "performer_group": "Sydney Philharmonia Choirs",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "St Philip’s Church York Street",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -2091,6 +2440,8 @@
    "performer": "Sydney Philharmonia Choirs",
    "performer_group": "Sydney Philharmonia Choirs",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "St Philip’s Church York Street",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -2129,6 +2480,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2167,6 +2520,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Stravinsky"
+   ],
+   "works": [
+    {
+     "composer": "Stravinsky",
+     "work": "The Soldier’s Tale"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2205,6 +2567,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Guilmant",
+    "Saint-Saëns"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Toccata & Fugue, BWV565"
+    },
+    {
+     "composer": "Guilmant",
+     "work": "Symphony No.1, Op.42"
+    },
+    {
+     "composer": "Saint-Saëns",
+     "work": "Symphony No.3 (finale)"
+    }
+   ],
    "venue_name": "Sydney Town Hall",
    "venue_group": "Sydney Town Hall",
    "venue_address": "483 George St, Sydney NSW 2000",
@@ -2243,6 +2624,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Stravinsky"
+   ],
+   "works": [
+    {
+     "composer": "Stravinsky",
+     "work": "The Soldier’s Tale"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2281,6 +2671,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Guilmant",
+    "Respighi",
+    "Saint-Saëns"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Toccata & Fugue, BWV565"
+    },
+    {
+     "composer": "Guilmant",
+     "work": "Symphony No.1, Op.42"
+    },
+    {
+     "composer": "Respighi",
+     "work": "Church Windows"
+    },
+    {
+     "composer": "Saint-Saëns",
+     "work": "Symphony No.3 (finale)"
+    }
+   ],
    "venue_name": "Sydney Town Hall",
    "venue_group": "Sydney Town Hall",
    "venue_address": "483 George St, Sydney NSW 2000",
@@ -2319,6 +2733,39 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bernstein",
+    "Elena Kats-Chernin",
+    "Tchaikovsky",
+    "Copland",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Bernstein",
+     "work": "Candide: Overture"
+    },
+    {
+     "composer": "Elena Kats-Chernin",
+     "work": "Dance of the Paper Umbrellas"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Swan Lake: Scène & Valse"
+    },
+    {
+     "composer": "Copland",
+     "work": "Rodeo: Hoe-Down"
+    },
+    {
+     "composer": "Bernstein",
+     "work": "Symphonic Dances from West Side Story: Mambo"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Slavonic Dances, Op.46: No.8"
+    }
+   ],
    "venue_name": "Sydney Town Hall",
    "venue_group": "Sydney Town Hall",
    "venue_address": "483 George St, Sydney NSW 2000",
@@ -2357,6 +2804,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Stravinsky"
+   ],
+   "works": [
+    {
+     "composer": "Stravinsky",
+     "work": "The Soldier’s Tale"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2395,6 +2851,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Sydney Town Hall",
    "venue_group": "Sydney Town Hall",
    "venue_address": "483 George St, Sydney NSW 2000",
@@ -2433,6 +2891,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Hordern Pavilion",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -2471,6 +2931,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Hordern Pavilion",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -2509,6 +2971,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2547,6 +3011,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2585,6 +3051,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mark Mancina"
+   ],
+   "works": [
+    {
+     "composer": "Mark Mancina",
+     "work": "Moana"
+    }
+   ],
    "venue_name": "TikTok Entertainment Centre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -2623,6 +3098,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "James Horner"
+   ],
+   "works": [
+    {
+     "composer": "James Horner",
+     "work": "Titanic: Music from the Motion Picture"
+    }
+   ],
    "venue_name": "TikTok Entertainment Centre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -2661,6 +3145,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "St James’ King St",
    "venue_group": "St James' Church",
    "venue_address": "Sydney, NSW",
@@ -2699,6 +3185,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2737,6 +3225,8 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2775,6 +3265,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Adam Manning",
+    "Mahler"
+   ],
+   "works": [
+    {
+     "composer": "Adam Manning",
+     "work": "Rhythmic Acknowledgement of Country"
+    },
+    {
+     "composer": "Mahler",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2813,6 +3317,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Adam Manning",
+    "Mahler"
+   ],
+   "works": [
+    {
+     "composer": "Adam Manning",
+     "work": "Rhythmic Acknowledgement of Country"
+    },
+    {
+     "composer": "Mahler",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2851,6 +3369,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -2889,6 +3409,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Adam Manning",
+    "Mahler"
+   ],
+   "works": [
+    {
+     "composer": "Adam Manning",
+     "work": "Rhythmic Acknowledgement of Country"
+    },
+    {
+     "composer": "Mahler",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -2927,6 +3461,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -2965,6 +3501,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -3003,6 +3541,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3041,6 +3581,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3079,6 +3621,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dvořák",
+    "Vaughan Williams"
+   ],
+   "works": [
+    {
+     "composer": "Dvořák",
+     "work": "Cello Concerto"
+    },
+    {
+     "composer": "Vaughan Williams",
+     "work": "A London Symphony"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3117,6 +3673,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dvořák",
+    "Vaughan Williams"
+   ],
+   "works": [
+    {
+     "composer": "Dvořák",
+     "work": "Cello Concerto"
+    },
+    {
+     "composer": "Vaughan Williams",
+     "work": "A London Symphony"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3155,6 +3725,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dvořák",
+    "Vaughan Williams"
+   ],
+   "works": [
+    {
+     "composer": "Dvořák",
+     "work": "Cello Concerto"
+    },
+    {
+     "composer": "Vaughan Williams",
+     "work": "A London Symphony"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3193,6 +3777,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dvořák",
+    "Vaughan Williams"
+   ],
+   "works": [
+    {
+     "composer": "Dvořák",
+     "work": "Cello Concerto"
+    },
+    {
+     "composer": "Vaughan Williams",
+     "work": "A London Symphony"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3231,6 +3829,29 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Jens Joneleit",
+    "Beethoven",
+    "Schumann"
+   ],
+   "works": [
+    {
+     "composer": "Jens Joneleit",
+     "work": "Sinfonia X"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Two Romances"
+    },
+    {
+     "composer": "Jens Joneleit",
+     "work": "Memoria"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Symphony No.3, Rhenish"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3269,6 +3890,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Jens Joneleit",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Jens Joneleit",
+     "work": "Sinfonia X"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Two Romances"
+    },
+    {
+     "composer": "Jens Joneleit",
+     "work": "Memoria"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3307,6 +3946,29 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Jens Joneleit",
+    "Beethoven",
+    "Schumann"
+   ],
+   "works": [
+    {
+     "composer": "Jens Joneleit",
+     "work": "Sinfonia X"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Two Romances"
+    },
+    {
+     "composer": "Jens Joneleit",
+     "work": "Memoria"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Symphony No.3, Rhenish"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3345,6 +4007,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.9, From the New World (excerpts)"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3383,6 +4054,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3421,6 +4094,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Grieg",
+     "work": "Peer Gynt (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3459,6 +4141,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Grieg",
+     "work": "Peer Gynt (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3497,6 +4188,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Grieg",
+     "work": "Peer Gynt (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3535,6 +4235,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3573,6 +4275,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Grieg",
+     "work": "Peer Gynt (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3611,6 +4322,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Grieg",
+     "work": "Peer Gynt (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3649,6 +4369,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Grieg",
+     "work": "Peer Gynt (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3687,6 +4416,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3725,6 +4456,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3763,6 +4496,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Adams",
+    "Bruckner"
+   ],
+   "works": [
+    {
+     "composer": "John Adams",
+     "work": "After the Fall"
+    },
+    {
+     "composer": "Bruckner",
+     "work": "Symphony No.6"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3801,6 +4548,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Adams",
+    "Bruckner"
+   ],
+   "works": [
+    {
+     "composer": "John Adams",
+     "work": "After the Fall"
+    },
+    {
+     "composer": "Bruckner",
+     "work": "Symphony No.6"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3839,6 +4600,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Adams",
+    "Bruckner"
+   ],
+   "works": [
+    {
+     "composer": "John Adams",
+     "work": "After the Fall"
+    },
+    {
+     "composer": "Bruckner",
+     "work": "Symphony No.6"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3877,6 +4652,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Adams",
+    "Bruckner"
+   ],
+   "works": [
+    {
+     "composer": "John Adams",
+     "work": "After the Fall"
+    },
+    {
+     "composer": "Bruckner",
+     "work": "Symphony No.6"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3915,6 +4704,10 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3953,6 +4746,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -3991,6 +4786,29 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Henriette Renié",
+    "Alan Parsons and Eric Woolfson",
+    "André Caplet"
+   ],
+   "works": [
+    {
+     "composer": "Henriette Renié",
+     "work": "Ballade fantastique"
+    },
+    {
+     "composer": "Alan Parsons and Eric Woolfson",
+     "work": "The Gold Bug (arr. Louisic Dulbecco)"
+    },
+    {
+     "composer": "André Caplet",
+     "work": "Conte fantastique"
+    },
+    {
+     "composer": "Alan Parsons and Eric Woolfson",
+     "work": "A Dream within a Dream (arr. Louisic Dulbecco)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4029,6 +4847,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Piano Concerto No.5"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.21"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.36, Linz"
+    }
+   ],
    "venue_name": "City Recital Hall",
    "venue_group": "City Recital Hall",
    "venue_address": "2 Angel Pl, Sydney NSW 2000",
@@ -4067,6 +4903,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4105,6 +4943,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4143,6 +4983,29 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Henriette Renié",
+    "Alan Parsons and Eric Woolfson",
+    "André Caplet"
+   ],
+   "works": [
+    {
+     "composer": "Henriette Renié",
+     "work": "Ballade fantastique"
+    },
+    {
+     "composer": "Alan Parsons and Eric Woolfson",
+     "work": "The Gold Bug (arr. Louisic Dulbecco)"
+    },
+    {
+     "composer": "André Caplet",
+     "work": "Conte fantastique"
+    },
+    {
+     "composer": "Alan Parsons and Eric Woolfson",
+     "work": "A Dream within a Dream (arr. Louisic Dulbecco)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4181,6 +5044,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Piano Concerto No.5"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.21"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.36, Linz"
+    }
+   ],
    "venue_name": "Wollongong Town Hall",
    "venue_group": "Other venues",
    "venue_address": "Wollongong, NSW",
@@ -4219,6 +5100,29 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Henriette Renié",
+    "Alan Parsons and Eric Woolfson",
+    "André Caplet"
+   ],
+   "works": [
+    {
+     "composer": "Henriette Renié",
+     "work": "Ballade fantastique"
+    },
+    {
+     "composer": "Alan Parsons and Eric Woolfson",
+     "work": "The Gold Bug (arr. Louisic Dulbecco)"
+    },
+    {
+     "composer": "André Caplet",
+     "work": "Conte fantastique"
+    },
+    {
+     "composer": "Alan Parsons and Eric Woolfson",
+     "work": "A Dream within a Dream (arr. Louisic Dulbecco)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4257,6 +5161,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rufus Wainwright"
+   ],
+   "works": [
+    {
+     "composer": "Rufus Wainwright",
+     "work": "Dream Requiem"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4295,6 +5208,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rufus Wainwright"
+   ],
+   "works": [
+    {
+     "composer": "Rufus Wainwright",
+     "work": "Dream Requiem"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4333,6 +5255,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rufus Wainwright"
+   ],
+   "works": [
+    {
+     "composer": "Rufus Wainwright",
+     "work": "Selections from Want Symphonic"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4371,6 +5302,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rufus Wainwright"
+   ],
+   "works": [
+    {
+     "composer": "Rufus Wainwright",
+     "work": "Selections from Want Symphonic"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4409,6 +5349,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Barber",
+    "Britten"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Vesperae Solennes de Confessore"
+    },
+    {
+     "composer": "Barber",
+     "work": "Toccata Festiva"
+    },
+    {
+     "composer": "Britten",
+     "work": "Rejoice in the Lamb"
+    }
+   ],
    "venue_name": "St James’ King St",
    "venue_group": "St James' Church",
    "venue_address": "Sydney, NSW",
@@ -4447,6 +5406,10 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [
+    "Arvo Pärt"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4485,6 +5448,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Anna Thorvaldsdottir",
+    "Lauri Porra",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Anna Thorvaldsdottir",
+     "work": "Archora"
+    },
+    {
+     "composer": "Lauri Porra",
+     "work": "Entropia, Concerto for Electric Bass"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4523,6 +5505,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Anna Thorvaldsdottir",
+    "Lauri Porra",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Anna Thorvaldsdottir",
+     "work": "Archora"
+    },
+    {
+     "composer": "Lauri Porra",
+     "work": "Entropia, Concerto for Electric Bass"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4561,6 +5562,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Anna Thorvaldsdottir",
+    "Lauri Porra",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Anna Thorvaldsdottir",
+     "work": "Archora"
+    },
+    {
+     "composer": "Lauri Porra",
+     "work": "Entropia, Concerto for Electric Bass"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4599,6 +5619,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Anna Thorvaldsdottir",
+    "Lauri Porra",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Anna Thorvaldsdottir",
+     "work": "Archora"
+    },
+    {
+     "composer": "Lauri Porra",
+     "work": "Entropia, Concerto for Electric Bass"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4637,6 +5676,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Peter and the Wolf (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4675,6 +5723,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Peter and the Wolf (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4713,6 +5770,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Peter and the Wolf (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4751,6 +5817,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Peter and the Wolf (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4789,6 +5864,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Peter and the Wolf (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4827,6 +5911,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Peter and the Wolf (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4865,6 +5958,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Studio, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4903,6 +5998,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4941,6 +6038,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Andrew Howes",
+    "Shostakovich"
+   ],
+   "works": [
+    {
+     "composer": "Andrew Howes",
+     "work": "New Work"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "String Quartet No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -4979,6 +6090,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schumann",
+    "Mahler"
+   ],
+   "works": [
+    {
+     "composer": "Schumann",
+     "work": "Piano Concerto"
+    },
+    {
+     "composer": "Mahler",
+     "work": "Symphony No. 1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5017,6 +6142,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schumann",
+    "Mahler"
+   ],
+   "works": [
+    {
+     "composer": "Schumann",
+     "work": "Piano Concerto"
+    },
+    {
+     "composer": "Mahler",
+     "work": "Symphony No. 1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5055,6 +6194,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schumann",
+    "Mahler"
+   ],
+   "works": [
+    {
+     "composer": "Schumann",
+     "work": "Piano Concerto"
+    },
+    {
+     "composer": "Mahler",
+     "work": "Symphony No. 1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5093,6 +6246,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5131,6 +6286,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Missa Solemnis"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5169,6 +6333,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Joseph Twist"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snapshots & Stories"
+    },
+    {
+     "composer": "Joseph Twist",
+     "work": "The Flying Orchestra"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5207,6 +6385,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Joseph Twist"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snapshots & Stories"
+    },
+    {
+     "composer": "Joseph Twist",
+     "work": "The Flying Orchestra"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5245,6 +6437,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Joseph Twist"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snapshots & Stories"
+    },
+    {
+     "composer": "Joseph Twist",
+     "work": "The Flying Orchestra"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5283,6 +6489,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Missa Solemnis"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5321,6 +6536,10 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5359,6 +6578,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -5397,6 +6618,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -5435,6 +6658,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Shostakovich"
+   ],
+   "works": [
+    {
+     "composer": "Shostakovich",
+     "work": "Symphony No.7, Leningrad"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5473,6 +6705,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Shostakovich"
+   ],
+   "works": [
+    {
+     "composer": "Shostakovich",
+     "work": "Symphony No.7, Leningrad"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5511,6 +6752,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Shostakovich"
+   ],
+   "works": [
+    {
+     "composer": "Shostakovich",
+     "work": "Symphony No.7, Leningrad"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5549,6 +6799,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Shostakovich"
+   ],
+   "works": [
+    {
+     "composer": "Shostakovich",
+     "work": "Symphony No.7, Leningrad"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5587,6 +6846,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -5625,6 +6886,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5663,6 +6926,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Harry Sdraulig",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "The Space Between Stars"
+    },
+    {
+     "composer": "Harry Sdraulig",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.9, From the New World"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5701,6 +6983,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Harry Sdraulig",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "The Space Between Stars"
+    },
+    {
+     "composer": "Harry Sdraulig",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.9, From the New World"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5739,6 +7040,23 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No.4"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No.11"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5777,6 +7095,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Harry Sdraulig",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "The Space Between Stars"
+    },
+    {
+     "composer": "Harry Sdraulig",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.9, From the New World"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5815,6 +7152,23 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No.4"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No.11"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5853,6 +7207,23 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No.4"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No.11"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5891,6 +7262,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ella Macens",
+    "Harry Sdraulig",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Ella Macens",
+     "work": "The Space Between Stars"
+    },
+    {
+     "composer": "Harry Sdraulig",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Symphony No.9, From the New World"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5929,6 +7319,23 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.1"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.2"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.3, Eroica"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -5967,6 +7374,23 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.1"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.2"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.3, Eroica"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6005,6 +7429,19 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.4"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6043,6 +7480,19 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.4"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6081,6 +7531,19 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.6"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6119,6 +7582,19 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.6"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.7"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6157,6 +7633,19 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.8"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.9, Choral"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6195,6 +7684,19 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.8"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.9, Choral"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6233,6 +7735,10 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6271,6 +7777,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Alice Chance",
+    "Prokofiev",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Alice Chance",
+     "work": "Through Changing Landscape"
+    },
+    {
+     "composer": "Prokofiev",
+     "work": "Piano Concerto No.3"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6309,6 +7834,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Alice Chance",
+    "Prokofiev",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Alice Chance",
+     "work": "Through Changing Landscape"
+    },
+    {
+     "composer": "Prokofiev",
+     "work": "Piano Concerto No.3"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6347,6 +7891,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Alice Chance",
+    "Prokofiev",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Alice Chance",
+     "work": "Through Changing Landscape"
+    },
+    {
+     "composer": "Prokofiev",
+     "work": "Piano Concerto No.3"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6385,6 +7948,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schumann",
+    "Chopin",
+    "Caroline Shaw",
+    "Prokofiev"
+   ],
+   "works": [
+    {
+     "composer": "Schumann",
+     "work": "Fantasiestücke, Op.12"
+    },
+    {
+     "composer": "Chopin",
+     "work": "Ballade No.1"
+    },
+    {
+     "composer": "Caroline Shaw",
+     "work": "Gustave Le Gray"
+    },
+    {
+     "composer": "Prokofiev",
+     "work": "Sonata No.6"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6423,6 +8010,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Gibbons",
+    "Haydn"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Keyboard Concerto K107, No.1"
+    },
+    {
+     "composer": "Gibbons",
+     "work": "In Nomine a 5"
+    },
+    {
+     "composer": "Haydn",
+     "work": "Symphony No.102"
+    }
+   ],
    "venue_name": "City Recital Hall",
    "venue_group": "City Recital Hall",
    "venue_address": "2 Angel Pl, Sydney NSW 2000",
@@ -6461,6 +8067,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Gibbons",
+    "Haydn"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Keyboard Concerto K107, No.1"
+    },
+    {
+     "composer": "Gibbons",
+     "work": "In Nomine a 5"
+    },
+    {
+     "composer": "Haydn",
+     "work": "Symphony No.102"
+    }
+   ],
    "venue_name": "Newcastle City Hall",
    "venue_group": "Other venues",
    "venue_address": "Newcastle, NSW",
@@ -6499,6 +8124,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6537,6 +8164,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6575,6 +8204,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6613,6 +8244,8 @@
    "performer": "Sydney Opera House",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6651,6 +8284,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Masonic Funeral Music"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.41, Jupiter"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6689,6 +8340,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Masonic Funeral Music"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.41, Jupiter"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6727,6 +8396,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Masonic Funeral Music"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.41, Jupiter"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6765,6 +8452,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Masonic Funeral Music"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.41, Jupiter"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6803,6 +8508,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6841,6 +8548,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -6879,6 +8588,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -6917,6 +8628,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -6955,6 +8668,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -6993,6 +8715,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elena Kats-Chernin",
+    "Tchaikovsky",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Elena Kats-Chernin",
+     "work": "Wild Swans: Suite"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7031,6 +8772,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elena Kats-Chernin",
+    "Tchaikovsky",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Elena Kats-Chernin",
+     "work": "Wild Swans: Suite"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7069,6 +8829,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "St James’ King St",
    "venue_group": "St James' Church",
    "venue_address": "Sydney, NSW",
@@ -7107,6 +8869,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elena Kats-Chernin",
+    "Tchaikovsky",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Elena Kats-Chernin",
+     "work": "Wild Swans: Suite"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7145,6 +8926,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elena Kats-Chernin",
+    "Tchaikovsky",
+    "Sibelius"
+   ],
+   "works": [
+    {
+     "composer": "Elena Kats-Chernin",
+     "work": "Wild Swans: Suite"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7183,6 +8983,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7221,6 +9023,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Nielsen",
+    "Françaix"
+   ],
+   "works": [
+    {
+     "composer": "Nielsen",
+     "work": "Wind Quintet"
+    },
+    {
+     "composer": "Nielsen",
+     "work": "Serenata in Vano"
+    },
+    {
+     "composer": "Françaix",
+     "work": "À huit (Octet)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7259,6 +9079,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7297,6 +9119,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Nielsen",
+    "Françaix"
+   ],
+   "works": [
+    {
+     "composer": "Nielsen",
+     "work": "Wind Quintet"
+    },
+    {
+     "composer": "Nielsen",
+     "work": "Serenata in Vano"
+    },
+    {
+     "composer": "Françaix",
+     "work": "À huit (Octet)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7335,6 +9175,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7373,6 +9215,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7411,6 +9255,24 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Nielsen",
+    "Françaix"
+   ],
+   "works": [
+    {
+     "composer": "Nielsen",
+     "work": "Wind Quintet"
+    },
+    {
+     "composer": "Nielsen",
+     "work": "Serenata in Vano"
+    },
+    {
+     "composer": "Françaix",
+     "work": "À huit (Octet)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7449,6 +9311,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7487,6 +9351,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7525,6 +9391,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7563,6 +9431,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Klein",
+    "Shostakovich",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Klein",
+     "work": "Partita for Strings"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "Cello Concerto No.1"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Symphony No.6, Pathétique"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7601,6 +9488,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Klein",
+    "Shostakovich",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Klein",
+     "work": "Partita for Strings"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "Cello Concerto No.1"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Symphony No.6, Pathétique"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7639,6 +9545,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Klein",
+    "Shostakovich",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Klein",
+     "work": "Partita for Strings"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "Cello Concerto No.1"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Symphony No.6, Pathétique"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7677,6 +9602,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -7715,6 +9642,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Klein",
+    "Shostakovich",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Klein",
+     "work": "Partita for Strings"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "Cello Concerto No.1"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Symphony No.6, Pathétique"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7753,6 +9699,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -7791,6 +9739,8 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7829,6 +9779,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -7867,6 +9819,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rimsky-Korsakov"
+   ],
+   "works": [
+    {
+     "composer": "Rimsky-Korsakov",
+     "work": "Scheherazade (excerpts)"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7905,6 +9866,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Prokofiev",
+    "Elena Kats-Chernin",
+    "Shostakovich"
+   ],
+   "works": [
+    {
+     "composer": "Prokofiev",
+     "work": "Symphony No.1, Classical"
+    },
+    {
+     "composer": "Elena Kats-Chernin",
+     "work": "New Work"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "Symphony No.9"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7943,6 +9923,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Dukas",
+    "Sean O'Boyle",
+    "Mendelssohn"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snugglepot & Cuddlepie"
+    },
+    {
+     "composer": "Dukas",
+     "work": "The Sorcerer’s Apprentice"
+    },
+    {
+     "composer": "Sean O'Boyle",
+     "work": "Bear Hunt"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Midsummer Night's Dream Overture"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -7981,6 +9985,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Dukas",
+    "Sean O'Boyle",
+    "Mendelssohn"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snugglepot & Cuddlepie"
+    },
+    {
+     "composer": "Dukas",
+     "work": "The Sorcerer’s Apprentice"
+    },
+    {
+     "composer": "Sean O'Boyle",
+     "work": "Bear Hunt"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Midsummer Night's Dream Overture"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8019,6 +10047,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Sean O'Boyle",
+    "Mendelssohn",
+    "Dukas"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snugglepot & Cuddlepie (selections)"
+    },
+    {
+     "composer": "Sean O'Boyle",
+     "work": "Bear Hunt"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "A Midsummer Night’s Dream: Overture"
+    },
+    {
+     "composer": "Dukas",
+     "work": "The Sorcerer’s Apprentice"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8057,6 +10109,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Mills",
+    "Sean O'Boyle",
+    "Mendelssohn",
+    "Dukas"
+   ],
+   "works": [
+    {
+     "composer": "Richard Mills",
+     "work": "Snugglepot & Cuddlepie (selections)"
+    },
+    {
+     "composer": "Sean O'Boyle",
+     "work": "Bear Hunt"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "A Midsummer Night’s Dream: Overture"
+    },
+    {
+     "composer": "Dukas",
+     "work": "The Sorcerer’s Apprentice"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8095,6 +10171,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Vine",
+    "Tchaikovsky",
+    "Holst"
+   ],
+   "works": [
+    {
+     "composer": "Vine",
+     "work": "Celebrare Celeberrime"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Romeo and Juliet – Fantasy-Overture"
+    },
+    {
+     "composer": "Holst",
+     "work": "The Planets: Jupiter"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8133,6 +10228,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elgar",
+    "Handel",
+    "Boieldieu",
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Elgar",
+     "work": "Serenade for Strings"
+    },
+    {
+     "composer": "Handel",
+     "work": "Harp Concerto"
+    },
+    {
+     "composer": "Boieldieu",
+     "work": "Harp Concerto"
+    },
+    {
+     "composer": "Grieg",
+     "work": "Holberg Suite"
+    }
+   ],
    "venue_name": "City Recital Hall",
    "venue_group": "City Recital Hall",
    "venue_address": "2 Angel Pl, Sydney NSW 2000",
@@ -8171,6 +10290,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dukas",
+    "Gershwin",
+    "Ella Macens",
+    "Mason Bates"
+   ],
+   "works": [
+    {
+     "composer": "Dukas",
+     "work": "The Sorcerer’s Apprentice"
+    },
+    {
+     "composer": "Gershwin",
+     "work": "Rhapsody in Blue"
+    },
+    {
+     "composer": "Ella Macens",
+     "work": "The Space Between Stars"
+    },
+    {
+     "composer": "Mason Bates",
+     "work": "Philharmonia Fantastique"
+    }
+   ],
    "venue_name": "Coliseum Theatre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -8209,6 +10352,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dukas",
+    "Ella Macens",
+    "Mason Bates"
+   ],
+   "works": [
+    {
+     "composer": "Dukas",
+     "work": "Sorcerer's Apprentice"
+    },
+    {
+     "composer": "Ella Macens",
+     "work": "The Space Between Stars (excerpt)"
+    },
+    {
+     "composer": "Mason Bates",
+     "work": "Philharmonia Fantastique"
+    }
+   ],
    "venue_name": "Coliseum Theatre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -8247,6 +10409,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Dukas",
+    "Gershwin",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Dukas",
+     "work": "The Sorcerer’s Apprentice"
+    },
+    {
+     "composer": "Gershwin",
+     "work": "Rhapsody in Blue"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5"
+    }
+   ],
    "venue_name": "Newcastle Civic Theatre",
    "venue_group": "Other venues",
    "venue_address": "Newcastle, NSW",
@@ -8285,6 +10466,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Glière",
+    "Berlioz"
+   ],
+   "works": [
+    {
+     "composer": "Glière",
+     "work": "Harp Concerto"
+    },
+    {
+     "composer": "Berlioz",
+     "work": "Symphonie fantastique"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8323,6 +10518,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Glière",
+    "Berlioz"
+   ],
+   "works": [
+    {
+     "composer": "Glière",
+     "work": "Harp Concerto"
+    },
+    {
+     "composer": "Berlioz",
+     "work": "Symphonie fantastique"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8361,6 +10570,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rachmaninov",
+    "Rimsky-Korsakov"
+   ],
+   "works": [
+    {
+     "composer": "Rachmaninov",
+     "work": "Piano Concerto No.2"
+    },
+    {
+     "composer": "Rimsky-Korsakov",
+     "work": "Scheherazade"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8399,6 +10622,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rachmaninov",
+    "Rimsky-Korsakov"
+   ],
+   "works": [
+    {
+     "composer": "Rachmaninov",
+     "work": "Piano Concerto No.2"
+    },
+    {
+     "composer": "Rimsky-Korsakov",
+     "work": "Scheherazade"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8437,6 +10674,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rachmaninov",
+    "Rimsky-Korsakov"
+   ],
+   "works": [
+    {
+     "composer": "Rachmaninov",
+     "work": "Piano Concerto No.2"
+    },
+    {
+     "composer": "Rimsky-Korsakov",
+     "work": "Scheherazade"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8475,6 +10726,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8513,6 +10773,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8551,6 +10820,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8589,6 +10867,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rachmaninov",
+    "Rimsky-Korsakov"
+   ],
+   "works": [
+    {
+     "composer": "Rachmaninov",
+     "work": "Piano Concerto No.2"
+    },
+    {
+     "composer": "Rimsky-Korsakov",
+     "work": "Scheherazade"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8627,6 +10919,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8665,6 +10966,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8703,6 +11013,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8741,6 +11060,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Rachmaninov",
+    "Rimsky-Korsakov"
+   ],
+   "works": [
+    {
+     "composer": "Rachmaninov",
+     "work": "Piano Concerto No.2"
+    },
+    {
+     "composer": "Rimsky-Korsakov",
+     "work": "Scheherazade"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8779,6 +11112,10 @@
    "performer": "Australian Chamber Orchestra",
    "performer_group": "Australian Chamber Orchestra",
    "programme": null,
+   "composers": [
+    "John Adams"
+   ],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8817,6 +11154,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Elgar"
+   ],
+   "works": [
+    {
+     "composer": "Elgar",
+     "work": "Enigma Variations (excerpts)"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8855,6 +11201,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schubert",
+    "Liszt",
+    "Thomas Adès"
+   ],
+   "works": [
+    {
+     "composer": "Schubert",
+     "work": "Symphony No.5"
+    },
+    {
+     "composer": "Liszt",
+     "work": "Totentanz"
+    },
+    {
+     "composer": "Thomas Adès",
+     "work": "Inferno Suite"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8893,6 +11258,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schubert",
+    "Liszt",
+    "Thomas Adès"
+   ],
+   "works": [
+    {
+     "composer": "Schubert",
+     "work": "Symphony No.5"
+    },
+    {
+     "composer": "Liszt",
+     "work": "Totentanz"
+    },
+    {
+     "composer": "Thomas Adès",
+     "work": "Inferno Suite"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8931,6 +11315,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schubert",
+    "Liszt",
+    "Thomas Adès"
+   ],
+   "works": [
+    {
+     "composer": "Schubert",
+     "work": "Symphony No.5"
+    },
+    {
+     "composer": "Liszt",
+     "work": "Totentanz"
+    },
+    {
+     "composer": "Thomas Adès",
+     "work": "Inferno Suite"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -8969,6 +11372,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9007,6 +11412,8 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -9045,6 +11452,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mendelssohn",
+    "Schumann",
+    "Wagner",
+    "Liszt"
+   ],
+   "works": [
+    {
+     "composer": "Mendelssohn",
+     "work": "Variations Serieuses"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Fantasie in C"
+    },
+    {
+     "composer": "Wagner",
+     "work": "Isolde’s Liebestod"
+    },
+    {
+     "composer": "Liszt",
+     "work": "Piano Sonata in B minor"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9083,6 +11514,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Star Wars: Return of the Jedi"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9121,6 +11561,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Star Wars: Return of the Jedi"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9159,6 +11608,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Star Wars: Return of the Jedi"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9197,6 +11655,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Star Wars: Return of the Jedi"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9235,6 +11702,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Star Wars: Return of the Jedi"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9273,6 +11749,10 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [
+    "Respighi"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -9311,6 +11791,10 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Respighi"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -9349,6 +11833,10 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [
+    "Respighi"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -9387,6 +11875,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9425,6 +11915,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9463,6 +11955,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Alex Turley",
+    "Ravel"
+   ],
+   "works": [
+    {
+     "composer": "Alex Turley",
+     "work": "The ocean’s dream of itself"
+    },
+    {
+     "composer": "Ravel",
+     "work": "Daphnis & Chloe: Suite No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9501,6 +12007,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven",
+    "Mozart",
+    "Alex Turley",
+    "Ravel"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Leonore Overture No.3"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.23"
+    },
+    {
+     "composer": "Alex Turley",
+     "work": "the ocean’s dream of itself"
+    },
+    {
+     "composer": "Ravel",
+     "work": "Daphnis & Chloe: Suite No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9539,6 +12069,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Beethoven",
+    "Mozart",
+    "Alex Turley",
+    "Ravel"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Leonore Overture No.3"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.23"
+    },
+    {
+     "composer": "Alex Turley",
+     "work": "the ocean’s dream of itself"
+    },
+    {
+     "composer": "Ravel",
+     "work": "Daphnis & Chloe: Suite No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9577,6 +12131,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante for Violin & Viola"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9615,6 +12183,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante for Violin & Viola"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9653,6 +12235,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante for Violin & Viola"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9691,6 +12287,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Mozart",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante for Violin & Viola"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Symphony No.1"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9729,6 +12339,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Poulenc",
+    "Justin Williams",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "‘Welcome! I will say when Death steps to my bed’ from BWV27"
+    },
+    {
+     "composer": "Poulenc",
+     "work": "Vocalise"
+    },
+    {
+     "composer": "Justin Williams",
+     "work": "New Work"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Winterreise (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9767,6 +12401,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schoenberg",
+    "Copland",
+    "Stravinsky",
+    "HK Gruber"
+   ],
+   "works": [
+    {
+     "composer": "Schoenberg",
+     "work": "Chamber Symphony No.1"
+    },
+    {
+     "composer": "Copland",
+     "work": "Quiet City"
+    },
+    {
+     "composer": "Stravinsky",
+     "work": "Danses Concertantes"
+    },
+    {
+     "composer": "HK Gruber",
+     "work": "Frankenstein!!"
+    }
+   ],
    "venue_name": "St James’ King St",
    "venue_group": "St James' Church",
    "venue_address": "Sydney, NSW",
@@ -9805,6 +12463,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bartók",
+    "Steve Reich"
+   ],
+   "works": [
+    {
+     "composer": "Bartók",
+     "work": "Sonata for Percussion and Two Pianos"
+    },
+    {
+     "composer": "Steve Reich",
+     "work": "Sextet"
+    }
+   ],
    "venue_name": "City Recital Hall",
    "venue_group": "City Recital Hall",
    "venue_address": "2 Angel Pl, Sydney NSW 2000",
@@ -9843,6 +12515,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Poulenc",
+    "Justin Williams",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "‘Welcome! I will say when Death steps to my bed’ from BWV27"
+    },
+    {
+     "composer": "Poulenc",
+     "work": "Vocalise"
+    },
+    {
+     "composer": "Justin Williams",
+     "work": "New Work"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Winterreise (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9881,6 +12577,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Schoenberg",
+    "Copland",
+    "Stravinsky",
+    "HK Gruber"
+   ],
+   "works": [
+    {
+     "composer": "Schoenberg",
+     "work": "Chamber Symphony No.1"
+    },
+    {
+     "composer": "Copland",
+     "work": "Quiet City"
+    },
+    {
+     "composer": "Stravinsky",
+     "work": "Danses Concertantes"
+    },
+    {
+     "composer": "HK Gruber",
+     "work": "Frankenstein!!"
+    }
+   ],
    "venue_name": "Wollongong Town Hall",
    "venue_group": "Other venues",
    "venue_address": "Wollongong, NSW",
@@ -9919,6 +12639,30 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Bach",
+    "Poulenc",
+    "Justin Williams",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "‘Welcome! I will say when Death steps to my bed’ from BWV27"
+    },
+    {
+     "composer": "Poulenc",
+     "work": "Vocalise"
+    },
+    {
+     "composer": "Justin Williams",
+     "work": "New Work"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Winterreise (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9957,6 +12701,8 @@
    "performer": "Utzon Music",
    "performer_group": "Other / various",
    "programme": "Utzon Music",
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -9995,6 +12741,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Haydn",
+    "Mozart",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Haydn",
+     "work": "Symphony No.86"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante K297b"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Le Bourgeois Gentilhomme Suite"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10033,6 +12798,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Haydn",
+    "Mozart",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Haydn",
+     "work": "Symphony No.86"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante K297b"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Le Bourgeois Gentilhomme Suite"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10071,6 +12855,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Haydn",
+    "Mozart",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Haydn",
+     "work": "Symphony No.86"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Sinfonia Concertante K297b"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Le Bourgeois Gentilhomme Suite"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10109,6 +12912,33 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ligeti",
+    "Beethoven",
+    "Stockhausen"
+   ],
+   "works": [
+    {
+     "composer": "Ligeti",
+     "work": "Musica Ricercata"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Bagatelles, Op.33 (selections)"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Bagatelles, Op.119 (selections)"
+    },
+    {
+     "composer": "Stockhausen",
+     "work": "Klavierstück IX"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Piano Sonata No.23, Appassionata"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10147,6 +12977,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ross Edwards",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Ross Edwards",
+     "work": "Symphony No.7"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Piano Concerto No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10185,6 +13029,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ross Edwards",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Ross Edwards",
+     "work": "Symphony No.7"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Piano Concerto No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10223,6 +13081,20 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Ross Edwards",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Ross Edwards",
+     "work": "Symphony No.7"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Piano Concerto No.2"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10261,6 +13133,10 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [
+    "Orff"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -10299,6 +13175,10 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Orff"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -10337,6 +13217,10 @@
    "performer": "Willoughby Symphony Orchestra",
    "performer_group": "Willoughby Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Stravinsky"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -10375,6 +13259,10 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [
+    "Orff"
+   ],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
@@ -10413,6 +13301,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Richard Strauss",
+     "work": "Salome"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10451,6 +13348,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Richard Strauss",
+     "work": "Salome"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10489,6 +13395,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10527,6 +13435,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Smyth",
+    "Sibelius",
+    "Elgar"
+   ],
+   "works": [
+    {
+     "composer": "Smyth",
+     "work": "On the Cliffs of Cornwall"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Elgar",
+     "work": "Enigma Variations"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10565,6 +13492,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Smyth",
+    "Sibelius",
+    "Elgar"
+   ],
+   "works": [
+    {
+     "composer": "Smyth",
+     "work": "On the Cliffs of Cornwall"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Elgar",
+     "work": "Enigma Variations"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10603,6 +13549,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10641,6 +13596,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10679,6 +13643,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10717,6 +13690,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Smyth",
+    "Sibelius",
+    "Elgar"
+   ],
+   "works": [
+    {
+     "composer": "Smyth",
+     "work": "On the Cliffs of Cornwall"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Elgar",
+     "work": "Enigma Variations"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10755,6 +13747,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10793,6 +13794,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10831,6 +13841,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (excerpts)"
+    }
+   ],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10869,6 +13888,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Smyth",
+    "Sibelius",
+    "Elgar"
+   ],
+   "works": [
+    {
+     "composer": "Smyth",
+     "work": "On the Cliffs of Cornwall"
+    },
+    {
+     "composer": "Sibelius",
+     "work": "Violin Concerto"
+    },
+    {
+     "composer": "Elgar",
+     "work": "Enigma Variations"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10907,6 +13945,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Chamber of Secrets"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10945,6 +13992,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -10983,6 +14032,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Chamber of Secrets"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11021,6 +14079,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11059,6 +14119,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Chamber of Secrets"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11097,6 +14166,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Chamber of Secrets"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11135,6 +14213,8 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "Utzon Room, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11173,6 +14253,15 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "John Williams"
+   ],
+   "works": [
+    {
+     "composer": "John Williams",
+     "work": "Harry Potter and the Chamber of Secrets"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11211,6 +14300,35 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky",
+    "John Williams",
+    "Anderson",
+    "Mendelssohn",
+    "Pierpont"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (selections)"
+    },
+    {
+     "composer": "John Williams",
+     "work": "Three Holiday Songs from Home Alone"
+    },
+    {
+     "composer": "Anderson",
+     "work": "Sleigh Ride"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Hark! The Herald-Angels Sing"
+    },
+    {
+     "composer": "Pierpont",
+     "work": "Jingle Bells"
+    }
+   ],
    "venue_name": "Coliseum Theatre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
@@ -11249,6 +14367,35 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky",
+    "John Williams",
+    "Anderson",
+    "Mendelssohn",
+    "Pierpont"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (selections)"
+    },
+    {
+     "composer": "John Williams",
+     "work": "Three Holiday Songs from Home Alone"
+    },
+    {
+     "composer": "Anderson",
+     "work": "Sleigh Ride"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Hark! The Herald-Angels Sing"
+    },
+    {
+     "composer": "Pierpont",
+     "work": "Jingle Bells"
+    }
+   ],
    "venue_name": "Newcastle Civic Theatre",
    "venue_group": "Other venues",
    "venue_address": "Newcastle, NSW",
@@ -11287,6 +14434,25 @@
    "performer": "Sydney Symphony Orchestra",
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
+   "composers": [
+    "Tchaikovsky",
+    "Anderson",
+    "Pierpont"
+   ],
+   "works": [
+    {
+     "composer": "Tchaikovsky",
+     "work": "The Nutcracker (selections)"
+    },
+    {
+     "composer": "Anderson",
+     "work": "Sleigh Ride"
+    },
+    {
+     "composer": "Pierpont",
+     "work": "Jingle Bells"
+    }
+   ],
    "venue_name": "Concert Hall, Sydney Opera House",
    "venue_group": "Sydney Opera House",
    "venue_address": "Bennelong Point, Sydney NSW 2000",
@@ -11325,6 +14491,8 @@
    "performer": "Various artists",
    "performer_group": "Other / various",
    "programme": null,
+   "composers": [],
+   "works": [],
    "venue_name": "The Concourse Concert Hall",
    "venue_group": "Sydney Opera House",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",

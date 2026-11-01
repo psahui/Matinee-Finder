@@ -27,6 +27,7 @@ from typing import Dict, List, Optional
 import hashlib
 import json
 import re
+import unicodedata
 
 try:
     from zoneinfo import ZoneInfo
@@ -331,8 +332,10 @@ class Performance:
     url: str
     source: str
     time_confirmed: bool = True
+    works: List[dict] = field(default_factory=list)   # [{"composer", "work"}] as published
 
     # Populated by classify()
+    composers: List[str] = field(default_factory=list)
     display_title: str = ""
     performer_group: str = ""
     programme: Optional[str] = None
@@ -486,6 +489,106 @@ def _map_group(value: str, groups: Dict[str, List[str]], default: str) -> str:
     return default
 
 
+# =============================================================================
+# COMPOSERS
+# =============================================================================
+# Two routes in. Sydney Symphony event pages publish a structured programme,
+# which is authoritative. Everything else falls back to spotting composer
+# names (or signature works) in the title. A concert with neither shows no
+# composers - like times, they are never guessed beyond what is published.
+
+def fold(text: str) -> str:
+    """Lowercase, accent-free, straight-quoted: 'Dvořák’s' -> "dvorak's"."""
+    text = unicodedata.normalize("NFKD", text.replace("’", "'"))
+    return "".join(c for c in text if not unicodedata.combining(c)).lower().strip()
+
+
+def _tidy_case(name: str) -> str:
+    """
+    SSO sets surnames in capitals ('Dobrinka TABAKOVA'); restore them, but
+    leave initials alone ('HK GRUBER' -> 'HK Gruber', not 'Hk').
+    """
+    def fix(w):
+        if not w.isupper() or len(w) <= 2 or not re.search(r"[AEIOUY]", w):
+            return w
+        return w.title()
+    return " ".join(fix(w) for w in name.split())
+
+
+def canonical_composer(raw: str, config: dict) -> Optional[str]:
+    """
+    Map a published composer credit onto one display name.
+
+    A bare capitalised surname ('BEETHOVEN', 'JS BACH') is looked up as an
+    alias. A credit with a given name ('Fanny MENDELSSOHN') must match an
+    alias in full - otherwise it would be folded into her brother.
+    """
+    name = re.split(r"\s+(?:arr\b|orch\b|trans\b)\.?|[(,/]", raw.replace("’", "'"),
+                    flags=re.I)[0]
+    name = re.sub(r"\s+", " ", name).strip(" .-")
+    if not name or fold(name) in config.get("composer_skip", []):
+        return None
+
+    key = fold(name)
+    for display, aliases in config.get("composers", {}).items():
+        if key == fold(display) or key in aliases:
+            return display
+    return _tidy_case(name)
+
+
+def composers_from_title(title: str, config: dict) -> List[str]:
+    """Composers named in a title, or implied by a signature work in it."""
+    text = fold(title)
+    for pattern in config.get("composer_title_ignore", []):
+        text = re.sub(pattern, " ", text)
+
+    found = []   # (start, end, name), so the order follows the title
+    for display, aliases in config.get("composers", {}).items():
+        for alias in [fold(display)] + aliases:
+            m = re.search(r"(?<![\w-])" + re.escape(alias) + r"(?![\w-])", text)
+            if m:
+                found.append((m.start(), m.end(), display))
+                break
+    for pattern, display in config.get("composer_title_works", {}).items():
+        m = re.search(pattern, text)
+        if m:
+            found.append((m.start(), m.end(), display))
+
+    # 'Richard Strauss' also contains 'strauss'; keep only the longer credit.
+    kept = [f for f in found
+            if not any(o is not f and o[0] <= f[0] and f[1] <= o[1]
+                       and (o[1] - o[0]) > (f[1] - f[0]) for o in found)]
+    return _unique([name for _, _, name in sorted(kept)])
+
+
+def _unique(names: List[str]) -> List[str]:
+    seen, out = set(), []
+    for n in names:
+        if fold(n) not in seen:
+            seen.add(fold(n))
+            out.append(n)
+    return out
+
+
+def assign_composers(perf: Performance, config: dict) -> None:
+    """Canonicalise published works, or fall back to the title."""
+    works = []
+    for w in perf.works:
+        # Medley concerts ('Disney in Concert') put show titles in the
+        # composer slot with no work beneath - an entry without a work is not
+        # a composer credit, so it is dropped rather than shown as one.
+        work = re.sub(r"\s+", " ", w.get("work", ""))
+        work = re.sub(r"\s*\b(?:world|australian|sydney|nsw)\s+premiere\b",
+                      "", work, flags=re.I)
+        work = re.sub(r"\(\s*\)", "", work).strip(" *")    # '(WORLD PREMIERE)' leaves '()'
+        name = canonical_composer(w.get("composer", ""), config)
+        if name and work:
+            works.append({"composer": name, "work": work})
+    perf.works = works
+    perf.composers = (_unique([w["composer"] for w in works]) if works
+                      else composers_from_title(perf.title, config))
+
+
 def classify(perf: Performance, config: dict) -> Performance:
     """Assign access, formats, region, groups and review flag. Mutates in place."""
     raw = perf.title
@@ -549,6 +652,8 @@ def classify(perf: Performance, config: dict) -> Performance:
     perf.region = ("outside" if _matches_any(haystack, config.get("outside_sydney_patterns", []))
                    else "sydney")
 
+    assign_composers(perf, config)
+
     # --- manual overrides win over everything
     overrides = config.get("overrides", {})
     ov = overrides.get(perf.event_id()) or overrides.get(perf.url)
@@ -586,6 +691,8 @@ def build_item(perf: Performance, config: dict) -> dict:
         "performer": perf.performer,
         "performer_group": perf.performer_group,
         "programme": perf.programme,
+        "composers": perf.composers,
+        "works": perf.works,
         "venue_name": perf.venue_name,
         "venue_group": perf.venue_group,
         "venue_address": perf.venue_address,
@@ -658,6 +765,9 @@ def build_facets(items: List[dict], config: dict) -> dict:
                                      config.get("performer_other_label")),
         "venues": ordered_unique([i["venue_group"] for i in items],
                                  config.get("venue_other_label")),
+        # By surname, so 'Dobrinka Tabakova' files under T beside 'Tchaikovsky'.
+        "composers": sorted({c for i in items for c in i["composers"]},
+                            key=lambda c: (fold(c.split()[-1]), fold(c))),
         "regions": [{"id": "sydney", "label": "Greater Sydney", "default_on": True},
                     {"id": "outside", "label": "Outside Sydney", "default_on": False}],
         "sources": sorted(set(i["source"] for i in items)),

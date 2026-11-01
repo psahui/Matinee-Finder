@@ -248,12 +248,27 @@ def scrape_sydney_symphony(fetcher: Fetcher) -> List[Performance]:
 
     performances: List[Performance] = []
     seen = set()
+    programme_pages = 0
+    programme_failures = 0
     for event in events:
         title = event["title"]
         slug = event.get("slug", "")
         url = (f"https://www.sydneysymphony.com/events/{slug}" if slug
                else "https://www.sydneysymphony.com/concert-tickets/whats-on")
         venue_name = event.get("venue") or "Concert Hall, Sydney Opera House"
+
+        # The API carries no repertoire, but each event page has a structured
+        # programme panel. Only upcoming concerts are worth a request, and a
+        # run of failures stops further attempts rather than hammering a
+        # site that is blocking or down - programmes are a nice-to-have.
+        works: List[dict] = []
+        upcoming = sorted(d for d in (parse_iso_datetime(s) for s in event.get("starts", []))
+                          if d and d >= now_sydney())
+        if slug and upcoming and programme_failures < 3 \
+                and programme_pages < fetcher.config.get("max_event_pages", 200):
+            programme_pages += 1
+            works, ok = sso_programme(fetcher, url, upcoming[0])
+            programme_failures = 0 if ok else programme_failures + 1
 
         for start in event.get("starts", []):
             dt = parse_iso_datetime(start)
@@ -271,9 +286,47 @@ def scrape_sydney_symphony(fetcher: Fetcher) -> List[Performance]:
                 venue_address=lookup_venue_address(venue_name),
                 url=url,
                 source="Sydney Symphony Orchestra",
+                works=works,
             ))
 
     return performances
+
+
+def sso_programme(fetcher: Fetcher, url: str, first_date: datetime) -> Tuple[List[dict], bool]:
+    """
+    Composer/work pairs from an SSO event page's programme panel, e.g.
+    <h3>TCHAIKOVSKY</h3><p>Violin Concerto</p>. Names are cached as written;
+    core.classify() normalises them, so a config change needs no refetch.
+
+    Returns (works, ok). A failed fetch keeps the last good extraction rather
+    than overwriting it with nothing.
+    """
+    cached = fetcher.cached(url, fetcher.tier_for_event(first_date))
+    if cached is not None:
+        return cached.get("works", []), True
+    previous = fetcher.cache.get(canonical_url(url)) or {}
+    if fetcher.offline:
+        return (previous.get("result") or {}).get("works", []), True
+
+    try:
+        html = fetcher.get(url)
+    except SourceError:
+        if previous.get("ok"):
+            return previous["result"].get("works", []), False
+        fetcher.store(url, {"works": []}, ok=False)
+        return [], False
+
+    soup = BeautifulSoup(html, "html.parser")
+    works = []
+    for item in soup.select(".program-panel .program-item__content"):
+        name = item.select_one(".program-item__title")
+        piece = item.select_one(".program-item__subtitle")
+        composer = name.get_text(" ", strip=True) if name else ""
+        if composer:
+            works.append({"composer": composer,
+                          "work": piece.get_text(" ", strip=True) if piece else ""})
+    fetcher.store(url, {"works": works})
+    return works, True
 
 
 def scrape_sydney_opera_house(fetcher: Fetcher) -> List[Performance]:
