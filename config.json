@@ -27,7 +27,21 @@
     "Sydney Opera House": 20,
     "Willoughby Symphony": 4,
     "The Concourse": 8,
-    "North Sydney Symphony": 2
+    "North Sydney Symphony": 2,
+    "City Recital Hall": 30,
+    "City of Sydney What's On": 5
+  },
+
+  "_comment_city_recital_hall": "The hall's own genre labels that count as classical.",
+  "city_recital_hall_genres": ["Classical Music", "Opera"],
+
+  "_comment_city_of_sydney": "The guide's 'classical' tag is the organiser's, and trusted. Events at venues another source covers are skipped (matched against venue name AND street address, since the guide spells venues its own way); talks and films that carry the tag are dropped.",
+  "aggregator_sources": ["City of Sydney What's On"],
+  "city_of_sydney": {
+    "skip_venues": ["sydney opera house", "bennelong point", "city recital hall", "angel pl",
+                    "the concourse", "409 victoria ave"],
+    "skip_tags": ["talk", "lecture", "course", "film", "cinema"],
+    "skip_categories": ["talks-courses-and-workshops"]
   },
   "source_degrade_ratio": 0.6,
   "global_sanity_ratio": 0.7,
@@ -144,7 +158,13 @@
     "Sydney Philharmonia Choirs": ["sydney philharmonia choirs", "sydney philharmonia"],
     "North Sydney Symphony Orchestra": ["north sydney symphony orchestra", "north sydney symphony"],
     "Ku-ring-gai Philharmonic": ["ku-ring-gai philharmonic", "kpo"],
-    "Sydney Mozart Society": ["sydney mozart society"]
+    "Sydney Mozart Society": ["sydney mozart society"],
+    "Australian Brandenburg Orchestra": ["australian brandenburg orchestra", "brandenburg"],
+    "Musica Viva Australia": ["musica viva"],
+    "Pinchgut Opera": ["pinchgut"],
+    "Selby & Friends": ["selby & friends", "selby and friends"],
+    "Omega Ensemble": ["omega ensemble"],
+    "Australian Haydn Ensemble": ["australian haydn ensemble"]
   },
   "programme_labels": [
     "Utzon Music",
@@ -163,8 +183,10 @@
     "The Concourse, Chatswood": ["the concourse"],
     "Sydney Town Hall": ["sydney town hall"],
     "City Recital Hall": ["city recital hall"],
-    "Verbrugghen Hall": ["verbrugghen hall"],
+    "Verbrugghen Hall": ["verbrugghen hall", "sydney conservatorium"],
     "St James' Church": ["st james"],
+    "The Neilson, Walsh Bay": ["the neilson"],
+    "Queen Victoria Building": ["queen victoria building"],
     "North Sydney venues": ["north sydney girls", "st leonards park", "smith auditorium"]
   },
   "venue_other_label": "Other venues",
@@ -188,7 +210,7 @@
     "Korngold": ["erich wolfgang korngold"], "Ligeti": ["gyorgy ligeti"], "Liszt": ["franz liszt"],
     "Mahler": ["gustav mahler"], "Mendelssohn": ["felix mendelssohn"],
     "Fanny Mendelssohn": ["fanny hensel"], "Messiaen": ["olivier messiaen"],
-    "Monteverdi": [], "Ennio Morricone": ["morricone"], "Mozart": ["wolfgang amadeus mozart"],
+    "Monteverdi": [], "Ennio Morricone": ["morricone"], "Mozart": ["wolfgang amadeus mozart", "w.a. mozart", "w. a. mozart", "wa mozart"],
     "Mussorgsky": ["moussorgsky", "musorgsky", "modest mussorgsky"], "Nielsen": ["carl nielsen"],
     "Orff": ["carl orff"], "Max Richter": [], "Pachelbel": [], "Arvo Pärt": [], "Pergolesi": [],
     "Poulenc": ["francis poulenc"], "Prokofiev": ["prokofieff", "sergei prokofiev"],

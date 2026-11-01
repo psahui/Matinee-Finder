@@ -443,6 +443,47 @@ def suppress_unconfirmed_duplicates(performances: List[Performance]) -> List[Per
     return [p for p in performances if p.time_known or day_key(p) not in confirmed]
 
 
+_TITLE_FILLER = {"the", "a", "an", "of", "and", "in", "with", "by", "ft", "feat",
+                 "featuring", "presents", "presented", "concert", "live"}
+
+
+def _title_tokens(title: str) -> set:
+    return {w for w in normalize_title(title).split() if w not in _TITLE_FILLER}
+
+
+def suppress_aggregator_duplicates(performances: List[Performance],
+                                   aggregators: List[str]) -> List[Performance]:
+    """
+    Drop an aggregator's copy of a concert another source already has.
+
+    Organisers submit to aggregators by hand, so venue names and even
+    streets differ ("Chatswood Ave" for The Concourse, 409 Victoria Ave) and
+    the exact-key dedup cannot see the match. Instead: same start minute and
+    mostly the same title words. Two aggregator listings at one venue and
+    minute are one concert submitted twice; the first is kept.
+    """
+    primary = [p for p in performances if p.source not in aggregators and p.time_known]
+    by_start: Dict[datetime, List[set]] = {}
+    for p in primary:
+        by_start.setdefault(p.date, []).append(_title_tokens(p.title))
+
+    kept, seen_slots = [], set()
+    for p in performances:
+        if p.source not in aggregators or not p.time_known:
+            kept.append(p)
+            continue
+        mine = _title_tokens(p.title)
+        if any(mine and theirs and len(mine & theirs) / min(len(mine), len(theirs)) >= 0.6
+               for theirs in by_start.get(p.date, [])):
+            continue
+        slot = (p.date, re.sub(r'[^a-z0-9]+', ' ', p.venue_name.lower()).strip())
+        if slot in seen_slots:
+            continue
+        seen_slots.add(slot)
+        kept.append(p)
+    return kept
+
+
 def assign_ordinals(performances: List[Performance]) -> List[Performance]:
     """
     Number the performances of the same concert on the same day, earliest
@@ -480,12 +521,18 @@ def _matches_any(text: str, patterns: List[str]) -> bool:
 
 
 def _map_group(value: str, groups: Dict[str, List[str]], default: str) -> str:
-    """Map a messy real-world name onto a display group via alias lists."""
+    """
+    Map a messy real-world name onto a display group via alias lists.
+
+    Longest alias first, as in lookup_venue_address(): "The Concourse Concert
+    Hall" contains the Opera House alias "concert hall", and checking groups
+    in file order filed every Chatswood concert under the Opera House.
+    """
     lowered = value.lower().strip()
-    for label, aliases in groups.items():
-        for alias in aliases:
-            if alias in lowered:
-                return label
+    pairs = [(alias, label) for label, aliases in groups.items() for alias in aliases]
+    for alias, label in sorted(pairs, key=lambda p: len(p[0]), reverse=True):
+        if alias in lowered:
+            return label
     return default
 
 
@@ -530,9 +577,16 @@ def canonical_composer(raw: str, config: dict) -> Optional[str]:
         return None
 
     key = fold(name)
-    for display, aliases in config.get("composers", {}).items():
+    composers = config.get("composers", {})
+    for display, aliases in composers.items():
         if key == fold(display) or key in aliases:
             return display
+    # A bare surname ('Pärt', 'BARBER') belongs to the one listed composer
+    # with that surname; if two share it ('Williams'), it stays as written.
+    if " " not in key:
+        same = [d for d in composers if fold(d).split()[-1] == key]
+        if len(same) == 1:
+            return same[0]
     return _tidy_case(name)
 
 

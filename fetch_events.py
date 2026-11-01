@@ -282,6 +282,7 @@ def main(argv: List[str]) -> int:
     # and fresh copies of the same concert and collapses them.
     unique = core.deduplicate_performances(all_performances)
     unique = core.suppress_unconfirmed_duplicates(unique)
+    unique = core.suppress_aggregator_duplicates(unique, config.get("aggregator_sources", []))
     print(f"After deduplication: {len(unique)}")
 
     # Ordinals first: classify() resolves manual overrides by event id, and

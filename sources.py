@@ -693,10 +693,204 @@ def scrape_north_sydney_symphony(fetcher: Fetcher) -> List[Performance]:
     return performances
 
 
+def scrape_city_recital_hall(fetcher: Fetcher) -> List[Performance]:
+    """
+    City Recital Hall, Angel Place, via the JSON endpoint behind its What's On
+    page. A mixed venue - author talks and pop gigs share the stage - but every
+    event carries the hall's own genre, so classical is the venue's call, not
+    ours. Opera is kept: here it is Pinchgut's baroque repertoire.
+
+    Times are "YYYYMMDDHHMM" in Sydney local time, one per performance, and
+    the programme is a <dt>composer</dt><dd>work</dd> list. Sydney Symphony
+    "Spotlight" concerts held here are skipped because the SSO API is
+    authoritative for them.
+    """
+    base = "https://www.cityrecitalhall.com"
+    api_url = f"{base}/umbraco/Api/SearchApi/WhatsOn?range=upcoming&page=1&pageSize=200"
+    genres = fetcher.config.get("city_recital_hall_genres", ["Classical Music", "Opera"])
+
+    cached = fetcher.cached(api_url, "listing")
+    if cached is not None:
+        events = cached.get("events", [])
+    else:
+        data = fetcher.get(api_url, as_json=True)
+        paging = data.get("paging") or {}
+        if paging.get("hasNextPage"):
+            print(f"  [WARNING] City Recital Hall lists {paging.get('totalItems')} events; "
+                  f"only the first page was read. Raise pageSize.")
+        events = []
+        for item in data.get("items", []):
+            v = item.get("values") or {}
+            if v.get("hideFromWhatsOn") == "1" or not v.get("nodeName"):
+                continue
+            event_genres = [g.strip() for g in (v.get("genre") or "").split(",")]
+            if not any(g in genres for g in event_genres):
+                continue
+            works = []
+            program = BeautifulSoup(v.get("__Raw_programDetail") or "", "html.parser")
+            for dt_tag in program.find_all("dt"):
+                dd = dt_tag.find_next_sibling("dd")
+                works.append({"composer": dt_tag.get_text(" ", strip=True),
+                              "work": dd.get_text(" ", strip=True) if dd else ""})
+            events.append({
+                "title": v["nodeName"].strip(),
+                "presenter": (v.get("presenter") or "").strip(),
+                "path": v.get("url", ""),
+                "starts": (v.get("eventShowDateTimes") or "").split(),
+                "works": works,
+            })
+        fetcher.store(api_url, {"events": events})
+
+    performances: List[Performance] = []
+    for ev in events:
+        if "sydney symphony" in ev["presenter"].lower():
+            continue
+        for stamp in ev["starts"]:
+            try:
+                dt = datetime.strptime(stamp, "%Y%m%d%H%M")
+            except ValueError:
+                continue
+            performances.append(Performance(
+                performer=ev["presenter"] or "Various artists",
+                title=ev["title"],
+                date=dt,
+                venue_name="City Recital Hall",
+                venue_address=lookup_venue_address("city recital hall"),
+                url=f"{base}{ev['path']}" if ev["path"].startswith("/") else ev["path"] or base,
+                source="City Recital Hall",
+                works=ev["works"],
+            ))
+    return performances
+
+
+# "Saturday 7 November 2026 from 5pm to 6pm". The year is omitted for dates
+# in the current year ("Wednesday 4 November from 1:15pm").
+_COS_DATE_LINE = re.compile(
+    rf"({DAY_NAMES})\s+(\d{{1,2}})\s+({MONTH_NAMES})(?:\s+(\d{{4}}))?"
+    r"(?:\s+from\s+(\d{1,2})(?:[:.](\d{2}))?\s*(am|pm))?",
+    re.IGNORECASE)
+
+
+def _cos_date(weekday: str, day: str, month: str, year: str) -> Optional[datetime]:
+    """
+    Resolve a date that may lack its year. The weekday decides: 7 February is
+    a Saturday in 2026 and a Sunday in 2027, so a year-less "Saturday 7
+    February" read in November is February 2026 (past), never a phantom 2027
+    concert. No nearby year fitting the weekday means the line is dropped.
+    """
+    if year:
+        return parse_date_flexible(f"{day} {month} {year}")
+    this_year = now_sydney().year
+    for y in (this_year, this_year + 1, this_year - 1):
+        dt = parse_date_flexible(f"{day} {month} {y}")
+        if dt and dt.strftime("%A").lower() == weekday.lower():
+            return dt
+    return None
+
+
+def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
+    """
+    City of Sydney's What's On guide: an aggregator of organiser-submitted
+    events, which is how St James' King St, The Neilson, the Conservatorium
+    and smaller halls get in without a scraper each.
+
+    Classical is the ORGANISER's tag, not ours, and is trusted - but talks,
+    lectures and films that carry it are dropped. Venues another source
+    already covers are skipped by name and street address, because this
+    guide spells them differently and the dedup would see two concerts.
+
+    The listing gives only the next performance's time, so each event page is
+    read for "datesHumanised", which has every date with its time. A date with
+    no time stays "Time TBA"; nothing is assumed.
+    """
+    base = "https://whatson.cityofsydney.nsw.gov.au"
+    listing_url = f"{base}/categories/music"
+    cfg = fetcher.config.get("city_of_sydney", {})
+    skip_venues = [s.lower() for s in cfg.get("skip_venues", [])]
+    skip_tags = set(cfg.get("skip_tags", []))
+    skip_categories = set(cfg.get("skip_categories", []))
+
+    def covered(*texts: str) -> bool:
+        joined = " ".join(t for t in texts if t).lower()
+        return any(s in joined for s in skip_venues)
+
+    cached = fetcher.cached(listing_url, "listing")
+    if cached is not None:
+        events = cached.get("events", [])
+    else:
+        html = fetcher.get(listing_url)
+        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+        if not m:
+            raise SourceError("City of Sydney: no __NEXT_DATA__ on listing page", "broken")
+        listing = json.loads(m.group(1))["props"]["pageProps"]["events"]
+        if listing.get("nbHits", 0) > len(listing.get("hits", [])):
+            print(f"  [WARNING] City of Sydney lists {listing['nbHits']} music events; "
+                  f"only {len(listing['hits'])} were returned.")
+        events = [{"slug": h["slug"], "venue": h.get("venueName") or "",
+                   "next": h.get("upcomingDate")}
+                  for h in listing.get("hits", [])
+                  if "classical" in (h.get("tags") or [])
+                  and not skip_tags & set(h.get("tags") or [])
+                  and not skip_categories & set(h.get("categories") or [])
+                  and h.get("slug")]
+        fetcher.store(listing_url, {"events": events})
+
+    performances: List[Performance] = []
+    for ev in events[:fetcher.config.get("max_event_pages", 200)]:
+        if covered(ev["venue"]):
+            continue
+        url = f"{base}/events/{ev['slug']}"
+        nxt = parse_date_flexible(ev.get("next") or "")
+        cached = fetcher.cached(url, fetcher.tier_for_event(nxt))
+        if cached is not None:
+            result = cached
+        else:
+            html = fetcher.get(url)
+            m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
+            data = (json.loads(m.group(1))["props"]["pageProps"].get("eventData") or {}) if m else {}
+            venue = data.get("eventVenue") or {}
+            suburb = data.get("eventSuburb") or {}
+            dates = []
+            for weekday, day, month, year, hour, minute, ampm in \
+                    _COS_DATE_LINE.findall(data.get("datesHumanised") or ""):
+                dt = _cos_date(weekday, day, month, year)
+                if not dt:
+                    continue
+                if hour:
+                    h = int(hour) % 12 + (12 if ampm.lower() == "pm" else 0)
+                    dt = dt.replace(hour=h, minute=int(minute or 0))
+                dates.append({"iso": dt.isoformat(), "timed": bool(hour)})
+            result = {
+                "title": (data.get("name") or "").strip(),
+                "venue": venue.get("name") or suburb.get("name") or "",
+                "address": venue.get("addressText") or data.get("addressText") or "",
+                "dates": dates,
+            }
+            fetcher.store(url, result)
+
+        if not result.get("title") or covered(result.get("venue"), result.get("address")):
+            continue
+        venue_name = result.get("venue") or "See event page"
+        for d in result.get("dates", []):
+            performances.append(Performance(
+                performer="Various artists",
+                title=result["title"],
+                date=datetime.fromisoformat(d["iso"]),
+                venue_name=venue_name,
+                venue_address=result.get("address") or lookup_venue_address(venue_name),
+                url=url,
+                source="City of Sydney What's On",
+                time_confirmed=d["timed"],
+            ))
+    return performances
+
+
 SCRAPERS: List[Tuple[str, Callable[[Fetcher], List[Performance]]]] = [
     ("Sydney Symphony Orchestra", scrape_sydney_symphony),
     ("Sydney Opera House", scrape_sydney_opera_house),
     ("Willoughby Symphony", scrape_willoughby_symphony),
     ("The Concourse", scrape_the_concourse),
     ("North Sydney Symphony", scrape_north_sydney_symphony),
+    ("City Recital Hall", scrape_city_recital_hall),
+    ("City of Sydney What's On", scrape_city_of_sydney),
 ]

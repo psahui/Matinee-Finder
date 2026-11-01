@@ -88,6 +88,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:1a9cc9fa@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261102T080000Z
+DTEND:20261102T100000Z
+SUMMARY:Haydn’s Oxford | Australian Haydn Ensemble
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Various artists\nVenue: The Neilson\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise\nListing sou
+ rce: City of Sydney What's On. Times and availability change - always conf
+ irm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:d85593cf@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -103,6 +121,63 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  mes and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/abc-young-performers-award-2026
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6195b90b@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261103T083000Z
+DTEND:20261103T103000Z
+SUMMARY:Jack Hancher - Classical Guitar Recital
+LOCATION:Marrickville\, 21 Shepherd St\, Marrickville NSW 2204\, Australia
+DESCRIPTION:Various artists\nVenue: Marrickville\nConfirm details and book:
+  https://whatson.cityofsydney.nsw.gov.au/events/jack-hancher-classical-gui
+ tar-recital\nListing source: City of Sydney What's On. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/jack-hancher-classical-g
+ uitar-recital
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a81cc0e2@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261103T083000Z
+DTEND:20261103T103000Z
+SUMMARY:Sir Stephen Hough Piano Recital
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Classical Music Australia\nVenue: City Recital Hall\nConfirm de
+ tails and book: https://www.cityrecitalhall.com/whats-on/events/sir-stephe
+ n-hough-piano-recital/\nListing source: City Recital Hall. Times and avail
+ ability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/sir-stephen-hough-piano
+ -recital/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b8fa12f5@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261104T021500Z
+DTEND:20261104T041500Z
+SUMMARY:Lunchtime Concert: Samantha Mailer Flute & Thomas Azoury
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-saman
+ tha-mailer-flute-and-thomas-azoury\nListing source: City of Sydney What's 
+ On. Times and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-samant
+ ha-mailer-flute-and-thomas-azoury
+CATEGORIES:short_format
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -187,6 +262,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:03ebe2c8@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261107T060000Z
+DTEND:20261107T080000Z
+SUMMARY:Peter and the Wolf an Organ Celebration
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/st-james-international-
+ organ-festival\nListing source: City of Sydney What's On. Times and availa
+ bility change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/st-james-international-o
+ rgan-festival
+CATEGORIES:family
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:684ac5ce@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -204,6 +298,24 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
  firm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/suzuki-talent-educatio
  n-final-level-graduates-showcase-concert-recital
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f79ea4ae@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261107T080000Z
+DTEND:20261107T100000Z
+SUMMARY:Bittersweet
+LOCATION:Dawes Point\, 15 Hickson Rd\, Dawes Point NSW 2000\, Australia
+DESCRIPTION:Various artists\nVenue: Dawes Point\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/bittersweet\nListing source
+ : City of Sydney What's On. Times and availability change - always confirm
+  with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/bittersweet
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -369,6 +481,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:cb7de629@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261108T050000Z
+DTEND:20261108T070000Z
+SUMMARY:Haydn’s Oxford | Australian Haydn Ensemble
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Various artists\nVenue: The Neilson\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise\nListing sou
+ rce: City of Sydney What's On. Times and availability change - always conf
+ irm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:4f2c4e85@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -403,6 +533,42 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
  House. Times and availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/james-dekleva-recital-
  tchaikovskys-nutcracker
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe11041@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261114T060000Z
+DTEND:20261114T080000Z
+SUMMARY:Cantos Sagrados
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados\nListin
+ g source: City of Sydney What's On. Times and availability change - always
+  confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ddc2ce71@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261114T080000Z
+DTEND:20261114T100000Z
+SUMMARY:Beethoven’s Pastoral - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/beethov
+ en-s-pastoral/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -489,6 +655,119 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:89def83a@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261115T040000Z
+DTEND:20261115T060000Z
+SUMMARY:Salut! Baroque presents Charms in Musick
+LOCATION:Sydney Conservatorium of Music\, Macquarie Street\, Sydney NSW 200
+ 0
+DESCRIPTION:Various artists\nVenue: Sydney Conservatorium of Music\nConfirm
+  details and book: https://whatson.cityofsydney.nsw.gov.au/events/salut-ba
+ roque-presents-charms-in-musick\nListing source: City of Sydney What's On.
+  Times and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/salut-baroque-presents-c
+ harms-in-musick
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:224398ed@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261115T060000Z
+DTEND:20261115T080000Z
+SUMMARY:Bach & Charpentier – Music for Christmas
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/bach-and-charpentier-mu
+ sic-for-christmas\nListing source: City of Sydney What's On. Times and ava
+ ilability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/bach-and-charpentier-mus
+ ic-for-christmas
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa571d6@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261116T080000Z
+DTEND:20261116T100000Z
+SUMMARY:Latvian Radio Choir & Genevieve Lacey - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/latvian-radio-
+ choir-genevieve-lacey/\nListing source: City Recital Hall. Times and avail
+ ability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/latvian-radio-choir-gen
+ evieve-lacey/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:14ba9f63@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261117T090000Z
+DTEND:20261117T110000Z
+SUMMARY:Beethoven’s Pastoral - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/beethov
+ en-s-pastoral/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c92411e7@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261118T021500Z
+DTEND:20261118T041500Z
+SUMMARY:Lunchtime Concert: Austral Harmony Bach Springtime Pastoral
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austr
+ al-harmony-with-jane-downer\nListing source: City of Sydney What's On. Tim
+ es and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austra
+ l-harmony-with-jane-downer
+CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa46577@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261118T080000Z
+DTEND:20261118T100000Z
+SUMMARY:Beethoven’s Pastoral - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/beethov
+ en-s-pastoral/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:c1c3756f@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -548,6 +827,27 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:7b1e7c7f@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261121T083000Z
+DTEND:20261121T103000Z
+SUMMARY:10 Years of Modést Orchestra - Scheherazade & Pictures
+LOCATION:Sydney Conservatorium of Music\, Macquarie Street\, Sydney NSW 200
+ 0
+DESCRIPTION:Various artists\nVenue: Sydney Conservatorium of Music\nConfirm
+  details and book: https://whatson.cityofsydney.nsw.gov.au/events/10-years
+ -of-modest-orchestra-scheherazade-and-pictures\nListing source: City of Sy
+ dney What's On. Times and availability change - always confirm with the ve
+ nue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/10-years-of-modest-orche
+ stra-scheherazade-and-pictures
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:544b7152@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -586,6 +886,117 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:71cef235@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261122T040000Z
+DTEND:20261122T060000Z
+SUMMARY:ANAM in Sydney: Folk Journeys
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Various artists\nVenue: The Neilson\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/anam-in-sydney-folk-journey
+ s\nListing source: City of Sydney What's On. Times and availability change
+  - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/anam-in-sydney-folk-jour
+ neys
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a7a21cd0@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261122T040000Z
+DTEND:20261122T060000Z
+SUMMARY:International Steinway Artist Ronan Magill - Piano Concert
+LOCATION:Annandale\, Johnston St\, Annandale NSW 2038\, Australia
+DESCRIPTION:Various artists\nVenue: Annandale\nConfirm details and book: ht
+ tps://whatson.cityofsydney.nsw.gov.au/events/international-steinway-artist
+ -ronan-magill-piano-concert\nListing source: City of Sydney What's On. Tim
+ es and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/international-steinway-a
+ rtist-ronan-magill-piano-concert
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:38e8e88c@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261122T050000Z
+DTEND:20261122T070000Z
+SUMMARY:Sleep and Awake
+LOCATION:Dulwich Hill\, Herbert St\, Dulwich Hill NSW 2203\, Australia
+DESCRIPTION:Various artists\nVenue: Dulwich Hill\nConfirm details and book:
+  https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake\nListing s
+ ource: City of Sydney What's On. Times and availability change - always co
+ nfirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:886025e4@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261122T053000Z
+DTEND:20261122T073000Z
+SUMMARY:Neeman Piano Duo in Concert
+LOCATION:Glebe\, unit 6/80 Wentworth Park Rd\, Glebe NSW 2037\, Australia
+DESCRIPTION:Various artists\nVenue: Glebe\nConfirm details and book: https:
+ //whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-concert\nList
+ ing source: City of Sydney What's On. Times and availability change - alwa
+ ys confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-conc
+ ert
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:06cc9585@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261126T080000Z
+DTEND:20261126T100000Z
+SUMMARY:Semele by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a1042e15@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261127T073000Z
+DTEND:20261127T093000Z
+SUMMARY:Come Sit With Me
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Various artists\nVenue: The Neilson\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/come-sit-with-me\nListing s
+ ource: City of Sydney What's On. Times and availability change - always co
+ nfirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/come-sit-with-me
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:a9de52a4@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -602,6 +1013,79 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Coliseum Theatre\nConfirm det
   venue.
 URL:https://www.sydneysymphony.com/events/the-sydney-symphony-performs-max-
  richters-four-seasons-western-sydney
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:45cd906e@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+SUMMARY:Semele by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:80be561c@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+SUMMARY:The Trout
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Various artists\nVenue: The Neilson\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/the-trout\nListing source: 
+ City of Sydney What's On. Times and availability change - always confirm w
+ ith the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/the-trout
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cd6543db@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261128T080000Z
+DTEND:20261128T100000Z
+SUMMARY:The Trout
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Various artists\nVenue: The Neilson\nConfirm details and book: 
+ https://whatson.cityofsydney.nsw.gov.au/events/the-trout\nListing source: 
+ City of Sydney What's On. Times and availability change - always confirm w
+ ith the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/the-trout
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d1bad25b@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261129T033000Z
+DTEND:20261129T053000Z
+SUMMARY:An afternoon with accordionist James Crabb
+LOCATION:Hunters Hill\, 22 Alexandra St\, Hunters Hill NSW 2110\, Australia
+DESCRIPTION:Various artists\nVenue: Hunters Hill\nConfirm details and book:
+  https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accordio
+ nist-james-crabb\nListing source: City of Sydney What's On. Times and avai
+ lability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accord
+ ionist-james-crabb
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -645,6 +1129,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:7e5694cd@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261129T060000Z
+DTEND:20261129T080000Z
+SUMMARY:Semele by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:85329c2f@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261201T010000Z
+DTEND:20261201T030000Z
+SUMMARY:Semele by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:02b0d573@matinee-finder
 DTSTAMP:20261026T225430Z
 LAST-MODIFIED:20261026T225430Z
@@ -663,6 +1183,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/harry-potter-and-the-philosophers
  -stone-in-concert
 CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5c738882@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261202T080000Z
+DTEND:20261202T100000Z
+SUMMARY:Semele by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -753,6 +1291,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:fd9ae62e@matinee-finder
+DTSTAMP:20261101T063630Z
+LAST-MODIFIED:20261101T063630Z
+SEQUENCE:0
+DTSTART:20261205T080000Z
+DTEND:20261205T100000Z
+SUMMARY:Christmas Concert - Sydney Sings®
+LOCATION:North Sydney\, Church St\, North Sydney NSW 2060\, Australia
+DESCRIPTION:Various artists\nVenue: North Sydney\nConfirm details and book:
+  https://whatson.cityofsydney.nsw.gov.au/events/christmas-concert-sydney-s
+ ings-r\nListing source: City of Sydney What's On. Times and availability c
+ hange - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/christmas-concert-sydney
+ -sings-r
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:940e4575@matinee-finder
 DTSTAMP:20261026T225430Z
 LAST-MODIFIED:20261026T225430Z
@@ -801,8 +1358,8 @@ LAST-MODIFIED:20261010T054313Z
 SEQUENCE:1
 DTSTART:20261206T033000Z
 DTEND:20261206T053000Z
-SUMMARY:North Sydney Symphony Orchestra in Concert - Sydney Symphony Orches
- tra
+SUMMARY:North Sydney Symphony Orchestra in Concert - North Sydney Symphony 
+ Orchestra
 LOCATION:North Sydney Girls High School\, 365 Pacific Hwy\, Crows Nest NSW 
  2065
 DESCRIPTION:North Sydney Symphony Orchestra\nVenue: North Sydney Girls High
@@ -811,6 +1368,62 @@ DESCRIPTION:North Sydney Symphony Orchestra\nVenue: North Sydney Girls High
  onfirm with the venue.
 URL:https://www.nsso.org.au/concerts
 CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:66756dee@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261208T073000Z
+DTEND:20261208T093000Z
+SUMMARY:Bach's Christmas Oratorio - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/bachs-c
+ hristmas-oratorio/\nListing source: City Recital Hall. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/bachs-christmas-oratori
+ o/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bab066ab@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261209T073000Z
+DTEND:20261209T093000Z
+SUMMARY:Bach's Christmas Oratorio - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/bachs-c
+ hristmas-oratorio/\nListing source: City Recital Hall. Times and availabil
+ ity change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/bachs-christmas-oratori
+ o/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:189add81@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261210T060000Z
+DTEND:20261210T080000Z
+SUMMARY:Noël! Noël! 2026 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2026/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -829,6 +1442,24 @@ DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
  voices-angels\nListing source: Sydney Opera House. Times and availability 
  change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/voices-angels
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5392a511@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261210T083000Z
+DTEND:20261210T103000Z
+SUMMARY:Noël! Noël! 2026 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2026/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -874,6 +1505,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:abb5533c@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261212T030000Z
+DTEND:20261212T050000Z
+SUMMARY:Noël! Noël! 2026 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2026/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c018c313@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261212T060000Z
+DTEND:20261212T080000Z
+SUMMARY:Noël! Noël! 2026 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2026/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:7595f144@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -909,6 +1576,24 @@ DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
  ourse. Times and availability change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
  rit-of-christmas-2026/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2f5ddd23@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20261214T080000Z
+DTEND:20261214T100000Z
+SUMMARY:On Second Thought - Selby & Friends
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and 
+ book: https://www.cityrecitalhall.com/whats-on/events/on-second-thought/\n
+ Listing source: City Recital Hall. Times and availability change - always 
+ confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/on-second-thought/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1146,6 +1831,44 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:acb9641d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270206T030000Z
+DTEND:20270206T050000Z
+SUMMARY:Pyramus and Thisbe by Lampe - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by
+ -lampe/\nListing source: City Recital Hall. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
+ ampe/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:389ef5ce@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270206T090000Z
+DTEND:20270206T110000Z
+SUMMARY:Pyramus and Thisbe by Lampe - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by
+ -lampe/\nListing source: City Recital Hall. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
+ ampe/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:8e8bcb0b@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1160,6 +1883,25 @@ DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
  sting source: Sydney Opera House. Times and availability change - always c
  onfirm with the venue.
 URL:https://www.sydneyoperahouse.com/utzon-music/quartet-x
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eb4953fa@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270207T060000Z
+DTEND:20270207T080000Z
+SUMMARY:Pyramus and Thisbe by Lampe - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by
+ -lampe/\nListing source: City Recital Hall. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
+ ampe/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1184,6 +1926,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:37e5d4f6@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270209T090000Z
+DTEND:20270209T110000Z
+SUMMARY:Nicolas Altstaedt - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/nicolas
+ -altstaedt/\nListing source: City Recital Hall. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:e1bd1fa0@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1197,6 +1957,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: TikTok Entertainment Centre\n
  \nListing source: Sydney Symphony Orchestra. Times and availability change
   - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/moana-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:debac246@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270210T080000Z
+DTEND:20270210T100000Z
+SUMMARY:Nicolas Altstaedt - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/nicolas
+ -altstaedt/\nListing source: City Recital Hall. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1258,6 +2036,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:d81b34b4@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270213T080000Z
+DTEND:20270213T100000Z
+SUMMARY:Nicolas Altstaedt - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/nicolas
+ -altstaedt/\nListing source: City Recital Hall. Times and availability cha
+ nge - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:30d103e6@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1274,6 +2070,43 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
  nue.
 URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
  on/nicolas-altstaedt
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cfdd9803@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270215T080000Z
+DTEND:20270215T100000Z
+SUMMARY:Van Diemen's Band & Bertrand Cuiller - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/van-diemens-ba
+ nd-bertrand-cuiller/\nListing source: City Recital Hall. Times and availab
+ ility change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/van-diemens-band-bertra
+ nd-cuiller/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:187812bc@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270217T080000Z
+DTEND:20270217T100000Z
+SUMMARY:Seven Sins - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/sev
+ en-sins/\nListing source: City Recital Hall. Times and availability change
+  - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/seven-sins/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1301,6 +2134,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a8f8e5c4@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270219T080000Z
+DTEND:20270219T100000Z
+SUMMARY:Seven Sins - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/sev
+ en-sins/\nListing source: City Recital Hall. Times and availability change
+  - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/seven-sins/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:65015e75@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1318,6 +2169,42 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  venue.
 URL:https://www.sydneysymphony.com/events/simone-young-conducts-mahlers-sev
  enth-symphony-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:198b62b9@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270220T030000Z
+DTEND:20270220T050000Z
+SUMMARY:Seven Sins - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/sev
+ en-sins/\nListing source: City Recital Hall. Times and availability change
+  - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/seven-sins/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5d424ff4@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270220T080000Z
+DTEND:20270220T100000Z
+SUMMARY:Seven Sins - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/sev
+ en-sins/\nListing source: City Recital Hall. Times and availability change
+  - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/seven-sins/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1397,6 +2284,42 @@ DESCRIPTION:Utzon Music\nVenue: Utzon Room\, Sydney Opera House\nConfirm de
  i\nListing source: Sydney Opera House. Times and availability change - alw
  ays confirm with the venue.
 URL:https://www.sydneyoperahouse.com/utzon-music/filippo-gorini
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:35164848@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270222T080000Z
+DTEND:20270222T100000Z
+SUMMARY:Honouring the Master - Selby & Friends
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and 
+ book: https://www.cityrecitalhall.com/whats-on/events/honouring-the-master
+ /\nListing source: City Recital Hall. Times and availability change - alwa
+ ys confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/honouring-the-master/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:859322fb@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270223T080000Z
+DTEND:20270223T100000Z
+SUMMARY:Seven Sins - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/sev
+ en-sins/\nListing source: City Recital Hall. Times and availability change
+  - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/seven-sins/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1769,6 +2692,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:03481a1b@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270320T080000Z
+DTEND:20270320T100000Z
+SUMMARY:Bach’s St John Passion - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/bach-s-
+ st-john-passion/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/bach-s-st-john-passion/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:603df14c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1823,6 +2764,42 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ngur-olafsson-in-recital-2027\nListing source: Sydney Symphony Orchestra. 
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/vikingur-olafsson-in-recital-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b94fe350@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270323T090000Z
+DTEND:20270323T110000Z
+SUMMARY:Bach’s St John Passion - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/bach-s-
+ st-john-passion/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/bach-s-st-john-passion/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b807065d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270324T080000Z
+DTEND:20270324T100000Z
+SUMMARY:Bach’s St John Passion - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/bach-s-
+ st-john-passion/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/bach-s-st-john-passion/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2067,6 +3044,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:4d6aa8b9@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270420T093000Z
+DTEND:20270420T113000Z
+SUMMARY:Arvo Pärt Masterworks - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/arvo-pa
+ ert-masterworks/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/arvo-paert-masterworks/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ff754dae@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2082,6 +3077,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  a. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
  027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a22059a7@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270421T090000Z
+DTEND:20270421T110000Z
+SUMMARY:Pardon My French - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/par
+ don-my-french/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2107,6 +3120,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:44b00fde@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270423T090000Z
+DTEND:20270423T110000Z
+SUMMARY:Pardon My French - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/par
+ don-my-french/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:b2e2c450@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2127,6 +3158,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:5bdb793d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270424T040000Z
+DTEND:20270424T060000Z
+SUMMARY:Pardon My French - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/par
+ don-my-french/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a950369f@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270424T090000Z
+DTEND:20270424T110000Z
+SUMMARY:Pardon My French - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/par
+ don-my-french/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:a97a316c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2142,6 +3209,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  a. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
  027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a3ee2ea2@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270427T090000Z
+DTEND:20270427T110000Z
+SUMMARY:Pardon My French - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/par
+ don-my-french/\nListing source: City Recital Hall. Times and availability 
+ change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2247,6 +3332,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:2c086317@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270503T090000Z
+DTEND:20270503T110000Z
+SUMMARY:The Romantics - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/the-romantics/
+ \nListing source: City Recital Hall. Times and availability change - alway
+ s confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-romantics/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:a9887d31@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2333,6 +3436,64 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:c94bf849@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270510T090000Z
+DTEND:20270510T110000Z
+SUMMARY:Bold Beginnings - Selby & Friends
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and 
+ book: https://www.cityrecitalhall.com/whats-on/events/bold-beginnings/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/bold-beginnings/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b2554254@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270511T100000Z
+DTEND:20270511T120000Z
+SUMMARY:Alina Ibragimova plays Tchaikovsky's Violin Concerto - Australian C
+ hamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/alina-i
+ bragimova-plays-tchaikovskys-violin-concerto/\nListing source: City Recita
+ l Hall. Times and availability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-
+ tchaikovskys-violin-concerto/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7bcca0@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270512T090000Z
+DTEND:20270512T110000Z
+SUMMARY:Alina Ibragimova plays Tchaikovsky's Violin Concerto - Australian C
+ hamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/alina-i
+ bragimova-plays-tchaikovskys-violin-concerto/\nListing source: City Recita
+ l Hall. Times and availability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-
+ tchaikovskys-violin-concerto/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:621f2149@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2375,6 +3536,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:b880d9b8@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270514T100000Z
+DTEND:20270514T120000Z
+SUMMARY:Alina Ibragimova plays Tchaikovsky's Violin Concerto - Australian C
+ hamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/alina-i
+ bragimova-plays-tchaikovskys-violin-concerto/\nListing source: City Recita
+ l Hall. Times and availability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-
+ tchaikovskys-violin-concerto/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:8afb6941@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2411,6 +3592,26 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
   the venue.
 URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-beethov
  ens-missa-solemnis-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3d30730d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270515T100000Z
+DTEND:20270515T120000Z
+SUMMARY:Alina Ibragimova plays Tchaikovsky's Violin Concerto - Australian C
+ hamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/alina-i
+ bragimova-plays-tchaikovskys-violin-concerto/\nListing source: City Recita
+ l Hall. Times and availability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-
+ tchaikovskys-violin-concerto/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2554,6 +3755,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:3a4d4c40@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270603T090000Z
+DTEND:20270603T110000Z
+SUMMARY:Quatuor Van Kuijk - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/quatuor-van-ku
+ ijk/\nListing source: City Recital Hall. Times and availability change - a
+ lways confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/quatuor-van-kuijk/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:1cb38f68@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2671,6 +3890,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:f928dc78@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270616T090000Z
+DTEND:20270616T110000Z
+SUMMARY:Mozart's Requiem - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/moz
+ arts-requiem/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:204387b5@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2715,6 +3952,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:1e6ce5ce@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270618T090000Z
+DTEND:20270618T110000Z
+SUMMARY:Mozart's Requiem - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/moz
+ arts-requiem/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:88dbd159@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2737,6 +3992,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:4cb9bd67@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270619T040000Z
+DTEND:20270619T060000Z
+SUMMARY:Mozart's Requiem - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/moz
+ arts-requiem/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:db0426ad@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270619T090000Z
+DTEND:20270619T110000Z
+SUMMARY:Mozart's Requiem - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/moz
+ arts-requiem/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:0cc0575f@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2754,6 +4045,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  the venue.
 URL:https://www.sydneysymphony.com/events/simone-young-conducts-beethoven-s
  ymphonies-4-and-5-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fc908c3d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270622T090000Z
+DTEND:20270622T110000Z
+SUMMARY:Mozart's Requiem - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/moz
+ arts-requiem/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2825,6 +4134,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:6da2bc25@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270626T090000Z
+DTEND:20270626T110000Z
+SUMMARY:Richard Tognetti Directs Mozart - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/richard
+ -tognetti-directs-mozart/\nListing source: City Recital Hall. Times and av
+ ailability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/richard-tognetti-direct
+ s-mozart/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:4aaa11ee@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2863,6 +4191,44 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
  rm with the venue.
 URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
  on/richard-tognetti-directs-mozart
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:117b7341@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270629T100000Z
+DTEND:20270629T120000Z
+SUMMARY:Richard Tognetti Directs Mozart - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/richard
+ -tognetti-directs-mozart/\nListing source: City Recital Hall. Times and av
+ ailability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/richard-tognetti-direct
+ s-mozart/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1475cbe3@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270630T090000Z
+DTEND:20270630T110000Z
+SUMMARY:Richard Tognetti Directs Mozart - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/richard
+ -tognetti-directs-mozart/\nListing source: City Recital Hall. Times and av
+ ailability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/richard-tognetti-direct
+ s-mozart/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2942,6 +4308,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ea-lam-in-recital-2027\nListing source: Sydney Symphony Orchestra. Times a
  nd availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/andrea-lam-in-recital-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:512af88d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270705T090000Z
+DTEND:20270705T110000Z
+SUMMARY:Echoes of Home - Selby & Friends
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and 
+ book: https://www.cityrecitalhall.com/whats-on/events/echoes-of-home/\nLis
+ ting source: City Recital Hall. Times and availability change - always con
+ firm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/echoes-of-home/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3042,6 +4426,26 @@ DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
   House. Times and availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/choir-kings-college-ca
  mbridge-william-barton
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ccc19ea9@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270712T090000Z
+DTEND:20270712T110000Z
+SUMMARY:The Choir of King's College\, Cambridge & William Barton - Musica V
+ iva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/the-choir-of-k
+ ings-college-cambridge-william-barton/\nListing source: City Recital Hall.
+  Times and availability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-choir-of-kings-coll
+ ege-cambridge-william-barton/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3232,6 +4636,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:3fed60fd@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270731T040000Z
+DTEND:20270731T060000Z
+SUMMARY:Madrigals of Love and War by Monteverdi - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/madrigals-of-love-and
+ -war-by-monteverdi/\nListing source: City Recital Hall. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/madrigals-of-love-and-w
+ ar-by-monteverdi/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:4a310298@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3283,6 +4706,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ikovskys-violin-concerto-2027\nListing source: Sydney Symphony Orchestra. 
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/tchaikovskys-violin-concerto-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a78bb6@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270801T070000Z
+DTEND:20270801T090000Z
+SUMMARY:Madrigals of Love and War by Monteverdi - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/madrigals-of-love-and
+ -war-by-monteverdi/\nListing source: City Recital Hall. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/madrigals-of-love-and-w
+ ar-by-monteverdi/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3485,6 +4927,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:31820714@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270810T100000Z
+DTEND:20270810T120000Z
+SUMMARY:ACO In Motion - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/aco-in-
+ motion/\nListing source: City Recital Hall. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/aco-in-motion/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2f5c0351@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270811T090000Z
+DTEND:20270811T110000Z
+SUMMARY:ACO In Motion - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/aco-in-
+ motion/\nListing source: City Recital Hall. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/aco-in-motion/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:62b4b635@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3556,6 +5034,24 @@ DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
  y change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-ope
  ra-gala/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b8078aeb@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270814T090000Z
+DTEND:20270814T110000Z
+SUMMARY:ACO In Motion - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/aco-in-
+ motion/\nListing source: City Recital Hall. Times and availability change 
+ - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/aco-in-motion/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3640,6 +5136,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:3a86b380@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270818T090000Z
+DTEND:20270818T110000Z
+SUMMARY:Handel's Fireworks - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/han
+ dels-fireworks/\nListing source: City Recital Hall. Times and availability
+  change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:7b02be50@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3654,6 +5168,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  takovich-and-prokofiev-2027\nListing source: Sydney Symphony Orchestra. Ti
  mes and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/shostakovich-and-prokofiev-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dd2e009b@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270820T090000Z
+DTEND:20270820T110000Z
+SUMMARY:Handel's Fireworks - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/han
+ dels-fireworks/\nListing source: City Recital Hall. Times and availability
+  change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3697,6 +5229,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:3c1d90d0@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270821T040000Z
+DTEND:20270821T060000Z
+SUMMARY:Handel's Fireworks - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/han
+ dels-fireworks/\nListing source: City Recital Hall. Times and availability
+  change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a893ce12@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270821T090000Z
+DTEND:20270821T110000Z
+SUMMARY:Handel's Fireworks - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/han
+ dels-fireworks/\nListing source: City Recital Hall. Times and availability
+  change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:5499e249@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3711,6 +5279,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ey-symphony-for-a-day-2027\nListing source: Sydney Symphony Orchestra. Tim
  es and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/sydney-symphony-for-a-day-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:878d41d0@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270824T090000Z
+DTEND:20270824T110000Z
+SUMMARY:Handel's Fireworks - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/han
+ dels-fireworks/\nListing source: City Recital Hall. Times and availability
+  change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3749,6 +5335,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Coliseum Theatre\nConfirm det
  027\nListing source: Sydney Symphony Orchestra. Times and availability cha
  nge - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/symphonic-fantastic-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9815cc26@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270830T090000Z
+DTEND:20270830T110000Z
+SUMMARY:Shadows & Song - Selby & Friends
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and 
+ book: https://www.cityrecitalhall.com/whats-on/events/shadows-song/\nListi
+ ng source: City Recital Hall. Times and availability change - always confi
+ rm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/shadows-song/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3962,6 +5566,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:b03db811@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270913T090000Z
+DTEND:20270913T110000Z
+SUMMARY:Javier Perianes - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/javier-periane
+ s/\nListing source: City Recital Hall. Times and availability change - alw
+ ays confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/javier-perianes/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:c7b50f26@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3977,6 +5599,60 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
   Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/listen-to-this-discover-elgar-202
  7
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7f8bb2e4@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270914T100000Z
+DTEND:20270914T120000Z
+SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/the-joh
+ n-adams-almanac/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6653cd35@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270915T090000Z
+DTEND:20270915T110000Z
+SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/the-joh
+ n-adams-almanac/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b742a327@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270916T090000Z
+DTEND:20270916T110000Z
+SUMMARY:Rhapsody in Blue - Omega Ensemble
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Omega Ensemble\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/rhapsody-in-blue/\nLi
+ sting source: City Recital Hall. Times and availability change - always co
+ nfirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/rhapsody-in-blue/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -4001,6 +5677,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:77dee68f@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270917T090000Z
+DTEND:20270917T110000Z
+SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/the-joh
+ n-adams-almanac/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:3bfb662d@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4015,6 +5709,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  rnal-dances-2027\nListing source: Sydney Symphony Orchestra. Times and ava
  ilability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/infernal-dances-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5659f4db@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20270918T090000Z
+DTEND:20270918T110000Z
+SUMMARY:The John Adams Almanac - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/the-joh
+ n-adams-almanac/\nListing source: City Recital Hall. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -4319,6 +6031,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:5d98acb4@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271013T080000Z
+DTEND:20271013T100000Z
+SUMMARY:Baroque Masters - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/bar
+ oque-masters/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/baroque-masters/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:fa1d1c30@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4363,6 +6093,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:aff9f74f@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271015T080000Z
+DTEND:20271015T100000Z
+SUMMARY:Baroque Masters - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/bar
+ oque-masters/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/baroque-masters/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:70b614da@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4385,6 +6133,42 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:0740267a@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271016T030000Z
+DTEND:20271016T050000Z
+SUMMARY:Baroque Masters - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/bar
+ oque-masters/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/baroque-masters/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ec19809a@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271016T080000Z
+DTEND:20271016T100000Z
+SUMMARY:Baroque Masters - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/bar
+ oque-masters/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/baroque-masters/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:4df3226b@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4402,6 +6186,42 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ue.
 URL:https://www.sydneysymphony.com/events/donald-runnicles-conducts-brahms-
  and-mozart-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2ff49d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271018T080000Z
+DTEND:20271018T100000Z
+SUMMARY:Desandre & Dunford - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia with Opera Australia\nVenue: City Recital
+  Hall\nConfirm details and book: https://www.cityrecitalhall.com/whats-on/
+ events/desandre-dunford/\nListing source: City Recital Hall. Times and ava
+ ilability change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/desandre-dunford/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d06293df@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271019T080000Z
+DTEND:20271019T100000Z
+SUMMARY:Baroque Masters - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/bar
+ oque-masters/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/baroque-masters/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -4602,6 +6422,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:d6a24f49@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271104T080000Z
+DTEND:20271104T100000Z
+SUMMARY:Partenope by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/\
+ nListing source: City Recital Hall. Times and availability change - always
+  confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:4091ff54@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4637,6 +6475,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  rchestra. Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/simone-young-and-pierre-laurent-a
  imard-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8d6982b5@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271106T030000Z
+DTEND:20271106T050000Z
+SUMMARY:Partenope by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/\
+ nListing source: City Recital Hall. Times and availability change - always
+  confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -4700,6 +6556,60 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a2a0060f@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271107T060000Z
+DTEND:20271107T080000Z
+SUMMARY:Partenope by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/\
+ nListing source: City Recital Hall. Times and availability change - always
+  confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:105c910d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271109T020000Z
+DTEND:20271109T040000Z
+SUMMARY:Partenope by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/\
+ nListing source: City Recital Hall. Times and availability change - always
+  confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:79e35df9@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271110T080000Z
+DTEND:20271110T100000Z
+SUMMARY:Partenope by Handel - Pinchgut Opera
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/\
+ nListing source: City Recital Hall. Times and availability change - always
+  confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:bcefd3b9@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4738,6 +6648,43 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:03bab31e@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271113T080000Z
+DTEND:20271113T100000Z
+SUMMARY:Strauss' Four Last Songs - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/strauss
+ -four-last-songs/\nListing source: City Recital Hall. Times and availabili
+ ty change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs
+ /
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a8c175cc@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271115T080000Z
+DTEND:20271115T100000Z
+SUMMARY:The Romance of Dreams - Selby & Friends
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and 
+ book: https://www.cityrecitalhall.com/whats-on/events/the-romance-of-dream
+ s/\nListing source: City Recital Hall. Times and availability change - alw
+ ays confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/the-romance-of-dreams/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:d150afab@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4753,6 +6700,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/masterclass-with-james-ehnes-2027
 CATEGORIES:masterclass
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:87707923@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271116T090000Z
+DTEND:20271116T110000Z
+SUMMARY:Strauss' Four Last Songs - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/strauss
+ -four-last-songs/\nListing source: City Recital Hall. Times and availabili
+ ty change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs
+ /
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4776,6 +6742,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:207c9581@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271117T080000Z
+DTEND:20271117T100000Z
+SUMMARY:Strauss' Four Last Songs - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/strauss
+ -four-last-songs/\nListing source: City Recital Hall. Times and availabili
+ ty change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs
+ /
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:cf472f67@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4790,6 +6775,44 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  ne-young-and-james-ehnes-2027\nListing source: Sydney Symphony Orchestra. 
  Times and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/simone-young-and-james-ehnes-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:35151cd7@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271118T080000Z
+DTEND:20271118T100000Z
+SUMMARY:Truth Seekers\, Lovers\, and Warriors - Omega Ensemble
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Omega Ensemble\nVenue: City Recital Hall\nConfirm details and b
+ ook: https://www.cityrecitalhall.com/whats-on/events/truth-seekers-lovers-
+ and-warriors/\nListing source: City Recital Hall. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/truth-seekers-lovers-an
+ d-warriors/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:18fe1294@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271119T080000Z
+DTEND:20271119T100000Z
+SUMMARY:Strauss' Four Last Songs - Australian Chamber Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
+  details and book: https://www.cityrecitalhall.com/whats-on/events/strauss
+ -four-last-songs/\nListing source: City Recital Hall. Times and availabili
+ ty change - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs
+ /
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -5066,6 +7089,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a58f684d@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271129T080000Z
+DTEND:20271129T100000Z
+SUMMARY:Vision by Vision - Musica Viva Australia
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
+ s and book: https://www.cityrecitalhall.com/whats-on/events/vision-by-visi
+ on/\nListing source: City Recital Hall. Times and availability change - al
+ ways confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/vision-by-vision/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:783b5137@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -5080,6 +7121,78 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Coliseum Theatre\nConfirm det
  and availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/christmas-spectacular-in-western-
  sydney-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:47286b32@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271209T060000Z
+DTEND:20271209T080000Z
+SUMMARY:Noël! Noël! 2027 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2027/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b21cc055@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271209T083000Z
+DTEND:20271209T103000Z
+SUMMARY:Noël! Noël! 2027 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2027/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:01cfff3e@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271211T030000Z
+DTEND:20271211T050000Z
+SUMMARY:Noël! Noël! 2027 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2027/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:afefe5dc@matinee-finder
+DTSTAMP:20261101T063455Z
+LAST-MODIFIED:20261101T063455Z
+SEQUENCE:0
+DTSTART:20271211T060000Z
+DTEND:20271211T080000Z
+SUMMARY:Noël! Noël! 2027 - Australian Brandenburg Orchestra
+LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
+DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
+ firm details and book: https://www.cityrecitalhall.com/whats-on/events/noe
+ l-noel-2027/\nListing source: City Recital Hall. Times and availability ch
+ ange - always confirm with the venue.
+URL:https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

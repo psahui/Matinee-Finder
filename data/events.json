@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-01T17:19:08",
+ "generated_at": "2026-11-01T17:38:25",
  "generated_date": "2026-11-01",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 293,
-  "public": 272,
-  "matinee": 128,
-  "public_matinee": 107,
-  "tba": 10,
+  "total": 409,
+  "public": 388,
+  "matinee": 151,
+  "public_matinee": 130,
+  "tba": 11,
   "needs_review": 1,
   "stale": 0
  },
@@ -145,7 +145,13 @@
    }
   ],
   "performers": [
+   "Australian Brandenburg Orchestra",
    "Australian Chamber Orchestra",
+   "Musica Viva Australia",
+   "North Sydney Symphony Orchestra",
+   "Omega Ensemble",
+   "Pinchgut Opera",
+   "Selby & Friends",
    "Sydney Philharmonia Choirs",
    "Sydney Symphony Orchestra",
    "Willoughby Symphony Orchestra",
@@ -154,34 +160,55 @@
   "venues": [
    "City Recital Hall",
    "North Sydney venues",
+   "Queen Victoria Building",
    "St James' Church",
    "Sydney Opera House",
    "Sydney Town Hall",
+   "The Concourse, Chatswood",
+   "The Neilson, Walsh Bay",
+   "Verbrugghen Hall",
    "Other venues"
   ],
   "composers": [
    "John Adams",
    "Thomas Adès",
+   "Albéniz",
    "Anderson",
+   "Timo Andres",
+   "Anton Arensky",
+   "Arno Babajanyan",
+   "Grażyna Bacewicz",
    "Bach",
-   "Barber",
+   "Carl Philipp Emanuel Bach",
+   "Barbara",
+   "Samuel Barber",
    "Bartók",
    "Mason Bates",
    "Beethoven",
    "Berlioz",
    "Bernstein",
+   "Ernest Bloch",
    "Boieldieu",
+   "Brade",
    "Brahms",
    "Britten",
    "Bruckner",
+   "Le Camus",
    "André Caplet",
+   "Cattaneo",
    "Alice Chance",
+   "Charpentier",
    "Chopin",
    "Copland",
+   "Corbet",
+   "d'Ambruys",
+   "Debussy",
    "Dukas",
    "Dvořák",
    "Ross Edwards",
    "Elgar",
+   "Ēriks Ešenvalds",
+   "Van Eyck",
    "Françaix",
    "Gershwin",
    "Gibbons",
@@ -189,31 +216,52 @@
    "Grieg",
    "HK Gruber",
    "Guilmant",
+   "Hahn",
    "Handel",
+   "Hardy",
    "Haydn",
+   "Heinchen",
    "Holst",
    "James Horner",
+   "Dorothy Howell",
    "Andrew Howes",
    "Jens Joneleit",
    "Elena Kats-Chernin",
    "Klein",
+   "György Kurtág",
+   "Lambert",
+   "Leclair",
    "Ligeti",
    "Liszt",
+   "Locke",
+   "Witold Lutosławski",
    "Ella Macens",
    "Mahler",
    "Mark Mancina",
    "Adam Manning",
+   "Ingram Marshall",
+   "Missy Mazzoli",
    "Mendelssohn",
+   "Messager",
+   "Darius Milhaud",
    "Richard Mills",
+   "Monteverdi",
+   "James Morrison",
    "Mozart",
+   "Donald Nicolson",
    "Nielsen",
    "Sean O'Boyle",
+   "Offenbach",
    "Orff",
+   "Palestrina",
    "Arvo Pärt",
+   "Picforth",
    "Pierpont",
    "Lauri Porra",
    "Poulenc",
    "Prokofiev",
+   "Purcell",
+   "Vision String Quartet",
    "Rachmaninov",
    "Ravel",
    "Steve Reich",
@@ -221,29 +269,42 @@
    "Respighi",
    "Max Richter",
    "Rimsky-Korsakov",
+   "Hollis Taylor and Jon Rose",
    "Saint-Saëns",
+   "Satie",
+   "Scarlatti",
+   "Giacinto Scelsi",
    "Schoenberg",
    "Schubert",
+   "Clara Schumann",
    "Schumann",
+   "Peter Sculthorpe",
    "Harry Sdraulig",
    "Caroline Shaw",
+   "Jane Sheldon",
+   "Sherman",
    "Shostakovich",
    "Sibelius",
    "Smyth",
    "Stockhausen",
    "Richard Strauss",
    "Stravinsky",
+   "Jack Symonds",
+   "Joseph Tawadros",
    "Tchaikovsky",
+   "Teleman",
    "Anna Thorvaldsdottir",
    "Alex Turley",
    "Joseph Twist",
+   "Pēteris Vasks",
    "Vine",
    "Wagner",
    "Rufus Wainwright",
    "John Williams",
    "Justin Williams",
    "Vaughan Williams",
-   "Alan Parsons and Eric Woolfson"
+   "Alan Parsons and Eric Woolfson",
+   "Elizabeth Younan"
   ],
   "regions": [
    {
@@ -258,6 +319,8 @@
    }
   ],
   "sources": [
+   "City Recital Hall",
+   "City of Sydney What's On",
    "North Sydney Symphony",
    "Sydney Opera House",
    "Sydney Symphony Orchestra",
@@ -271,7 +334,7 @@
    "status": "ok",
    "count": 221,
    "previous_count": 221,
-   "last_success": "2026-11-01T17:19:08",
+   "last_success": "2026-11-01T17:38:25",
    "message": ""
   },
   {
@@ -279,7 +342,7 @@
    "status": "ok",
    "count": 48,
    "previous_count": 48,
-   "last_success": "2026-11-01T17:19:08",
+   "last_success": "2026-11-01T17:38:25",
    "message": ""
   },
   {
@@ -287,7 +350,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-01T17:19:08",
+   "last_success": "2026-11-01T17:38:25",
    "message": ""
   },
   {
@@ -295,7 +358,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-01T17:19:08",
+   "last_success": "2026-11-01T17:38:25",
    "message": ""
   },
   {
@@ -303,7 +366,23 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-01T17:19:08",
+   "last_success": "2026-11-01T17:38:25",
+   "message": ""
+  },
+  {
+   "name": "City Recital Hall",
+   "status": "ok",
+   "count": 95,
+   "previous_count": 95,
+   "last_success": "2026-11-01T17:38:25",
+   "message": ""
+  },
+  {
+   "name": "City of Sydney What's On",
+   "status": "ok",
+   "count": 27,
+   "previous_count": 27,
+   "last_success": "2026-11-01T17:38:25",
    "message": ""
   }
  ],
@@ -398,7 +477,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmonic-orchestra/",
@@ -469,6 +548,48 @@
    "feed_format": 2
   },
   {
+   "id": "1a9cc9fa",
+   "title": "Haydn’s Oxford | Australian Haydn Ensemble",
+   "raw_title": "Haydn’s Oxford | Australian Haydn Ensemble",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Haydn"
+   ],
+   "works": [],
+   "venue_name": "The Neilson",
+   "venue_group": "The Neilson, Walsh Bay",
+   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-02",
+   "time": "19:00",
+   "start_utc": "20261102T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611021900,
+   "date_string": "Monday, 02 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "d85593cf",
    "title": "ABC Young Performers Awards Grand Final",
    "raw_title": "ABC Young Performers Awards Grand Final",
@@ -523,6 +644,162 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-17T07:44:18",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "6195b90b",
+   "title": "Jack Hancher - Classical Guitar Recital",
+   "raw_title": "Jack Hancher - Classical Guitar Recital",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Marrickville",
+   "venue_group": "Other venues",
+   "venue_address": "21 Shepherd St, Marrickville NSW 2204, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/jack-hancher-classical-guitar-recital",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-03",
+   "time": "19:30",
+   "start_utc": "20261103T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202611031930,
+   "date_string": "Tuesday, 03 November 2026",
+   "time_string": "7:30 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "a81cc0e2",
+   "title": "Sir Stephen Hough Piano Recital",
+   "raw_title": "Sir Stephen Hough Piano Recital",
+   "performer": "Classical Music Australia",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Schubert",
+    "Brahms",
+    "Schoenberg",
+    "Beethoven",
+    "Schumann",
+    "Sherman"
+   ],
+   "works": [
+    {
+     "composer": "Schubert",
+     "work": "Klavierstück No. 2, D946"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Klavierstück Op 118 No. 6"
+    },
+    {
+     "composer": "Schoenberg",
+     "work": "6 Kleine Klavierstücke, Op. 19"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Bagatelle, Op. 119 No. 10"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Sonata, Op. 53 “Waldstein”"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Carnaval, Op. 9"
+    },
+    {
+     "composer": "Sherman",
+     "work": "Mary Poppins Suite"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/sir-stephen-hough-piano-recital/",
+   "source": "City Recital Hall",
+   "date": "2026-11-03",
+   "time": "19:30",
+   "start_utc": "20261103T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202611031930,
+   "date_string": "Tuesday, 03 November 2026",
+   "time_string": "7:30 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "b8fa12f5",
+   "title": "Lunchtime Concert: Samantha Mailer Flute & Thomas Azoury",
+   "raw_title": "Lunchtime Concert: Samantha Mailer Flute & Thomas Azoury",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "St James Church",
+   "venue_group": "St James' Church",
+   "venue_address": "173 King Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-samantha-mailer-flute-and-thomas-azoury",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-04",
+   "time": "13:15",
+   "start_utc": "20261104T021500Z",
+   "time_confirmed": true,
+   "sort_key": 202611041315,
+   "date_string": "Wednesday, 04 November 2026",
+   "time_string": "1:15 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "short_format"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -703,6 +980,48 @@
    "feed_format": 2
   },
   {
+   "id": "03ebe2c8",
+   "title": "Peter and the Wolf an Organ Celebration",
+   "raw_title": "Peter and the Wolf an Organ Celebration",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Prokofiev"
+   ],
+   "works": [],
+   "venue_name": "St James Church",
+   "venue_group": "St James' Church",
+   "venue_address": "173 King Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/st-james-international-organ-festival",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-07",
+   "time": "17:00",
+   "start_utc": "20261107T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202611071700,
+   "date_string": "Saturday, 07 November 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "family"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "684ac5ce",
    "title": "Suzuki Talent Education Final Level Graduates Showcase Concert Recital",
    "raw_title": "Suzuki Talent Education Final Level Graduates Showcase Concert Recital",
@@ -740,6 +1059,46 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-22T08:18:09",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "f79ea4ae",
+   "title": "Bittersweet",
+   "raw_title": "Bittersweet",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Dawes Point",
+   "venue_group": "Other venues",
+   "venue_address": "15 Hickson Rd, Dawes Point NSW 2000, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/bittersweet",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-07",
+   "time": "19:00",
+   "start_utc": "20261107T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611071900,
+   "date_string": "Saturday, 07 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -811,7 +1170,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-organ-symphony/",
@@ -853,7 +1212,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Organ-Symphony",
@@ -1072,7 +1431,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-organ-symphony/",
@@ -1140,6 +1499,48 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-22T08:18:09",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "cb7de629",
+   "title": "Haydn’s Oxford | Australian Haydn Ensemble",
+   "raw_title": "Haydn’s Oxford | Australian Haydn Ensemble",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Haydn"
+   ],
+   "works": [],
+   "venue_name": "The Neilson",
+   "venue_group": "The Neilson, Walsh Bay",
+   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-08",
+   "time": "16:00",
+   "start_utc": "20261108T050000Z",
+   "time_confirmed": true,
+   "sort_key": 202611081600,
+   "date_string": "Sunday, 08 November 2026",
+   "time_string": "4:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -1222,6 +1623,101 @@
    "last_changed": "2026-10-24T08:42:45",
    "first_seen": "2026-09-24T07:49:13",
    "sequence": 2,
+   "feed_format": 2
+  },
+  {
+   "id": "bbe11041",
+   "title": "Cantos Sagrados",
+   "raw_title": "Cantos Sagrados",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "St James Church",
+   "venue_group": "St James' Church",
+   "venue_address": "173 King Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-14",
+   "time": "17:00",
+   "start_utc": "20261114T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202611141700,
+   "date_string": "Saturday, 14 November 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "ddc2ce71",
+   "title": "Beethoven’s Pastoral",
+   "raw_title": "Beethoven’s Pastoral",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Coriolan Overture, Op.62"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Triple Concert for Violin, Cello and Piano in C major, Op.56"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.6 in F major, Op.68 \"Pastoral\""
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/",
+   "source": "City Recital Hall",
+   "date": "2026-11-14",
+   "time": "19:00",
+   "start_utc": "20261114T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611141900,
+   "date_string": "Saturday, 14 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -1387,6 +1883,322 @@
    "feed_format": 2
   },
   {
+   "id": "89def83a",
+   "title": "Salut! Baroque presents Charms in Musick",
+   "raw_title": "Salut! Baroque presents Charms in Musick",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Sydney Conservatorium of Music",
+   "venue_group": "Verbrugghen Hall",
+   "venue_address": "Macquarie Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/salut-baroque-presents-charms-in-musick",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-15",
+   "time": "15:00",
+   "start_utc": "20261115T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202611151500,
+   "date_string": "Sunday, 15 November 2026",
+   "time_string": "3:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "224398ed",
+   "title": "Bach & Charpentier – Music for Christmas",
+   "raw_title": "Bach & Charpentier – Music for Christmas",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [],
+   "venue_name": "St James Church",
+   "venue_group": "St James' Church",
+   "venue_address": "173 King Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/bach-and-charpentier-music-for-christmas",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-15",
+   "time": "17:00",
+   "start_utc": "20261115T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202611151700,
+   "date_string": "Sunday, 15 November 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "bfa571d6",
+   "title": "Latvian Radio Choir & Genevieve Lacey",
+   "raw_title": "Latvian Radio Choir & Genevieve Lacey",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "Caroline Shaw",
+    "Van Eyck",
+    "Arvo Pärt",
+    "Mendelssohn",
+    "Hollis Taylor and Jon Rose",
+    "Palestrina",
+    "Pēteris Vasks",
+    "Ēriks Ešenvalds"
+   ],
+   "works": [
+    {
+     "composer": "Caroline Shaw",
+     "work": "And the Swallow"
+    },
+    {
+     "composer": "Van Eyck",
+     "work": "Engels Nachtegaeltje"
+    },
+    {
+     "composer": "Arvo Pärt",
+     "work": "Magnificat and Nunc dimittis"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Psalm XXII ‘Mein Gott, warum hast du mich verlassen’"
+    },
+    {
+     "composer": "Hollis Taylor and Jon Rose",
+     "work": "Bird on Byrd (New Commission)"
+    },
+    {
+     "composer": "Palestrina",
+     "work": "Diminutions on Pulchra es anima mea"
+    },
+    {
+     "composer": "Pēteris Vasks",
+     "work": "Our Mothers' Names"
+    },
+    {
+     "composer": "Ēriks Ešenvalds",
+     "work": "Ceremony of Swans (New commission)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/latvian-radio-choir-genevieve-lacey/",
+   "source": "City Recital Hall",
+   "date": "2026-11-16",
+   "time": "19:00",
+   "start_utc": "20261116T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611161900,
+   "date_string": "Monday, 16 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "14ba9f63",
+   "title": "Beethoven’s Pastoral",
+   "raw_title": "Beethoven’s Pastoral",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Coriolan Overture, Op.62"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Triple Concert for Violin, Cello and Piano in C major, Op.56"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.6 in F major, Op.68 \"Pastoral\""
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/",
+   "source": "City Recital Hall",
+   "date": "2026-11-17",
+   "time": "20:00",
+   "start_utc": "20261117T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202611172000,
+   "date_string": "Tuesday, 17 November 2026",
+   "time_string": "8:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "c92411e7",
+   "title": "Lunchtime Concert: Austral Harmony Bach Springtime Pastoral",
+   "raw_title": "Lunchtime Concert: Austral Harmony Bach Springtime Pastoral",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [],
+   "venue_name": "St James Church",
+   "venue_group": "St James' Church",
+   "venue_address": "173 King Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austral-harmony-with-jane-downer",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-18",
+   "time": "13:15",
+   "start_utc": "20261118T021500Z",
+   "time_confirmed": true,
+   "sort_key": 202611181315,
+   "date_string": "Wednesday, 18 November 2026",
+   "time_string": "1:15 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "short_format"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "bfa46577",
+   "title": "Beethoven’s Pastoral",
+   "raw_title": "Beethoven’s Pastoral",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Coriolan Overture, Op.62"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Triple Concert for Violin, Cello and Piano in C major, Op.56"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.6 in F major, Op.68 \"Pastoral\""
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/",
+   "source": "City Recital Hall",
+   "date": "2026-11-18",
+   "time": "19:00",
+   "start_utc": "20261118T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611181900,
+   "date_string": "Wednesday, 18 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "c1c3756f",
    "title": "Simone Young conducts Götterdämmerung",
    "raw_title": "Simone Young conducts Götterdämmerung",
@@ -1514,6 +2326,48 @@
    "feed_format": 2
   },
   {
+   "id": "7b1e7c7f",
+   "title": "10 Years of Modést Orchestra - Scheherazade & Pictures",
+   "raw_title": "10 Years of Modést Orchestra - Scheherazade & Pictures",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Rimsky-Korsakov"
+   ],
+   "works": [],
+   "venue_name": "Sydney Conservatorium of Music",
+   "venue_group": "Verbrugghen Hall",
+   "venue_address": "Macquarie Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/10-years-of-modest-orchestra-scheherazade-and-pictures",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "start_utc": "20261121T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202611211930,
+   "date_string": "Saturday, 21 November 2026",
+   "time_string": "7:30 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "544b7152",
    "title": "Simone Young conducts Götterdämmerung",
    "raw_title": "Simone Young conducts Götterdämmerung",
@@ -1570,7 +2424,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-band/",
@@ -1601,6 +2455,208 @@
    "feed_format": 2
   },
   {
+   "id": "71cef235",
+   "title": "ANAM in Sydney: Folk Journeys",
+   "raw_title": "ANAM in Sydney: Folk Journeys",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Neilson",
+   "venue_group": "The Neilson, Walsh Bay",
+   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/anam-in-sydney-folk-journeys",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-22",
+   "time": "15:00",
+   "start_utc": "20261122T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202611221500,
+   "date_string": "Sunday, 22 November 2026",
+   "time_string": "3:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "a7a21cd0",
+   "title": "International Steinway Artist Ronan Magill - Piano Concert",
+   "raw_title": "International Steinway Artist Ronan Magill - Piano Concert",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Annandale",
+   "venue_group": "Other venues",
+   "venue_address": "Johnston St, Annandale NSW 2038, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/international-steinway-artist-ronan-magill-piano-concert",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-22",
+   "time": "15:00",
+   "start_utc": "20261122T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202611221500,
+   "date_string": "Sunday, 22 November 2026",
+   "time_string": "3:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "38e8e88c",
+   "title": "Sleep and Awake",
+   "raw_title": "Sleep and Awake",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Dulwich Hill",
+   "venue_group": "Other venues",
+   "venue_address": "Herbert St, Dulwich Hill NSW 2203, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-22",
+   "time": "16:00",
+   "start_utc": "20261122T050000Z",
+   "time_confirmed": true,
+   "sort_key": 202611221600,
+   "date_string": "Sunday, 22 November 2026",
+   "time_string": "4:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "886025e4",
+   "title": "Neeman Piano Duo in Concert",
+   "raw_title": "Neeman Piano Duo in Concert",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Glebe",
+   "venue_group": "Other venues",
+   "venue_address": "unit 6/80 Wentworth Park Rd, Glebe NSW 2037, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-concert",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-22",
+   "time": "16:30",
+   "start_utc": "20261122T053000Z",
+   "time_confirmed": true,
+   "sort_key": 202611221630,
+   "date_string": "Sunday, 22 November 2026",
+   "time_string": "4:30 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "film"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "06cc9585",
+   "title": "Semele by Handel",
+   "raw_title": "Semele by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2026-11-26",
+   "time": "19:00",
+   "start_utc": "20261126T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611261900,
+   "date_string": "Thursday, 26 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "4d118eba",
    "title": "The Sydney Symphony performs Max Richter’s Four Seasons",
    "raw_title": "The Sydney Symphony performs Max Richter’s Four Seasons",
@@ -1608,12 +2664,12 @@
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
    "composers": [
-    "Barber",
+    "Samuel Barber",
     "Max Richter"
    ],
    "works": [
     {
-     "composer": "Barber",
+     "composer": "Samuel Barber",
      "work": "Adagio for strings"
     },
     {
@@ -1657,6 +2713,46 @@
    "feed_format": 2
   },
   {
+   "id": "a1042e15",
+   "title": "Come Sit With Me",
+   "raw_title": "Come Sit With Me",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Neilson",
+   "venue_group": "The Neilson, Walsh Bay",
+   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/come-sit-with-me",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-27",
+   "time": "18:30",
+   "start_utc": "20261127T073000Z",
+   "time_confirmed": true,
+   "sort_key": 202611271830,
+   "date_string": "Friday, 27 November 2026",
+   "time_string": "6:30 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "a9de52a4",
    "title": "The Sydney Symphony performs Max Richter’s Four Seasons",
    "raw_title": "The Sydney Symphony performs Max Richter’s Four Seasons",
@@ -1664,12 +2760,12 @@
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
    "composers": [
-    "Barber",
+    "Samuel Barber",
     "Max Richter"
    ],
    "works": [
     {
-     "composer": "Barber",
+     "composer": "Samuel Barber",
      "work": "Adagio for strings"
     },
     {
@@ -1710,6 +2806,168 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-07T11:57:59",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "45cd906e",
+   "title": "Semele by Handel",
+   "raw_title": "Semele by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2026-11-28",
+   "time": "14:00",
+   "start_utc": "20261128T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202611281400,
+   "date_string": "Saturday, 28 November 2026",
+   "time_string": "2:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "80be561c",
+   "title": "The Trout",
+   "raw_title": "The Trout",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Neilson",
+   "venue_group": "The Neilson, Walsh Bay",
+   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-trout",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-28",
+   "time": "14:00",
+   "start_utc": "20261128T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202611281400,
+   "date_string": "Saturday, 28 November 2026",
+   "time_string": "2:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "cd6543db",
+   "title": "The Trout",
+   "raw_title": "The Trout",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Neilson",
+   "venue_group": "The Neilson, Walsh Bay",
+   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-trout",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-28",
+   "time": "19:00",
+   "start_utc": "20261128T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202611281900,
+   "date_string": "Saturday, 28 November 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "d1bad25b",
+   "title": "An afternoon with accordionist James Crabb",
+   "raw_title": "An afternoon with accordionist James Crabb",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Hunters Hill",
+   "venue_group": "Other venues",
+   "venue_address": "22 Alexandra St, Hunters Hill NSW 2110, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accordionist-james-crabb",
+   "source": "City of Sydney What's On",
+   "date": "2026-11-29",
+   "time": "14:30",
+   "start_utc": "20261129T033000Z",
+   "time_confirmed": true,
+   "sort_key": 202611291430,
+   "date_string": "Sunday, 29 November 2026",
+   "time_string": "2:30 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -1793,6 +3051,90 @@
    "feed_format": 2
   },
   {
+   "id": "7e5694cd",
+   "title": "Semele by Handel",
+   "raw_title": "Semele by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2026-11-29",
+   "time": "17:00",
+   "start_utc": "20261129T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202611291700,
+   "date_string": "Sunday, 29 November 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-11",
+   "month_label": "November 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "85329c2f",
+   "title": "Semele by Handel",
+   "raw_title": "Semele by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2026-12-01",
+   "time": "12:00",
+   "start_utc": "20261201T010000Z",
+   "time_confirmed": true,
+   "sort_key": 202612011200,
+   "date_string": "Tuesday, 01 December 2026",
+   "time_string": "12:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "02b0d573",
    "title": "Harry Potter and the Philosopher’s Stone In Concert",
    "raw_title": "Harry Potter and the Philosopher’s Stone In Concert",
@@ -1837,6 +3179,48 @@
    "last_changed": "2026-10-27T09:54:30",
    "first_seen": "2026-08-07T11:57:59",
    "sequence": 2,
+   "feed_format": 2
+  },
+  {
+   "id": "5c738882",
+   "title": "Semele by Handel",
+   "raw_title": "Semele by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2026-12-02",
+   "time": "19:00",
+   "start_utc": "20261202T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202612021900,
+   "date_string": "Wednesday, 02 December 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -2021,6 +3405,46 @@
    "feed_format": 2
   },
   {
+   "id": "fd9ae62e",
+   "title": "Christmas Concert - Sydney Sings®",
+   "raw_title": "Christmas Concert - Sydney Sings®",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "North Sydney",
+   "venue_group": "Other venues",
+   "venue_address": "Church St, North Sydney NSW 2060, Australia",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/christmas-concert-sydney-sings-r",
+   "source": "City of Sydney What's On",
+   "date": "2026-12-05",
+   "time": "19:00",
+   "start_utc": "20261205T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202612051900,
+   "date_string": "Saturday, 05 December 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "940e4575",
    "title": "Harry Potter and the Philosopher’s Stone In Concert",
    "raw_title": "Harry Potter and the Philosopher’s Stone In Concert",
@@ -2112,7 +3536,7 @@
    "title": "North Sydney Symphony Orchestra in Concert",
    "raw_title": "North Sydney Symphony Orchestra in Concert",
    "performer": "North Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
+   "performer_group": "North Sydney Symphony Orchestra",
    "programme": null,
    "composers": [],
    "works": [],
@@ -2145,6 +3569,140 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-07T11:57:59",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "66756dee",
+   "title": "Bach's Christmas Oratorio",
+   "raw_title": "Bach's Christmas Oratorio",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Christmas Oratorio, BWV428"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/bachs-christmas-oratorio/",
+   "source": "City Recital Hall",
+   "date": "2026-12-08",
+   "time": "18:30",
+   "start_utc": "20261208T073000Z",
+   "time_confirmed": true,
+   "sort_key": 202612081830,
+   "date_string": "Tuesday, 08 December 2026",
+   "time_string": "6:30 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "bab066ab",
+   "title": "Bach's Christmas Oratorio",
+   "raw_title": "Bach's Christmas Oratorio",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Christmas Oratorio, BWV428"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/bachs-christmas-oratorio/",
+   "source": "City Recital Hall",
+   "date": "2026-12-09",
+   "time": "18:30",
+   "start_utc": "20261209T073000Z",
+   "time_confirmed": true,
+   "sort_key": 202612091830,
+   "date_string": "Wednesday, 09 December 2026",
+   "time_string": "6:30 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "189add81",
+   "title": "Noël! Noël! 2026",
+   "raw_title": "Noël! Noël! 2026",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/",
+   "source": "City Recital Hall",
+   "date": "2026-12-10",
+   "time": "17:00",
+   "start_utc": "20261210T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202612101700,
+   "date_string": "Thursday, 10 December 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -2185,6 +3743,46 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-15T08:04:57",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "5392a511",
+   "title": "Noël! Noël! 2026",
+   "raw_title": "Noël! Noël! 2026",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/",
+   "source": "City Recital Hall",
+   "date": "2026-12-10",
+   "time": "19:30",
+   "start_utc": "20261210T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202612101930,
+   "date_string": "Thursday, 10 December 2026",
+   "time_string": "7:30 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -2272,6 +3870,86 @@
    "feed_format": 2
   },
   {
+   "id": "abb5533c",
+   "title": "Noël! Noël! 2026",
+   "raw_title": "Noël! Noël! 2026",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/",
+   "source": "City Recital Hall",
+   "date": "2026-12-12",
+   "time": "14:00",
+   "start_utc": "20261212T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202612121400,
+   "date_string": "Saturday, 12 December 2026",
+   "time_string": "2:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "c018c313",
+   "title": "Noël! Noël! 2026",
+   "raw_title": "Noël! Noël! 2026",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2026/",
+   "source": "City Recital Hall",
+   "date": "2026-12-12",
+   "time": "17:00",
+   "start_utc": "20261212T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202612121700,
+   "date_string": "Saturday, 12 December 2026",
+   "time_string": "5:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "7595f144",
    "title": "Handel’s Messiah",
    "raw_title": "Handel’s Messiah",
@@ -2323,7 +4001,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spirit-of-christmas-2026/",
@@ -2363,7 +4041,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Spirit-of-Christmas-2026",
@@ -2391,6 +4069,63 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-24T07:49:13",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "2f5ddd23",
+   "title": "On Second Thought",
+   "raw_title": "On Second Thought",
+   "performer": "Selby & Friends",
+   "performer_group": "Selby & Friends",
+   "programme": null,
+   "composers": [
+    "Mozart",
+    "Darius Milhaud",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Piano Trio No. 2 in G major, K. 496 (1786)"
+    },
+    {
+     "composer": "Darius Milhaud",
+     "work": "Piano Trio No. 2 in B minor, Op. 76 (1933)"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Piano Trio No. 2 in G minor Op. 26, B. 56 (1876)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/on-second-thought/",
+   "source": "City Recital Hall",
+   "date": "2026-12-14",
+   "time": "19:00",
+   "start_utc": "20261214T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202612141900,
+   "date_string": "Monday, 14 December 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -2511,6 +4246,46 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-10-01T08:39:37",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "89b735e7",
+   "title": "Monthly QVB Classical Pop-Up Concert",
+   "raw_title": "Monthly QVB Classical Pop-Up Concert",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Queen Victoria Building",
+   "venue_group": "Queen Victoria Building",
+   "venue_address": "455 George Street, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-pop-up",
+   "source": "City of Sydney What's On",
+   "date": "2026-12-26",
+   "time": null,
+   "start_utc": null,
+   "time_confirmed": false,
+   "sort_key": 202612269999,
+   "date_string": "Saturday, 26 December 2026",
+   "time_string": "Time TBA",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "tba",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:36:30",
+   "first_seen": "2026-11-01T17:36:30",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -2965,6 +4740,86 @@
    "feed_format": 2
   },
   {
+   "id": "acb9641d",
+   "title": "Pyramus and Thisbe by Lampe",
+   "raw_title": "Pyramus and Thisbe by Lampe",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-lampe/",
+   "source": "City Recital Hall",
+   "date": "2027-02-06",
+   "time": "14:00",
+   "start_utc": "20270206T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202702061400,
+   "date_string": "Saturday, 06 February 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "389ef5ce",
+   "title": "Pyramus and Thisbe by Lampe",
+   "raw_title": "Pyramus and Thisbe by Lampe",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-lampe/",
+   "source": "City Recital Hall",
+   "date": "2027-02-06",
+   "time": "20:00",
+   "start_utc": "20270206T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202702062000,
+   "date_string": "Saturday, 06 February 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "8e8bcb0b",
    "title": "Quartet X",
    "raw_title": "Quartet X",
@@ -3005,6 +4860,46 @@
    "feed_format": 2
   },
   {
+   "id": "eb4953fa",
+   "title": "Pyramus and Thisbe by Lampe",
+   "raw_title": "Pyramus and Thisbe by Lampe",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-lampe/",
+   "source": "City Recital Hall",
+   "date": "2027-02-07",
+   "time": "17:00",
+   "start_utc": "20270207T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202702071700,
+   "date_string": "Sunday, 07 February 2027",
+   "time_string": "5:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "4192882a",
    "title": "Quartet X",
    "raw_title": "Quartet X",
@@ -3042,6 +4937,78 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-22T08:18:09",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "37e5d4f6",
+   "title": "Nicolas Altstaedt",
+   "raw_title": "Nicolas Altstaedt",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Mendelssohn",
+    "Giacinto Scelsi",
+    "Carl Philipp Emanuel Bach",
+    "Mozart",
+    "György Kurtág",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Mendelssohn",
+     "work": "String Symphony No.4 in C minor"
+    },
+    {
+     "composer": "Giacinto Scelsi",
+     "work": "Chukrum: I."
+    },
+    {
+     "composer": "Carl Philipp Emanuel Bach",
+     "work": "Cello Concerto in A major, Wq.172"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Adagio and Fugue in C minor, K.546"
+    },
+    {
+     "composer": "György Kurtág",
+     "work": "(arr. strings) Ligatura – Message to Frances-Marie (The Answered Unanswered Question), Op.31b"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "(arr. strings) String Quartet in F major, Op.13"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/",
+   "source": "City Recital Hall",
+   "date": "2027-02-09",
+   "time": "20:00",
+   "start_utc": "20270209T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202702092000,
+   "date_string": "Tuesday, 09 February 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -3089,6 +5056,78 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-15T08:04:57",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "debac246",
+   "title": "Nicolas Altstaedt",
+   "raw_title": "Nicolas Altstaedt",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Mendelssohn",
+    "Giacinto Scelsi",
+    "Carl Philipp Emanuel Bach",
+    "Mozart",
+    "György Kurtág",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Mendelssohn",
+     "work": "String Symphony No.4 in C minor"
+    },
+    {
+     "composer": "Giacinto Scelsi",
+     "work": "Chukrum: I."
+    },
+    {
+     "composer": "Carl Philipp Emanuel Bach",
+     "work": "Cello Concerto in A major, Wq.172"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Adagio and Fugue in C minor, K.546"
+    },
+    {
+     "composer": "György Kurtág",
+     "work": "(arr. strings) Ligatura – Message to Frances-Marie (The Answered Unanswered Question), Op.31b"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "(arr. strings) String Quartet in F major, Op.13"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/",
+   "source": "City Recital Hall",
+   "date": "2027-02-10",
+   "time": "19:00",
+   "start_utc": "20270210T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702101900,
+   "date_string": "Wednesday, 10 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -3219,6 +5258,78 @@
    "feed_format": 2
   },
   {
+   "id": "d81b34b4",
+   "title": "Nicolas Altstaedt",
+   "raw_title": "Nicolas Altstaedt",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Mendelssohn",
+    "Giacinto Scelsi",
+    "Carl Philipp Emanuel Bach",
+    "Mozart",
+    "György Kurtág",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Mendelssohn",
+     "work": "String Symphony No.4 in C minor"
+    },
+    {
+     "composer": "Giacinto Scelsi",
+     "work": "Chukrum: I."
+    },
+    {
+     "composer": "Carl Philipp Emanuel Bach",
+     "work": "Cello Concerto in A major, Wq.172"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Adagio and Fugue in C minor, K.546"
+    },
+    {
+     "composer": "György Kurtág",
+     "work": "(arr. strings) Ligatura – Message to Frances-Marie (The Answered Unanswered Question), Op.31b"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "(arr. strings) String Quartet in F major, Op.13"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/",
+   "source": "City Recital Hall",
+   "date": "2027-02-13",
+   "time": "19:00",
+   "start_utc": "20270213T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702131900,
+   "date_string": "Saturday, 13 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "30d103e6",
    "title": "Nicolas Altstaedt",
    "raw_title": "Nicolas Altstaedt",
@@ -3256,6 +5367,132 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-10-02T08:55:39",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "cfdd9803",
+   "title": "Van Diemen's Band & Bertrand Cuiller",
+   "raw_title": "Van Diemen's Band & Bertrand Cuiller",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "Locke",
+    "Bach",
+    "Picforth",
+    "Brade",
+    "Purcell",
+    "Handel",
+    "Donald Nicolson",
+    "Jane Sheldon"
+   ],
+   "works": [
+    {
+     "composer": "Locke",
+     "work": "Consort of Four Parts, No. 1: Fantazie"
+    },
+    {
+     "composer": "Bach",
+     "work": "Harpsichord Concerto No. 1 in D Minor, BWV 1052"
+    },
+    {
+     "composer": "Picforth",
+     "work": "In Nomine a 5 , MB 57"
+    },
+    {
+     "composer": "Brade",
+     "work": "Uppsala Düben Collection: I. Coral"
+    },
+    {
+     "composer": "Purcell",
+     "work": "Curtain Tune from Timon of Athens"
+    },
+    {
+     "composer": "Handel",
+     "work": "Water Music HWV 350 (selections)"
+    },
+    {
+     "composer": "Donald Nicolson",
+     "work": "Lachrimae"
+    },
+    {
+     "composer": "Locke",
+     "work": "Music from The Tempest (selections)"
+    },
+    {
+     "composer": "Jane Sheldon",
+     "work": "New work"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/van-diemens-band-bertrand-cuiller/",
+   "source": "City Recital Hall",
+   "date": "2027-02-15",
+   "time": "19:00",
+   "start_utc": "20270215T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702151900,
+   "date_string": "Monday, 15 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "187812bc",
+   "title": "Seven Sins",
+   "raw_title": "Seven Sins",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/seven-sins/",
+   "source": "City Recital Hall",
+   "date": "2027-02-17",
+   "time": "19:00",
+   "start_utc": "20270217T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702171900,
+   "date_string": "Wednesday, 17 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -3311,6 +5548,46 @@
    "feed_format": 2
   },
   {
+   "id": "a8f8e5c4",
+   "title": "Seven Sins",
+   "raw_title": "Seven Sins",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/seven-sins/",
+   "source": "City Recital Hall",
+   "date": "2027-02-19",
+   "time": "19:00",
+   "start_utc": "20270219T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702191900,
+   "date_string": "Friday, 19 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "65015e75",
    "title": "Simone Young conducts Mahler’s Seventh Symphony",
    "raw_title": "Simone Young conducts Mahler’s Seventh Symphony",
@@ -3363,6 +5640,86 @@
    "feed_format": 2
   },
   {
+   "id": "198b62b9",
+   "title": "Seven Sins",
+   "raw_title": "Seven Sins",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/seven-sins/",
+   "source": "City Recital Hall",
+   "date": "2027-02-20",
+   "time": "14:00",
+   "start_utc": "20270220T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202702201400,
+   "date_string": "Saturday, 20 February 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "5d424ff4",
+   "title": "Seven Sins",
+   "raw_title": "Seven Sins",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/seven-sins/",
+   "source": "City Recital Hall",
+   "date": "2027-02-20",
+   "time": "19:00",
+   "start_utc": "20270220T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702201900,
+   "date_string": "Saturday, 20 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "8ec27db4",
    "title": "Willoughby Symphony Orchestra 2027 – Fate",
    "raw_title": "Willoughby Symphony Orchestra 2027 – Fate",
@@ -3372,7 +5729,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-2027-fate/",
@@ -3464,7 +5821,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Fate",
@@ -3504,7 +5861,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-2027-fate/",
@@ -3572,6 +5929,101 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-22T08:18:09",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "35164848",
+   "title": "Honouring the Master",
+   "raw_title": "Honouring the Master",
+   "performer": "Selby & Friends",
+   "performer_group": "Selby & Friends",
+   "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Piano Trio in B-flat major, WoO 39 (1812)"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Piano Trio No. 6 in E-flat major, Op. 70 No. 2 (1809)"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Piano Trio No. 7 in B-flat major, Op. 97 “Archduke” (1811)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/honouring-the-master/",
+   "source": "City Recital Hall",
+   "date": "2027-02-22",
+   "time": "19:00",
+   "start_utc": "20270222T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702221900,
+   "date_string": "Monday, 22 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "859322fb",
+   "title": "Seven Sins",
+   "raw_title": "Seven Sins",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/seven-sins/",
+   "source": "City Recital Hall",
+   "date": "2027-02-23",
+   "time": "19:00",
+   "start_utc": "20270223T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202702231900,
+   "date_string": "Tuesday, 23 February 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -4646,6 +7098,53 @@
    "feed_format": 2
   },
   {
+   "id": "03481a1b",
+   "title": "Bach’s St John Passion",
+   "raw_title": "Bach’s St John Passion",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "St John Passion, BWV245"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/bach-s-st-john-passion/",
+   "source": "City Recital Hall",
+   "date": "2027-03-20",
+   "time": "19:00",
+   "start_utc": "20270320T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202703201900,
+   "date_string": "Saturday, 20 March 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-03",
+   "month_label": "March 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "603df14c",
    "title": "Víkingur Ólafsson Returns",
    "raw_title": "Víkingur Ólafsson Returns",
@@ -4777,6 +7276,100 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "b94fe350",
+   "title": "Bach’s St John Passion",
+   "raw_title": "Bach’s St John Passion",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "St John Passion, BWV245"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/bach-s-st-john-passion/",
+   "source": "City Recital Hall",
+   "date": "2027-03-23",
+   "time": "20:00",
+   "start_utc": "20270323T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202703232000,
+   "date_string": "Tuesday, 23 March 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-03",
+   "month_label": "March 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "b807065d",
+   "title": "Bach’s St John Passion",
+   "raw_title": "Bach’s St John Passion",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "St John Passion, BWV245"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/bach-s-st-john-passion/",
+   "source": "City Recital Hall",
+   "date": "2027-03-24",
+   "time": "19:00",
+   "start_utc": "20270324T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202703241900,
+   "date_string": "Wednesday, 24 March 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-03",
+   "month_label": "March 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -5351,7 +7944,7 @@
    "programme": null,
    "composers": [
     "Mozart",
-    "Barber",
+    "Samuel Barber",
     "Britten"
    ],
    "works": [
@@ -5360,7 +7953,7 @@
      "work": "Vesperae Solennes de Confessore"
     },
     {
-     "composer": "Barber",
+     "composer": "Samuel Barber",
      "work": "Toccata Festiva"
     },
     {
@@ -5442,6 +8035,53 @@
    "feed_format": 2
   },
   {
+   "id": "4d6aa8b9",
+   "title": "Arvo Pärt Masterworks",
+   "raw_title": "Arvo Pärt Masterworks",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Arvo Pärt"
+   ],
+   "works": [
+    {
+     "composer": "Arvo Pärt",
+     "work": "Tabula Rasa, Berliner Messe, Te Deum"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/arvo-paert-masterworks/",
+   "source": "City Recital Hall",
+   "date": "2027-04-20",
+   "time": "19:30",
+   "start_utc": "20270420T093000Z",
+   "time_confirmed": true,
+   "sort_key": 202704201930,
+   "date_string": "Tuesday, 20 April 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "ff754dae",
    "title": "Dalia Stasevska conducts Dvořák",
    "raw_title": "Dalia Stasevska conducts Dvořák",
@@ -5496,6 +8136,63 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "a22059a7",
+   "title": "Pardon My French",
+   "raw_title": "Pardon My French",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Handel",
+    "Corbet",
+    "Leclair"
+   ],
+   "works": [
+    {
+     "composer": "Handel",
+     "work": "Concerto Grosso in B-flat major, Op. 3 No. 2, HWV 313"
+    },
+    {
+     "composer": "Corbet",
+     "work": "Concerto in D minor, Alla Genouese, Op. 8 No. 2"
+    },
+    {
+     "composer": "Leclair",
+     "work": "Concerto for violin in D minor, Op. 7 No. 1"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/",
+   "source": "City Recital Hall",
+   "date": "2027-04-21",
+   "time": "19:00",
+   "start_utc": "20270421T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202704211900,
+   "date_string": "Wednesday, 21 April 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -5556,6 +8253,63 @@
    "feed_format": 2
   },
   {
+   "id": "44b00fde",
+   "title": "Pardon My French",
+   "raw_title": "Pardon My French",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Handel",
+    "Corbet",
+    "Leclair"
+   ],
+   "works": [
+    {
+     "composer": "Handel",
+     "work": "Concerto Grosso in B-flat major, Op. 3 No. 2, HWV 313"
+    },
+    {
+     "composer": "Corbet",
+     "work": "Concerto in D minor, Alla Genouese, Op. 8 No. 2"
+    },
+    {
+     "composer": "Leclair",
+     "work": "Concerto for violin in D minor, Op. 7 No. 1"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/",
+   "source": "City Recital Hall",
+   "date": "2027-04-23",
+   "time": "19:00",
+   "start_utc": "20270423T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202704231900,
+   "date_string": "Friday, 23 April 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "b2e2c450",
    "title": "Dalia Stasevska conducts Dvořák",
    "raw_title": "Dalia Stasevska conducts Dvořák",
@@ -5613,6 +8367,120 @@
    "feed_format": 2
   },
   {
+   "id": "5bdb793d",
+   "title": "Pardon My French",
+   "raw_title": "Pardon My French",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Handel",
+    "Corbet",
+    "Leclair"
+   ],
+   "works": [
+    {
+     "composer": "Handel",
+     "work": "Concerto Grosso in B-flat major, Op. 3 No. 2, HWV 313"
+    },
+    {
+     "composer": "Corbet",
+     "work": "Concerto in D minor, Alla Genouese, Op. 8 No. 2"
+    },
+    {
+     "composer": "Leclair",
+     "work": "Concerto for violin in D minor, Op. 7 No. 1"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/",
+   "source": "City Recital Hall",
+   "date": "2027-04-24",
+   "time": "14:00",
+   "start_utc": "20270424T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202704241400,
+   "date_string": "Saturday, 24 April 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "a950369f",
+   "title": "Pardon My French",
+   "raw_title": "Pardon My French",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Handel",
+    "Corbet",
+    "Leclair"
+   ],
+   "works": [
+    {
+     "composer": "Handel",
+     "work": "Concerto Grosso in B-flat major, Op. 3 No. 2, HWV 313"
+    },
+    {
+     "composer": "Corbet",
+     "work": "Concerto in D minor, Alla Genouese, Op. 8 No. 2"
+    },
+    {
+     "composer": "Leclair",
+     "work": "Concerto for violin in D minor, Op. 7 No. 1"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/",
+   "source": "City Recital Hall",
+   "date": "2027-04-24",
+   "time": "19:00",
+   "start_utc": "20270424T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202704241900,
+   "date_string": "Saturday, 24 April 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "a97a316c",
    "title": "Dalia Stasevska conducts Dvořák",
    "raw_title": "Dalia Stasevska conducts Dvořák",
@@ -5667,6 +8535,63 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "a3ee2ea2",
+   "title": "Pardon My French",
+   "raw_title": "Pardon My French",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Handel",
+    "Corbet",
+    "Leclair"
+   ],
+   "works": [
+    {
+     "composer": "Handel",
+     "work": "Concerto Grosso in B-flat major, Op. 3 No. 2, HWV 313"
+    },
+    {
+     "composer": "Corbet",
+     "work": "Concerto in D minor, Alla Genouese, Op. 8 No. 2"
+    },
+    {
+     "composer": "Leclair",
+     "work": "Concerto for violin in D minor, Op. 7 No. 1"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/",
+   "source": "City Recital Hall",
+   "date": "2027-04-27",
+   "time": "19:00",
+   "start_utc": "20270427T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202704271900,
+   "date_string": "Tuesday, 27 April 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-04",
+   "month_label": "April 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -6032,6 +8957,77 @@
    "feed_format": 2
   },
   {
+   "id": "2c086317",
+   "title": "The Romantics",
+   "raw_title": "The Romantics",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "Schumann",
+    "Scarlatti",
+    "Bartók",
+    "Mendelssohn",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Schumann",
+     "work": "Three Romances, Op. 94"
+    },
+    {
+     "composer": "Scarlatti",
+     "work": "Sonata in E, K. 380"
+    },
+    {
+     "composer": "Bartók",
+     "work": "Six Dances in Bulgarian Rhythm from Mikrokosmos"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Selections from Songs Without Words"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Fantasiestücke , Op. 73"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Clarinet Trio in A minor, Op. 114"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-romantics/",
+   "source": "City Recital Hall",
+   "date": "2027-05-03",
+   "time": "19:00",
+   "start_utc": "20270503T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202705031900,
+   "date_string": "Monday, 03 May 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-05",
+   "month_label": "May 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "a9887d31",
    "title": "The Sydney Symphony Fellows in Concert",
    "raw_title": "The Sydney Symphony Fellows in Concert",
@@ -6240,6 +9236,187 @@
    "feed_format": 2
   },
   {
+   "id": "c94bf849",
+   "title": "Bold Beginnings",
+   "raw_title": "Bold Beginnings",
+   "performer": "Selby & Friends",
+   "performer_group": "Selby & Friends",
+   "programme": null,
+   "composers": [
+    "Shostakovich",
+    "Beethoven",
+    "Anton Arensky"
+   ],
+   "works": [
+    {
+     "composer": "Shostakovich",
+     "work": "Piano Trio No.1, Op. 8 (1923)"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Piano Trio in E-flat major Op. 1 No. 1 (1795)"
+    },
+    {
+     "composer": "Anton Arensky",
+     "work": "Piano Trio No.1 in D minor, Op. 32 (1894)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/bold-beginnings/",
+   "source": "City Recital Hall",
+   "date": "2027-05-10",
+   "time": "19:00",
+   "start_utc": "20270510T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202705101900,
+   "date_string": "Monday, 10 May 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-05",
+   "month_label": "May 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "b2554254",
+   "title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "raw_title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Anton Arensky",
+    "Pēteris Vasks",
+    "Grażyna Bacewicz",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Anton Arensky",
+     "work": "Variations on a Theme by Tchaikovsky, Op.35a"
+    },
+    {
+     "composer": "Pēteris Vasks",
+     "work": "Pateicības Dziedājums (Chant of Gratefulness)"
+    },
+    {
+     "composer": "Grażyna Bacewicz",
+     "work": "Divertimento for String Orchestra"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto in D major, Op.35"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-tchaikovskys-violin-concerto/",
+   "source": "City Recital Hall",
+   "date": "2027-05-11",
+   "time": "20:00",
+   "start_utc": "20270511T100000Z",
+   "time_confirmed": true,
+   "sort_key": 202705112000,
+   "date_string": "Tuesday, 11 May 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-05",
+   "month_label": "May 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "7f7bcca0",
+   "title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "raw_title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Anton Arensky",
+    "Pēteris Vasks",
+    "Grażyna Bacewicz",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Anton Arensky",
+     "work": "Variations on a Theme by Tchaikovsky, Op.35a"
+    },
+    {
+     "composer": "Pēteris Vasks",
+     "work": "Pateicības Dziedājums (Chant of Gratefulness)"
+    },
+    {
+     "composer": "Grażyna Bacewicz",
+     "work": "Divertimento for String Orchestra"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto in D major, Op.35"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-tchaikovskys-violin-concerto/",
+   "source": "City Recital Hall",
+   "date": "2027-05-12",
+   "time": "19:00",
+   "start_utc": "20270512T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202705121900,
+   "date_string": "Wednesday, 12 May 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-05",
+   "month_label": "May 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "621f2149",
    "title": "Open Rehearsal with Donald Runnicles",
    "raw_title": "Open Rehearsal with Donald Runnicles",
@@ -6431,6 +9608,68 @@
    "feed_format": 2
   },
   {
+   "id": "b880d9b8",
+   "title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "raw_title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Anton Arensky",
+    "Pēteris Vasks",
+    "Grażyna Bacewicz",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Anton Arensky",
+     "work": "Variations on a Theme by Tchaikovsky, Op.35a"
+    },
+    {
+     "composer": "Pēteris Vasks",
+     "work": "Pateicības Dziedājums (Chant of Gratefulness)"
+    },
+    {
+     "composer": "Grażyna Bacewicz",
+     "work": "Divertimento for String Orchestra"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto in D major, Op.35"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-tchaikovskys-violin-concerto/",
+   "source": "City Recital Hall",
+   "date": "2027-05-14",
+   "time": "20:00",
+   "start_utc": "20270514T100000Z",
+   "time_confirmed": true,
+   "sort_key": 202705142000,
+   "date_string": "Friday, 14 May 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-05",
+   "month_label": "May 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "8afb6941",
    "title": "The Flying Orchestra",
    "raw_title": "The Flying Orchestra",
@@ -6530,6 +9769,68 @@
    "feed_format": 2
   },
   {
+   "id": "3d30730d",
+   "title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "raw_title": "Alina Ibragimova plays Tchaikovsky's Violin Concerto",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Anton Arensky",
+    "Pēteris Vasks",
+    "Grażyna Bacewicz",
+    "Tchaikovsky"
+   ],
+   "works": [
+    {
+     "composer": "Anton Arensky",
+     "work": "Variations on a Theme by Tchaikovsky, Op.35a"
+    },
+    {
+     "composer": "Pēteris Vasks",
+     "work": "Pateicības Dziedājums (Chant of Gratefulness)"
+    },
+    {
+     "composer": "Grażyna Bacewicz",
+     "work": "Divertimento for String Orchestra"
+    },
+    {
+     "composer": "Tchaikovsky",
+     "work": "Violin Concerto in D major, Op.35"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/alina-ibragimova-plays-tchaikovskys-violin-concerto/",
+   "source": "City Recital Hall",
+   "date": "2027-05-15",
+   "time": "20:00",
+   "start_utc": "20270515T100000Z",
+   "time_confirmed": true,
+   "sort_key": 202705152000,
+   "date_string": "Saturday, 15 May 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-05",
+   "month_label": "May 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "10a25194",
    "title": "Alina Ibragimova Plays Tchaikovsky’s Violin Concerto",
    "raw_title": "Alina Ibragimova Plays Tchaikovsky’s Violin Concerto",
@@ -6581,7 +9882,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-sea-and-stars/",
@@ -6621,7 +9922,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Sea-and-Stars",
@@ -6849,7 +10150,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/ovation-2027-tour/",
@@ -6916,6 +10217,63 @@
    "stale": false,
    "last_changed": "2026-10-17T08:45:25",
    "first_seen": "2026-10-17T08:45:25",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "3a4d4c40",
+   "title": "Quatuor Van Kuijk",
+   "raw_title": "Quatuor Van Kuijk",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "Dorothy Howell",
+    "Ravel",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Dorothy Howell",
+     "work": "Nocturne for muted strings"
+    },
+    {
+     "composer": "Ravel",
+     "work": "String Quartet in F major"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "String Quartet No. 14 in C# minor, Op. 131"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/quatuor-van-kuijk/",
+   "source": "City Recital Hall",
+   "date": "2027-06-03",
+   "time": "19:00",
+   "start_utc": "20270603T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706031900,
+   "date_string": "Thursday, 03 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
    "sequence": 0,
    "feed_format": 2
   },
@@ -7313,6 +10671,57 @@
    "feed_format": 2
   },
   {
+   "id": "f928dc78",
+   "title": "Mozart's Requiem",
+   "raw_title": "Mozart's Requiem",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Concerto for flute and harp in C major, K 299"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Requiem in D minor, K 626"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/",
+   "source": "City Recital Hall",
+   "date": "2027-06-16",
+   "time": "19:00",
+   "start_utc": "20270616T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706161900,
+   "date_string": "Wednesday, 16 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "204387b5",
    "title": "Simone Young conducts Beethoven’s Symphonies 1, 2 & 3",
    "raw_title": "Simone Young conducts Beethoven’s Symphonies 1, 2 & 3",
@@ -7423,6 +10832,57 @@
    "feed_format": 2
   },
   {
+   "id": "1e6ce5ce",
+   "title": "Mozart's Requiem",
+   "raw_title": "Mozart's Requiem",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Concerto for flute and harp in C major, K 299"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Requiem in D minor, K 626"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/",
+   "source": "City Recital Hall",
+   "date": "2027-06-18",
+   "time": "19:00",
+   "start_utc": "20270618T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706181900,
+   "date_string": "Friday, 18 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "88dbd159",
    "title": "Simone Young conducts Beethoven’s Symphonies 4 & 5",
    "raw_title": "Simone Young conducts Beethoven’s Symphonies 4 & 5",
@@ -7474,6 +10934,108 @@
    "feed_format": 2
   },
   {
+   "id": "4cb9bd67",
+   "title": "Mozart's Requiem",
+   "raw_title": "Mozart's Requiem",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Concerto for flute and harp in C major, K 299"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Requiem in D minor, K 626"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/",
+   "source": "City Recital Hall",
+   "date": "2027-06-19",
+   "time": "14:00",
+   "start_utc": "20270619T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202706191400,
+   "date_string": "Saturday, 19 June 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "db0426ad",
+   "title": "Mozart's Requiem",
+   "raw_title": "Mozart's Requiem",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Concerto for flute and harp in C major, K 299"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Requiem in D minor, K 626"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/",
+   "source": "City Recital Hall",
+   "date": "2027-06-19",
+   "time": "19:00",
+   "start_utc": "20270619T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706191900,
+   "date_string": "Saturday, 19 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "0cc0575f",
    "title": "Simone Young conducts Beethoven’s Symphonies 4 & 5",
    "raw_title": "Simone Young conducts Beethoven’s Symphonies 4 & 5",
@@ -7522,6 +11084,57 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "fc908c3d",
+   "title": "Mozart's Requiem",
+   "raw_title": "Mozart's Requiem",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Mozart"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "Concerto for flute and harp in C major, K 299"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Requiem in D minor, K 626"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/mozarts-requiem/",
+   "source": "City Recital Hall",
+   "date": "2027-06-22",
+   "time": "19:00",
+   "start_utc": "20270622T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706221900,
+   "date_string": "Tuesday, 22 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -7678,6 +11291,67 @@
    "feed_format": 2
   },
   {
+   "id": "6da2bc25",
+   "title": "Richard Tognetti Directs Mozart",
+   "raw_title": "Richard Tognetti Directs Mozart",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Haydn",
+    "Mozart",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Haydn",
+     "work": "Armida: Sinfonia"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.17 in G major, K.453"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.29 in A major, K.201"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Symphony No.5 in B-flat major, D.485"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/richard-tognetti-directs-mozart/",
+   "source": "City Recital Hall",
+   "date": "2027-06-26",
+   "time": "19:00",
+   "start_utc": "20270626T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706261900,
+   "date_string": "Saturday, 26 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "4aaa11ee",
    "title": "Simone Young conducts Beethoven’s Symphonies 8 & 9",
    "raw_title": "Simone Young conducts Beethoven’s Symphonies 8 & 9",
@@ -7768,6 +11442,128 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-10-02T08:55:39",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "117b7341",
+   "title": "Richard Tognetti Directs Mozart",
+   "raw_title": "Richard Tognetti Directs Mozart",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Haydn",
+    "Mozart",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Haydn",
+     "work": "Armida: Sinfonia"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.17 in G major, K.453"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.29 in A major, K.201"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Symphony No.5 in B-flat major, D.485"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/richard-tognetti-directs-mozart/",
+   "source": "City Recital Hall",
+   "date": "2027-06-29",
+   "time": "20:00",
+   "start_utc": "20270629T100000Z",
+   "time_confirmed": true,
+   "sort_key": 202706292000,
+   "date_string": "Tuesday, 29 June 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "1475cbe3",
+   "title": "Richard Tognetti Directs Mozart",
+   "raw_title": "Richard Tognetti Directs Mozart",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Haydn",
+    "Mozart",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Haydn",
+     "work": "Armida: Sinfonia"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Piano Concerto No.17 in G major, K.453"
+    },
+    {
+     "composer": "Mozart",
+     "work": "Symphony No.29 in A major, K.201"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Symphony No.5 in B-flat major, D.485"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/richard-tognetti-directs-mozart/",
+   "source": "City Recital Hall",
+   "date": "2027-06-30",
+   "time": "19:00",
+   "start_utc": "20270630T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202706301900,
+   "date_string": "Wednesday, 30 June 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -8001,6 +11797,63 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "512af88d",
+   "title": "Echoes of Home",
+   "raw_title": "Echoes of Home",
+   "performer": "Selby & Friends",
+   "performer_group": "Selby & Friends",
+   "programme": null,
+   "composers": [
+    "Ravel",
+    "Arno Babajanyan",
+    "Dvořák"
+   ],
+   "works": [
+    {
+     "composer": "Ravel",
+     "work": "Le Tombeau de Couperin arr. for piano trio by Matt van Brink (2006)"
+    },
+    {
+     "composer": "Arno Babajanyan",
+     "work": "Piano Trio in F-sharp minor (1952)"
+    },
+    {
+     "composer": "Dvořák",
+     "work": "Piano Trio No. 4 in E minor Op. 90, B. 166 “Dumky” (1891)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/echoes-of-home/",
+   "source": "City Recital Hall",
+   "date": "2027-07-05",
+   "time": "19:00",
+   "start_utc": "20270705T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202707051900,
+   "date_string": "Monday, 05 July 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-07",
+   "month_label": "July 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -8278,6 +12131,46 @@
    "feed_format": 2
   },
   {
+   "id": "ccc19ea9",
+   "title": "The Choir of King's College, Cambridge & William Barton",
+   "raw_title": "The Choir of King's College, Cambridge & William Barton",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-choir-of-kings-college-cambridge-william-barton/",
+   "source": "City Recital Hall",
+   "date": "2027-07-12",
+   "time": "19:00",
+   "start_utc": "20270712T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202707121900,
+   "date_string": "Monday, 12 July 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-07",
+   "month_label": "July 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "50a9472c",
    "title": "Karen Gomyo performs Brahms’s Violin Concerto",
    "raw_title": "Karen Gomyo performs Brahms’s Violin Concerto",
@@ -8551,7 +12444,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-highland-cathedral/",
@@ -8591,7 +12484,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Highland-Cathedral",
@@ -8631,7 +12524,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-highland-cathedral/",
@@ -8823,6 +12716,48 @@
    "feed_format": 2
   },
   {
+   "id": "3fed60fd",
+   "title": "Madrigals of Love and War by Monteverdi",
+   "raw_title": "Madrigals of Love and War by Monteverdi",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Monteverdi"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/madrigals-of-love-and-war-by-monteverdi/",
+   "source": "City Recital Hall",
+   "date": "2027-07-31",
+   "time": "14:00",
+   "start_utc": "20270731T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202707311400,
+   "date_string": "Saturday, 31 July 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-07",
+   "month_label": "July 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "4a310298",
    "title": "Fellows Choice",
    "raw_title": "Fellows Choice",
@@ -8974,6 +12909,48 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "c0a78bb6",
+   "title": "Madrigals of Love and War by Monteverdi",
+   "raw_title": "Madrigals of Love and War by Monteverdi",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Monteverdi"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/madrigals-of-love-and-war-by-monteverdi/",
+   "source": "City Recital Hall",
+   "date": "2027-08-01",
+   "time": "17:00",
+   "start_utc": "20270801T070000Z",
+   "time_confirmed": true,
+   "sort_key": 202708011700,
+   "date_string": "Sunday, 01 August 2027",
+   "time_string": "5:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -9425,6 +13402,130 @@
    "feed_format": 2
   },
   {
+   "id": "31820714",
+   "title": "ACO In Motion",
+   "raw_title": "ACO In Motion",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Missy Mazzoli",
+    "Bartók",
+    "Steve Reich",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Missy Mazzoli",
+     "work": "The Shield of the Heart is the Heart."
+    },
+    {
+     "composer": "Bartók",
+     "work": "String Quartet No.3, Sz.85"
+    },
+    {
+     "composer": "Steve Reich",
+     "work": "Different Trains"
+    },
+    {
+     "composer": "Schubert",
+     "work": "String Quartet No.14 in D minor, D.810 “Death and the Maiden”"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/aco-in-motion/",
+   "source": "City Recital Hall",
+   "date": "2027-08-10",
+   "time": "20:00",
+   "start_utc": "20270810T100000Z",
+   "time_confirmed": true,
+   "sort_key": 202708102000,
+   "date_string": "Tuesday, 10 August 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "2f5c0351",
+   "title": "ACO In Motion",
+   "raw_title": "ACO In Motion",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Missy Mazzoli",
+    "Bartók",
+    "Steve Reich",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Missy Mazzoli",
+     "work": "The Shield of the Heart is the Heart."
+    },
+    {
+     "composer": "Bartók",
+     "work": "String Quartet No.3, Sz.85"
+    },
+    {
+     "composer": "Steve Reich",
+     "work": "Different Trains"
+    },
+    {
+     "composer": "Schubert",
+     "work": "String Quartet No.14 in D minor, D.810 “Death and the Maiden”"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/aco-in-motion/",
+   "source": "City Recital Hall",
+   "date": "2027-08-11",
+   "time": "19:00",
+   "start_utc": "20270811T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708111900,
+   "date_string": "Wednesday, 11 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "62b4b635",
    "title": "Tchaikovsky’s Sixth Symphony",
    "raw_title": "Tchaikovsky’s Sixth Symphony",
@@ -9605,7 +13706,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-opera-gala/",
@@ -9633,6 +13734,68 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-10T05:21:29",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "b8078aeb",
+   "title": "ACO In Motion",
+   "raw_title": "ACO In Motion",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Missy Mazzoli",
+    "Bartók",
+    "Steve Reich",
+    "Schubert"
+   ],
+   "works": [
+    {
+     "composer": "Missy Mazzoli",
+     "work": "The Shield of the Heart is the Heart."
+    },
+    {
+     "composer": "Bartók",
+     "work": "String Quartet No.3, Sz.85"
+    },
+    {
+     "composer": "Steve Reich",
+     "work": "Different Trains"
+    },
+    {
+     "composer": "Schubert",
+     "work": "String Quartet No.14 in D minor, D.810 “Death and the Maiden”"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/aco-in-motion/",
+   "source": "City Recital Hall",
+   "date": "2027-08-14",
+   "time": "19:00",
+   "start_utc": "20270814T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708141900,
+   "date_string": "Saturday, 14 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -9702,7 +13865,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Opera-Gala",
@@ -9782,7 +13945,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-opera-gala/",
@@ -9857,6 +14020,58 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "3a86b380",
+   "title": "Handel's Fireworks",
+   "raw_title": "Handel's Fireworks",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Cattaneo",
+    "Handel"
+   ],
+   "works": [
+    {
+     "composer": "Cattaneo",
+     "work": "Concerto for violin in A major, No. 2"
+    },
+    {
+     "composer": "Handel",
+     "work": "Music for the Royal Fireworks , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/",
+   "source": "City Recital Hall",
+   "date": "2027-08-18",
+   "time": "19:00",
+   "start_utc": "20270818T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708181900,
+   "date_string": "Wednesday, 18 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -10041,6 +14256,58 @@
    "feed_format": 2
   },
   {
+   "id": "dd2e009b",
+   "title": "Handel's Fireworks",
+   "raw_title": "Handel's Fireworks",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Cattaneo",
+    "Handel"
+   ],
+   "works": [
+    {
+     "composer": "Cattaneo",
+     "work": "Concerto for violin in A major, No. 2"
+    },
+    {
+     "composer": "Handel",
+     "work": "Music for the Royal Fireworks , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/",
+   "source": "City Recital Hall",
+   "date": "2027-08-20",
+   "time": "19:00",
+   "start_utc": "20270820T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708201900,
+   "date_string": "Friday, 20 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "02c593db",
    "title": "Symphony of Stories",
    "raw_title": "Symphony of Stories",
@@ -10165,6 +14432,110 @@
    "feed_format": 2
   },
   {
+   "id": "3c1d90d0",
+   "title": "Handel's Fireworks",
+   "raw_title": "Handel's Fireworks",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Cattaneo",
+    "Handel"
+   ],
+   "works": [
+    {
+     "composer": "Cattaneo",
+     "work": "Concerto for violin in A major, No. 2"
+    },
+    {
+     "composer": "Handel",
+     "work": "Music for the Royal Fireworks , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/",
+   "source": "City Recital Hall",
+   "date": "2027-08-21",
+   "time": "14:00",
+   "start_utc": "20270821T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202708211400,
+   "date_string": "Saturday, 21 August 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "a893ce12",
+   "title": "Handel's Fireworks",
+   "raw_title": "Handel's Fireworks",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Cattaneo",
+    "Handel"
+   ],
+   "works": [
+    {
+     "composer": "Cattaneo",
+     "work": "Concerto for violin in A major, No. 2"
+    },
+    {
+     "composer": "Handel",
+     "work": "Music for the Royal Fireworks , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/",
+   "source": "City Recital Hall",
+   "date": "2027-08-21",
+   "time": "19:00",
+   "start_utc": "20270821T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708211900,
+   "date_string": "Saturday, 21 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "5499e249",
    "title": "Sydney Symphony for a Day",
    "raw_title": "Sydney Symphony for a Day",
@@ -10219,6 +14590,58 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-11T07:12:49",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "878d41d0",
+   "title": "Handel's Fireworks",
+   "raw_title": "Handel's Fireworks",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Cattaneo",
+    "Handel"
+   ],
+   "works": [
+    {
+     "composer": "Cattaneo",
+     "work": "Concerto for violin in A major, No. 2"
+    },
+    {
+     "composer": "Handel",
+     "work": "Music for the Royal Fireworks , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/handels-fireworks/",
+   "source": "City Recital Hall",
+   "date": "2027-08-24",
+   "time": "19:00",
+   "start_utc": "20270824T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708241900,
+   "date_string": "Tuesday, 24 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -10457,6 +14880,63 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "9815cc26",
+   "title": "Shadows & Song",
+   "raw_title": "Shadows & Song",
+   "performer": "Selby & Friends",
+   "performer_group": "Selby & Friends",
+   "programme": null,
+   "composers": [
+    "Ernest Bloch",
+    "Mendelssohn",
+    "Brahms"
+   ],
+   "works": [
+    {
+     "composer": "Ernest Bloch",
+     "work": "Three Nocturnes for piano trio B. 56 (1924)"
+    },
+    {
+     "composer": "Mendelssohn",
+     "work": "Piano Trio No.1 in D minor, Op. 49 (1839)"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Piano Trio in E-flat major, Op. 40 (1865)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/shadows-song/",
+   "source": "City Recital Hall",
+   "date": "2027-08-30",
+   "time": "19:00",
+   "start_utc": "20270830T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708301900,
+   "date_string": "Monday, 30 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -11148,6 +15628,72 @@
    "feed_format": 2
   },
   {
+   "id": "b03db811",
+   "title": "Javier Perianes",
+   "raw_title": "Javier Perianes",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "Schubert",
+    "Elizabeth Younan",
+    "Debussy",
+    "Albéniz"
+   ],
+   "works": [
+    {
+     "composer": "Schubert",
+     "work": "Drei Klavierstücke , D. 946"
+    },
+    {
+     "composer": "Schubert",
+     "work": "Wanderer Fantasy , D. 760"
+    },
+    {
+     "composer": "Elizabeth Younan",
+     "work": "New work"
+    },
+    {
+     "composer": "Debussy",
+     "work": "Selections from Préludes"
+    },
+    {
+     "composer": "Albéniz",
+     "work": "Selections from Iberia"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/javier-perianes/",
+   "source": "City Recital Hall",
+   "date": "2027-09-13",
+   "time": "19:00",
+   "start_utc": "20270913T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202709131900,
+   "date_string": "Monday, 13 September 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-09",
+   "month_label": "September 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "c7b50f26",
    "title": "Listen to This: Discover Elgar",
    "raw_title": "Listen to This: Discover Elgar",
@@ -11192,6 +15738,190 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "7f8bb2e4",
+   "title": "The John Adams Almanac",
+   "raw_title": "The John Adams Almanac",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven",
+    "Ingram Marshall",
+    "John Adams",
+    "Timo Andres"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge, Op.133"
+    },
+    {
+     "composer": "Ingram Marshall",
+     "work": "Flow"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Gioia"
+    },
+    {
+     "composer": "Timo Andres",
+     "work": "New Work"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Shaker Loops"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/",
+   "source": "City Recital Hall",
+   "date": "2027-09-14",
+   "time": "20:00",
+   "start_utc": "20270914T100000Z",
+   "time_confirmed": true,
+   "sort_key": 202709142000,
+   "date_string": "Tuesday, 14 September 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-09",
+   "month_label": "September 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "6653cd35",
+   "title": "The John Adams Almanac",
+   "raw_title": "The John Adams Almanac",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven",
+    "Ingram Marshall",
+    "John Adams",
+    "Timo Andres"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge, Op.133"
+    },
+    {
+     "composer": "Ingram Marshall",
+     "work": "Flow"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Gioia"
+    },
+    {
+     "composer": "Timo Andres",
+     "work": "New Work"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Shaker Loops"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/",
+   "source": "City Recital Hall",
+   "date": "2027-09-15",
+   "time": "19:00",
+   "start_utc": "20270915T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202709151900,
+   "date_string": "Wednesday, 15 September 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-09",
+   "month_label": "September 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "b742a327",
+   "title": "Rhapsody in Blue",
+   "raw_title": "Rhapsody in Blue",
+   "performer": "Omega Ensemble",
+   "performer_group": "Omega Ensemble",
+   "programme": null,
+   "composers": [
+    "James Morrison",
+    "Gershwin"
+   ],
+   "works": [
+    {
+     "composer": "James Morrison",
+     "work": "A-Z of Jazz Suite (arr. James Morrison)"
+    },
+    {
+     "composer": "Gershwin",
+     "work": "Rhapsody in Blue (arr. Andrew Howes)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/rhapsody-in-blue/",
+   "source": "City Recital Hall",
+   "date": "2027-09-16",
+   "time": "19:00",
+   "start_utc": "20270916T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202709161900,
+   "date_string": "Thursday, 16 September 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-09",
+   "month_label": "September 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -11252,6 +15982,72 @@
    "feed_format": 2
   },
   {
+   "id": "77dee68f",
+   "title": "The John Adams Almanac",
+   "raw_title": "The John Adams Almanac",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven",
+    "Ingram Marshall",
+    "John Adams",
+    "Timo Andres"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge, Op.133"
+    },
+    {
+     "composer": "Ingram Marshall",
+     "work": "Flow"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Gioia"
+    },
+    {
+     "composer": "Timo Andres",
+     "work": "New Work"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Shaker Loops"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/",
+   "source": "City Recital Hall",
+   "date": "2027-09-17",
+   "time": "19:00",
+   "start_utc": "20270917T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202709171900,
+   "date_string": "Friday, 17 September 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-09",
+   "month_label": "September 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "3bfb662d",
    "title": "Infernal Dances with Kirill Gerstein",
    "raw_title": "Infernal Dances with Kirill Gerstein",
@@ -11306,6 +16102,72 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "5659f4db",
+   "title": "The John Adams Almanac",
+   "raw_title": "The John Adams Almanac",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven",
+    "Ingram Marshall",
+    "John Adams",
+    "Timo Andres"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Grosse Fuge, Op.133"
+    },
+    {
+     "composer": "Ingram Marshall",
+     "work": "Flow"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Gioia"
+    },
+    {
+     "composer": "Timo Andres",
+     "work": "New Work"
+    },
+    {
+     "composer": "John Adams",
+     "work": "Shaker Loops"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-john-adams-almanac/",
+   "source": "City Recital Hall",
+   "date": "2027-09-18",
+   "time": "19:00",
+   "start_utc": "20270918T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202709181900,
+   "date_string": "Saturday, 18 September 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-09",
+   "month_label": "September 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -11415,7 +16277,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Rosie-the-Clown-Joins-the-Orchestra",
@@ -11754,7 +16616,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-pines-of-rome/",
@@ -11796,7 +16658,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Pines-of-Rome",
@@ -11838,7 +16700,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-pines-of-rome/",
@@ -12125,6 +16987,63 @@
    "feed_format": 2
   },
   {
+   "id": "5d98acb4",
+   "title": "Baroque Masters",
+   "raw_title": "Baroque Masters",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach",
+    "Heinchen",
+    "Teleman"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Violin Concerto in D minor, BWV 1052R"
+    },
+    {
+     "composer": "Heinchen",
+     "work": "Concerto a 7 in G major, SeiH 214"
+    },
+    {
+     "composer": "Teleman",
+     "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/baroque-masters/",
+   "source": "City Recital Hall",
+   "date": "2027-10-13",
+   "time": "19:00",
+   "start_utc": "20271013T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202710131900,
+   "date_string": "Wednesday, 13 October 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "fa1d1c30",
    "title": "Donald Runnicles conducts Brahms & Mozart",
    "raw_title": "Donald Runnicles conducts Brahms & Mozart",
@@ -12229,6 +17148,63 @@
    "feed_format": 2
   },
   {
+   "id": "aff9f74f",
+   "title": "Baroque Masters",
+   "raw_title": "Baroque Masters",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach",
+    "Heinchen",
+    "Teleman"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Violin Concerto in D minor, BWV 1052R"
+    },
+    {
+     "composer": "Heinchen",
+     "work": "Concerto a 7 in G major, SeiH 214"
+    },
+    {
+     "composer": "Teleman",
+     "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/baroque-masters/",
+   "source": "City Recital Hall",
+   "date": "2027-10-15",
+   "time": "19:00",
+   "start_utc": "20271015T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202710151900,
+   "date_string": "Friday, 15 October 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "70b614da",
    "title": "Donald Runnicles conducts Brahms & Mozart",
    "raw_title": "Donald Runnicles conducts Brahms & Mozart",
@@ -12281,6 +17257,120 @@
    "feed_format": 2
   },
   {
+   "id": "0740267a",
+   "title": "Baroque Masters",
+   "raw_title": "Baroque Masters",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach",
+    "Heinchen",
+    "Teleman"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Violin Concerto in D minor, BWV 1052R"
+    },
+    {
+     "composer": "Heinchen",
+     "work": "Concerto a 7 in G major, SeiH 214"
+    },
+    {
+     "composer": "Teleman",
+     "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/baroque-masters/",
+   "source": "City Recital Hall",
+   "date": "2027-10-16",
+   "time": "14:00",
+   "start_utc": "20271016T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202710161400,
+   "date_string": "Saturday, 16 October 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "ec19809a",
+   "title": "Baroque Masters",
+   "raw_title": "Baroque Masters",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach",
+    "Heinchen",
+    "Teleman"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Violin Concerto in D minor, BWV 1052R"
+    },
+    {
+     "composer": "Heinchen",
+     "work": "Concerto a 7 in G major, SeiH 214"
+    },
+    {
+     "composer": "Teleman",
+     "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/baroque-masters/",
+   "source": "City Recital Hall",
+   "date": "2027-10-16",
+   "time": "19:00",
+   "start_utc": "20271016T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202710161900,
+   "date_string": "Saturday, 16 October 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "4df3226b",
    "title": "Donald Runnicles conducts Brahms & Mozart",
    "raw_title": "Donald Runnicles conducts Brahms & Mozart",
@@ -12330,6 +17420,165 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "9b2ff49d",
+   "title": "Desandre & Dunford",
+   "raw_title": "Desandre & Dunford",
+   "performer": "Musica Viva Australia with Opera Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "d'Ambruys",
+    "Hahn",
+    "Hardy",
+    "Satie",
+    "Charpentier",
+    "Messager",
+    "Alice Chance",
+    "Lambert",
+    "Le Camus",
+    "Debussy",
+    "Barbara",
+    "Offenbach"
+   ],
+   "works": [
+    {
+     "composer": "d'Ambruys",
+     "work": "Le doux silence de nos bois"
+    },
+    {
+     "composer": "Hahn",
+     "work": "Néère, extrait des Études latines À Chloris"
+    },
+    {
+     "composer": "Hardy",
+     "work": "Le temps de l’amour Le premier bonheur du jour"
+    },
+    {
+     "composer": "Satie",
+     "work": "Gnossienne No. 1 Gymnopédie No. 1"
+    },
+    {
+     "composer": "Charpentier",
+     "work": "Celle qui fait tout mon tourment Auprès du feu l’on fait l’amour"
+    },
+    {
+     "composer": "Messager",
+     "work": "J’ai deux amants"
+    },
+    {
+     "composer": "Alice Chance",
+     "work": "New work. performance. Commissioned for Musica Viva Australia"
+    },
+    {
+     "composer": "Lambert",
+     "work": "Ma bergère est tendre et fidèle Vos mépris chaque jour"
+    },
+    {
+     "composer": "Le Camus",
+     "work": "On n’entend rien dans ce bocage Laissez durer la nuit"
+    },
+    {
+     "composer": "Debussy",
+     "work": "Mes longs cheveux descendent"
+    },
+    {
+     "composer": "Barbara",
+     "work": "Dis, quand reviendras-tu?"
+    },
+    {
+     "composer": "Offenbach",
+     "work": "Amour divin"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/desandre-dunford/",
+   "source": "City Recital Hall",
+   "date": "2027-10-18",
+   "time": "19:00",
+   "start_utc": "20271018T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202710181900,
+   "date_string": "Monday, 18 October 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "d06293df",
+   "title": "Baroque Masters",
+   "raw_title": "Baroque Masters",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [
+    "Bach",
+    "Heinchen",
+    "Teleman"
+   ],
+   "works": [
+    {
+     "composer": "Bach",
+     "work": "Violin Concerto in D minor, BWV 1052R"
+    },
+    {
+     "composer": "Heinchen",
+     "work": "Concerto a 7 in G major, SeiH 214"
+    },
+    {
+     "composer": "Teleman",
+     "work": "Ouverture-Suite in C major, Hamburger Ebbe und Flut, TWV 55:C3 , HWV 351"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/baroque-masters/",
+   "source": "City Recital Hall",
+   "date": "2027-10-19",
+   "time": "19:00",
+   "start_utc": "20271019T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202710191900,
+   "date_string": "Tuesday, 19 October 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -12971,6 +18220,48 @@
    "feed_format": 2
   },
   {
+   "id": "d6a24f49",
+   "title": "Partenope by Handel",
+   "raw_title": "Partenope by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2027-11-04",
+   "time": "19:00",
+   "start_utc": "20271104T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711041900,
+   "date_string": "Thursday, 04 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "4091ff54",
    "title": "Simone Young & Pierre-Laurent Aimard",
    "raw_title": "Simone Young & Pierre-Laurent Aimard",
@@ -13075,6 +18366,48 @@
    "feed_format": 2
   },
   {
+   "id": "8d6982b5",
+   "title": "Partenope by Handel",
+   "raw_title": "Partenope by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2027-11-06",
+   "time": "14:00",
+   "start_utc": "20271106T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202711061400,
+   "date_string": "Saturday, 06 November 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "2d3cb04c",
    "title": "Simone Young & Pierre-Laurent Aimard",
    "raw_title": "Simone Young & Pierre-Laurent Aimard",
@@ -13138,7 +18471,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-carmina-burana/",
@@ -13180,7 +18513,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Carmina-Burana",
@@ -13222,7 +18555,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.willoughbysymphony.com.au/Events/Firebird-for-Families",
@@ -13264,7 +18597,7 @@
    ],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-carmina-burana/",
@@ -13292,6 +18625,132 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-10T05:21:29",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "a2a0060f",
+   "title": "Partenope by Handel",
+   "raw_title": "Partenope by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2027-11-07",
+   "time": "17:00",
+   "start_utc": "20271107T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202711071700,
+   "date_string": "Sunday, 07 November 2027",
+   "time_string": "5:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "105c910d",
+   "title": "Partenope by Handel",
+   "raw_title": "Partenope by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2027-11-09",
+   "time": "13:00",
+   "start_utc": "20271109T020000Z",
+   "time_confirmed": true,
+   "sort_key": 202711091300,
+   "date_string": "Tuesday, 09 November 2027",
+   "time_string": "1:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "79e35df9",
+   "title": "Partenope by Handel",
+   "raw_title": "Partenope by Handel",
+   "performer": "Pinchgut Opera",
+   "performer_group": "Pinchgut Opera",
+   "programme": null,
+   "composers": [
+    "Handel"
+   ],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/partenope-by-handel/",
+   "source": "City Recital Hall",
+   "date": "2027-11-10",
+   "time": "19:00",
+   "start_utc": "20271110T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711101900,
+   "date_string": "Wednesday, 10 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -13389,6 +18848,135 @@
    "feed_format": 2
   },
   {
+   "id": "03bab31e",
+   "title": "Strauss' Four Last Songs",
+   "raw_title": "Strauss' Four Last Songs",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Arvo Pärt",
+    "Jack Symonds",
+    "Britten",
+    "Witold Lutosławski",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Arvo Pärt",
+     "work": "Cantus in Memory of Benjamin Britten"
+    },
+    {
+     "composer": "Jack Symonds",
+     "work": "New Work"
+    },
+    {
+     "composer": "Britten",
+     "work": "String Quartet No.2 in C major, Op.36"
+    },
+    {
+     "composer": "Witold Lutosławski",
+     "work": "(arr. Richard Tognetti) Partita"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Four Last Songs, Op. posth."
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs/",
+   "source": "City Recital Hall",
+   "date": "2027-11-13",
+   "time": "19:00",
+   "start_utc": "20271113T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711131900,
+   "date_string": "Saturday, 13 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "a8c175cc",
+   "title": "The Romance of Dreams",
+   "raw_title": "The Romance of Dreams",
+   "performer": "Selby & Friends",
+   "performer_group": "Selby & Friends",
+   "programme": null,
+   "composers": [
+    "Clara Schumann",
+    "Brahms",
+    "Peter Sculthorpe",
+    "Schumann"
+   ],
+   "works": [
+    {
+     "composer": "Clara Schumann",
+     "work": "Three Romances for Violin and Piano, Op. 22 (1853)"
+    },
+    {
+     "composer": "Brahms",
+     "work": "Clarinet Trio in A minor, Op. 114 (1891)"
+    },
+    {
+     "composer": "Peter Sculthorpe",
+     "work": "Dream Tracks (1992)"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Piano Trio No.1 in D minor, Op. 63 (1847)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/the-romance-of-dreams/",
+   "source": "City Recital Hall",
+   "date": "2027-11-15",
+   "time": "19:00",
+   "start_utc": "20271115T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711151900,
+   "date_string": "Monday, 15 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "d150afab",
    "title": "Masterclass with James Ehnes",
    "raw_title": "Masterclass with James Ehnes",
@@ -13426,6 +19014,73 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "87707923",
+   "title": "Strauss' Four Last Songs",
+   "raw_title": "Strauss' Four Last Songs",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Arvo Pärt",
+    "Jack Symonds",
+    "Britten",
+    "Witold Lutosławski",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Arvo Pärt",
+     "work": "Cantus in Memory of Benjamin Britten"
+    },
+    {
+     "composer": "Jack Symonds",
+     "work": "New Work"
+    },
+    {
+     "composer": "Britten",
+     "work": "String Quartet No.2 in C major, Op.36"
+    },
+    {
+     "composer": "Witold Lutosławski",
+     "work": "(arr. Richard Tognetti) Partita"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Four Last Songs, Op. posth."
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs/",
+   "source": "City Recital Hall",
+   "date": "2027-11-16",
+   "time": "20:00",
+   "start_utc": "20271116T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202711162000,
+   "date_string": "Tuesday, 16 November 2027",
+   "time_string": "8:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 1,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -13486,6 +19141,73 @@
    "feed_format": 2
   },
   {
+   "id": "207c9581",
+   "title": "Strauss' Four Last Songs",
+   "raw_title": "Strauss' Four Last Songs",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Arvo Pärt",
+    "Jack Symonds",
+    "Britten",
+    "Witold Lutosławski",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Arvo Pärt",
+     "work": "Cantus in Memory of Benjamin Britten"
+    },
+    {
+     "composer": "Jack Symonds",
+     "work": "New Work"
+    },
+    {
+     "composer": "Britten",
+     "work": "String Quartet No.2 in C major, Op.36"
+    },
+    {
+     "composer": "Witold Lutosławski",
+     "work": "(arr. Richard Tognetti) Partita"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Four Last Songs, Op. posth."
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs/",
+   "source": "City Recital Hall",
+   "date": "2027-11-17",
+   "time": "19:00",
+   "start_utc": "20271117T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711171900,
+   "date_string": "Wednesday, 17 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "cf472f67",
    "title": "Simone Young & James Ehnes",
    "raw_title": "Simone Young & James Ehnes",
@@ -13540,6 +19262,53 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "35151cd7",
+   "title": "Truth Seekers, Lovers, and Warriors",
+   "raw_title": "Truth Seekers, Lovers, and Warriors",
+   "performer": "Omega Ensemble",
+   "performer_group": "Omega Ensemble",
+   "programme": null,
+   "composers": [
+    "Joseph Tawadros"
+   ],
+   "works": [
+    {
+     "composer": "Joseph Tawadros",
+     "work": "Truth Seekers, Lovers and Warriors Suite (arr. Alex Turley)"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/truth-seekers-lovers-and-warriors/",
+   "source": "City Recital Hall",
+   "date": "2027-11-18",
+   "time": "19:00",
+   "start_utc": "20271118T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711181900,
+   "date_string": "Thursday, 18 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -13681,6 +19450,73 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-21T05:20:05",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "18fe1294",
+   "title": "Strauss' Four Last Songs",
+   "raw_title": "Strauss' Four Last Songs",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Arvo Pärt",
+    "Jack Symonds",
+    "Britten",
+    "Witold Lutosławski",
+    "Richard Strauss"
+   ],
+   "works": [
+    {
+     "composer": "Arvo Pärt",
+     "work": "Cantus in Memory of Benjamin Britten"
+    },
+    {
+     "composer": "Jack Symonds",
+     "work": "New Work"
+    },
+    {
+     "composer": "Britten",
+     "work": "String Quartet No.2 in C major, Op.36"
+    },
+    {
+     "composer": "Witold Lutosławski",
+     "work": "(arr. Richard Tognetti) Partita"
+    },
+    {
+     "composer": "Richard Strauss",
+     "work": "Four Last Songs, Op. posth."
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/strauss-four-last-songs/",
+   "source": "City Recital Hall",
+   "date": "2027-11-19",
+   "time": "19:00",
+   "start_utc": "20271119T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711191900,
+   "date_string": "Friday, 19 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -14294,6 +20130,63 @@
    "feed_format": 2
   },
   {
+   "id": "a58f684d",
+   "title": "Vision by Vision",
+   "raw_title": "Vision by Vision",
+   "performer": "Musica Viva Australia",
+   "performer_group": "Musica Viva Australia",
+   "programme": null,
+   "composers": [
+    "Mozart",
+    "Shostakovich",
+    "Vision String Quartet"
+   ],
+   "works": [
+    {
+     "composer": "Mozart",
+     "work": "String Quartet in D, K. 575"
+    },
+    {
+     "composer": "Shostakovich",
+     "work": "String Quartet No. 8"
+    },
+    {
+     "composer": "Vision String Quartet",
+     "work": "Music from Spectrum"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/vision-by-vision/",
+   "source": "City Recital Hall",
+   "date": "2027-11-29",
+   "time": "19:00",
+   "start_utc": "20271129T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202711291900,
+   "date_string": "Monday, 29 November 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "783b5137",
    "title": "Christmas Spectacular in Western Sydney",
    "raw_title": "Christmas Spectacular in Western Sydney",
@@ -14428,6 +20321,166 @@
    "feed_format": 2
   },
   {
+   "id": "47286b32",
+   "title": "Noël! Noël! 2027",
+   "raw_title": "Noël! Noël! 2027",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/",
+   "source": "City Recital Hall",
+   "date": "2027-12-09",
+   "time": "17:00",
+   "start_utc": "20271209T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202712091700,
+   "date_string": "Thursday, 09 December 2027",
+   "time_string": "5:00 PM",
+   "month_key": "2027-12",
+   "month_label": "December 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "b21cc055",
+   "title": "Noël! Noël! 2027",
+   "raw_title": "Noël! Noël! 2027",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/",
+   "source": "City Recital Hall",
+   "date": "2027-12-09",
+   "time": "19:30",
+   "start_utc": "20271209T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202712091930,
+   "date_string": "Thursday, 09 December 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-12",
+   "month_label": "December 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "01cfff3e",
+   "title": "Noël! Noël! 2027",
+   "raw_title": "Noël! Noël! 2027",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/",
+   "source": "City Recital Hall",
+   "date": "2027-12-11",
+   "time": "14:00",
+   "start_utc": "20271211T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202712111400,
+   "date_string": "Saturday, 11 December 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-12",
+   "month_label": "December 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "afefe5dc",
+   "title": "Noël! Noël! 2027",
+   "raw_title": "Noël! Noël! 2027",
+   "performer": "Australian Brandenburg Orchestra",
+   "performer_group": "Australian Brandenburg Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "url": "https://www.cityrecitalhall.com/whats-on/events/noel-noel-2027/",
+   "source": "City Recital Hall",
+   "date": "2027-12-11",
+   "time": "17:00",
+   "start_utc": "20271211T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202712111700,
+   "date_string": "Saturday, 11 December 2027",
+   "time_string": "5:00 PM",
+   "month_key": "2027-12",
+   "month_label": "December 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-01T17:34:55",
+   "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "46bcf03b",
    "title": "A Classical Christmas",
    "raw_title": "A Classical Christmas",
@@ -14494,7 +20547,7 @@
    "composers": [],
    "works": [],
    "venue_name": "The Concourse Concert Hall",
-   "venue_group": "Sydney Opera House",
+   "venue_group": "The Concourse, Chatswood",
    "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
    "region": "sydney",
    "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spirit-of-christmas-2027/",
