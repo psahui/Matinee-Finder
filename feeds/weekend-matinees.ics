@@ -8,66 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:87d9a3b7@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261101T023000Z
-DTEND:20261101T043000Z
-SUMMARY:Suzuki 48th Annual Graduation Concert
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
- onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
- suzuki-48th-annual-graduation-concert\nListing source: Sydney Opera House.
-  Times and availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/suzuki-48th-annual-gra
- duation-concert
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:11479266@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261101T040000Z
-DTEND:20261101T060000Z
-SUMMARY:Australian Guitar Quartet
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Utzon Music 2026\nVenue: Utzon Room\, Sydney Opera House\nConfi
- rm details and book: https://www.sydneyoperahouse.com/utzon-music-2026/aus
- tralian-guitar-quartet\nListing source: Sydney Opera House. Times and avai
- lability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/utzon-music-2026/australian-guitar-qua
- rtet
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:60f45fba@matinee-finder
-DTSTAMP:20261029T230111Z
-LAST-MODIFIED:20261029T230111Z
-SEQUENCE:0
-DTSTART:20261101T040000Z
-DTEND:20261101T060000Z
-SUMMARY:Fantasy IV: Presented by Hansori Music ft. Sunshine Philharmonic Or
- chestra
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/hansori-music-sunshin
- e-philharmonic-orchestra/\nListing source: The Concourse. Times and availa
- bility change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/hansori-music-sunshine-philharmon
- ic-orchestra/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bb47757a@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
