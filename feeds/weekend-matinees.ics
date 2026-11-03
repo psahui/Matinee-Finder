@@ -187,24 +187,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:cb7de629@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261108T050000Z
-DTEND:20261108T070000Z
-SUMMARY:Haydn’s Oxford | Australian Haydn Ensemble
-LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
-DESCRIPTION:Australian Haydn Ensemble\nVenue: The Neilson\nConfirm details 
- and book: https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise\nL
- isting source: City of Sydney What's On. Times and availability change - a
- lways confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:af691825@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z

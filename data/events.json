@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-03T12:19:00",
- "generated_date": "2026-11-03",
+ "generated_at": "2026-11-04T10:42:37",
+ "generated_date": "2026-11-04",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 511,
-  "public": 490,
-  "matinee": 168,
-  "public_matinee": 147,
+  "total": 504,
+  "public": 483,
+  "matinee": 166,
+  "public_matinee": 145,
   "tba": 11,
   "needs_review": 1,
   "stale": 0
@@ -152,7 +152,6 @@
   "performers": [
    "Australian Brandenburg Orchestra",
    "Australian Chamber Orchestra",
-   "Australian Haydn Ensemble",
    "Musica Viva Australia",
    "North Sydney Symphony Orchestra",
    "Omega Ensemble",
@@ -302,7 +301,6 @@
    "Harry Sdraulig",
    "Caroline Shaw",
    "Jane Sheldon",
-   "Sherman",
    "Shostakovich",
    "Sibelius",
    "Smyth",
@@ -368,8 +366,8 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 218,
-   "previous_count": 216,
-   "last_success": "2026-11-03T12:16:52",
+   "previous_count": 218,
+   "last_success": "2026-11-04T10:41:33",
    "message": ""
   },
   {
@@ -377,7 +375,7 @@
    "status": "ok",
    "count": 154,
    "previous_count": 154,
-   "last_success": "2026-11-03T12:17:26",
+   "last_success": "2026-11-04T10:42:15",
    "message": ""
   },
   {
@@ -385,7 +383,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-03T12:17:34",
+   "last_success": "2026-11-04T10:42:15",
    "message": ""
   },
   {
@@ -393,7 +391,7 @@
    "status": "ok",
    "count": 17,
    "previous_count": 17,
-   "last_success": "2026-11-03T12:17:38",
+   "last_success": "2026-11-04T10:42:20",
    "message": ""
   },
   {
@@ -401,7 +399,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-03T12:18:43",
+   "last_success": "2026-11-04T10:42:20",
    "message": ""
   },
   {
@@ -409,15 +407,15 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-03T12:18:47",
+   "last_success": "2026-11-04T10:42:20",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 26,
-   "previous_count": 27,
-   "last_success": "2026-11-03T12:18:52",
+   "count": 16,
+   "previous_count": 26,
+   "last_success": "2026-11-04T10:42:37",
    "message": ""
   },
   {
@@ -425,240 +423,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-03T12:19:00",
+   "last_success": "2026-11-04T10:42:37",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "d85593cf",
-   "title": "ABC Young Performers Awards Grand Final",
-   "raw_title": "ABC Young Performers Awards Grand Final",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Elgar",
-    "Prokofiev",
-    "Chopin"
-   ],
-   "works": [
-    {
-     "composer": "Elgar",
-     "work": "Cello Concerto"
-    },
-    {
-     "composer": "Prokofiev",
-     "work": "Violin Concerto No.2"
-    },
-    {
-     "composer": "Chopin",
-     "work": "Piano Concerto No.2"
-    }
-   ],
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneysymphony.com/events/abc-young-performers-award-2026",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-03",
-   "time": "19:00",
-   "start_utc": "20261103T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611031900,
-   "date_string": "Tuesday, 03 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 1,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-09-17T07:44:18",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "6195b90b",
-   "title": "Jack Hancher - Classical Guitar Recital",
-   "raw_title": "Jack Hancher - Classical Guitar Recital",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Marrickville",
-   "venue_group": "Other venues",
-   "venue_address": "21 Shepherd St, Marrickville NSW 2204, Australia",
-   "region": "sydney",
-   "metro": null,
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/jack-hancher-classical-guitar-recital",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-03",
-   "time": "19:30",
-   "start_utc": "20261103T083000Z",
-   "time_confirmed": true,
-   "sort_key": 202611031930,
-   "date_string": "Tuesday, 03 November 2026",
-   "time_string": "7:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 1,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:32",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 2,
-   "feed_format": 2
-  },
-  {
-   "id": "a81cc0e2",
-   "title": "Sir Stephen Hough Piano Recital",
-   "raw_title": "Sir Stephen Hough Piano Recital",
-   "performer": "Classical Music Australia",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [
-    "Schubert",
-    "Brahms",
-    "Schoenberg",
-    "Beethoven",
-    "Schumann",
-    "Sherman"
-   ],
-   "works": [
-    {
-     "composer": "Schubert",
-     "work": "Klavierstück No. 2, D946"
-    },
-    {
-     "composer": "Brahms",
-     "work": "Klavierstück Op 118 No. 6"
-    },
-    {
-     "composer": "Schoenberg",
-     "work": "6 Kleine Klavierstücke, Op. 19"
-    },
-    {
-     "composer": "Beethoven",
-     "work": "Bagatelle, Op. 119 No. 10"
-    },
-    {
-     "composer": "Beethoven",
-     "work": "Sonata, Op. 53 “Waldstein”"
-    },
-    {
-     "composer": "Schumann",
-     "work": "Carnaval, Op. 9"
-    },
-    {
-     "composer": "Sherman",
-     "work": "Mary Poppins Suite"
-    }
-   ],
-   "venue_name": "City Recital Hall",
-   "venue_group": "City Recital Hall",
-   "venue_address": "2 Angel Pl, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://www.cityrecitalhall.com/whats-on/events/sir-stephen-hough-piano-recital/",
-   "source": "City Recital Hall",
-   "date": "2026-11-03",
-   "time": "19:30",
-   "start_utc": "20261103T083000Z",
-   "time_confirmed": true,
-   "sort_key": 202611031930,
-   "date_string": "Tuesday, 03 November 2026",
-   "time_string": "7:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 1,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:34:55",
-   "first_seen": "2026-11-01T17:34:55",
-   "sequence": 0,
-   "feed_format": 2
-  },
-  {
-   "id": "b8fa12f5",
-   "title": "Lunchtime Concert: Samantha Mailer Flute & Thomas Azoury",
-   "raw_title": "Lunchtime Concert: Samantha Mailer Flute & Thomas Azoury",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "St James Church",
-   "venue_group": "St James' Church",
-   "venue_address": "173 King Street, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-samantha-mailer-flute-and-thomas-azoury",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-04",
-   "time": "13:15",
-   "start_utc": "20261104T021500Z",
-   "time_confirmed": true,
-   "sort_key": 202611041315,
-   "date_string": "Wednesday, 04 November 2026",
-   "time_string": "1:15 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "short_format"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:32",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 2,
-   "feed_format": 2
-  },
   {
    "id": "e742476f",
    "title": "Simone Young conducts Mozart & Bach",
@@ -857,53 +626,6 @@
    "feed_format": 2
   },
   {
-   "id": "03ebe2c8",
-   "title": "Peter and the Wolf an Organ Celebration",
-   "raw_title": "Peter and the Wolf an Organ Celebration",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [
-    "Prokofiev"
-   ],
-   "works": [],
-   "venue_name": "St James Church",
-   "venue_group": "St James' Church",
-   "venue_address": "173 King Street, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/st-james-international-organ-festival",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-07",
-   "time": "17:00",
-   "start_utc": "20261107T060000Z",
-   "time_confirmed": true,
-   "sort_key": 202611071700,
-   "date_string": "Saturday, 07 November 2026",
-   "time_string": "5:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "twilight",
-   "access": "public",
-   "formats": [
-    "family"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:32",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 2,
-   "feed_format": 2
-  },
-  {
    "id": "684ac5ce",
    "title": "Suzuki Talent Education Final Level Graduates Showcase Concert Recital",
    "raw_title": "Suzuki Talent Education Final Level Graduates Showcase Concert Recital",
@@ -946,51 +668,6 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-22T08:18:09",
    "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "f79ea4ae",
-   "title": "Bittersweet",
-   "raw_title": "Bittersweet",
-   "performer": "Ian Warwick",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Dawes Point",
-   "venue_group": "Other venues",
-   "venue_address": "15 Hickson Rd, Dawes Point NSW 2000, Australia",
-   "region": "sydney",
-   "metro": {
-    "station": "Barangaroo",
-    "minutes": 9,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/bittersweet",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-07",
-   "time": "19:00",
-   "start_utc": "20261107T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611071900,
-   "date_string": "Saturday, 07 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "opera"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-03T12:19:00",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 2,
    "feed_format": 2
   },
   {
@@ -1435,53 +1112,6 @@
    "stale": false,
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-09-22T08:18:09",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "cb7de629",
-   "title": "Haydn’s Oxford | Australian Haydn Ensemble",
-   "raw_title": "Haydn’s Oxford | Australian Haydn Ensemble",
-   "performer": "Australian Haydn Ensemble",
-   "performer_group": "Australian Haydn Ensemble",
-   "programme": null,
-   "composers": [
-    "Haydn"
-   ],
-   "works": [],
-   "venue_name": "The Neilson",
-   "venue_group": "The Neilson, Walsh Bay",
-   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
-   "region": "sydney",
-   "metro": {
-    "station": "Barangaroo",
-    "minutes": 9,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-08",
-   "time": "16:00",
-   "start_utc": "20261108T050000Z",
-   "time_confirmed": true,
-   "sort_key": 202611081600,
-   "date_string": "Sunday, 08 November 2026",
-   "time_string": "4:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
-   "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
    "feed_format": 2
   },

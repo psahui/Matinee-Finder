@@ -8,82 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:d85593cf@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261103T080000Z
-DTEND:20261103T100000Z
-SUMMARY:ABC Young Performers Awards Grand Final - Sydney Symphony Orchestra
-LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
- 000
-DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
- ouse\nConfirm details and book: https://www.sydneysymphony.com/events/abc-
- young-performers-award-2026\nListing source: Sydney Symphony Orchestra. Ti
- mes and availability change - always confirm with the venue.
-URL:https://www.sydneysymphony.com/events/abc-young-performers-award-2026
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:6195b90b@matinee-finder
-DTSTAMP:20261101T065432Z
-LAST-MODIFIED:20261101T065432Z
-SEQUENCE:2
-DTSTART:20261103T083000Z
-DTEND:20261103T103000Z
-SUMMARY:Jack Hancher - Classical Guitar Recital
-LOCATION:Marrickville\, 21 Shepherd St\, Marrickville NSW 2204\, Australia
-DESCRIPTION:Various artists\nVenue: Marrickville\nConfirm details and book:
-  https://whatson.cityofsydney.nsw.gov.au/events/jack-hancher-classical-gui
- tar-recital\nListing source: City of Sydney What's On. Times and availabil
- ity change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/jack-hancher-classical-g
- uitar-recital
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a81cc0e2@matinee-finder
-DTSTAMP:20261101T063455Z
-LAST-MODIFIED:20261101T063455Z
-SEQUENCE:0
-DTSTART:20261103T083000Z
-DTEND:20261103T103000Z
-SUMMARY:Sir Stephen Hough Piano Recital
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Classical Music Australia\nVenue: City Recital Hall\nConfirm de
- tails and book: https://www.cityrecitalhall.com/whats-on/events/sir-stephe
- n-hough-piano-recital/\nListing source: City Recital Hall. Times and avail
- ability change - always confirm with the venue.
-URL:https://www.cityrecitalhall.com/whats-on/events/sir-stephen-hough-piano
- -recital/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:b8fa12f5@matinee-finder
-DTSTAMP:20261101T065432Z
-LAST-MODIFIED:20261101T065432Z
-SEQUENCE:2
-DTSTART:20261104T021500Z
-DTEND:20261104T041500Z
-SUMMARY:Lunchtime Concert: Samantha Mailer Flute & Thomas Azoury
-LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
-DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
- ok: https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-saman
- tha-mailer-flute-and-thomas-azoury\nListing source: City of Sydney What's 
- On. Times and availability change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-samant
- ha-mailer-flute-and-thomas-azoury
-CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:e742476f@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -164,25 +88,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:03ebe2c8@matinee-finder
-DTSTAMP:20261101T065432Z
-LAST-MODIFIED:20261101T065432Z
-SEQUENCE:2
-DTSTART:20261107T060000Z
-DTEND:20261107T080000Z
-SUMMARY:Peter and the Wolf an Organ Celebration
-LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
-DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
- ok: https://whatson.cityofsydney.nsw.gov.au/events/st-james-international-
- organ-festival\nListing source: City of Sydney What's On. Times and availa
- bility change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/st-james-international-o
- rgan-festival
-CATEGORIES:family
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:684ac5ce@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -201,24 +106,6 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
 URL:https://www.sydneyoperahouse.com/classical-music/suzuki-talent-educatio
  n-final-level-graduates-showcase-concert-recital
 CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:f79ea4ae@matinee-finder
-DTSTAMP:20261103T011900Z
-LAST-MODIFIED:20261103T011900Z
-SEQUENCE:2
-DTSTART:20261107T080000Z
-DTEND:20261107T100000Z
-SUMMARY:Bittersweet
-LOCATION:Dawes Point\, 15 Hickson Rd\, Dawes Point NSW 2000\, Australia
-DESCRIPTION:Ian Warwick\nVenue: Dawes Point\nConfirm details and book: http
- s://whatson.cityofsydney.nsw.gov.au/events/bittersweet\nListing source: Ci
- ty of Sydney What's On. Times and availability change - always confirm wit
- h the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/bittersweet
-CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -376,24 +263,6 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
  imes and availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation
  -piano-recitals
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:cb7de629@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261108T050000Z
-DTEND:20261108T070000Z
-SUMMARY:Haydn’s Oxford | Australian Haydn Ensemble
-LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
-DESCRIPTION:Australian Haydn Ensemble\nVenue: The Neilson\nConfirm details 
- and book: https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise\nL
- isting source: City of Sydney What's On. Times and availability change - a
- lways confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
