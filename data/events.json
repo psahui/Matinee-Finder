@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-02T09:26:50",
- "generated_date": "2026-11-02",
+ "generated_at": "2026-11-03T12:19:00",
+ "generated_date": "2026-11-03",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 510,
-  "public": 489,
-  "matinee": 167,
-  "public_matinee": 146,
+  "total": 511,
+  "public": 490,
+  "matinee": 168,
+  "public_matinee": 147,
   "tba": 11,
   "needs_review": 1,
   "stale": 0
@@ -224,6 +224,7 @@
    "Françaix",
    "Gershwin",
    "Gibbons",
+   "Brenda Gifford",
    "Glière",
    "Gounod",
    "Christoph Graupner",
@@ -257,7 +258,9 @@
    "Missy Mazzoli",
    "Mendelssohn",
    "Messager",
+   "Rachel Meyers",
    "Darius Milhaud",
+   "Kate Milligan",
    "Richard Mills",
    "Monteverdi",
    "James Morrison",
@@ -267,6 +270,7 @@
    "Sean O'Boyle",
    "Offenbach",
    "Orff",
+   "Nathaniel Otley",
    "Palestrina",
    "Arvo Pärt",
    "Pergolesi",
@@ -363,17 +367,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 216,
-   "previous_count": 221,
-   "last_success": "2026-11-02T09:26:15",
+   "count": 218,
+   "previous_count": 216,
+   "last_success": "2026-11-03T12:16:52",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 154,
-   "previous_count": 157,
-   "last_success": "2026-11-02T09:26:40",
+   "previous_count": 154,
+   "last_success": "2026-11-03T12:17:26",
    "message": ""
   },
   {
@@ -381,15 +385,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-02T09:26:44",
+   "last_success": "2026-11-03T12:17:34",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 17,
-   "previous_count": 18,
-   "last_success": "2026-11-02T09:26:47",
+   "previous_count": 17,
+   "last_success": "2026-11-03T12:17:38",
    "message": ""
   },
   {
@@ -397,7 +401,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-02T09:26:50",
+   "last_success": "2026-11-03T12:18:43",
    "message": ""
   },
   {
@@ -405,15 +409,15 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-02T09:26:50",
+   "last_success": "2026-11-03T12:18:47",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 27,
+   "count": 26,
    "previous_count": 27,
-   "last_success": "2026-11-02T09:26:50",
+   "last_success": "2026-11-03T12:18:52",
    "message": ""
   },
   {
@@ -421,58 +425,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-02T09:26:50",
+   "last_success": "2026-11-03T12:19:00",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "1a9cc9fa",
-   "title": "Haydn’s Oxford | Australian Haydn Ensemble",
-   "raw_title": "Haydn’s Oxford | Australian Haydn Ensemble",
-   "performer": "Australian Haydn Ensemble",
-   "performer_group": "Australian Haydn Ensemble",
-   "programme": null,
-   "composers": [
-    "Haydn"
-   ],
-   "works": [],
-   "venue_name": "The Neilson",
-   "venue_group": "The Neilson, Walsh Bay",
-   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
-   "region": "sydney",
-   "metro": {
-    "station": "Barangaroo",
-    "minutes": 9,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-02",
-   "time": "19:00",
-   "start_utc": "20261102T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611021900,
-   "date_string": "Monday, 02 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 0,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "d85593cf",
    "title": "ABC Young Performers Awards Grand Final",
@@ -1026,14 +983,14 @@
    "daypart": "evening",
    "access": "public",
    "formats": [
-    "concert"
+    "opera"
    ],
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
+   "last_changed": "2026-11-03T12:19:00",
    "first_seen": "2026-11-01T17:36:30",
-   "sequence": 1,
+   "sequence": 2,
    "feed_format": 2
   },
   {
@@ -18006,6 +17963,73 @@
    "feed_format": 2
   },
   {
+   "id": "627629ea",
+   "title": "Living Waters, Vital Song",
+   "raw_title": "Living Waters, Vital Song",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [
+    "Brenda Gifford",
+    "Kate Milligan",
+    "Rachel Meyers",
+    "Nathaniel Otley"
+   ],
+   "works": [
+    {
+     "composer": "Brenda Gifford",
+     "work": "New Work"
+    },
+    {
+     "composer": "Kate Milligan",
+     "work": "New Work"
+    },
+    {
+     "composer": "Rachel Meyers",
+     "work": "New Work"
+    },
+    {
+     "composer": "Nathaniel Otley",
+     "work": "New Work"
+    }
+   ],
+   "venue_name": "Music Workshop,  Sydney Conservatorium of Music",
+   "venue_group": "Verbrugghen Hall",
+   "venue_address": "Sydney, NSW",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 10,
+    "on_line": true
+   },
+   "url": "https://www.sydneysymphony.com/events/living-waters-vital-song-2027",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-07-23",
+   "time": "19:00",
+   "start_utc": "20270723T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202707231900,
+   "date_string": "Friday, 23 July 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-07",
+   "month_label": "July 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-03T12:19:00",
+   "first_seen": "2026-11-03T12:19:00",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "2310fee3",
    "title": "A Masked Ball",
    "raw_title": "A Masked Ball",
@@ -24377,6 +24401,69 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "54b5b492",
+   "title": "Colourful Characters in Nowra",
+   "raw_title": "Colourful Characters in Nowra",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [
+    "Schoenberg",
+    "Copland",
+    "Stravinsky",
+    "HK Gruber"
+   ],
+   "works": [
+    {
+     "composer": "Schoenberg",
+     "work": "Chamber Symphony No.1"
+    },
+    {
+     "composer": "Copland",
+     "work": "Quiet City"
+    },
+    {
+     "composer": "Stravinsky",
+     "work": "Danses Concertantes"
+    },
+    {
+     "composer": "HK Gruber",
+     "work": "Frankenstein!!"
+    }
+   ],
+   "venue_name": "Shoalhaven Entertainment Centre, Nowra ",
+   "venue_group": "Other venues",
+   "venue_address": "Sydney, NSW",
+   "region": "sydney",
+   "metro": null,
+   "url": "https://www.sydneysymphony.com/events/colourful-characters-in-nowra",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-10-23",
+   "time": "14:00",
+   "start_utc": "20271023T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202710231400,
+   "date_string": "Saturday, 23 October 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-10",
+   "month_label": "October 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-03T12:19:00",
+   "first_seen": "2026-11-03T12:19:00",
+   "sequence": 0,
    "feed_format": 2
   },
   {

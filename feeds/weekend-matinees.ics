@@ -2082,6 +2082,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:54b5b492@matinee-finder
+DTSTAMP:20261103T011900Z
+LAST-MODIFIED:20261103T011900Z
+SEQUENCE:0
+DTSTART:20271023T030000Z
+DTEND:20271023T050000Z
+SUMMARY:Colourful Characters in Nowra - Sydney Symphony Orchestra
+LOCATION:Shoalhaven Entertainment Centre\, Nowra \, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Shoalhaven Entertainment Cent
+ re\, Nowra \nConfirm details and book: https://www.sydneysymphony.com/even
+ ts/colourful-characters-in-nowra\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/colourful-characters-in-nowra
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:19bbb1f0@matinee-finder
 DTSTAMP:20261023T214245Z
 LAST-MODIFIED:20261023T214245Z

@@ -8,24 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:1a9cc9fa@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261102T080000Z
-DTEND:20261102T100000Z
-SUMMARY:Haydn’s Oxford | Australian Haydn Ensemble
-LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
-DESCRIPTION:Australian Haydn Ensemble\nVenue: The Neilson\nConfirm details 
- and book: https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise\nL
- isting source: City of Sydney What's On. Times and availability change - a
- lways confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/haydns-sunrise
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:d85593cf@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -224,9 +206,9 @@ STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 UID:f79ea4ae@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
+DTSTAMP:20261103T011900Z
+LAST-MODIFIED:20261103T011900Z
+SEQUENCE:2
 DTSTART:20261107T080000Z
 DTEND:20261107T100000Z
 SUMMARY:Bittersweet
@@ -236,7 +218,7 @@ DESCRIPTION:Ian Warwick\nVenue: Dawes Point\nConfirm details and book: http
  ty of Sydney What's On. Times and availability change - always confirm wit
  h the venue.
 URL:https://whatson.cityofsydney.nsw.gov.au/events/bittersweet
-CATEGORIES:concert
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -6357,6 +6339,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:627629ea@matinee-finder
+DTSTAMP:20261103T011900Z
+LAST-MODIFIED:20261103T011900Z
+SEQUENCE:0
+DTSTART:20270723T090000Z
+DTEND:20270723T110000Z
+SUMMARY:Living Waters\, Vital Song - Sydney Symphony Orchestra
+LOCATION:Music Workshop\,  Sydney Conservatorium of Music\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Music Workshop\,  Sydney Cons
+ ervatorium of Music\nConfirm details and book: https://www.sydneysymphony.
+ com/events/living-waters-vital-song-2027\nListing source: Sydney Symphony 
+ Orchestra. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/living-waters-vital-song-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:2310fee3@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -8276,6 +8276,24 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandre-ogue
  y-2027
 CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:54b5b492@matinee-finder
+DTSTAMP:20261103T011900Z
+LAST-MODIFIED:20261103T011900Z
+SEQUENCE:0
+DTSTART:20271023T030000Z
+DTEND:20271023T050000Z
+SUMMARY:Colourful Characters in Nowra - Sydney Symphony Orchestra
+LOCATION:Shoalhaven Entertainment Centre\, Nowra \, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Shoalhaven Entertainment Cent
+ re\, Nowra \nConfirm details and book: https://www.sydneysymphony.com/even
+ ts/colourful-characters-in-nowra\nListing source: Sydney Symphony Orchestr
+ a. Times and availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/colourful-characters-in-nowra
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
