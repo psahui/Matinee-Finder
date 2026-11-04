@@ -307,25 +307,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:c92411e7@matinee-finder
-DTSTAMP:20261101T065432Z
-LAST-MODIFIED:20261101T065432Z
-SEQUENCE:2
-DTSTART:20261118T021500Z
-DTEND:20261118T041500Z
-SUMMARY:Lunchtime Concert: Austral Harmony Bach Springtime Pastoral
-LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
-DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
- ok: https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austr
- al-harmony-with-jane-downer\nListing source: City of Sydney What's On. Tim
- es and availability change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austra
- l-harmony-with-jane-downer
-CATEGORIES:short_format
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:c1c3756f@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -423,81 +404,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:71cef235@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261122T040000Z
-DTEND:20261122T060000Z
-SUMMARY:ANAM in Sydney: Folk Journeys
-LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
-DESCRIPTION:Australian National Academy of Music\nVenue: The Neilson\nConfi
- rm details and book: https://whatson.cityofsydney.nsw.gov.au/events/anam-i
- n-sydney-folk-journeys\nListing source: City of Sydney What's On. Times an
- d availability change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/anam-in-sydney-folk-jour
- neys
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:a7a21cd0@matinee-finder
-DTSTAMP:20261101T065432Z
-LAST-MODIFIED:20261101T065432Z
-SEQUENCE:2
-DTSTART:20261122T040000Z
-DTEND:20261122T060000Z
-SUMMARY:International Steinway Artist Ronan Magill - Piano Concert
-LOCATION:Annandale\, Johnston St\, Annandale NSW 2038\, Australia
-DESCRIPTION:Various artists\nVenue: Annandale\nConfirm details and book: ht
- tps://whatson.cityofsydney.nsw.gov.au/events/international-steinway-artist
- -ronan-magill-piano-concert\nListing source: City of Sydney What's On. Tim
- es and availability change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/international-steinway-a
- rtist-ronan-magill-piano-concert
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:38e8e88c@matinee-finder
-DTSTAMP:20261101T065432Z
-LAST-MODIFIED:20261101T065432Z
-SEQUENCE:2
-DTSTART:20261122T050000Z
-DTEND:20261122T070000Z
-SUMMARY:Sleep and Awake
-LOCATION:Dulwich Hill\, Herbert St\, Dulwich Hill NSW 2203\, Australia
-DESCRIPTION:Christine Urbanski\nVenue: Dulwich Hill\nConfirm details and bo
- ok: https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake\nListin
- g source: City of Sydney What's On. Times and availability change - always
-  confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:886025e4@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261122T053000Z
-DTEND:20261122T073000Z
-SUMMARY:Neeman Piano Duo in Concert
-LOCATION:Glebe\, unit 6/80 Wentworth Park Rd\, Glebe NSW 2037\, Australia
-DESCRIPTION:Master Music Studio\nVenue: Glebe\nConfirm details and book: ht
- tps://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-concert\n
- Listing source: City of Sydney What's On. Times and availability change - 
- always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-conc
- ert
-CATEGORIES:film
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:45cd906e@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -512,43 +418,6 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
 CATEGORIES:opera
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:80be561c@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261128T030000Z
-DTEND:20261128T050000Z
-SUMMARY:The Trout - Omega Ensemble
-LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
-DESCRIPTION:Omega Ensemble\nVenue: The Neilson\nConfirm details and book: h
- ttps://whatson.cityofsydney.nsw.gov.au/events/the-trout\nListing source: C
- ity of Sydney What's On. Times and availability change - always confirm wi
- th the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/the-trout
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:d1bad25b@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261129T033000Z
-DTEND:20261129T053000Z
-SUMMARY:An afternoon with accordionist James Crabb
-LOCATION:Hunters Hill\, 22 Alexandra St\, Hunters Hill NSW 2110\, Australia
-DESCRIPTION:Hunters Hill Music\nVenue: Hunters Hill\nConfirm details and bo
- ok: https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accor
- dionist-james-crabb\nListing source: City of Sydney What's On. Times and a
- vailability change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accord
- ionist-james-crabb
-CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT

@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "generated_at": "2026-11-04T10:42:37",
- "generated_date": "2026-11-04",
+ "generated_at": "2026-11-05T10:56:52",
+ "generated_date": "2026-11-05",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 504,
-  "public": 483,
+  "total": 505,
+  "public": 484,
   "matinee": 166,
   "public_matinee": 145,
   "tba": 11,
   "needs_review": 1,
-  "stale": 0
+  "stale": 14
  },
  "facets": {
   "dayparts": [
@@ -291,6 +291,7 @@
    "Hollis Taylor and Jon Rose",
    "Saint-Saëns",
    "Satie",
+   "Domenico Scarlatti",
    "Scarlatti",
    "Giacinto Scelsi",
    "Schoenberg",
@@ -365,9 +366,9 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 218,
+   "count": 217,
    "previous_count": 218,
-   "last_success": "2026-11-04T10:41:33",
+   "last_success": "2026-11-05T10:55:36",
    "message": ""
   },
   {
@@ -375,7 +376,7 @@
    "status": "ok",
    "count": 154,
    "previous_count": 154,
-   "last_success": "2026-11-04T10:42:15",
+   "last_success": "2026-11-05T10:56:10",
    "message": ""
   },
   {
@@ -383,7 +384,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-04T10:42:15",
+   "last_success": "2026-11-05T10:56:15",
    "message": ""
   },
   {
@@ -391,7 +392,7 @@
    "status": "ok",
    "count": 17,
    "previous_count": 17,
-   "last_success": "2026-11-04T10:42:20",
+   "last_success": "2026-11-05T10:56:18",
    "message": ""
   },
   {
@@ -399,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-04T10:42:20",
+   "last_success": "2026-11-05T10:56:21",
    "message": ""
   },
   {
@@ -407,23 +408,23 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-04T10:42:20",
+   "last_success": "2026-11-05T10:56:24",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
-   "status": "ok",
-   "count": 16,
-   "previous_count": 26,
+   "status": "stale",
+   "count": 14,
+   "previous_count": 16,
    "last_success": "2026-11-04T10:42:37",
-   "message": ""
+   "message": "https://whatson.cityofsydney.nsw.gov.au/categories/music: 404 Client Error: Not Found for url: https://whatson.cityofsydney.nsw.gov.au/categories/music; showing last good data (broken)"
   },
   {
    "name": "Salut! Baroque",
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-04T10:42:37",
+   "last_success": "2026-11-05T10:56:52",
    "message": ""
   }
  ],
@@ -1246,7 +1247,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -1630,7 +1631,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -1824,7 +1825,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 2,
@@ -2069,7 +2070,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -2211,7 +2212,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -2252,7 +2253,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 2,
@@ -2293,7 +2294,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:32",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 2,
@@ -2334,7 +2335,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -2483,7 +2484,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -2632,7 +2633,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -2677,7 +2678,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -2718,7 +2719,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -3247,7 +3248,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -4236,7 +4237,7 @@
    ],
    "needs_review": false,
    "classified_by": "default",
-   "stale": false,
+   "stale": true,
    "last_changed": "2026-11-01T17:54:12",
    "first_seen": "2026-11-01T17:36:30",
    "sequence": 1,
@@ -10378,6 +10379,68 @@
    "stale": false,
    "last_changed": "2026-10-20T09:39:57",
    "first_seen": "2026-10-20T09:39:57",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "2a922cb5",
+   "title": "Angela Hewitt Recital",
+   "raw_title": "Angela Hewitt Recital",
+   "performer": "Classical Music Australia",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Domenico Scarlatti",
+    "Bach",
+    "Chopin"
+   ],
+   "works": [
+    {
+     "composer": "Domenico Scarlatti",
+     "work": "Sonata in D major, K. 491, Sonata in B minor, K. 377, Sonata in A major, K. 208, Sonata in G major, K. 14"
+    },
+    {
+     "composer": "Bach",
+     "work": "Partita No. 4 in D major, BWV 828"
+    },
+    {
+     "composer": "Chopin",
+     "work": "Three Mazurkas, Op. 50, Fantasy in F minor, Op. 49, Scherzo No. 2 in B-flat minor, Op. 31"
+    }
+   ],
+   "venue_name": "City Recital Hall",
+   "venue_group": "City Recital Hall",
+   "venue_address": "2 Angel Pl, Sydney NSW 2000",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 5,
+    "on_line": true
+   },
+   "url": "https://www.cityrecitalhall.com/whats-on/events/angela-hewitt-recital/",
+   "source": "City Recital Hall",
+   "date": "2027-03-11",
+   "time": "19:30",
+   "start_utc": "20270311T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202703111930,
+   "date_string": "Thursday, 11 March 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-03",
+   "month_label": "March 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-05T10:56:52",
+   "first_seen": "2026-11-05T10:56:52",
    "sequence": 0,
    "feed_format": 2
   },
