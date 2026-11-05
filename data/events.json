@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-11-05T10:56:52",
- "generated_date": "2026-11-05",
+ "generated_at": "2026-11-06T10:51:43",
+ "generated_date": "2026-11-06",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 505,
@@ -367,8 +367,8 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 217,
-   "previous_count": 218,
-   "last_success": "2026-11-05T10:55:36",
+   "previous_count": 217,
+   "last_success": "2026-11-06T10:50:17",
    "message": ""
   },
   {
@@ -376,7 +376,7 @@
    "status": "ok",
    "count": 154,
    "previous_count": 154,
-   "last_success": "2026-11-05T10:56:10",
+   "last_success": "2026-11-06T10:50:29",
    "message": ""
   },
   {
@@ -384,7 +384,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-05T10:56:15",
+   "last_success": "2026-11-06T10:50:59",
    "message": ""
   },
   {
@@ -392,7 +392,7 @@
    "status": "ok",
    "count": 17,
    "previous_count": 17,
-   "last_success": "2026-11-05T10:56:18",
+   "last_success": "2026-11-06T10:51:21",
    "message": ""
   },
   {
@@ -400,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-05T10:56:21",
+   "last_success": "2026-11-06T10:51:21",
    "message": ""
   },
   {
@@ -408,14 +408,14 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-05T10:56:24",
+   "last_success": "2026-11-06T10:51:21",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "stale",
    "count": 14,
-   "previous_count": 16,
+   "previous_count": 14,
    "last_success": "2026-11-04T10:42:37",
    "message": "https://whatson.cityofsydney.nsw.gov.au/categories/music: 404 Client Error: Not Found for url: https://whatson.cityofsydney.nsw.gov.au/categories/music; showing last good data (broken)"
   },
@@ -424,7 +424,7 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-05T10:56:52",
+   "last_success": "2026-11-06T10:51:42",
    "message": ""
   }
  ],
