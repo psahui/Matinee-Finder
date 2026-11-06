@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-06T10:51:43",
- "generated_date": "2026-11-06",
+ "generated_at": "2026-11-07T10:33:02",
+ "generated_date": "2026-11-07",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 505,
-  "public": 484,
-  "matinee": 166,
-  "public_matinee": 145,
+  "total": 502,
+  "public": 481,
+  "matinee": 164,
+  "public_matinee": 143,
   "tba": 11,
   "needs_review": 1,
   "stale": 14
@@ -368,7 +368,7 @@
    "status": "ok",
    "count": 217,
    "previous_count": 217,
-   "last_success": "2026-11-06T10:50:17",
+   "last_success": "2026-11-07T10:30:39",
    "message": ""
   },
   {
@@ -376,7 +376,7 @@
    "status": "ok",
    "count": 154,
    "previous_count": 154,
-   "last_success": "2026-11-06T10:50:29",
+   "last_success": "2026-11-07T10:31:18",
    "message": ""
   },
   {
@@ -384,15 +384,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-06T10:50:59",
+   "last_success": "2026-11-07T10:31:22",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 17,
+   "count": 15,
    "previous_count": 17,
-   "last_success": "2026-11-06T10:51:21",
+   "last_success": "2026-11-07T10:31:25",
    "message": ""
   },
   {
@@ -400,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-06T10:51:21",
+   "last_success": "2026-11-07T10:32:29",
    "message": ""
   },
   {
@@ -408,7 +408,7 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-06T10:51:21",
+   "last_success": "2026-11-07T10:32:33",
    "message": ""
   },
   {
@@ -424,73 +424,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-06T10:51:42",
+   "last_success": "2026-11-07T10:33:02",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "e742476f",
-   "title": "Simone Young conducts Mozart & Bach",
-   "raw_title": "Simone Young conducts Mozart & Bach",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Ella Macens",
-    "Bach",
-    "Mozart"
-   ],
-   "works": [
-    {
-     "composer": "Ella Macens",
-     "work": "Before Me, There Was You"
-    },
-    {
-     "composer": "Bach",
-     "work": "Orchestral Suite No.3"
-    },
-    {
-     "composer": "Mozart",
-     "work": "Symphony No.39"
-    }
-   ],
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneysymphony.com/events/simone-young-conducts-mozart-and-bach",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-06",
-   "time": "11:00",
-   "start_utc": "20261106T000000Z",
-   "time_confirmed": true,
-   "sort_key": 202611061100,
-   "date_string": "Friday, 06 November 2026",
-   "time_string": "11:00 AM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "morning",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "bb47757a",
    "title": "48th Suzuki Graduation Piano Recitals",
@@ -708,53 +646,6 @@
    },
    "url": "https://www.sydneysymphony.com/events/simone-young-conducts-mozart-and-bach",
    "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-07",
-   "time": "19:00",
-   "start_utc": "20261107T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611071900,
-   "date_string": "Saturday, 07 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "c05b1146",
-   "title": "Willoughby Symphony Orchestra: Organ Symphony",
-   "raw_title": "Willoughby Symphony Orchestra: Organ Symphony",
-   "performer": "Willoughby Symphony Orchestra",
-   "performer_group": "Willoughby Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Saint-Saëns"
-   ],
-   "works": [],
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "The Concourse, Chatswood",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "metro": {
-    "station": "Chatswood",
-    "minutes": 7,
-    "on_line": true
-   },
-   "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-organ-symphony/",
-   "source": "The Concourse",
    "date": "2026-11-07",
    "time": "19:00",
    "start_utc": "20261107T080000Z",
@@ -999,53 +890,6 @@
    },
    "url": "https://www.sydneysymphony.com/events/simone-young-conducts-mozart-and-bach",
    "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-08",
-   "time": "14:00",
-   "start_utc": "20261108T030000Z",
-   "time_confirmed": true,
-   "sort_key": 202611081400,
-   "date_string": "Sunday, 08 November 2026",
-   "time_string": "2:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "3548a278",
-   "title": "Willoughby Symphony Orchestra: Organ Symphony",
-   "raw_title": "Willoughby Symphony Orchestra: Organ Symphony",
-   "performer": "Willoughby Symphony Orchestra",
-   "performer_group": "Willoughby Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Saint-Saëns"
-   ],
-   "works": [],
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "The Concourse, Chatswood",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "metro": {
-    "station": "Chatswood",
-    "minutes": 7,
-    "on_line": true
-   },
-   "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-organ-symphony/",
-   "source": "The Concourse",
    "date": "2026-11-08",
    "time": "14:00",
    "start_utc": "20261108T030000Z",

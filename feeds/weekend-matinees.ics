@@ -148,25 +148,6 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
-UID:3548a278@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261108T030000Z
-DTEND:20261108T050000Z
-SUMMARY:Willoughby Symphony Orchestra: Organ Symphony
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
- l\nConfirm details and book: https://www.theconcourse.com.au/event/willoug
- hby-symphony-orchestra-organ-symphony/\nListing source: The Concourse. Tim
- es and availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-org
- an-symphony/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:65d5e49c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
