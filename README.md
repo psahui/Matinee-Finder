@@ -34,7 +34,7 @@ step — `index.html` is plain HTML, CSS and JavaScript with no dependencies.
 | [The Concourse, Chatswood](https://www.theconcourse.com.au/genre/music-classical/) | Genre listing + event pages |
 | [North Sydney Symphony Orchestra](https://www.nsso.org.au/concerts) | Season content files behind the site's JS shell |
 | [City Recital Hall](https://www.cityrecitalhall.com/whats-on/) | JSON endpoint behind the What's On page; the hall's own genre picks out classical and opera, and its programme list supplies composers |
-| [City of Sydney What's On](https://whatson.cityofsydney.nsw.gov.au/categories/music) | Aggregator: events their organisers tag *classical*, then each event page for every date, time and organiser |
+| [City of Sydney What's On](https://whatson.cityofsydney.nsw.gov.au/categories/music-and-concerts) | Aggregator: the guide's event search, filtered to classical by the terms in `config.json` |
 | [Salut! Baroque](https://baroque.com.au/concerts/) | Season page, found from `/concerts/` because its address changes yearly; Sydney dates and the full programme. Supersedes the guide's programme-less copy |
 
 City of Sydney What's On is an aggregator of organiser-submitted listings, so it is
