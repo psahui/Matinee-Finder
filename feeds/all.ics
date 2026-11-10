@@ -28,6 +28,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:bbe11041@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261114T060000Z
+DTEND:20261114T080000Z
+SUMMARY:Cantos Sagrados
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Sydney Chamber Choir\nVenue: St James Church\nConfirm details a
+ nd book: https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados\nL
+ isting source: City of Sydney What's On. Times and availability change - a
+ lways confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ddc2ce71@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z
@@ -146,6 +164,44 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:224398ed@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261115T060000Z
+DTEND:20261115T080000Z
+SUMMARY:Bach & Charpentier – Music for Christmas
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Bach Akademie Australia\nVenue: St James Church\nConfirm detail
+ s and book: https://whatson.cityofsydney.nsw.gov.au/events/bach-and-charpe
+ ntier-music-for-christmas\nListing source: City of Sydney What's On. Times
+  and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/bach-and-charpentier-mus
+ ic-for-christmas
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:e61b945e@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261116T013000Z
+DTEND:20261116T033000Z
+SUMMARY:Sydney Town Hall organ recitals
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:City of Sydney\nVenue: Sydney Town Hall\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-
+ recitals\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-r
+ ecitals
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:bfa571d6@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z
@@ -179,6 +235,25 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
  change - always confirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c92411e7@matinee-finder
+DTSTAMP:20261101T065432Z
+LAST-MODIFIED:20261101T065432Z
+SEQUENCE:2
+DTSTART:20261118T021500Z
+DTEND:20261118T041500Z
+SUMMARY:Lunchtime Concert: Austral Harmony Bach Springtime Pastoral
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austr
+ al-harmony-with-jane-downer\nListing source: City of Sydney What's On. Tim
+ es and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austra
+ l-harmony-with-jane-downer
+CATEGORIES:short_format
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -260,6 +335,27 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:7b1e7c7f@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261121T083000Z
+DTEND:20261121T103000Z
+SUMMARY:10 Years of Modést Orchestra - Scheherazade & Pictures
+LOCATION:Sydney Conservatorium of Music\, Macquarie Street\, Sydney NSW 200
+ 0
+DESCRIPTION:Modest Orchestra\nVenue: Sydney Conservatorium of Music\nConfir
+ m details and book: https://whatson.cityofsydney.nsw.gov.au/events/10-year
+ s-of-modest-orchestra-scheherazade-and-pictures\nListing source: City of S
+ ydney What's On. Times and availability change - always confirm with the v
+ enue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/10-years-of-modest-orche
+ stra-scheherazade-and-pictures
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:544b7152@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -298,6 +394,103 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:71cef235@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261122T040000Z
+DTEND:20261122T060000Z
+SUMMARY:ANAM in Sydney: Folk Journeys
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Australian National Academy of Music\nVenue: The Neilson\nConfi
+ rm details and book: https://whatson.cityofsydney.nsw.gov.au/events/anam-i
+ n-sydney-folk-journeys\nListing source: City of Sydney What's On. Times an
+ d availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/anam-in-sydney-folk-jour
+ neys
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7b3db1ce@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T040000Z
+DTEND:20261122T060000Z
+SUMMARY:International Steinway Artist Ronan Magill - Piano Concert
+LOCATION:Hunter Baillie Memorial Church\, Johnston St\, Annandale NSW 2038\
+ , Australia
+DESCRIPTION:Various artists\nVenue: Hunter Baillie Memorial Church\nConfirm
+  details and book: https://whatson.cityofsydney.nsw.gov.au/events/internat
+ ional-steinway-artist-ronan-magill-piano-concert\nListing source: City of 
+ Sydney What's On. Times and availability change - always confirm with the 
+ venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/international-steinway-a
+ rtist-ronan-magill-piano-concert
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8fcb3bfa@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T043000Z
+DTEND:20261122T063000Z
+SUMMARY:Voices for the Organ
+LOCATION:Pitt Street Uniting Church\, 264 Pitt Street\, Sydney NSW 2000
+DESCRIPTION:WIth One Voice Sydney CBD\nVenue: Pitt Street Uniting Church\nC
+ onfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events/vo
+ ices-for-the-organ\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/voices-for-the-organ
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1b57a130@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T050000Z
+DTEND:20261122T070000Z
+SUMMARY:Sleep and Awake
+LOCATION:Holy Trinity Church\, Herbert St\, Dulwich Hill NSW 2203\, Austral
+ ia
+DESCRIPTION:Christine Urbanski\nVenue: Holy Trinity Church\nConfirm details
+  and book: https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake\
+ nListing source: City of Sydney What's On. Times and availability change -
+  always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f4079df6@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T053000Z
+DTEND:20261122T073000Z
+SUMMARY:Neeman Piano Duo in Concert
+LOCATION:Master Music Studio\, unit 6/80 Wentworth Park Rd\, Glebe NSW 2037
+ \, Australia
+DESCRIPTION:Various artists\nVenue: Master Music Studio\nConfirm details an
+ d book: https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in
+ -concert\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-conc
+ ert
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:06cc9585@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -312,6 +505,24 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:a1042e15@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261127T073000Z
+DTEND:20261127T093000Z
+SUMMARY:Come Sit With Me
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:ARMINÉ\nVenue: The Neilson\nConfirm details and book: https://
+ whatson.cityofsydney.nsw.gov.au/events/come-sit-with-me\nListing source: C
+ ity of Sydney What's On. Times and availability change - always confirm wi
+ th the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/come-sit-with-me
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -351,6 +562,80 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:80be561c@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+SUMMARY:The Trout - Omega Ensemble
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Omega Ensemble\nVenue: The Neilson\nConfirm details and book: h
+ ttps://whatson.cityofsydney.nsw.gov.au/events/the-trout\nListing source: C
+ ity of Sydney What's On. Times and availability change - always confirm wi
+ th the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/the-trout
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e122292@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261128T053000Z
+DTEND:20261128T073000Z
+SUMMARY:Monthly QVB Classical Pop-Up Concert
+LOCATION:Queen Victoria Building\, 455 George Street\, Sydney NSW 2000
+DESCRIPTION:Concerts for All\nVenue: Queen Victoria Building\nConfirm detai
+ ls and book: https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-
+ pop-up\nListing source: City of Sydney What's On. Times and availability c
+ hange - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-pop-up
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:cd6543db@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261128T080000Z
+DTEND:20261128T100000Z
+SUMMARY:The Trout - Omega Ensemble
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Omega Ensemble\nVenue: The Neilson\nConfirm details and book: h
+ ttps://whatson.cityofsydney.nsw.gov.au/events/the-trout\nListing source: C
+ ity of Sydney What's On. Times and availability change - always confirm wi
+ th the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/the-trout
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:296eb0b4@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261129T033000Z
+DTEND:20261129T053000Z
+SUMMARY:An afternoon with accordionist James Crabb
+LOCATION:Hunters Hill Town Hall\, 22 Alexandra St\, Hunters Hill NSW 2110\,
+  Australia
+DESCRIPTION:Hunters Hill Music\nVenue: Hunters Hill Town Hall\nConfirm deta
+ ils and book: https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-
+ with-accordionist-james-crabb\nListing source: City of Sydney What's On. T
+ imes and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accord
+ ionist-james-crabb
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -424,6 +709,26 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  sting source: City Recital Hall. Times and availability change - always co
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c74dcae7@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261201T083000Z
+DTEND:20261201T103000Z
+SUMMARY:Opera in the Pub - Rudolpho's Christmas
+LOCATION:Keg & Brew Hotel\, upstairs Level 2\, 26 Foveaux St\, Surry Hills 
+ NSW 2010\, Australia
+DESCRIPTION:Opera Bites\nVenue: Keg & Brew Hotel\, upstairs Level 2\nConfir
+ m details and book: https://whatson.cityofsydney.nsw.gov.au/events/opera-i
+ n-the-pub-race-you-to-the-opera-copy\nListing source: City of Sydney What'
+ s On. Times and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/opera-in-the-pub-race-yo
+ u-to-the-opera-copy
 CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -550,6 +855,26 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
  nd availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/spain-song-passion-and
  -flamenco
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6ffefc1a@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261205T080000Z
+DTEND:20261205T100000Z
+SUMMARY:Christmas Concert - Sydney Sings®
+LOCATION:St Thomas’ Anglican Church\, Church St\, North Sydney NSW 2060\,
+  Australia
+DESCRIPTION:Sydney University Graduate Choir\nVenue: St Thomas’ Anglican 
+ Church\nConfirm details and book: https://whatson.cityofsydney.nsw.gov.au/
+ events/christmas-concert-sydney-sings-r\nListing source: City of Sydney Wh
+ at's On. Times and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/christmas-concert-sydney
+ -sings-r
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -767,6 +1092,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:3c7f067c@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261212T040000Z
+DTEND:20261212T060000Z
+SUMMARY:Handel’s Messiah at Sydney Town Hall
+LOCATION:Sydney Town Hall\, George Street\, Sydney NSW 2000
+DESCRIPTION:Radio Community Chest Incorporated\nVenue: Sydney Town Hall\nCo
+ nfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events/han
+ dels-messiah\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/handels-messiah
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:c018c313@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z
@@ -824,6 +1167,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:9cb8a534@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261213T040000Z
+DTEND:20261213T060000Z
+SUMMARY:Handel’s Messiah at Sydney Town Hall
+LOCATION:Sydney Town Hall\, George Street\, Sydney NSW 2000
+DESCRIPTION:Radio Community Chest Incorporated\nVenue: Sydney Town Hall\nCo
+ nfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events/han
+ dels-messiah\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/handels-messiah
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:2f5ddd23@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z
@@ -837,6 +1198,25 @@ DESCRIPTION:Selby & Friends\nVenue: City Recital Hall\nConfirm details and
  Listing source: City Recital Hall. Times and availability change - always 
  confirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/on-second-thought/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b8574ae0@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261215T090000Z
+DTEND:20261215T110000Z
+SUMMARY:Sydney Town Hall organ recitals
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:City of Sydney\nVenue: Sydney Town Hall\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-
+ recitals\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-r
+ ecitals
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -880,6 +1260,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:66f6d44b@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261219T030000Z
+DTEND:20261219T050000Z
+SUMMARY:Lessons & Carols - Sydney Philharmonia Choirs
+LOCATION:St Philip's Church\, 3 York Street\, Sydney NSW 2000
+DESCRIPTION:Sydney Philharmonia Choirs\nVenue: St Philip's Church\nConfirm 
+ details and book: https://whatson.cityofsydney.nsw.gov.au/events/lessons-a
+ nd-carols\nListing source: City of Sydney What's On. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/lessons-and-carols
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:8a11436d@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -894,6 +1292,25 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
  w-currents\nListing source: Sydney Opera House. Times and availability cha
  nge - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/new-currents
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:dbde1fdb@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261223T020000Z
+DTEND:20261223T040000Z
+SUMMARY:Sydney Town Hall organ recitals
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:City of Sydney\nVenue: Sydney Town Hall\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-
+ recitals\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-r
+ ecitals
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -915,6 +1332,24 @@ DESCRIPTION:Opera Australia\nVenue: Joan Sutherland Theatre\, Sydney Opera
 URL:https://www.sydneyoperahouse.com/opera-australia/2026-season/great-oper
  a-hits-2026
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:89b735e7@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:2
+DTSTART:20261226T053000Z
+DTEND:20261226T073000Z
+SUMMARY:Monthly QVB Classical Pop-Up Concert
+LOCATION:Queen Victoria Building\, 455 George Street\, Sydney NSW 2000
+DESCRIPTION:Concerts for All\nVenue: Queen Victoria Building\nConfirm detai
+ ls and book: https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-
+ pop-up\nListing source: City of Sydney What's On. Times and availability c
+ hange - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-pop-up
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -1956,6 +2391,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:eefb47ae@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270207T010000Z
+DTEND:20270207T030000Z
+SUMMARY:Vienna Boys Choir
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:Castiglione Arts and Culture\nVenue: Sydney Town Hall\nConfirm 
+ details and book: https://whatson.cityofsydney.nsw.gov.au/events/vienna-bo
+ ys-choir\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/vienna-boys-choir
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:8e8bcb0b@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -2010,6 +2463,24 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
 URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
  ampe/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:52cfcd72@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270207T060000Z
+DTEND:20270207T080000Z
+SUMMARY:Vienna Boys Choir
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:Castiglione Arts and Culture\nVenue: Sydney Town Hall\nConfirm 
+ details and book: https://whatson.cityofsydney.nsw.gov.au/events/vienna-bo
+ ys-choir\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/vienna-boys-choir
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2105,6 +2576,24 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
  -altstaedt/\nListing source: City Recital Hall. Times and availability cha
  nge - always confirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/nicolas-altstaedt/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:25779b4b@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270210T073000Z
+DTEND:20270210T093000Z
+SUMMARY:Vienna Boys Choir
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:Castiglione Arts and Culture\nVenue: Sydney Town Hall\nConfirm 
+ details and book: https://whatson.cityofsydney.nsw.gov.au/events/vienna-bo
+ ys-choir\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/vienna-boys-choir
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -3873,6 +4362,82 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:afabd3e6@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270327T083000Z
+DTEND:20270327T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c143e5d3@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270328T083000Z
+DTEND:20270328T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:3429bf58@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270330T083000Z
+DTEND:20270330T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d001f106@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270331T083000Z
+DTEND:20270331T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:08b4d910@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3909,6 +4474,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: City Recital Hall\nConfirm de
 URL:https://www.sydneysymphony.com/events/spotlight-alexander-gavrylyuk-and
  -the-sydney-symphony-2027
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f509332b@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270401T083000Z
+DTEND:20270401T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -3973,6 +4557,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:7369fb37@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270402T083000Z
+DTEND:20270402T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:ff0f83eb@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -3989,6 +4592,63 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/cocktail-hour-with-louisic-dulbec
  co-2027
 CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2df4a378@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270403T083000Z
+DTEND:20270403T103000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9e37b8cf@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270404T093000Z
+DTEND:20270404T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b6c0c877@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270406T093000Z
+DTEND:20270406T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4013,6 +4673,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:d5d3a870@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270407T093000Z
+DTEND:20270407T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:68128b0c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4029,6 +4708,44 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/rufus-wainwrights-dream-requiem-2
  027
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:bc482968@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270408T093000Z
+DTEND:20270408T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:80762440@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270409T093000Z
+DTEND:20270409T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4053,6 +4770,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:6ba2ef49@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270410T093000Z
+DTEND:20270410T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:613b87fd@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4069,6 +4805,101 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/rufus-wainwrights-want-symphonic-
  2027
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9ee72731@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270411T093000Z
+DTEND:20270411T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8423828a@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270413T093000Z
+DTEND:20270413T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c7c25b56@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270414T093000Z
+DTEND:20270414T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d80c2252@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270415T093000Z
+DTEND:20270415T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:2d068555@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270416T093000Z
+DTEND:20270416T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4091,6 +4922,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:06615db2@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270417T093000Z
+DTEND:20270417T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:6df45c74@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4108,6 +4958,44 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
 URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
  on/arvo-part-masterworks
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eda3285c@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270418T093000Z
+DTEND:20270418T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:57405302@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270420T093000Z
+DTEND:20270420T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4168,6 +5056,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:ede0fa90@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270421T093000Z
+DTEND:20270421T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:86a58301@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4188,6 +5095,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:d6e92daf@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270422T093000Z
+DTEND:20270422T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:44b00fde@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z
@@ -4202,6 +5128,25 @@ DESCRIPTION:Australian Brandenburg Orchestra\nVenue: City Recital Hall\nCon
  change - always confirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/pardon-my-french/
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f610f84f@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270423T093000Z
+DTEND:20270423T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -4262,6 +5207,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:548d312a@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270424T093000Z
+DTEND:20270424T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:a97a316c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -4278,6 +5242,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/dalia-stasevska-conducts-dvorak-2
  027
 CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:b1e37886@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270425T093000Z
+DTEND:20270425T113000Z
+SUMMARY:Aida on Sydney Harbour - Opera Australia
+LOCATION:Fleet Steps\, Mrs Macquaries Point\, Mrs Macquaries Rd\, Sydney NS
+ W 2000\, Australia
+DESCRIPTION:Opera Australia\nVenue: Fleet Steps\, Mrs Macquaries Point\nCon
+ firm details and book: https://whatson.cityofsydney.nsw.gov.au/events/aida
+ -on-sydney-harbour\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/aida-on-sydney-harbour
+CATEGORIES:opera
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT

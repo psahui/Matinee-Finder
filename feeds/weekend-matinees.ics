@@ -185,6 +185,103 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:71cef235@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261122T040000Z
+DTEND:20261122T060000Z
+SUMMARY:ANAM in Sydney: Folk Journeys
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Australian National Academy of Music\nVenue: The Neilson\nConfi
+ rm details and book: https://whatson.cityofsydney.nsw.gov.au/events/anam-i
+ n-sydney-folk-journeys\nListing source: City of Sydney What's On. Times an
+ d availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/anam-in-sydney-folk-jour
+ neys
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:7b3db1ce@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T040000Z
+DTEND:20261122T060000Z
+SUMMARY:International Steinway Artist Ronan Magill - Piano Concert
+LOCATION:Hunter Baillie Memorial Church\, Johnston St\, Annandale NSW 2038\
+ , Australia
+DESCRIPTION:Various artists\nVenue: Hunter Baillie Memorial Church\nConfirm
+  details and book: https://whatson.cityofsydney.nsw.gov.au/events/internat
+ ional-steinway-artist-ronan-magill-piano-concert\nListing source: City of 
+ Sydney What's On. Times and availability change - always confirm with the 
+ venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/international-steinway-a
+ rtist-ronan-magill-piano-concert
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:8fcb3bfa@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T043000Z
+DTEND:20261122T063000Z
+SUMMARY:Voices for the Organ
+LOCATION:Pitt Street Uniting Church\, 264 Pitt Street\, Sydney NSW 2000
+DESCRIPTION:WIth One Voice Sydney CBD\nVenue: Pitt Street Uniting Church\nC
+ onfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events/vo
+ ices-for-the-organ\nListing source: City of Sydney What's On. Times and av
+ ailability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/voices-for-the-organ
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1b57a130@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T050000Z
+DTEND:20261122T070000Z
+SUMMARY:Sleep and Awake
+LOCATION:Holy Trinity Church\, Herbert St\, Dulwich Hill NSW 2203\, Austral
+ ia
+DESCRIPTION:Christine Urbanski\nVenue: Holy Trinity Church\nConfirm details
+  and book: https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake\
+ nListing source: City of Sydney What's On. Times and availability change -
+  always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sleep-and-awake
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:f4079df6@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261122T053000Z
+DTEND:20261122T073000Z
+SUMMARY:Neeman Piano Duo in Concert
+LOCATION:Master Music Studio\, unit 6/80 Wentworth Park Rd\, Glebe NSW 2037
+ \, Australia
+DESCRIPTION:Various artists\nVenue: Master Music Studio\nConfirm details an
+ d book: https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in
+ -concert\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/neeman-piano-duo-in-conc
+ ert
+CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:45cd906e@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -199,6 +296,62 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:80be561c@matinee-finder
+DTSTAMP:20261101T065412Z
+LAST-MODIFIED:20261101T065412Z
+SEQUENCE:1
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+SUMMARY:The Trout - Omega Ensemble
+LOCATION:The Neilson\, ACO Pier 2/3\, 13 Hickson Road\, Dawes Point
+DESCRIPTION:Omega Ensemble\nVenue: The Neilson\nConfirm details and book: h
+ ttps://whatson.cityofsydney.nsw.gov.au/events/the-trout\nListing source: C
+ ity of Sydney What's On. Times and availability change - always confirm wi
+ th the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/the-trout
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e122292@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261128T053000Z
+DTEND:20261128T073000Z
+SUMMARY:Monthly QVB Classical Pop-Up Concert
+LOCATION:Queen Victoria Building\, 455 George Street\, Sydney NSW 2000
+DESCRIPTION:Concerts for All\nVenue: Queen Victoria Building\nConfirm detai
+ ls and book: https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-
+ pop-up\nListing source: City of Sydney What's On. Times and availability c
+ hange - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-pop-up
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:296eb0b4@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261129T033000Z
+DTEND:20261129T053000Z
+SUMMARY:An afternoon with accordionist James Crabb
+LOCATION:Hunters Hill Town Hall\, 22 Alexandra St\, Hunters Hill NSW 2110\,
+  Australia
+DESCRIPTION:Hunters Hill Music\nVenue: Hunters Hill Town Hall\nConfirm deta
+ ils and book: https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-
+ with-accordionist-james-crabb\nListing source: City of Sydney What's On. T
+ imes and availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/an-afternoon-with-accord
+ ionist-james-crabb
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -340,6 +493,24 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:3c7f067c@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261212T040000Z
+DTEND:20261212T060000Z
+SUMMARY:Handel’s Messiah at Sydney Town Hall
+LOCATION:Sydney Town Hall\, George Street\, Sydney NSW 2000
+DESCRIPTION:Radio Community Chest Incorporated\nVenue: Sydney Town Hall\nCo
+ nfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events/han
+ dels-messiah\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/handels-messiah
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:7595f144@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -374,6 +545,60 @@ DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
  ourse. Times and availability change - always confirm with the venue.
 URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
  rit-of-christmas-2026/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb8a534@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261213T040000Z
+DTEND:20261213T060000Z
+SUMMARY:Handel’s Messiah at Sydney Town Hall
+LOCATION:Sydney Town Hall\, George Street\, Sydney NSW 2000
+DESCRIPTION:Radio Community Chest Incorporated\nVenue: Sydney Town Hall\nCo
+ nfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events/han
+ dels-messiah\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/handels-messiah
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:66f6d44b@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20261219T030000Z
+DTEND:20261219T050000Z
+SUMMARY:Lessons & Carols - Sydney Philharmonia Choirs
+LOCATION:St Philip's Church\, 3 York Street\, Sydney NSW 2000
+DESCRIPTION:Sydney Philharmonia Choirs\nVenue: St Philip's Church\nConfirm 
+ details and book: https://whatson.cityofsydney.nsw.gov.au/events/lessons-a
+ nd-carols\nListing source: City of Sydney What's On. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/lessons-and-carols
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:89b735e7@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:2
+DTSTART:20261226T053000Z
+DTEND:20261226T073000Z
+SUMMARY:Monthly QVB Classical Pop-Up Concert
+LOCATION:Queen Victoria Building\, 455 George Street\, Sydney NSW 2000
+DESCRIPTION:Concerts for All\nVenue: Queen Victoria Building\nConfirm detai
+ ls and book: https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-
+ pop-up\nListing source: City of Sydney What's On. Times and availability c
+ hange - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-pop-up
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -551,6 +776,24 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
 URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
  ampe/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:eefb47ae@matinee-finder
+DTSTAMP:20261110T034551Z
+LAST-MODIFIED:20261110T034551Z
+SEQUENCE:0
+DTSTART:20270207T010000Z
+DTEND:20270207T030000Z
+SUMMARY:Vienna Boys Choir
+LOCATION:Sydney Town Hall\, 483 George Street
+DESCRIPTION:Castiglione Arts and Culture\nVenue: Sydney Town Hall\nConfirm 
+ details and book: https://whatson.cityofsydney.nsw.gov.au/events/vienna-bo
+ ys-choir\nListing source: City of Sydney What's On. Times and availability
+  change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/vienna-boys-choir
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
