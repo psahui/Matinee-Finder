@@ -42,13 +42,24 @@
   "_comment_city_recital_hall": "The hall's own genre labels that count as classical.",
   "city_recital_hall_genres": ["Classical Music", "Opera"],
 
-  "_comment_city_of_sydney": "The guide's 'classical' tag is the organiser's, and trusted. Events at venues another source covers are skipped (matched against venue name AND street address, since the guide spells venues its own way); talks and films that carry the tag are dropped.",
+  "_comment_city_of_sydney": "The guide stopped publishing its 'classical' tag in November 2026, so classical events are picked here: an exclude term in the title, strapline or organiser rules an event out; otherwise a listed composer or include term there, or a description term in the description, rules it in. ignore_phrases are removed first, so 'Opera House' does not count as opera. Terms are regular expressions. Events at venues another source covers are skipped (matched against venue name AND street address, since the guide spells venues its own way).",
   "aggregator_sources": ["City of Sydney What's On"],
   "city_of_sydney": {
     "skip_venues": ["sydney opera house", "bennelong point", "city recital hall", "angel pl",
                     "the concourse", "409 victoria ave"],
-    "skip_tags": ["talk", "lecture", "course", "film", "cinema"],
-    "skip_categories": ["talks-courses-and-workshops"]
+    "categories": ["Music & concerts", "Theatre, performances & musicals"],
+    "skip_categories": ["talks-and-meetups", "courses-and-workshops"],
+    "ignore_phrases": ["opera house", "opera bar", "recital hall"],
+    "include_terms": ["classical", "orchestra", "orchestral", "philharmoni\\w*", "symphon\\w+",
+                      "chamber (?:music|choir|ensemble|orchestra)", "baroque", "recitals?",
+                      "sonatas?", "concertos?", "cantatas?", "oratorio", "requiem", "motets?",
+                      "magnificat", "string quartet", "piano duo", "choral", "operas?", "operatic",
+                      "soprano", "mezzo", "countertenor", "pianist", "cellist", "violinist",
+                      "accordionist", "organist", "musica viva", "omega ensemble",
+                      "national academy of music"],
+    "description_terms": ["mezzo-soprano", "piano quintet"],
+    "exclude_terms": ["jazz", "cabaret", "karaoke", "gospel", "tribute", "big band", "barbershop",
+                      "piano bar", "musical theatre", "community christmas", "film", "filmharmonia", "cinema", "hans zimmer", "ballet", "lecture"]
   },
   "source_degrade_ratio": 0.6,
   "global_sanity_ratio": 0.7,

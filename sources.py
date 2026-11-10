@@ -19,6 +19,7 @@ spoof a browser User-Agent to get around it.
 
 from datetime import datetime, timedelta
 from typing import Callable, Dict, List, Optional, Tuple
+from urllib.parse import urlencode
 import json
 import random
 import re
@@ -28,7 +29,7 @@ import requests
 from bs4 import BeautifulSoup
 
 from core import (
-    DATE_ONLY_PATTERN, DAY_NAMES, MONTH_NAMES, Performance,
+    DATE_ONLY_PATTERN, DAY_NAMES, MONTH_NAMES, Performance, composers_from_title,
     extract_explicit_datetimes, lookup_venue_address, now_sydney,
     parse_date_flexible, parse_iso_datetime,
 )
@@ -777,14 +778,6 @@ def scrape_city_recital_hall(fetcher: Fetcher) -> List[Performance]:
     return performances
 
 
-# "Saturday 7 November 2026 from 5pm to 6pm". The year is omitted for dates
-# in the current year ("Wednesday 4 November from 1:15pm").
-_COS_DATE_LINE = re.compile(
-    rf"({DAY_NAMES})\s+(\d{{1,2}})\s+({MONTH_NAMES})(?:\s+(\d{{4}}))?"
-    r"(?:\s+from\s+(\d{1,2})(?:[:.](\d{2}))?\s*(am|pm))?",
-    re.IGNORECASE)
-
-
 def _date_for_weekday(weekday: str, day: str, month: str, year: str,
                       prefer: Optional[int] = None) -> Optional[datetime]:
     """
@@ -805,107 +798,130 @@ def _date_for_weekday(weekday: str, day: str, month: str, year: str,
     return None
 
 
+def _term_pattern(terms: List[str]) -> "re.Pattern[str]":
+    """A case-insensitive whole-word match for any of `terms`; empty matches nothing."""
+    return re.compile(r"\b(?:" + ("|".join(terms) or "(?!)") + r")\b", re.IGNORECASE)
+
+
+def _cos_extract(record: dict, config: dict) -> Optional[dict]:
+    """
+    Reduce one event-search record to what is cached, or None if not classical.
+
+    The guide no longer publishes the organiser's 'classical' tag, so this is
+    our own judgement from the title, strapline and organiser. The description
+    only counts for the unambiguous terms in description_terms, because
+    descriptions mention "classical training" on all sorts of gigs.
+    """
+    cfg = config.get("city_of_sydney", {})
+    skip_categories = set(cfg.get("skip_categories", []))
+    if skip_categories & {c.get("slug") for c in record.get("categories") or []}:
+        return None
+
+    ignore = _term_pattern(cfg.get("ignore_phrases", []))
+    headline = ignore.sub(" ", " ".join(filter(None, (
+        record.get("name"), record.get("strapline"), record.get("eventOrganiser")))))
+    if _term_pattern(cfg.get("exclude_terms", [])).search(headline):
+        return None
+    description = BeautifulSoup(record.get("description") or "", "html.parser").get_text(" ")
+    if not (composers_from_title(headline, config)
+            or _term_pattern(cfg.get("include_terms", [])).search(headline)
+            or _term_pattern(cfg.get("description_terms", [])).search(description)):
+        return None
+
+    dates = []
+    for raw in record.get("dates") or []:
+        dt = parse_iso_datetime(raw, assume_utc=True)
+        if dt:
+            dates.append({"iso": dt.isoformat(),
+                          "timed": not record.get("isUpcomingAllDayEvent")})
+
+    location = record.get("location") or {}
+    venue = (location.get("venueName") or "").strip()
+    # The venue field is often just the street; the real name is then in the
+    # free-text location note ("Fleet Steps, Mrs Macquaries Point").
+    if re.search(r"^\d|\b(?:st|street|rd|road|ave|avenue|parade|wharf)$", venue, re.IGNORECASE):
+        # Failing that, the title may name it ("Messiah at Sydney Town Hall").
+        at_venue = re.search(r"\bat ((?:[A-Z]\w*\s*)+)$", (record.get("name") or "").strip())
+        venue = ((record.get("additionalLocationInfo") or "").strip()
+                 or (at_venue.group(1).strip() if at_venue else venue))
+    return {
+        "slug": record["slug"],
+        "title": (record.get("name") or "").strip(),
+        "venue": venue or (location.get("suburbName") or "").strip(),
+        "address": (location.get("address") or "").strip(),
+        "organiser": (record.get("eventOrganiser") or "").strip(),
+        "opera": bool(re.search(r"\bopera\b", headline, re.IGNORECASE)),
+        "dates": dates,
+    }
+
+
 def scrape_city_of_sydney(fetcher: Fetcher) -> List[Performance]:
     """
     City of Sydney's What's On guide: an aggregator of organiser-submitted
     events, which is how St James' King St, The Neilson, the Conservatorium
     and smaller halls get in without a scraper each.
 
-    Classical is the ORGANISER's tag, not ours, and is trusted - but talks,
-    lectures and films that carry it are dropped. Venues another source
-    already covers are skipped by name and street address, because this
-    guide spells them differently and the dedup would see two concerts.
-
-    The listing gives only the next performance's time, so each event page is
-    read for "datesHumanised", which has every date with its time. A date with
-    no time stays "Time TBA"; nothing is assumed.
+    Reads the JSON search behind the guide's own listing pages, whose full
+    records carry every performance time as UTC, so no event pages are
+    fetched. Venues another source already covers are skipped by name and
+    street address, because this guide spells them differently and the dedup
+    would see two concerts. A date with no time stays "Time TBA"; nothing is
+    assumed.
     """
     base = "https://whatson.cityofsydney.nsw.gov.au"
-    listing_url = f"{base}/categories/music"
+    search_url = f"{base}/api/v1/events/eventsearch"
+    per_page = 100
     cfg = fetcher.config.get("city_of_sydney", {})
     skip_venues = [s.lower() for s in cfg.get("skip_venues", [])]
-    skip_tags = set(cfg.get("skip_tags", []))
-    skip_categories = set(cfg.get("skip_categories", []))
 
     def covered(*texts: str) -> bool:
         joined = " ".join(t for t in texts if t).lower()
         return any(s in joined for s in skip_venues)
 
-    cached = fetcher.cached(listing_url, "listing")
+    cached = fetcher.cached(search_url, "listing")
     if cached is not None:
         events = cached.get("events", [])
     else:
-        html = fetcher.get(listing_url)
-        m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-        if not m:
-            raise SourceError("City of Sydney: no __NEXT_DATA__ on listing page", "broken")
-        listing = json.loads(m.group(1))["props"]["pageProps"]["events"]
-        if listing.get("nbHits", 0) > len(listing.get("hits", [])):
-            print(f"  [WARNING] City of Sydney lists {listing['nbHits']} music events; "
-                  f"only {len(listing['hits'])} were returned.")
-        events = [{"slug": h["slug"], "venue": h.get("venueName") or "",
-                   "next": h.get("upcomingDate"),
-                   "opera": "opera" in (h.get("tags") or [])}
-                  for h in listing.get("hits", [])
-                  if "classical" in (h.get("tags") or [])
-                  and not skip_tags & set(h.get("tags") or [])
-                  and not skip_categories & set(h.get("categories") or [])
-                  and h.get("slug")]
-        fetcher.store(listing_url, {"events": events})
+        records: Dict[str, dict] = {}
+        for category in cfg.get("categories", []):
+            page = 1
+            while True:
+                query = urlencode({"pageNo": page, "resultsPerPage": per_page,
+                                   "category": category})
+                data = fetcher.get(f"{search_url}?{query}", as_json=True)
+                hits = data.get("events")
+                if hits is None:
+                    raise SourceError("City of Sydney: event search returned no events list",
+                                      "broken")
+                records.update((h["slug"], h) for h in hits if h.get("slug"))
+                if not hits or page * per_page >= data.get("totalResults", 0):
+                    break
+                page += 1
+        if not records:
+            raise SourceError("City of Sydney: event search found nothing", "broken")
+        events = [e for e in (_cos_extract(r, fetcher.config) for r in records.values()) if e]
+        fetcher.store(search_url, {"events": events})
 
     performances: List[Performance] = []
-    for ev in events[:fetcher.config.get("max_event_pages", 200)]:
-        if covered(ev["venue"]):
+    for ev in events:
+        if not ev.get("title") or covered(ev.get("venue"), ev.get("address")):
             continue
-        url = f"{base}/events/{ev['slug']}"
-        nxt = parse_date_flexible(ev.get("next") or "")
-        cached = fetcher.cached(url, fetcher.tier_for_event(nxt))
-        # Extractions cached before organisers were read lack the key; refetch.
-        if cached is not None and "organiser" in cached:
-            result = cached
-        else:
-            html = fetcher.get(url)
-            m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', html, re.S)
-            data = (json.loads(m.group(1))["props"]["pageProps"].get("eventData") or {}) if m else {}
-            venue = data.get("eventVenue") or {}
-            suburb = data.get("eventSuburb") or {}
-            dates = []
-            for weekday, day, month, year, hour, minute, ampm in \
-                    _COS_DATE_LINE.findall(data.get("datesHumanised") or ""):
-                dt = _date_for_weekday(weekday, day, month, year)
-                if not dt:
-                    continue
-                if hour:
-                    h = int(hour) % 12 + (12 if ampm.lower() == "pm" else 0)
-                    dt = dt.replace(hour=h, minute=int(minute or 0))
-                dates.append({"iso": dt.isoformat(), "timed": bool(hour)})
-            result = {
-                "title": (data.get("name") or "").strip(),
-                "venue": venue.get("name") or suburb.get("name") or "",
-                "address": venue.get("addressText") or data.get("addressText") or "",
-                "organiser": (data.get("eventOrganiser") or "").strip(),
-                "dates": dates,
-            }
-            fetcher.store(url, result)
-
-        if not result.get("title") or covered(result.get("venue"), result.get("address")):
-            continue
-        venue_name = result.get("venue") or "See event page"
+        venue_name = ev.get("venue") or "See event page"
         # The organiser is usually the ensemble, but sometimes the hosting
         # church, a street address or a contact person - not a performer.
-        organiser = re.sub(r"\s*\([^)]*\)\s*$", "", result.get("organiser") or "").strip()
-        place = f"{venue_name} {result.get('address', '')}".lower()
+        organiser = re.sub(r"\s*\([^)]*\)\s*$", "", ev.get("organiser") or "").strip()
+        place = f"{venue_name} {ev.get('address', '')}".lower()
         if not organiser or organiser.lower() in place \
                 or re.search(r"\b(church|cathedral|chapel)\b", organiser, re.IGNORECASE):
             organiser = "Various artists"
-        for d in result.get("dates", []):
+        for d in ev.get("dates", []):
             performances.append(Performance(
                 performer=organiser,
-                title=result["title"],
+                title=ev["title"],
                 date=datetime.fromisoformat(d["iso"]),
                 venue_name=venue_name,
-                venue_address=result.get("address") or lookup_venue_address(venue_name),
-                url=url,
+                venue_address=ev.get("address") or lookup_venue_address(venue_name),
+                url=f"{base}/events/{ev['slug']}",
                 source="City of Sydney What's On",
                 time_confirmed=d["timed"],
                 format_hints=["opera"] if ev.get("opera") else [],
