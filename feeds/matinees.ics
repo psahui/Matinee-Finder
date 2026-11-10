@@ -1538,6 +1538,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:42c5a9c4@matinee-finder
+DTSTAMP:20261110T014851Z
+LAST-MODIFIED:20261110T014851Z
+SEQUENCE:2
+DTSTART:20270709T040000Z
+DTEND:20270709T060000Z
+SUMMARY:The Legend Of Zelda™ 40th Anniversary Concert - Sydney Symphony O
+ rchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
+ ouse\nConfirm details and book: https://www.sydneysymphony.com/events/the-
+ legend-of-zelda-2027\nListing source: Sydney Symphony Orchestra. Times and
+  availability change - always confirm with the venue.
+URL:https://www.sydneysymphony.com/events/the-legend-of-zelda-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:4f05ab6c@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z

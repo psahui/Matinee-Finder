@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-09T09:31:18",
- "generated_date": "2026-11-09",
+ "generated_at": "2026-11-10T12:48:51",
+ "generated_date": "2026-11-10",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 491,
-  "public": 470,
-  "matinee": 156,
-  "public_matinee": 135,
+  "total": 492,
+  "public": 471,
+  "matinee": 157,
+  "public_matinee": 136,
   "tba": 11,
   "needs_review": 0,
   "stale": 14
@@ -366,17 +366,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 217,
+   "count": 215,
    "previous_count": 217,
-   "last_success": "2026-11-09T09:29:31",
+   "last_success": "2026-11-10T12:46:26",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 152,
-   "previous_count": 154,
-   "last_success": "2026-11-09T09:30:32",
+   "previous_count": 152,
+   "last_success": "2026-11-10T12:47:05",
    "message": ""
   },
   {
@@ -384,7 +384,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-09T09:30:40",
+   "last_success": "2026-11-10T12:47:12",
    "message": ""
   },
   {
@@ -392,7 +392,7 @@
    "status": "ok",
    "count": 15,
    "previous_count": 15,
-   "last_success": "2026-11-09T09:30:43",
+   "last_success": "2026-11-10T12:47:16",
    "message": ""
   },
   {
@@ -400,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-09T09:30:46",
+   "last_success": "2026-11-10T12:48:20",
    "message": ""
   },
   {
@@ -408,7 +408,7 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-09T09:30:50",
+   "last_success": "2026-11-10T12:48:24",
    "message": ""
   },
   {
@@ -424,7 +424,7 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-09T09:31:18",
+   "last_success": "2026-11-10T12:48:51",
    "message": ""
   }
  ],
@@ -16164,6 +16164,51 @@
    "feed_format": 2
   },
   {
+   "id": "42c5a9c4",
+   "title": "The Legend Of Zelda™ 40th Anniversary Concert",
+   "raw_title": "The Legend Of Zelda™ 40th Anniversary Concert",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Concert Hall, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 18,
+    "on_line": true
+   },
+   "url": "https://www.sydneysymphony.com/events/the-legend-of-zelda-2027",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-07-09",
+   "time": "14:00",
+   "start_utc": "20270709T040000Z",
+   "time_confirmed": true,
+   "sort_key": 202707091400,
+   "date_string": "Friday, 09 July 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-07",
+   "month_label": "July 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-10T12:48:51",
+   "first_seen": "2026-10-01T08:39:37",
+   "sequence": 2,
+   "feed_format": 2
+  },
+  {
    "id": "bd53e7da",
    "title": "Chad Kelly and the Sydney Symphony in Newcastle",
    "raw_title": "Chad Kelly and the Sydney Symphony in Newcastle",
@@ -16222,7 +16267,7 @@
    "feed_format": 2
   },
   {
-   "id": "42c5a9c4",
+   "id": "a50896d4",
    "title": "The Legend Of Zelda™ 40th Anniversary Concert",
    "raw_title": "The Legend Of Zelda™ 40th Anniversary Concert",
    "performer": "Sydney Symphony Orchestra",
@@ -16261,9 +16306,9 @@
    "needs_review": false,
    "classified_by": "default",
    "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-10-01T08:39:37",
-   "sequence": 1,
+   "last_changed": "2026-11-10T12:48:51",
+   "first_seen": "2026-11-10T12:48:51",
+   "sequence": 0,
    "feed_format": 2
   },
   {
