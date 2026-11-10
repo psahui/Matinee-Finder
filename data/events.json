@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-11-10T14:45:51",
- "generated_date": "2026-11-10",
+ "generated_at": "2026-11-11T10:44:05",
+ "generated_date": "2026-11-11",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 530,
@@ -368,7 +368,7 @@
    "status": "ok",
    "count": 215,
    "previous_count": 215,
-   "last_success": "2026-11-10T14:45:39",
+   "last_success": "2026-11-11T10:43:23",
    "message": ""
   },
   {
@@ -376,7 +376,7 @@
    "status": "ok",
    "count": 152,
    "previous_count": 152,
-   "last_success": "2026-11-10T14:45:39",
+   "last_success": "2026-11-11T10:44:02",
    "message": ""
   },
   {
@@ -384,7 +384,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-10T14:45:39",
+   "last_success": "2026-11-11T10:44:02",
    "message": ""
   },
   {
@@ -392,7 +392,7 @@
    "status": "ok",
    "count": 15,
    "previous_count": 15,
-   "last_success": "2026-11-10T14:45:39",
+   "last_success": "2026-11-11T10:44:04",
    "message": ""
   },
   {
@@ -400,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-10T14:45:39",
+   "last_success": "2026-11-11T10:44:04",
    "message": ""
   },
   {
@@ -408,15 +408,15 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-10T14:45:39",
+   "last_success": "2026-11-11T10:44:04",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
    "count": 55,
-   "previous_count": 14,
-   "last_success": "2026-11-10T14:45:51",
+   "previous_count": 55,
+   "last_success": "2026-11-11T10:44:04",
    "message": ""
   },
   {
@@ -424,7 +424,7 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-10T14:45:51",
+   "last_success": "2026-11-11T10:44:04",
    "message": ""
   }
  ],
