@@ -37,13 +37,15 @@ step — `index.html` is plain HTML, CSS and JavaScript with no dependencies.
 | [City of Sydney What's On](https://whatson.cityofsydney.nsw.gov.au/categories/music-and-concerts) | Aggregator: the guide's event search, filtered to classical by the terms in `config.json` |
 | [Salut! Baroque](https://baroque.com.au/concerts/) | Season page, found from `/concerts/` because its address changes yearly; Sydney dates and the full programme. Supersedes the guide's programme-less copy |
 
-City of Sydney What's On is an aggregator of organiser-submitted listings, so it is
-handled defensively: talks and films carrying the classical tag are dropped, venues
-another source covers are skipped by name and street address, and any listing that
-starts at the same minute as another source's concert with mostly the same title words
-is treated as a duplicate. The guide's organiser becomes the performer, unless it is
-really the venue (a hosting church, a street address). Its date text omits the year for the current year, and the
-weekday decides which year is meant rather than assuming the next occurrence.
+City of Sydney What's On is an aggregator of organiser-submitted listings, and it no
+longer marks anything as classical, so it is handled defensively. Only its music and
+theatre categories are read, and a listing is kept only if its title, strapline or
+organiser names a composer or one of the classical terms in `config.json`; jazz,
+cabaret, film scores, ballet, talks and workshops are ruled out. Venues another source
+covers are skipped by name and street address, and any listing that starts at the same
+minute as another source's concert with mostly the same title words is treated as a
+duplicate. The guide's organiser becomes the performer, unless it is really the venue
+(a hosting church, a street address).
 
 Sydney Symphony events presented at the Opera House are taken from the SSO API rather
 than the Opera House listing, because the API carries authoritative times. The
@@ -71,8 +73,9 @@ booked by teachers, not sold to the public), or `participants` (workshops you at
 play in, not listen to; the Young Musicians Workshop page states outright that it "is
 not a performance"). *Format* is what kind of event it is — concert, film in concert,
 family, open rehearsal, masterclass, short format, opera. Opera comes from the sources' own
-genres (the Opera House's Opera listing, City Recital Hall's Opera genre, the guide's
-*opera* tag), since opera titles rarely say so. They are deliberately separate: a
+genres (the Opera House's Opera listing, City Recital Hall's Opera genre), since opera
+titles rarely say so. The City of Sydney guide has no such genre, so there only a
+listing that says "opera" counts. They are deliberately separate: a
 10 AM schools concert genuinely *is* a matinee, it simply isn't bookable. Open
 rehearsals and masterclasses **are** publicly bookable and stay on by default.
 
