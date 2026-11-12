@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-11-12T12:01:00",
- "generated_date": "2026-11-12",
+ "generated_at": "2026-11-13T10:53:38",
+ "generated_date": "2026-11-13",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 540,
@@ -368,15 +368,15 @@
    "status": "ok",
    "count": 215,
    "previous_count": 215,
-   "last_success": "2026-11-12T11:59:42",
+   "last_success": "2026-11-13T10:52:40",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 155,
-   "previous_count": 152,
-   "last_success": "2026-11-12T12:00:18",
+   "previous_count": 155,
+   "last_success": "2026-11-13T10:52:50",
    "message": ""
   },
   {
@@ -384,15 +384,15 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-12T12:00:22",
+   "last_success": "2026-11-13T10:53:18",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
    "count": 14,
-   "previous_count": 15,
-   "last_success": "2026-11-12T12:00:26",
+   "previous_count": 14,
+   "last_success": "2026-11-13T10:53:38",
    "message": ""
   },
   {
@@ -400,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-12T12:00:36",
+   "last_success": "2026-11-13T10:53:38",
    "message": ""
   },
   {
@@ -408,15 +408,15 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-12T12:00:40",
+   "last_success": "2026-11-13T10:53:38",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
    "count": 63,
-   "previous_count": 55,
-   "last_success": "2026-11-12T12:00:52",
+   "previous_count": 63,
+   "last_success": "2026-11-13T10:53:38",
    "message": ""
   },
   {
@@ -424,7 +424,7 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-12T12:01:00",
+   "last_success": "2026-11-13T10:53:38",
    "message": ""
   }
  ],
