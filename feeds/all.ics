@@ -548,6 +548,44 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:0d4838cb@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261128T000000Z
+DTEND:20261128T020000Z
+SUMMARY:Nandi: Lord of Rhythm
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/na
+ ndi-lord-rhythm\nListing source: Sydney Opera House. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/nandi-lord-rhythm
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:738f6dc9@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+SUMMARY:Nandi: Lord of Rhythm
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/na
+ ndi-lord-rhythm\nListing source: Sydney Opera House. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/nandi-lord-rhythm
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:45cd906e@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -597,6 +635,25 @@ DESCRIPTION:Concerts for All\nVenue: Queen Victoria Building\nConfirm detai
  pop-up\nListing source: City of Sydney What's On. Times and availability c
  hange - always confirm with the venue.
 URL:https://whatson.cityofsydney.nsw.gov.au/events/qvb-classical-pop-up
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:707f5392@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261128T063000Z
+DTEND:20261128T083000Z
+SUMMARY:Nandi: Lord of Rhythm
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/na
+ ndi-lord-rhythm\nListing source: Sydney Opera House. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/nandi-lord-rhythm
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -734,6 +791,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:fad1a38d@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261202T021500Z
+DTEND:20261202T041500Z
+SUMMARY:22nd Young Maestros Community Concert
+LOCATION:St. James' Church\, St. James' Church\, King Street\, Sydney NSW\,
+  Australia
+DESCRIPTION:Various artists\nVenue: St. James' Church\nConfirm details and 
+ book: https://whatson.cityofsydney.nsw.gov.au/events/22nd-young-maestros-c
+ ommunity-concert\nListing source: City of Sydney What's On. Times and avai
+ lability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/22nd-young-maestros-comm
+ unity-concert
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:02b0d573@matinee-finder
 DTSTAMP:20261026T225430Z
 LAST-MODIFIED:20261026T225430Z
@@ -855,6 +932,26 @@ DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
  nd availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/classical-music/spain-song-passion-and
  -flamenco
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:d8df7100@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261205T073000Z
+DTEND:20261205T093000Z
+SUMMARY:Encore Performance: The Golden Age of Piano
+LOCATION:Master Music Studio\, Master Music Studio\, Wentworth Park Road\, 
+ Glebe NSW\, Australia
+DESCRIPTION:Various artists\nVenue: Master Music Studio\nConfirm details an
+ d book: https://whatson.cityofsydney.nsw.gov.au/events/encore-performance-
+ the-golden-age-of-piano\nListing source: City of Sydney What's On. Times a
+ nd availability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/encore-performance-the-g
+ olden-age-of-piano
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -1236,6 +1333,27 @@ DESCRIPTION:Sydney Philharmonia Choirs\nVenue: St Philip’s Church York St
   House. Times and availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2026-season
  /lessons-carols
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ff5b972e@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261217T080000Z
+DTEND:20261217T100000Z
+SUMMARY:Mosman Concert Series presents the Mosman Messiah!
+LOCATION:Blessed Sacrament Clifton Gardens\, Blessed Sacrament Clifton Gard
+ ens\, Bradleys Head Road\, Mosman NSW\, Australia
+DESCRIPTION:Mosman Concert Series\nVenue: Blessed Sacrament Clifton Gardens
+ \nConfirm details and book: https://whatson.cityofsydney.nsw.gov.au/events
+ /mosman-concert-series-presents-the-mosman-messiah-2\nListing source: City
+  of Sydney What's On. Times and availability change - always confirm with 
+ the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/mosman-concert-series-pr
+ esents-the-mosman-messiah-2
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2348,6 +2466,25 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
 URL:https://www.cityrecitalhall.com/whats-on/events/pyramus-and-thisbe-by-l
  ampe/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:ecd5218d@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20270206T060000Z
+DTEND:20270206T080000Z
+SUMMARY:Sydney International Organ Festival
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-or
+ gan-festival\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-org
+ an-festival
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -5189,6 +5326,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:e4d1e51e@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20270424T070000Z
+DTEND:20270424T090000Z
+SUMMARY:Sydney International Organ Festival
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-or
+ gan-festival\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-org
+ an-festival
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:a950369f@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z
@@ -5898,6 +6054,25 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Utzon Room\, Sydney Opera Hou
 URL:https://www.sydneysymphony.com/events/cocktail-hour-with-alexandra-osbo
  rne-2027
 CATEGORIES:short_format
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6ab7f9e9@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20270612T070000Z
+DTEND:20270612T090000Z
+SUMMARY:Sydney International Organ Festival
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-or
+ gan-festival\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-org
+ an-festival
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -7740,6 +7915,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:0a73b635@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20270904T070000Z
+DTEND:20270904T090000Z
+SUMMARY:Sydney International Organ Festival
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-or
+ gan-festival\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-org
+ an-festival
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:811bdbb2@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -8878,6 +9072,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:60946179@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20271106T060000Z
+DTEND:20271106T080000Z
+SUMMARY:Sydney International Organ Festival
+LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
+DESCRIPTION:Various artists\nVenue: St James Church\nConfirm details and bo
+ ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-or
+ gan-festival\nListing source: City of Sydney What's On. Times and availabi
+ lity change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-international-org
+ an-festival
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:f62dd1b7@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -9572,25 +9785,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  assical-christmas-2027\nListing source: Sydney Symphony Orchestra. Times a
  nd availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/a-classical-christmas-2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ed5457a8@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20271212T030000Z
-DTEND:20271212T050000Z
-SUMMARY:Willoughby Symphony Orchestra – Spirit Of Christmas 2027
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/willoughby-symphony-o
- rchestra-spirit-of-christmas-2027/\nListing source: The Concourse. Times a
- nd availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
- rit-of-christmas-2027/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

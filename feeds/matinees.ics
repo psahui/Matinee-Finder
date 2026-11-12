@@ -340,6 +340,44 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:0d4838cb@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261128T000000Z
+DTEND:20261128T020000Z
+SUMMARY:Nandi: Lord of Rhythm
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/na
+ ndi-lord-rhythm\nListing source: Sydney Opera House. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/nandi-lord-rhythm
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:738f6dc9@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261128T030000Z
+DTEND:20261128T050000Z
+SUMMARY:Nandi: Lord of Rhythm
+LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
+ 0
+DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
+ firm details and book: https://www.sydneyoperahouse.com/classical-music/na
+ ndi-lord-rhythm\nListing source: Sydney Opera House. Times and availabilit
+ y change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/nandi-lord-rhythm
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:45cd906e@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -466,6 +504,26 @@ DESCRIPTION:Pinchgut Opera\nVenue: City Recital Hall\nConfirm details and b
  nfirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/
 CATEGORIES:opera
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:fad1a38d@matinee-finder
+DTSTAMP:20261112T010100Z
+LAST-MODIFIED:20261112T010100Z
+SEQUENCE:0
+DTSTART:20261202T021500Z
+DTEND:20261202T041500Z
+SUMMARY:22nd Young Maestros Community Concert
+LOCATION:St. James' Church\, St. James' Church\, King Street\, Sydney NSW\,
+  Australia
+DESCRIPTION:Various artists\nVenue: St. James' Church\nConfirm details and 
+ book: https://whatson.cityofsydney.nsw.gov.au/events/22nd-young-maestros-c
+ ommunity-concert\nListing source: City of Sydney What's On. Times and avai
+ lability change - always confirm with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/22nd-young-maestros-comm
+ unity-concert
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
@@ -2810,25 +2868,6 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  assical-christmas-2027\nListing source: Sydney Symphony Orchestra. Times a
  nd availability change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/a-classical-christmas-2027
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ed5457a8@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20271212T030000Z
-DTEND:20271212T050000Z
-SUMMARY:Willoughby Symphony Orchestra – Spirit Of Christmas 2027
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
- ails and book: https://www.theconcourse.com.au/event/willoughby-symphony-o
- rchestra-spirit-of-christmas-2027/\nListing source: The Concourse. Times a
- nd availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
- rit-of-christmas-2027/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
