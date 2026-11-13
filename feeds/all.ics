@@ -8,26 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:bde426da@matinee-finder
-DTSTAMP:20261023T214245Z
-LAST-MODIFIED:20261023T214245Z
-SEQUENCE:2
-DTSTART:20261113T083000Z
-DTEND:20261113T103000Z
-SUMMARY:James Dekleva in Recital | Tchaikovsky’s Nutcracker
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/ja
- mes-dekleva-recital-tchaikovskys-nutcracker\nListing source: Sydney Opera 
- House. Times and availability change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/james-dekleva-recital-
- tchaikovskys-nutcracker
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:bbe11041@matinee-finder
 DTSTAMP:20261101T065412Z
 LAST-MODIFIED:20261101T065412Z
@@ -1052,6 +1032,27 @@ DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
  ity change - always confirm with the venue.
 URL:https://www.cityrecitalhall.com/whats-on/events/bachs-christmas-oratori
  o/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:c18b2e9e@matinee-finder
+DTSTAMP:20261113T235449Z
+LAST-MODIFIED:20261113T235449Z
+SEQUENCE:0
+DTSTART:20261209T063000Z
+DTEND:20261209T083000Z
+SUMMARY:Gathering of voices - end of year choral performance
+LOCATION:Green Square Public School and Community Spaces\, Green Square Pub
+ lic School and Community Spaces\, Zetland Avenue\, Zetland NSW\, Australia
+DESCRIPTION:City of Sydney\nVenue: Green Square Public School and Community
+  Spaces\nConfirm details and book: https://whatson.cityofsydney.nsw.gov.au
+ /events/gathering-of-voices-end-of-year-choral-performance\nListing source
+ : City of Sydney What's On. Times and availability change - always confirm
+  with the venue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/gathering-of-voices-end-
+ of-year-choral-performance
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED

@@ -1,7 +1,7 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T10:53:38",
- "generated_date": "2026-11-13",
+ "generated_at": "2026-11-14T10:54:49",
+ "generated_date": "2026-11-14",
  "timezone": "Australia/Sydney",
  "counts": {
   "total": 540,
@@ -368,15 +368,15 @@
    "status": "ok",
    "count": 215,
    "previous_count": 215,
-   "last_success": "2026-11-13T10:52:40",
+   "last_success": "2026-11-14T10:52:48",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 155,
+   "count": 154,
    "previous_count": 155,
-   "last_success": "2026-11-13T10:52:50",
+   "last_success": "2026-11-14T10:53:25",
    "message": ""
   },
   {
@@ -384,7 +384,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-13T10:53:18",
+   "last_success": "2026-11-14T10:53:29",
    "message": ""
   },
   {
@@ -392,7 +392,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-13T10:53:38",
+   "last_success": "2026-11-14T10:53:32",
    "message": ""
   },
   {
@@ -400,7 +400,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-13T10:53:38",
+   "last_success": "2026-11-14T10:54:27",
    "message": ""
   },
   {
@@ -408,15 +408,15 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-13T10:53:38",
+   "last_success": "2026-11-14T10:54:31",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 63,
+   "count": 64,
    "previous_count": 63,
-   "last_success": "2026-11-13T10:53:38",
+   "last_success": "2026-11-14T10:54:41",
    "message": ""
   },
   {
@@ -424,58 +424,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-13T10:53:38",
+   "last_success": "2026-11-14T10:54:49",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "bde426da",
-   "title": "James Dekleva in Recital | Tchaikovsky’s Nutcracker",
-   "raw_title": "James Dekleva in Recital | Tchaikovsky’s Nutcracker",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [
-    "Tchaikovsky"
-   ],
-   "works": [],
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneyoperahouse.com/classical-music/james-dekleva-recital-tchaikovskys-nutcracker",
-   "source": "Sydney Opera House",
-   "date": "2026-11-13",
-   "time": "19:30",
-   "start_utc": "20261113T083000Z",
-   "time_confirmed": true,
-   "sort_key": 202611131930,
-   "date_string": "Friday, 13 November 2026",
-   "time_string": "7:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-24T08:42:45",
-   "first_seen": "2026-09-24T07:49:13",
-   "sequence": 2,
-   "feed_format": 2
-  },
   {
    "id": "bbe11041",
    "title": "Cantos Sagrados",
@@ -3102,6 +3055,47 @@
    "stale": false,
    "last_changed": "2026-11-01T17:34:55",
    "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "c18b2e9e",
+   "title": "Gathering of voices - end of year choral performance",
+   "raw_title": "Gathering of voices - end of year choral performance",
+   "performer": "City of Sydney",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Green Square Public School and Community Spaces",
+   "venue_group": "Other venues",
+   "venue_address": "Green Square Public School and Community Spaces, Zetland Avenue, Zetland NSW, Australia",
+   "region": "sydney",
+   "metro": null,
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/gathering-of-voices-end-of-year-choral-performance",
+   "source": "City of Sydney What's On",
+   "date": "2026-12-09",
+   "time": "17:30",
+   "start_utc": "20261209T063000Z",
+   "time_confirmed": true,
+   "sort_key": 202612091730,
+   "date_string": "Wednesday, 09 December 2026",
+   "time_string": "5:30 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "twilight",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-14T10:54:49",
+   "first_seen": "2026-11-14T10:54:49",
    "sequence": 0,
    "feed_format": 2
   },
