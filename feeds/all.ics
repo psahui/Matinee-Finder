@@ -8,42 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:bbe11041@matinee-finder
-DTSTAMP:20261101T065412Z
-LAST-MODIFIED:20261101T065412Z
-SEQUENCE:1
-DTSTART:20261114T060000Z
-DTEND:20261114T080000Z
-SUMMARY:Cantos Sagrados
-LOCATION:St James Church\, 173 King Street\, Sydney NSW 2000
-DESCRIPTION:Sydney Chamber Choir\nVenue: St James Church\nConfirm details a
- nd book: https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados\nL
- isting source: City of Sydney What's On. Times and availability change - a
- lways confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/cantos-sagrados
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:ddc2ce71@matinee-finder
-DTSTAMP:20261101T063455Z
-LAST-MODIFIED:20261101T063455Z
-SEQUENCE:0
-DTSTART:20261114T080000Z
-DTEND:20261114T100000Z
-SUMMARY:Beethoven’s Pastoral - Australian Chamber Orchestra
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
-  details and book: https://www.cityrecitalhall.com/whats-on/events/beethov
- en-s-pastoral/\nListing source: City Recital Hall. Times and availability 
- change - always confirm with the venue.
-URL:https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:af691825@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
