@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-15T09:45:12",
- "generated_date": "2026-11-15",
+ "generated_at": "2026-11-16T10:17:33",
+ "generated_date": "2026-11-16",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 538,
-  "public": 517,
-  "matinee": 168,
-  "public_matinee": 147,
+  "total": 532,
+  "public": 511,
+  "matinee": 163,
+  "public_matinee": 142,
   "tba": 10,
   "needs_review": 0,
   "stale": 0
@@ -157,7 +157,6 @@
    "Omega Ensemble",
    "Opera Australia",
    "Pinchgut Opera",
-   "Salut! Baroque",
    "Selby & Friends",
    "Sydney Philharmonia Choirs",
    "Sydney Symphony Orchestra",
@@ -211,22 +210,18 @@
    "d'Ambruys",
    "Debussy",
    "Donizetti",
-   "John Dowland",
    "Dukas",
    "Dvořák",
    "Ross Edwards",
    "Elgar",
    "Ēriks Ešenvalds",
    "Van Eyck",
-   "Johann Friedrich Fasch",
-   "Mateo Flecha",
    "Françaix",
    "Gershwin",
    "Gibbons",
    "Brenda Gifford",
    "Glière",
    "Gounod",
-   "Christoph Graupner",
    "Grieg",
    "HK Gruber",
    "Guilmant",
@@ -272,7 +267,6 @@
    "Nathaniel Otley",
    "Palestrina",
    "Arvo Pärt",
-   "Pergolesi",
    "Picforth",
    "Pierpont",
    "Lauri Porra",
@@ -308,7 +302,6 @@
    "Stockhausen",
    "Richard Strauss",
    "Stravinsky",
-   "Barbara Strozzi",
    "Jack Symonds",
    "Joseph Tawadros",
    "Tchaikovsky",
@@ -355,7 +348,6 @@
    "City Recital Hall",
    "City of Sydney What's On",
    "North Sydney Symphony",
-   "Salut! Baroque",
    "Sydney Opera House",
    "Sydney Symphony Orchestra",
    "The Concourse",
@@ -368,15 +360,15 @@
    "status": "ok",
    "count": 215,
    "previous_count": 215,
-   "last_success": "2026-11-15T09:44:40",
+   "last_success": "2026-11-16T10:15:45",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 154,
+   "count": 143,
    "previous_count": 154,
-   "last_success": "2026-11-15T09:45:09",
+   "last_success": "2026-11-16T10:16:50",
    "message": ""
   },
   {
@@ -384,7 +376,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-15T09:45:09",
+   "last_success": "2026-11-16T10:16:59",
    "message": ""
   },
   {
@@ -392,7 +384,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-15T09:45:12",
+   "last_success": "2026-11-16T10:17:02",
    "message": ""
   },
   {
@@ -400,7 +392,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-15T09:45:12",
+   "last_success": "2026-11-16T10:17:12",
    "message": ""
   },
   {
@@ -408,15 +400,15 @@
    "status": "ok",
    "count": 95,
    "previous_count": 95,
-   "last_success": "2026-11-15T09:45:12",
+   "last_success": "2026-11-16T10:17:16",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 64,
+   "count": 61,
    "previous_count": 64,
-   "last_success": "2026-11-15T09:45:12",
+   "last_success": "2026-11-16T10:17:26",
    "message": ""
   },
   {
@@ -424,335 +416,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-15T09:45:12",
+   "last_success": "2026-11-16T10:17:33",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "af691825",
-   "title": "48th Suzuki Graduation Piano Recitals",
-   "raw_title": "48th Suzuki Graduation Piano Recitals",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation-piano-recitals",
-   "source": "Sydney Opera House",
-   "date": "2026-11-15",
-   "time": "10:30",
-   "start_utc": "20261114T233000Z",
-   "time_confirmed": true,
-   "sort_key": 202611151030,
-   "date_string": "Sunday, 15 November 2026",
-   "time_string": "10:30 AM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "morning",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-09-22T08:18:09",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "563d6d71",
-   "title": "48th Suzuki Graduation Piano Recitals",
-   "raw_title": "48th Suzuki Graduation Piano Recitals",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation-piano-recitals",
-   "source": "Sydney Opera House",
-   "date": "2026-11-15",
-   "time": "12:30",
-   "start_utc": "20261115T013000Z",
-   "time_confirmed": true,
-   "sort_key": 202611151230,
-   "date_string": "Sunday, 15 November 2026",
-   "time_string": "12:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-09-22T08:18:09",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "04dcf341",
-   "title": "Beethoven’s Pastoral",
-   "raw_title": "Beethoven’s Pastoral",
-   "performer": "Australian Chamber Orchestra",
-   "performer_group": "Australian Chamber Orchestra",
-   "programme": null,
-   "composers": [
-    "Beethoven"
-   ],
-   "works": [],
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneyoperahouse.com/australian-chamber-orchestra/2026-season/beethovens-pastoral",
-   "source": "Sydney Opera House",
-   "date": "2026-11-15",
-   "time": "14:00",
-   "start_utc": "20261115T030000Z",
-   "time_confirmed": true,
-   "sort_key": 202611151400,
-   "date_string": "Sunday, 15 November 2026",
-   "time_string": "2:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "da4b3f7a",
-   "title": "48th Suzuki Graduation Piano Recitals",
-   "raw_title": "48th Suzuki Graduation Piano Recitals",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneyoperahouse.com/classical-music/48th-suzuki-graduation-piano-recitals",
-   "source": "Sydney Opera House",
-   "date": "2026-11-15",
-   "time": "14:30",
-   "start_utc": "20261115T033000Z",
-   "time_confirmed": true,
-   "sort_key": 202611151430,
-   "date_string": "Sunday, 15 November 2026",
-   "time_string": "2:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-09-22T08:18:09",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "bc91e606",
-   "title": "Charms in Musick",
-   "raw_title": "Charms in Musick",
-   "performer": "Salut! Baroque",
-   "performer_group": "Salut! Baroque",
-   "programme": null,
-   "composers": [
-    "Handel",
-    "Johann Friedrich Fasch",
-    "Barbara Strozzi",
-    "John Dowland",
-    "Christoph Graupner",
-    "Pergolesi",
-    "Telemann",
-    "Mateo Flecha"
-   ],
-   "works": [
-    {
-     "composer": "Handel",
-     "work": "Air Guardian Angels, Oh Protect me (1757)"
-    },
-    {
-     "composer": "Johann Friedrich Fasch",
-     "work": "Orchestral Suite in G Minor FWV K:g 2 (c1740)"
-    },
-    {
-     "composer": "Barbara Strozzi",
-     "work": "Aria Che si può fare Op. 8 No. 6 (1664)"
-    },
-    {
-     "composer": "John Dowland",
-     "work": "Shall I strive with words to move from A Pilgrim’s Solace (1612)"
-    },
-    {
-     "composer": "John Dowland",
-     "work": "Fine knacks for ladies from Second Booke of Songes (1600)"
-    },
-    {
-     "composer": "Christoph Graupner",
-     "work": "Ouverture-Suite in E minor GWV 442 (c1735)"
-    },
-    {
-     "composer": "Pergolesi",
-     "work": "Aria Lieto Così Talvolta (1734)"
-    },
-    {
-     "composer": "Telemann",
-     "work": "Concerto in A minor TWV 53:a1 (c1721)"
-    },
-    {
-     "composer": "Christoph Graupner",
-     "work": "Aria Seufzt und weint, ihr matten Augen (1711)"
-    },
-    {
-     "composer": "Mateo Flecha",
-     "work": "from El fuego (c1550?)"
-    }
-   ],
-   "venue_name": "Verbrugghen Hall, Conservatorium of Music",
-   "venue_group": "Verbrugghen Hall",
-   "venue_address": "Sydney Conservatorium of Music, Macquarie St, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 10,
-    "on_line": true
-   },
-   "url": "https://baroque.com.au/2026-concert-series-power-passion-politics/",
-   "source": "Salut! Baroque",
-   "date": "2026-11-15",
-   "time": "15:00",
-   "start_utc": "20261115T040000Z",
-   "time_confirmed": true,
-   "sort_key": 202611151500,
-   "date_string": "Sunday, 15 November 2026",
-   "time_string": "3:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
-   "first_seen": "2026-11-01T17:54:12",
-   "sequence": 0,
-   "feed_format": 2
-  },
-  {
-   "id": "224398ed",
-   "title": "Bach & Charpentier – Music for Christmas",
-   "raw_title": "Bach & Charpentier – Music for Christmas",
-   "performer": "Bach Akademie Australia",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [
-    "Bach"
-   ],
-   "works": [],
-   "venue_name": "St James Church",
-   "venue_group": "St James' Church",
-   "venue_address": "173 King Street, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/bach-and-charpentier-music-for-christmas",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-15",
-   "time": "17:00",
-   "start_utc": "20261115T060000Z",
-   "time_confirmed": true,
-   "sort_key": 202611151700,
-   "date_string": "Sunday, 15 November 2026",
-   "time_string": "5:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "twilight",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "e61b945e",
    "title": "Sydney Town Hall organ recitals",
@@ -9177,7 +8845,7 @@
     },
     {
      "composer": "Vaughan Williams",
-     "work": "A London Symphony"
+     "work": "A London Symphony (1913 version)"
     }
    ],
    "venue_name": "Concert Hall, Sydney Opera House",
@@ -9281,7 +8949,7 @@
     },
     {
      "composer": "Vaughan Williams",
-     "work": "A London Symphony"
+     "work": "A London Symphony (1913 version)"
     }
    ],
    "venue_name": "Concert Hall, Sydney Opera House",
@@ -9432,7 +9100,7 @@
     },
     {
      "composer": "Vaughan Williams",
-     "work": "A London Symphony"
+     "work": "A London Symphony (1913 version)"
     }
    ],
    "venue_name": "Concert Hall, Sydney Opera House",
@@ -9581,7 +9249,7 @@
     },
     {
      "composer": "Vaughan Williams",
-     "work": "A London Symphony"
+     "work": "A London Symphony (1913 version)"
     }
    ],
    "venue_name": "Concert Hall, Sydney Opera House",
@@ -9769,11 +9437,19 @@
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
    "composers": [
-    "Jens Joneleit",
     "Beethoven",
-    "Schumann"
+    "Schumann",
+    "Jens Joneleit"
    ],
    "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Two Romances"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Symphony No.3, Rhenish"
+    },
     {
      "composer": "Jens Joneleit",
      "work": "Sinfonia X"
@@ -10037,11 +9713,19 @@
    "performer_group": "Sydney Symphony Orchestra",
    "programme": null,
    "composers": [
-    "Jens Joneleit",
     "Beethoven",
-    "Schumann"
+    "Schumann",
+    "Jens Joneleit"
    ],
    "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Two Romances"
+    },
+    {
+     "composer": "Schumann",
+     "work": "Symphony No.3, Rhenish"
+    },
     {
      "composer": "Jens Joneleit",
      "work": "Sinfonia X"
