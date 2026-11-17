@@ -8,44 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:e61b945e@matinee-finder
-DTSTAMP:20261110T034551Z
-LAST-MODIFIED:20261110T034551Z
-SEQUENCE:0
-DTSTART:20261116T013000Z
-DTEND:20261116T033000Z
-SUMMARY:Sydney Town Hall organ recitals
-LOCATION:Sydney Town Hall\, 483 George Street
-DESCRIPTION:City of Sydney\nVenue: Sydney Town Hall\nConfirm details and bo
- ok: https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-
- recitals\nListing source: City of Sydney What's On. Times and availability
-  change - always confirm with the venue.
-URL:https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-r
- ecitals
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:bfa571d6@matinee-finder
-DTSTAMP:20261101T063455Z
-LAST-MODIFIED:20261101T063455Z
-SEQUENCE:0
-DTSTART:20261116T080000Z
-DTEND:20261116T100000Z
-SUMMARY:Latvian Radio Choir & Genevieve Lacey - Musica Viva Australia
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Musica Viva Australia\nVenue: City Recital Hall\nConfirm detail
- s and book: https://www.cityrecitalhall.com/whats-on/events/latvian-radio-
- choir-genevieve-lacey/\nListing source: City Recital Hall. Times and avail
- ability change - always confirm with the venue.
-URL:https://www.cityrecitalhall.com/whats-on/events/latvian-radio-choir-gen
- evieve-lacey/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:14ba9f63@matinee-finder
 DTSTAMP:20261101T063455Z
 LAST-MODIFIED:20261101T063455Z

@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-16T10:17:33",
- "generated_date": "2026-11-16",
+ "generated_at": "2026-11-17T13:08:04",
+ "generated_date": "2026-11-17",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 532,
-  "public": 511,
-  "matinee": 163,
-  "public_matinee": 142,
+  "total": 530,
+  "public": 509,
+  "matinee": 162,
+  "public_matinee": 141,
   "tba": 10,
   "needs_review": 0,
   "stale": 0
@@ -214,8 +214,6 @@
    "Dvořák",
    "Ross Edwards",
    "Elgar",
-   "Ēriks Ešenvalds",
-   "Van Eyck",
    "Françaix",
    "Gershwin",
    "Gibbons",
@@ -265,7 +263,6 @@
    "Offenbach",
    "Orff",
    "Nathaniel Otley",
-   "Palestrina",
    "Arvo Pärt",
    "Picforth",
    "Pierpont",
@@ -282,7 +279,6 @@
    "Respighi",
    "Max Richter",
    "Rimsky-Korsakov",
-   "Hollis Taylor and Jon Rose",
    "Saint-Saëns",
    "Satie",
    "Domenico Scarlatti",
@@ -360,15 +356,15 @@
    "status": "ok",
    "count": 215,
    "previous_count": 215,
-   "last_success": "2026-11-16T10:15:45",
+   "last_success": "2026-11-17T13:06:02",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 143,
-   "previous_count": 154,
-   "last_success": "2026-11-16T10:16:50",
+   "previous_count": 143,
+   "last_success": "2026-11-17T13:06:35",
    "message": ""
   },
   {
@@ -376,7 +372,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-16T10:16:59",
+   "last_success": "2026-11-17T13:06:43",
    "message": ""
   },
   {
@@ -384,7 +380,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-16T10:17:02",
+   "last_success": "2026-11-17T13:06:46",
    "message": ""
   },
   {
@@ -392,23 +388,23 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-16T10:17:12",
+   "last_success": "2026-11-17T13:07:42",
    "message": ""
   },
   {
    "name": "City Recital Hall",
    "status": "ok",
-   "count": 95,
+   "count": 94,
    "previous_count": 95,
-   "last_success": "2026-11-16T10:17:16",
+   "last_success": "2026-11-17T13:07:46",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 61,
-   "previous_count": 64,
-   "last_success": "2026-11-16T10:17:26",
+   "count": 60,
+   "previous_count": 61,
+   "last_success": "2026-11-17T13:07:56",
    "message": ""
   },
   {
@@ -416,143 +412,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-16T10:17:33",
+   "last_success": "2026-11-17T13:08:04",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "e61b945e",
-   "title": "Sydney Town Hall organ recitals",
-   "raw_title": "Sydney Town Hall organ recitals",
-   "performer": "City of Sydney",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Sydney Town Hall",
-   "venue_group": "Sydney Town Hall",
-   "venue_address": "483 George Street",
-   "region": "sydney",
-   "metro": {
-    "station": "Gadigal",
-    "minutes": 4,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/sydney-town-hall-organ-recitals",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-16",
-   "time": "12:30",
-   "start_utc": "20261116T013000Z",
-   "time_confirmed": true,
-   "sort_key": 202611161230,
-   "date_string": "Monday, 16 November 2026",
-   "time_string": "12:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 0,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-10T14:45:51",
-   "first_seen": "2026-11-10T14:45:51",
-   "sequence": 0,
-   "feed_format": 2
-  },
-  {
-   "id": "bfa571d6",
-   "title": "Latvian Radio Choir & Genevieve Lacey",
-   "raw_title": "Latvian Radio Choir & Genevieve Lacey",
-   "performer": "Musica Viva Australia",
-   "performer_group": "Musica Viva Australia",
-   "programme": null,
-   "composers": [
-    "Caroline Shaw",
-    "Van Eyck",
-    "Arvo Pärt",
-    "Mendelssohn",
-    "Hollis Taylor and Jon Rose",
-    "Palestrina",
-    "Pēteris Vasks",
-    "Ēriks Ešenvalds"
-   ],
-   "works": [
-    {
-     "composer": "Caroline Shaw",
-     "work": "And the Swallow"
-    },
-    {
-     "composer": "Van Eyck",
-     "work": "Engels Nachtegaeltje"
-    },
-    {
-     "composer": "Arvo Pärt",
-     "work": "Magnificat and Nunc dimittis"
-    },
-    {
-     "composer": "Mendelssohn",
-     "work": "Psalm XXII ‘Mein Gott, warum hast du mich verlassen’"
-    },
-    {
-     "composer": "Hollis Taylor and Jon Rose",
-     "work": "Bird on Byrd (New Commission)"
-    },
-    {
-     "composer": "Palestrina",
-     "work": "Diminutions on Pulchra es anima mea"
-    },
-    {
-     "composer": "Pēteris Vasks",
-     "work": "Our Mothers' Names"
-    },
-    {
-     "composer": "Ēriks Ešenvalds",
-     "work": "Ceremony of Swans (New commission)"
-    }
-   ],
-   "venue_name": "City Recital Hall",
-   "venue_group": "City Recital Hall",
-   "venue_address": "2 Angel Pl, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://www.cityrecitalhall.com/whats-on/events/latvian-radio-choir-genevieve-lacey/",
-   "source": "City Recital Hall",
-   "date": "2026-11-16",
-   "time": "19:00",
-   "start_utc": "20261116T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611161900,
-   "date_string": "Monday, 16 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 0,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:34:55",
-   "first_seen": "2026-11-01T17:34:55",
-   "sequence": 0,
-   "feed_format": 2
-  },
   {
    "id": "14ba9f63",
    "title": "Beethoven’s Pastoral",
