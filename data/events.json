@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-11-17T13:08:04",
- "generated_date": "2026-11-17",
+ "generated_at": "2026-11-18T12:19:26",
+ "generated_date": "2026-11-18",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 530,
-  "public": 509,
+  "total": 529,
+  "public": 508,
   "matinee": 162,
   "public_matinee": 141,
   "tba": 10,
@@ -356,7 +356,7 @@
    "status": "ok",
    "count": 215,
    "previous_count": 215,
-   "last_success": "2026-11-17T13:06:02",
+   "last_success": "2026-11-18T12:18:51",
    "message": ""
   },
   {
@@ -364,7 +364,7 @@
    "status": "ok",
    "count": 143,
    "previous_count": 143,
-   "last_success": "2026-11-17T13:06:35",
+   "last_success": "2026-11-18T12:19:22",
    "message": ""
   },
   {
@@ -372,7 +372,7 @@
    "status": "ok",
    "count": 20,
    "previous_count": 20,
-   "last_success": "2026-11-17T13:06:43",
+   "last_success": "2026-11-18T12:19:22",
    "message": ""
   },
   {
@@ -380,7 +380,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-17T13:06:46",
+   "last_success": "2026-11-18T12:19:25",
    "message": ""
   },
   {
@@ -388,23 +388,23 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-17T13:07:42",
+   "last_success": "2026-11-18T12:19:25",
    "message": ""
   },
   {
    "name": "City Recital Hall",
    "status": "ok",
    "count": 94,
-   "previous_count": 95,
-   "last_success": "2026-11-17T13:07:46",
+   "previous_count": 94,
+   "last_success": "2026-11-18T12:19:25",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
    "count": 60,
-   "previous_count": 61,
-   "last_success": "2026-11-17T13:07:56",
+   "previous_count": 60,
+   "last_success": "2026-11-18T12:19:25",
    "message": ""
   },
   {
@@ -412,71 +412,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-17T13:08:04",
+   "last_success": "2026-11-18T12:19:25",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "14ba9f63",
-   "title": "Beethoven’s Pastoral",
-   "raw_title": "Beethoven’s Pastoral",
-   "performer": "Australian Chamber Orchestra",
-   "performer_group": "Australian Chamber Orchestra",
-   "programme": null,
-   "composers": [
-    "Beethoven"
-   ],
-   "works": [
-    {
-     "composer": "Beethoven",
-     "work": "Coriolan Overture, Op.62"
-    },
-    {
-     "composer": "Beethoven",
-     "work": "Triple Concert for Violin, Cello and Piano in C major, Op.56"
-    },
-    {
-     "composer": "Beethoven",
-     "work": "Symphony No.6 in F major, Op.68 \"Pastoral\""
-    }
-   ],
-   "venue_name": "City Recital Hall",
-   "venue_group": "City Recital Hall",
-   "venue_address": "2 Angel Pl, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/",
-   "source": "City Recital Hall",
-   "date": "2026-11-17",
-   "time": "20:00",
-   "start_utc": "20261117T090000Z",
-   "time_confirmed": true,
-   "sort_key": 202611172000,
-   "date_string": "Tuesday, 17 November 2026",
-   "time_string": "8:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 1,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:34:55",
-   "first_seen": "2026-11-01T17:34:55",
-   "sequence": 0,
-   "feed_format": 2
-  },
   {
    "id": "c92411e7",
    "title": "Lunchtime Concert: Austral Harmony Bach Springtime Pastoral",
@@ -2945,6 +2885,51 @@
    "feed_format": 2
   },
   {
+   "id": "f4ce1183",
+   "title": "Willoughby Symphony Orchestra: Spirit Of Christmas 2026",
+   "raw_title": "Willoughby Symphony Orchestra: Spirit Of Christmas 2026",
+   "performer": "Willoughby Symphony Orchestra",
+   "performer_group": "Willoughby Symphony Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "The Concourse, Chatswood",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "metro": {
+    "station": "Chatswood",
+    "minutes": 7,
+    "on_line": true
+   },
+   "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spirit-of-christmas-2026/",
+   "source": "The Concourse",
+   "date": "2026-12-13",
+   "time": "10:30",
+   "start_utc": "20261212T233000Z",
+   "time_confirmed": true,
+   "sort_key": 202612131030,
+   "date_string": "Sunday, 13 December 2026",
+   "time_string": "10:30 AM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "morning",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-18T12:19:26",
+   "first_seen": "2026-08-07T11:57:59",
+   "sequence": 2,
+   "feed_format": 2
+  },
+  {
    "id": "7595f144",
    "title": "Handel’s Messiah",
    "raw_title": "Handel’s Messiah",
@@ -2973,51 +2958,6 @@
    "sort_key": 202612131300,
    "date_string": "Sunday, 13 December 2026",
    "time_string": "1:00 PM",
-   "month_key": "2026-12",
-   "month_label": "December 2026",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "f4ce1183",
-   "title": "Willoughby Symphony Orchestra: Spirit Of Christmas 2026",
-   "raw_title": "Willoughby Symphony Orchestra: Spirit Of Christmas 2026",
-   "performer": "Willoughby Symphony Orchestra",
-   "performer_group": "Willoughby Symphony Orchestra",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "The Concourse, Chatswood",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "metro": {
-    "station": "Chatswood",
-    "minutes": 7,
-    "on_line": true
-   },
-   "url": "https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spirit-of-christmas-2026/",
-   "source": "The Concourse",
-   "date": "2026-12-13",
-   "time": "14:00",
-   "start_utc": "20261213T030000Z",
-   "time_confirmed": true,
-   "sort_key": 202612131400,
-   "date_string": "Sunday, 13 December 2026",
-   "time_string": "2:00 PM",
    "month_key": "2026-12",
    "month_label": "December 2026",
    "weekday": 6,

@@ -8,24 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:14ba9f63@matinee-finder
-DTSTAMP:20261101T063455Z
-LAST-MODIFIED:20261101T063455Z
-SEQUENCE:0
-DTSTART:20261117T090000Z
-DTEND:20261117T110000Z
-SUMMARY:Beethoven’s Pastoral - Australian Chamber Orchestra
-LOCATION:City Recital Hall\, 2 Angel Pl\, Sydney NSW 2000
-DESCRIPTION:Australian Chamber Orchestra\nVenue: City Recital Hall\nConfirm
-  details and book: https://www.cityrecitalhall.com/whats-on/events/beethov
- en-s-pastoral/\nListing source: City Recital Hall. Times and availability 
- change - always confirm with the venue.
-URL:https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:c92411e7@matinee-finder
 DTSTAMP:20261101T065432Z
 LAST-MODIFIED:20261101T065432Z
@@ -1033,6 +1015,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:f4ce1183@matinee-finder
+DTSTAMP:20261118T011926Z
+LAST-MODIFIED:20261118T011926Z
+SEQUENCE:2
+DTSTART:20261212T233000Z
+DTEND:20261213T013000Z
+SUMMARY:Willoughby Symphony Orchestra: Spirit Of Christmas 2026
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
+ l\nConfirm details and book: https://www.theconcourse.com.au/event/willoug
+ hby-symphony-orchestra-spirit-of-christmas-2026/\nListing source: The Conc
+ ourse. Times and availability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
+ rit-of-christmas-2026/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:7595f144@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1048,25 +1049,6 @@ DESCRIPTION:Sydney Philharmonia Choirs\nVenue: Concert Hall\, Sydney Opera
  ra House. Times and availability change - always confirm with the venue.
 URL:https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2026-season
  /handels-messiah
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:f4ce1183@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261213T030000Z
-DTEND:20261213T050000Z
-SUMMARY:Willoughby Symphony Orchestra: Spirit Of Christmas 2026
-LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
-DESCRIPTION:Willoughby Symphony Orchestra\nVenue: The Concourse Concert Hal
- l\nConfirm details and book: https://www.theconcourse.com.au/event/willoug
- hby-symphony-orchestra-spirit-of-christmas-2026/\nListing source: The Conc
- ourse. Times and availability change - always confirm with the venue.
-URL:https://www.theconcourse.com.au/event/willoughby-symphony-orchestra-spi
- rit-of-christmas-2026/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
