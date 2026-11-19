@@ -1,14 +1,14 @@
 {
  "schema": 1,
- "generated_at": "2026-11-18T12:19:26",
- "generated_date": "2026-11-18",
+ "generated_at": "2026-11-19T11:45:20",
+ "generated_date": "2026-11-19",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 529,
-  "public": 508,
-  "matinee": 162,
-  "public_matinee": 141,
-  "tba": 10,
+  "total": 528,
+  "public": 507,
+  "matinee": 161,
+  "public_matinee": 140,
+  "tba": 9,
   "needs_review": 0,
   "stale": 0
  },
@@ -189,6 +189,7 @@
    "Barbara",
    "Samuel Barber",
    "Bartók",
+   "William Barton",
    "Mason Bates",
    "Beethoven",
    "Berlioz",
@@ -214,6 +215,7 @@
    "Dvořák",
    "Ross Edwards",
    "Elgar",
+   "Fauré",
    "Françaix",
    "Gershwin",
    "Gibbons",
@@ -299,10 +301,12 @@
    "Richard Strauss",
    "Stravinsky",
    "Jack Symonds",
+   "John Taverner",
    "Joseph Tawadros",
    "Tchaikovsky",
    "Telemann",
    "Anna Thorvaldsdottir",
+   "Michael Tippett",
    "Alex Turley",
    "Joseph Twist",
    "Pēteris Vasks",
@@ -310,6 +314,7 @@
    "Vine",
    "Wagner",
    "Rufus Wainwright",
+   "Judith Weir",
    "John Williams",
    "Justin Williams",
    "Vaughan Williams",
@@ -354,9 +359,9 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 215,
+   "count": 216,
    "previous_count": 215,
-   "last_success": "2026-11-18T12:18:51",
+   "last_success": "2026-11-19T11:44:08",
    "message": ""
   },
   {
@@ -364,15 +369,15 @@
    "status": "ok",
    "count": 143,
    "previous_count": 143,
-   "last_success": "2026-11-18T12:19:22",
+   "last_success": "2026-11-19T11:44:40",
    "message": ""
   },
   {
    "name": "Willoughby Symphony",
    "status": "ok",
-   "count": 20,
+   "count": 18,
    "previous_count": 20,
-   "last_success": "2026-11-18T12:19:22",
+   "last_success": "2026-11-19T11:44:44",
    "message": ""
   },
   {
@@ -380,7 +385,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-18T12:19:25",
+   "last_success": "2026-11-19T11:44:47",
    "message": ""
   },
   {
@@ -388,15 +393,15 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-18T12:19:25",
+   "last_success": "2026-11-19T11:44:57",
    "message": ""
   },
   {
    "name": "City Recital Hall",
    "status": "ok",
-   "count": 94,
+   "count": 91,
    "previous_count": 94,
-   "last_success": "2026-11-18T12:19:25",
+   "last_success": "2026-11-19T11:45:00",
    "message": ""
   },
   {
@@ -404,7 +409,7 @@
    "status": "ok",
    "count": 60,
    "previous_count": 60,
-   "last_success": "2026-11-18T12:19:25",
+   "last_success": "2026-11-19T11:45:12",
    "message": ""
   },
   {
@@ -412,118 +417,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-18T12:19:25",
+   "last_success": "2026-11-19T11:45:20",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "c92411e7",
-   "title": "Lunchtime Concert: Austral Harmony Bach Springtime Pastoral",
-   "raw_title": "Lunchtime Concert: Austral Harmony Bach Springtime Pastoral",
-   "performer": "Various artists",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [
-    "Bach"
-   ],
-   "works": [],
-   "venue_name": "St James Church",
-   "venue_group": "St James' Church",
-   "venue_address": "173 King Street, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/lunchtime-concert-austral-harmony-with-jane-downer",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-18",
-   "time": "13:15",
-   "start_utc": "20261118T021500Z",
-   "time_confirmed": true,
-   "sort_key": 202611181315,
-   "date_string": "Wednesday, 18 November 2026",
-   "time_string": "1:15 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "afternoon_early",
-   "access": "public",
-   "formats": [
-    "short_format"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:32",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 2,
-   "feed_format": 2
-  },
-  {
-   "id": "bfa46577",
-   "title": "Beethoven’s Pastoral",
-   "raw_title": "Beethoven’s Pastoral",
-   "performer": "Australian Chamber Orchestra",
-   "performer_group": "Australian Chamber Orchestra",
-   "programme": null,
-   "composers": [
-    "Beethoven"
-   ],
-   "works": [
-    {
-     "composer": "Beethoven",
-     "work": "Coriolan Overture, Op.62"
-    },
-    {
-     "composer": "Beethoven",
-     "work": "Triple Concert for Violin, Cello and Piano in C major, Op.56"
-    },
-    {
-     "composer": "Beethoven",
-     "work": "Symphony No.6 in F major, Op.68 \"Pastoral\""
-    }
-   ],
-   "venue_name": "City Recital Hall",
-   "venue_group": "City Recital Hall",
-   "venue_address": "2 Angel Pl, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://www.cityrecitalhall.com/whats-on/events/beethoven-s-pastoral/",
-   "source": "City Recital Hall",
-   "date": "2026-11-18",
-   "time": "19:00",
-   "start_utc": "20261118T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611181900,
-   "date_string": "Wednesday, 18 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 2,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:34:55",
-   "first_seen": "2026-11-01T17:34:55",
-   "sequence": 0,
-   "feed_format": 2
-  },
   {
    "id": "c1c3756f",
    "title": "Simone Young conducts Götterdämmerung",
@@ -2650,6 +2548,53 @@
    "stale": false,
    "last_changed": "2026-11-01T17:34:55",
    "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "30c5712b",
+   "title": "Firebird",
+   "raw_title": "Firebird",
+   "performer": "Marko Sever",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Stravinsky"
+   ],
+   "works": [],
+   "venue_name": "Sydney Conservatorium of Music",
+   "venue_group": "Verbrugghen Hall",
+   "venue_address": "Sydney Conservatorium of Music, Conservatorium Road, Sydney NSW, Australia",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 10,
+    "on_line": true
+   },
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/firebird",
+   "source": "City of Sydney What's On",
+   "date": "2026-12-11",
+   "time": "19:00",
+   "start_utc": "20261211T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202612111900,
+   "date_string": "Friday, 11 December 2026",
+   "time_string": "7:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-19T11:45:20",
+   "first_seen": "2026-11-19T11:45:20",
    "sequence": 0,
    "feed_format": 2
   },
@@ -17874,8 +17819,44 @@
    "performer": "Musica Viva Australia",
    "performer_group": "Musica Viva Australia",
    "programme": null,
-   "composers": [],
-   "works": [],
+   "composers": [
+    "Britten",
+    "John Taverner",
+    "Judith Weir",
+    "Michael Tippett",
+    "William Barton",
+    "Fauré"
+   ],
+   "works": [
+    {
+     "composer": "Britten",
+     "work": "Rejoice in the Lamb"
+    },
+    {
+     "composer": "John Taverner",
+     "work": "Dum transisset Sabbatum"
+    },
+    {
+     "composer": "Judith Weir",
+     "work": "A Wreath"
+    },
+    {
+     "composer": "John Taverner",
+     "work": "Song for Athene"
+    },
+    {
+     "composer": "Michael Tippett",
+     "work": "Preludio al Vespro di Monteverdi"
+    },
+    {
+     "composer": "William Barton",
+     "work": "New Commission"
+    },
+    {
+     "composer": "Fauré",
+     "work": "Requiem in D minor"
+    }
+   ],
    "venue_name": "City Recital Hall",
    "venue_group": "City Recital Hall",
    "venue_address": "2 Angel Pl, Sydney NSW 2000",
@@ -18339,6 +18320,51 @@
    "stale": false,
    "last_changed": "2026-11-01T18:03:21",
    "first_seen": "2026-11-01T18:03:21",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "b5a66253",
+   "title": "Dolly Parton's Threads: My Songs in Symphony",
+   "raw_title": "Dolly Parton's Threads: My Songs in Symphony",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Concert Hall, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 18,
+    "on_line": true
+   },
+   "url": "https://www.sydneysymphony.com/events/dolly-partons-threads-my-songs-in-symphony-2027",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-07-22",
+   "time": "19:30",
+   "start_utc": "20270722T093000Z",
+   "time_confirmed": true,
+   "sort_key": 202707221930,
+   "date_string": "Thursday, 22 July 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-07",
+   "month_label": "July 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-19T11:45:20",
+   "first_seen": "2026-11-19T11:45:20",
    "sequence": 0,
    "feed_format": 2
   },
@@ -27847,51 +27873,6 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "2b6da472",
-   "title": "Spirit of Christmas 2027",
-   "raw_title": "Spirit of Christmas 2027",
-   "performer": "Willoughby Symphony Orchestra",
-   "performer_group": "Willoughby Symphony Orchestra",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "The Concourse Concert Hall",
-   "venue_group": "The Concourse, Chatswood",
-   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
-   "region": "sydney",
-   "metro": {
-    "station": "Chatswood",
-    "minutes": 7,
-    "on_line": true
-   },
-   "url": "https://www.willoughbysymphony.com.au/Events/Spirit-of-Christmas-2027",
-   "source": "Willoughby Symphony",
-   "date": "2027-12-12",
-   "time": null,
-   "start_utc": null,
-   "time_confirmed": false,
-   "sort_key": 202712129999,
-   "date_string": "Sunday, 12 December 2027",
-   "time_string": "Time TBA",
-   "month_key": "2027-12",
-   "month_label": "December 2027",
-   "weekday": 6,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "tba",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-09T09:31:18",
-   "first_seen": "2026-11-09T09:31:18",
-   "sequence": 0,
    "feed_format": 2
   }
  ]
