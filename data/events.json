@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-19T11:45:20",
- "generated_date": "2026-11-19",
+ "generated_at": "2026-11-20T11:57:29",
+ "generated_date": "2026-11-20",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 528,
-  "public": 507,
-  "matinee": 161,
-  "public_matinee": 140,
+  "total": 527,
+  "public": 506,
+  "matinee": 160,
+  "public_matinee": 139,
   "tba": 9,
   "needs_review": 0,
   "stale": 0
@@ -360,8 +360,8 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 216,
-   "previous_count": 215,
-   "last_success": "2026-11-19T11:44:08",
+   "previous_count": 216,
+   "last_success": "2026-11-20T11:55:15",
    "message": ""
   },
   {
@@ -369,15 +369,15 @@
    "status": "ok",
    "count": 143,
    "previous_count": 143,
-   "last_success": "2026-11-19T11:44:40",
+   "last_success": "2026-11-20T11:56:05",
    "message": ""
   },
   {
    "name": "Willoughby Symphony",
    "status": "ok",
    "count": 18,
-   "previous_count": 20,
-   "last_success": "2026-11-19T11:44:44",
+   "previous_count": 18,
+   "last_success": "2026-11-20T11:56:38",
    "message": ""
   },
   {
@@ -385,7 +385,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-19T11:44:47",
+   "last_success": "2026-11-20T11:57:02",
    "message": ""
   },
   {
@@ -393,15 +393,15 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-19T11:44:57",
+   "last_success": "2026-11-20T11:57:05",
    "message": ""
   },
   {
    "name": "City Recital Hall",
    "status": "ok",
    "count": 91,
-   "previous_count": 94,
-   "last_success": "2026-11-19T11:45:00",
+   "previous_count": 91,
+   "last_success": "2026-11-20T11:57:09",
    "message": ""
   },
   {
@@ -409,7 +409,7 @@
    "status": "ok",
    "count": 60,
    "previous_count": 60,
-   "last_success": "2026-11-19T11:45:12",
+   "last_success": "2026-11-20T11:57:21",
    "message": ""
   },
   {
@@ -417,63 +417,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-19T11:45:20",
+   "last_success": "2026-11-20T11:57:29",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "c1c3756f",
-   "title": "Simone Young conducts Götterdämmerung",
-   "raw_title": "Simone Young conducts Götterdämmerung",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Wagner"
-   ],
-   "works": [
-    {
-     "composer": "Wagner",
-     "work": "Götterdämmerung"
-    }
-   ],
-   "venue_name": "Concert Hall, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneysymphony.com/events/simone-young-conducts-gotterdammerung",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-19",
-   "time": "16:00",
-   "start_utc": "20261119T050000Z",
-   "time_confirmed": true,
-   "sort_key": 202611191600,
-   "date_string": "Thursday, 19 November 2026",
-   "time_string": "4:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 3,
-   "is_weekend": false,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "323414c5",
    "title": "Future Classics 2026",
