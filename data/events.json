@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-21T11:16:13",
- "generated_date": "2026-11-21",
+ "generated_at": "2026-11-22T10:37:05",
+ "generated_date": "2026-11-22",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 527,
-  "public": 506,
-  "matinee": 160,
-  "public_matinee": 139,
+  "total": 526,
+  "public": 505,
+  "matinee": 159,
+  "public_matinee": 138,
   "tba": 9,
   "needs_review": 0,
   "stale": 0
@@ -359,17 +359,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 216,
+   "count": 217,
    "previous_count": 216,
-   "last_success": "2026-11-21T11:15:14",
+   "last_success": "2026-11-22T10:35:33",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 143,
+   "count": 141,
    "previous_count": 143,
-   "last_success": "2026-11-21T11:15:18",
+   "last_success": "2026-11-22T10:36:28",
    "message": ""
   },
   {
@@ -377,7 +377,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-21T11:15:18",
+   "last_success": "2026-11-22T10:36:32",
    "message": ""
   },
   {
@@ -385,7 +385,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-21T11:15:18",
+   "last_success": "2026-11-22T10:36:38",
    "message": ""
   },
   {
@@ -393,7 +393,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-21T11:16:12",
+   "last_success": "2026-11-22T10:36:41",
    "message": ""
   },
   {
@@ -401,15 +401,15 @@
    "status": "ok",
    "count": 91,
    "previous_count": 91,
-   "last_success": "2026-11-21T11:16:12",
+   "last_success": "2026-11-22T10:36:45",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 60,
+   "count": 59,
    "previous_count": 60,
-   "last_success": "2026-11-21T11:16:12",
+   "last_success": "2026-11-22T10:36:57",
    "message": ""
   },
   {
@@ -417,144 +417,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-21T11:16:12",
+   "last_success": "2026-11-22T10:37:04",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "323414c5",
-   "title": "Future Classics 2026",
-   "raw_title": "Future Classics 2026",
-   "performer": "Sydney Opera House",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "Utzon Room, Sydney Opera House",
-   "venue_group": "Sydney Opera House",
-   "venue_address": "Bennelong Point, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 18,
-    "on_line": true
-   },
-   "url": "https://www.sydneyoperahouse.com/classical-music/future-classics",
-   "source": "Sydney Opera House",
-   "date": "2026-11-21",
-   "time": "15:00",
-   "start_utc": "20261121T040000Z",
-   "time_confirmed": true,
-   "sort_key": 202611211500,
-   "date_string": "Saturday, 21 November 2026",
-   "time_string": "3:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-10-05T08:57:47",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "d2a983b5",
-   "title": "World O World: VOX 25th Anniversary",
-   "raw_title": "World O World: VOX 25th Anniversary",
-   "performer": "Sydney Philharmonia Choirs",
-   "performer_group": "Sydney Philharmonia Choirs",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "White Bay Power Station",
-   "venue_group": "Other venues",
-   "venue_address": "Sydney, NSW",
-   "region": "sydney",
-   "metro": null,
-   "url": "https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2026-season/world-o-world-vox-25th-anniversary",
-   "source": "Sydney Opera House",
-   "date": "2026-11-21",
-   "time": "15:00",
-   "start_utc": "20261121T040000Z",
-   "time_confirmed": true,
-   "sort_key": 202611211500,
-   "date_string": "Saturday, 21 November 2026",
-   "time_string": "3:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": true,
-   "daypart": "afternoon_late",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "7b1e7c7f",
-   "title": "10 Years of Modést Orchestra - Scheherazade & Pictures",
-   "raw_title": "10 Years of Modést Orchestra - Scheherazade & Pictures",
-   "performer": "Modest Orchestra",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [
-    "Rimsky-Korsakov"
-   ],
-   "works": [],
-   "venue_name": "Sydney Conservatorium of Music",
-   "venue_group": "Verbrugghen Hall",
-   "venue_address": "Macquarie Street, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 10,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/10-years-of-modest-orchestra-scheherazade-and-pictures",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-21",
-   "time": "19:30",
-   "start_utc": "20261121T083000Z",
-   "time_confirmed": true,
-   "sort_key": 202611211930,
-   "date_string": "Saturday, 21 November 2026",
-   "time_string": "7:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 5,
-   "is_weekend": true,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "544b7152",
    "title": "Simone Young conducts Götterdämmerung",
@@ -1892,6 +1759,47 @@
    "last_changed": "2026-10-27T09:54:30",
    "first_seen": "2026-08-07T11:57:59",
    "sequence": 2,
+   "feed_format": 2
+  },
+  {
+   "id": "6f94e24c",
+   "title": "Australian Ukulele Orchestra End of Year Concert and Jam",
+   "raw_title": "Australian Ukulele Orchestra End of Year Concert and Jam",
+   "performer": "Australian Ukulele Orchestra",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Club Willoughby",
+   "venue_group": "Other venues",
+   "venue_address": "Club Willoughby, Crabbes Avenue, North Willoughby NSW, Australia",
+   "region": "sydney",
+   "metro": null,
+   "url": "https://whatson.cityofsydney.nsw.gov.au/events/australian-ukulele-orchestra-end-of-year-concert-and-jam",
+   "source": "City of Sydney What's On",
+   "date": "2026-12-05",
+   "time": "14:00",
+   "start_utc": "20261205T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202612051400,
+   "date_string": "Saturday, 05 December 2026",
+   "time_string": "2:00 PM",
+   "month_key": "2026-12",
+   "month_label": "December 2026",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-22T10:37:05",
+   "first_seen": "2026-11-22T10:37:05",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -21422,6 +21330,69 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "a5ea2b0e",
+   "title": "Xavier de Maistre and the Sydney Symphony in Picton",
+   "raw_title": "Xavier de Maistre and the Sydney Symphony in Picton",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [
+    "Elgar",
+    "Handel",
+    "Boieldieu",
+    "Grieg"
+   ],
+   "works": [
+    {
+     "composer": "Elgar",
+     "work": "Serenade of Strings"
+    },
+    {
+     "composer": "Handel",
+     "work": "Harp Concerto"
+    },
+    {
+     "composer": "Boieldieu",
+     "work": "Harp Concerto"
+    },
+    {
+     "composer": "Grieg",
+     "work": "Holberg Suite"
+    }
+   ],
+   "venue_name": "Wollondilly Performing Arts Centre, Picton",
+   "venue_group": "Other venues",
+   "venue_address": "Sydney, NSW",
+   "region": "sydney",
+   "metro": null,
+   "url": "https://www.sydneysymphony.com/events/xavier-de-maistre-and-the-sydney-symphony-in-picton",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-08-27",
+   "time": "19:00",
+   "start_utc": "20270827T090000Z",
+   "time_confirmed": true,
+   "sort_key": 202708271900,
+   "date_string": "Friday, 27 August 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 4,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-22T10:37:05",
+   "first_seen": "2026-11-22T10:37:05",
+   "sequence": 0,
    "feed_format": 2
   },
   {

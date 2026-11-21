@@ -8,45 +8,6 @@ X-WR-TIMEZONE:Australia/Sydney
 X-PUBLISHED-TTL:P1D
 REFRESH-INTERVAL;VALUE=DURATION:P1D
 BEGIN:VEVENT
-UID:323414c5@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261121T040000Z
-DTEND:20261121T060000Z
-SUMMARY:Future Classics 2026
-LOCATION:Utzon Room\, Sydney Opera House\, Bennelong Point\, Sydney NSW 200
- 0
-DESCRIPTION:Sydney Opera House\nVenue: Utzon Room\, Sydney Opera House\nCon
- firm details and book: https://www.sydneyoperahouse.com/classical-music/fu
- ture-classics\nListing source: Sydney Opera House. Times and availability 
- change - always confirm with the venue.
-URL:https://www.sydneyoperahouse.com/classical-music/future-classics
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
-UID:d2a983b5@matinee-finder
-DTSTAMP:20261010T054313Z
-LAST-MODIFIED:20261010T054313Z
-SEQUENCE:1
-DTSTART:20261121T040000Z
-DTEND:20261121T060000Z
-SUMMARY:World O World: VOX 25th Anniversary - Sydney Philharmonia Choirs
-LOCATION:White Bay Power Station\, Sydney\, NSW
-DESCRIPTION:Sydney Philharmonia Choirs\nVenue: White Bay Power Station\nCon
- firm details and book: https://www.sydneyoperahouse.com/sydney-philharmoni
- a-choirs/2026-season/world-o-world-vox-25th-anniversary\nListing source: S
- ydney Opera House. Times and availability change - always confirm with the
-  venue.
-URL:https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2026-season
- /world-o-world-vox-25th-anniversary
-CATEGORIES:concert
-TRANSP:TRANSPARENT
-STATUS:CONFIRMED
-END:VEVENT
-BEGIN:VEVENT
 UID:544b7152@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -365,6 +326,27 @@ DESCRIPTION:Various artists\nVenue: St. James' Church\nConfirm details and
  lability change - always confirm with the venue.
 URL:https://whatson.cityofsydney.nsw.gov.au/events/22nd-young-maestros-comm
  unity-concert
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:6f94e24c@matinee-finder
+DTSTAMP:20261121T233705Z
+LAST-MODIFIED:20261121T233705Z
+SEQUENCE:0
+DTSTART:20261205T030000Z
+DTEND:20261205T050000Z
+SUMMARY:Australian Ukulele Orchestra End of Year Concert and Jam
+LOCATION:Club Willoughby\, Club Willoughby\, Crabbes Avenue\, North Willoug
+ hby NSW\, Australia
+DESCRIPTION:Australian Ukulele Orchestra\nVenue: Club Willoughby\nConfirm d
+ etails and book: https://whatson.cityofsydney.nsw.gov.au/events/australian
+ -ukulele-orchestra-end-of-year-concert-and-jam\nListing source: City of Sy
+ dney What's On. Times and availability change - always confirm with the ve
+ nue.
+URL:https://whatson.cityofsydney.nsw.gov.au/events/australian-ukulele-orche
+ stra-end-of-year-concert-and-jam
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
