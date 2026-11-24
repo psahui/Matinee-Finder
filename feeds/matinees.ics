@@ -1544,6 +1544,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a0569315@matinee-finder
+DTSTAMP:20261124T040740Z
+LAST-MODIFIED:20261124T040740Z
+SEQUENCE:0
+DTSTART:20270619T060000Z
+DTEND:20270619T080000Z
+SUMMARY:Phantom: A Tribute To Michael Crawford
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/phantom-a-tribute-to-
+ michael-crawford/\nListing source: The Concourse. Times and availability c
+ hange - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/phantom-a-tribute-to-michael-craw
+ ford/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:9dd98f39@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z

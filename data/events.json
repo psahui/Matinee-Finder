@@ -1,13 +1,13 @@
 {
  "schema": 1,
- "generated_at": "2026-11-23T10:53:15",
- "generated_date": "2026-11-23",
+ "generated_at": "2026-11-24T15:07:40",
+ "generated_date": "2026-11-24",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 527,
-  "public": 505,
-  "matinee": 156,
-  "public_matinee": 134,
+  "total": 528,
+  "public": 506,
+  "matinee": 157,
+  "public_matinee": 135,
   "tba": 9,
   "needs_review": 0,
   "stale": 0
@@ -359,17 +359,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 218,
-   "previous_count": 217,
-   "last_success": "2026-11-23T10:51:09",
+   "count": 216,
+   "previous_count": 218,
+   "last_success": "2026-11-24T15:05:19",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 148,
-   "previous_count": 141,
-   "last_success": "2026-11-23T10:52:35",
+   "previous_count": 148,
+   "last_success": "2026-11-24T15:06:07",
    "message": ""
   },
   {
@@ -377,15 +377,15 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-23T10:52:38",
+   "last_success": "2026-11-24T15:06:15",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 13,
-   "previous_count": 14,
-   "last_success": "2026-11-23T10:52:41",
+   "count": 14,
+   "previous_count": 13,
+   "last_success": "2026-11-24T15:06:20",
    "message": ""
   },
   {
@@ -393,7 +393,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-23T10:52:51",
+   "last_success": "2026-11-24T15:07:17",
    "message": ""
   },
   {
@@ -401,15 +401,15 @@
    "status": "ok",
    "count": 91,
    "previous_count": 91,
-   "last_success": "2026-11-23T10:52:55",
+   "last_success": "2026-11-24T15:07:21",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
    "count": 54,
-   "previous_count": 59,
-   "last_success": "2026-11-23T10:53:06",
+   "previous_count": 54,
+   "last_success": "2026-11-24T15:07:33",
    "message": ""
   },
   {
@@ -417,7 +417,7 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-23T10:53:15",
+   "last_success": "2026-11-24T15:07:39",
    "message": ""
   }
  ],
@@ -15296,7 +15296,7 @@
    "feed_format": 2
   },
   {
-   "id": "22798066",
+   "id": "a95e045a",
    "title": "Beethoven & The Flying Orchestra in Wagga Wagga",
    "raw_title": "For Schools: Beethoven & The Flying Orchestra in Wagga Wagga",
    "performer": "Sydney Symphony Orchestra",
@@ -15316,7 +15316,7 @@
      "work": "The Flying Orchestra"
     }
    ],
-   "venue_name": "Wagga Wagga Civic Theatre, Wagga Wagga",
+   "venue_name": "Wagga Wagga Civic Theatre",
    "venue_group": "Other venues",
    "venue_address": "Sydney, NSW",
    "region": "sydney",
@@ -15343,8 +15343,8 @@
    "needs_review": false,
    "classified_by": "keyword",
    "stale": false,
-   "last_changed": "2026-11-23T10:53:15",
-   "first_seen": "2026-11-23T10:53:15",
+   "last_changed": "2026-11-24T15:07:40",
+   "first_seen": "2026-11-24T15:07:40",
    "sequence": 0,
    "feed_format": 2
   },
@@ -16250,6 +16250,51 @@
    "stale": false,
    "last_changed": "2026-11-01T17:34:55",
    "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "a0569315",
+   "title": "Phantom: A Tribute To Michael Crawford",
+   "raw_title": "Phantom: A Tribute To Michael Crawford",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "The Concourse, Chatswood",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "metro": {
+    "station": "Chatswood",
+    "minutes": 7,
+    "on_line": true
+   },
+   "url": "https://www.theconcourse.com.au/event/phantom-a-tribute-to-michael-crawford/",
+   "source": "The Concourse",
+   "date": "2027-06-19",
+   "time": "16:00",
+   "start_utc": "20270619T060000Z",
+   "time_confirmed": true,
+   "sort_key": 202706191600,
+   "date_string": "Saturday, 19 June 2027",
+   "time_string": "4:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-24T15:07:40",
+   "first_seen": "2026-11-24T15:07:40",
    "sequence": 0,
    "feed_format": 2
   },
