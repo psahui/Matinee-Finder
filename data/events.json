@@ -1,12 +1,12 @@
 {
  "schema": 1,
- "generated_at": "2026-11-25T13:47:36",
- "generated_date": "2026-11-25",
+ "generated_at": "2026-11-26T12:58:10",
+ "generated_date": "2026-11-26",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 528,
-  "public": 506,
-  "matinee": 157,
+  "total": 531,
+  "public": 508,
+  "matinee": 158,
   "public_matinee": 135,
   "tba": 9,
   "needs_review": 0,
@@ -220,6 +220,7 @@
    "Gershwin",
    "Gibbons",
    "Brenda Gifford",
+   "Philip Glass",
    "Glière",
    "Gounod",
    "Grieg",
@@ -277,6 +278,7 @@
    "Rachmaninov",
    "Ravel",
    "Steve Reich",
+   "Reinecke",
    "Henriette Renié",
    "Respighi",
    "Max Richter",
@@ -359,17 +361,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 216,
+   "count": 218,
    "previous_count": 216,
-   "last_success": "2026-11-25T13:47:05",
+   "last_success": "2026-11-26T12:56:51",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 148,
+   "count": 149,
    "previous_count": 148,
-   "last_success": "2026-11-25T13:47:33",
+   "last_success": "2026-11-26T12:57:28",
    "message": ""
   },
   {
@@ -377,7 +379,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-25T13:47:33",
+   "last_success": "2026-11-26T12:57:32",
    "message": ""
   },
   {
@@ -385,7 +387,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-25T13:47:35",
+   "last_success": "2026-11-26T12:57:35",
    "message": ""
   },
   {
@@ -393,7 +395,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-25T13:47:35",
+   "last_success": "2026-11-26T12:57:47",
    "message": ""
   },
   {
@@ -401,7 +403,7 @@
    "status": "ok",
    "count": 91,
    "previous_count": 91,
-   "last_success": "2026-11-25T13:47:35",
+   "last_success": "2026-11-26T12:57:51",
    "message": ""
   },
   {
@@ -409,7 +411,7 @@
    "status": "ok",
    "count": 54,
    "previous_count": 54,
-   "last_success": "2026-11-25T13:47:35",
+   "last_success": "2026-11-26T12:58:03",
    "message": ""
   },
   {
@@ -417,7 +419,7 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-25T13:47:35",
+   "last_success": "2026-11-26T12:58:10",
    "message": ""
   }
  ],
@@ -9126,6 +9128,53 @@
    "feed_format": 2
   },
   {
+   "id": "a3951cad",
+   "title": "The Complete Philip Glass Piano Etudes",
+   "raw_title": "The Complete Philip Glass Piano Etudes",
+   "performer": "Sydney Opera House",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Philip Glass"
+   ],
+   "works": [],
+   "venue_name": "Concert Hall, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 18,
+    "on_line": true
+   },
+   "url": "https://www.sydneyoperahouse.com/classical-music/complete-philip-glass-piano-etudes",
+   "source": "Sydney Opera House",
+   "date": "2027-03-08",
+   "time": "19:00",
+   "start_utc": "20270308T080000Z",
+   "time_confirmed": true,
+   "sort_key": 202703081900,
+   "date_string": "Monday, 08 March 2027",
+   "time_string": "7:00 PM",
+   "month_key": "2027-03",
+   "month_label": "March 2027",
+   "weekday": 0,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-26T12:58:10",
+   "first_seen": "2026-11-26T12:58:10",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "3f72a655",
    "title": "The Magic Flute",
    "raw_title": "The Magic Flute",
@@ -15230,6 +15279,112 @@
    "stale": false,
    "last_changed": "2026-10-17T08:45:25",
    "first_seen": "2026-10-17T08:45:25",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "1d5ee94f",
+   "title": "The Sydney Symphony Performs Beethoven’s Fifth Symphony in Goulburn",
+   "raw_title": "The Sydney Symphony Performs Beethoven’s Fifth Symphony in Goulburn",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [
+    "Reinecke",
+    "Beethoven"
+   ],
+   "works": [
+    {
+     "composer": "Reinecke",
+     "work": "Flute Concerto"
+    },
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5"
+    }
+   ],
+   "venue_name": "Goulburn Performing Arts Centre",
+   "venue_group": "Other venues",
+   "venue_address": "Sydney, NSW",
+   "region": "sydney",
+   "metro": null,
+   "url": "https://www.sydneysymphony.com/events/the-sydney-symphony-performs-beethovens-fifth-symphony-in-goulburn",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-06-02",
+   "time": "19:30",
+   "start_utc": "20270602T093000Z",
+   "time_confirmed": true,
+   "sort_key": 202706021930,
+   "date_string": "Wednesday, 02 June 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 2,
+   "is_weekend": false,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-26T12:58:10",
+   "first_seen": "2026-11-26T12:58:10",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "78a27f13",
+   "title": "Beethoven & The Flying Orchestra in Goulburn",
+   "raw_title": "For Schools: Beethoven & The Flying Orchestra in Goulburn",
+   "performer": "Sydney Symphony Orchestra",
+   "performer_group": "Sydney Symphony Orchestra",
+   "programme": null,
+   "composers": [
+    "Beethoven",
+    "Joseph Twist"
+   ],
+   "works": [
+    {
+     "composer": "Beethoven",
+     "work": "Symphony No.5 (excerpts)"
+    },
+    {
+     "composer": "Joseph Twist",
+     "work": "The Flying Orchestra"
+    }
+   ],
+   "venue_name": "Goulburn Performing Arts Centre",
+   "venue_group": "Other venues",
+   "venue_address": "Sydney, NSW",
+   "region": "sydney",
+   "metro": null,
+   "url": "https://www.sydneysymphony.com/events/for-schools-beethoven-and-the-flying-orchestra-in-goulburn",
+   "source": "Sydney Symphony Orchestra",
+   "date": "2027-06-03",
+   "time": "10:30",
+   "start_utc": "20270603T003000Z",
+   "time_confirmed": true,
+   "sort_key": 202706031030,
+   "date_string": "Thursday, 03 June 2027",
+   "time_string": "10:30 AM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 3,
+   "is_weekend": false,
+   "is_matinee": true,
+   "daypart": "morning",
+   "access": "schools",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "keyword",
+   "stale": false,
+   "last_changed": "2026-11-26T12:58:10",
+   "first_seen": "2026-11-26T12:58:10",
    "sequence": 0,
    "feed_format": 2
   },

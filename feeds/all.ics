@@ -3443,6 +3443,26 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:a3951cad@matinee-finder
+DTSTAMP:20261126T015810Z
+LAST-MODIFIED:20261126T015810Z
+SEQUENCE:0
+DTSTART:20270308T080000Z
+DTEND:20270308T100000Z
+SUMMARY:The Complete Philip Glass Piano Etudes
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Sydney Opera House\nVenue: Concert Hall\, Sydney Opera House\nC
+ onfirm details and book: https://www.sydneyoperahouse.com/classical-music/
+ complete-philip-glass-piano-etudes\nListing source: Sydney Opera House. Ti
+ mes and availability change - always confirm with the venue.
+URL:https://www.sydneyoperahouse.com/classical-music/complete-philip-glass-
+ piano-etudes
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:3f72a655@matinee-finder
 DTSTAMP:20261101T070321Z
 LAST-MODIFIED:20261101T070321Z
@@ -5579,6 +5599,27 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
  erlink-2027\nListing source: Sydney Symphony Orchestra. Times and availabi
  lity change - always confirm with the venue.
 URL:https://www.sydneysymphony.com/events/playerlink-2027
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:1d5ee94f@matinee-finder
+DTSTAMP:20261126T015810Z
+LAST-MODIFIED:20261126T015810Z
+SEQUENCE:0
+DTSTART:20270602T093000Z
+DTEND:20270602T113000Z
+SUMMARY:The Sydney Symphony Performs Beethoven’s Fifth Symphony in Goulbu
+ rn - Sydney Symphony Orchestra
+LOCATION:Goulburn Performing Arts Centre\, Sydney\, NSW
+DESCRIPTION:Sydney Symphony Orchestra\nVenue: Goulburn Performing Arts Cent
+ re\nConfirm details and book: https://www.sydneysymphony.com/events/the-sy
+ dney-symphony-performs-beethovens-fifth-symphony-in-goulburn\nListing sour
+ ce: Sydney Symphony Orchestra. Times and availability change - always conf
+ irm with the venue.
+URL:https://www.sydneysymphony.com/events/the-sydney-symphony-performs-beet
+ hovens-fifth-symphony-in-goulburn
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
