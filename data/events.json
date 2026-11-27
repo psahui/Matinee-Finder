@@ -1,11 +1,11 @@
 {
  "schema": 1,
- "generated_at": "2026-11-26T12:58:10",
- "generated_date": "2026-11-26",
+ "generated_at": "2026-11-27T12:57:04",
+ "generated_date": "2026-11-27",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 531,
-  "public": 508,
+  "total": 529,
+  "public": 506,
   "matinee": 158,
   "public_matinee": 135,
   "tba": 9,
@@ -362,16 +362,16 @@
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
    "count": 218,
-   "previous_count": 216,
-   "last_success": "2026-11-26T12:56:51",
+   "previous_count": 218,
+   "last_success": "2026-11-27T12:56:05",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
    "count": 149,
-   "previous_count": 148,
-   "last_success": "2026-11-26T12:57:28",
+   "previous_count": 149,
+   "last_success": "2026-11-27T12:56:21",
    "message": ""
   },
   {
@@ -379,7 +379,7 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-26T12:57:32",
+   "last_success": "2026-11-27T12:56:48",
    "message": ""
   },
   {
@@ -387,7 +387,7 @@
    "status": "ok",
    "count": 14,
    "previous_count": 14,
-   "last_success": "2026-11-26T12:57:35",
+   "last_success": "2026-11-27T12:57:03",
    "message": ""
   },
   {
@@ -395,7 +395,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-26T12:57:47",
+   "last_success": "2026-11-27T12:57:03",
    "message": ""
   },
   {
@@ -403,7 +403,7 @@
    "status": "ok",
    "count": 91,
    "previous_count": 91,
-   "last_success": "2026-11-26T12:57:51",
+   "last_success": "2026-11-27T12:57:03",
    "message": ""
   },
   {
@@ -411,7 +411,7 @@
    "status": "ok",
    "count": 54,
    "previous_count": 54,
-   "last_success": "2026-11-26T12:58:03",
+   "last_success": "2026-11-27T12:57:03",
    "message": ""
   },
   {
@@ -419,115 +419,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-26T12:58:10",
+   "last_success": "2026-11-27T12:57:03",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "06cc9585",
-   "title": "Semele by Handel",
-   "raw_title": "Semele by Handel",
-   "performer": "Pinchgut Opera",
-   "performer_group": "Pinchgut Opera",
-   "programme": null,
-   "composers": [
-    "Handel"
-   ],
-   "works": [],
-   "venue_name": "City Recital Hall",
-   "venue_group": "City Recital Hall",
-   "venue_address": "2 Angel Pl, Sydney NSW 2000",
-   "region": "sydney",
-   "metro": {
-    "station": "Martin Place",
-    "minutes": 5,
-    "on_line": true
-   },
-   "url": "https://www.cityrecitalhall.com/whats-on/events/semele-by-handel/",
-   "source": "City Recital Hall",
-   "date": "2026-11-26",
-   "time": "19:00",
-   "start_utc": "20261126T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611261900,
-   "date_string": "Thursday, 26 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 3,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "opera"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T18:03:21",
-   "first_seen": "2026-11-01T17:34:55",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "4d118eba",
-   "title": "The Sydney Symphony performs Max Richter’s Four Seasons",
-   "raw_title": "The Sydney Symphony performs Max Richter’s Four Seasons",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Samuel Barber",
-    "Max Richter"
-   ],
-   "works": [
-    {
-     "composer": "Samuel Barber",
-     "work": "Adagio for strings"
-    },
-    {
-     "composer": "Max Richter",
-     "work": "On the Nature of Daylight"
-    },
-    {
-     "composer": "Max Richter",
-     "work": "Recomposed: Vivaldi – The Four Seasons"
-    }
-   ],
-   "venue_name": "Newcastle City Hall",
-   "venue_group": "Other venues",
-   "venue_address": "Newcastle, NSW",
-   "region": "outside",
-   "metro": null,
-   "url": "https://www.sydneysymphony.com/events/the-sydney-symphony-performs-max-richters-four-seasons-newcastle",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-26",
-   "time": "19:00",
-   "start_utc": "20261126T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611261900,
-   "date_string": "Thursday, 26 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 3,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "a1042e15",
    "title": "Come Sit With Me",
