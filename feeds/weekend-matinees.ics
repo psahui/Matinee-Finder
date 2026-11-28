@@ -1312,6 +1312,25 @@ TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
+UID:0fa5f3ef@matinee-finder
+DTSTAMP:20261128T014234Z
+LAST-MODIFIED:20261128T014234Z
+SEQUENCE:0
+DTSTART:20270627T050000Z
+DTEND:20270627T070000Z
+SUMMARY:KPO NSW Secondary Schools Concerto Competition
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/kpo-nsw-secondary-sch
+ ools-concerto-competition-2/\nListing source: The Concourse. Times and ava
+ ilability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/kpo-nsw-secondary-schools-concert
+ o-competition-2/
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
 UID:0dd3ebdd@matinee-finder
 DTSTAMP:20261010T054313Z
 LAST-MODIFIED:20261010T054313Z
@@ -1616,6 +1635,25 @@ DESCRIPTION:Sydney Philharmonia Choirs\nVenue: Pier 2/3 Event Space\nConfir
  m with the venue.
 URL:https://www.sydneyoperahouse.com/sydney-philharmonia-choirs/2027-season
  /pure-voice-sydney-philharmonias-chamber-singers
+CATEGORIES:concert
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5f92c0c5@matinee-finder
+DTSTAMP:20261128T014234Z
+LAST-MODIFIED:20261128T014234Z
+SEQUENCE:0
+DTSTART:20270829T050000Z
+DTEND:20270829T070000Z
+SUMMARY:BEETHOVEN & NELSON MASS Ku-ring-gai Philharmonic Orchestra
+LOCATION:The Concourse Concert Hall\, 409 Victoria Ave\, Chatswood NSW 2067
+DESCRIPTION:Various artists\nVenue: The Concourse Concert Hall\nConfirm det
+ ails and book: https://www.theconcourse.com.au/event/beethoven-nelson-mass
+ -ku-ring-gai-philharmonic-orchestra/\nListing source: The Concourse. Times
+  and availability change - always confirm with the venue.
+URL:https://www.theconcourse.com.au/event/beethoven-nelson-mass-ku-ring-gai
+ -philharmonic-orchestra/
 CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
@@ -2073,6 +2111,27 @@ DESCRIPTION:Sydney Symphony Orchestra\nVenue: Concert Hall\, Sydney Opera H
 URL:https://www.sydneysymphony.com/events/harry-potter-and-the-chamber-of-s
  ecrets-in-concert-2027
 CATEGORIES:film
+TRANSP:TRANSPARENT
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:5e57db84@matinee-finder
+DTSTAMP:20261128T014234Z
+LAST-MODIFIED:20261128T014234Z
+SEQUENCE:0
+DTSTART:20271128T030000Z
+DTEND:20271128T050000Z
+SUMMARY:Strauss’ Four Last Songs - Australian Chamber Orchestra
+LOCATION:Concert Hall\, Sydney Opera House\, Bennelong Point\, Sydney NSW 2
+ 000
+DESCRIPTION:Australian Chamber Orchestra\nVenue: Concert Hall\, Sydney Oper
+ a House\nConfirm details and book: https://www.sydneyoperahouse.com/austra
+ lian-chamber-orchestra/2027-season/strauss-four-last-songs\nListing source
+ : Sydney Opera House. Times and availability change - always confirm with 
+ the venue.
+URL:https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-seas
+ on/strauss-four-last-songs
+CATEGORIES:concert
 TRANSP:TRANSPARENT
 STATUS:CONFIRMED
 END:VEVENT

@@ -1,15 +1,15 @@
 {
  "schema": 1,
- "generated_at": "2026-11-27T12:57:04",
- "generated_date": "2026-11-27",
+ "generated_at": "2026-11-28T12:42:34",
+ "generated_date": "2026-11-28",
  "timezone": "Australia/Sydney",
  "counts": {
-  "total": 529,
-  "public": 506,
-  "matinee": 158,
-  "public_matinee": 135,
+  "total": 531,
+  "public": 508,
+  "matinee": 161,
+  "public_matinee": 138,
   "tba": 9,
-  "needs_review": 0,
+  "needs_review": 1,
   "stale": 0
  },
  "facets": {
@@ -281,7 +281,6 @@
    "Reinecke",
    "Henriette Renié",
    "Respighi",
-   "Max Richter",
    "Rimsky-Korsakov",
    "Saint-Saëns",
    "Satie",
@@ -301,6 +300,7 @@
    "Smyth",
    "Stockhausen",
    "Richard Strauss",
+   "Strauss",
    "Stravinsky",
    "Jack Symonds",
    "John Taverner",
@@ -361,17 +361,17 @@
   {
    "name": "Sydney Symphony Orchestra",
    "status": "ok",
-   "count": 218,
+   "count": 216,
    "previous_count": 218,
-   "last_success": "2026-11-27T12:56:05",
+   "last_success": "2026-11-28T12:40:20",
    "message": ""
   },
   {
    "name": "Sydney Opera House",
    "status": "ok",
-   "count": 149,
+   "count": 151,
    "previous_count": 149,
-   "last_success": "2026-11-27T12:56:21",
+   "last_success": "2026-11-28T12:41:02",
    "message": ""
   },
   {
@@ -379,15 +379,15 @@
    "status": "ok",
    "count": 18,
    "previous_count": 18,
-   "last_success": "2026-11-27T12:56:48",
+   "last_success": "2026-11-28T12:41:07",
    "message": ""
   },
   {
    "name": "The Concourse",
    "status": "ok",
-   "count": 14,
+   "count": 16,
    "previous_count": 14,
-   "last_success": "2026-11-27T12:57:03",
+   "last_success": "2026-11-28T12:41:15",
    "message": ""
   },
   {
@@ -395,7 +395,7 @@
    "status": "ok",
    "count": 5,
    "previous_count": 5,
-   "last_success": "2026-11-27T12:57:03",
+   "last_success": "2026-11-28T12:42:12",
    "message": ""
   },
   {
@@ -403,15 +403,15 @@
    "status": "ok",
    "count": 91,
    "previous_count": 91,
-   "last_success": "2026-11-27T12:57:03",
+   "last_success": "2026-11-28T12:42:15",
    "message": ""
   },
   {
    "name": "City of Sydney What's On",
    "status": "ok",
-   "count": 54,
+   "count": 53,
    "previous_count": 54,
-   "last_success": "2026-11-27T12:57:03",
+   "last_success": "2026-11-28T12:42:26",
    "message": ""
   },
   {
@@ -419,113 +419,11 @@
    "status": "ok",
    "count": 4,
    "previous_count": 4,
-   "last_success": "2026-11-27T12:57:03",
+   "last_success": "2026-11-28T12:42:34",
    "message": ""
   }
  ],
  "items": [
-  {
-   "id": "a1042e15",
-   "title": "Come Sit With Me",
-   "raw_title": "Come Sit With Me",
-   "performer": "ARMINÉ",
-   "performer_group": "Other / various",
-   "programme": null,
-   "composers": [],
-   "works": [],
-   "venue_name": "The Neilson",
-   "venue_group": "The Neilson, Walsh Bay",
-   "venue_address": "ACO Pier 2/3, 13 Hickson Road, Dawes Point",
-   "region": "sydney",
-   "metro": {
-    "station": "Barangaroo",
-    "minutes": 9,
-    "on_line": true
-   },
-   "url": "https://whatson.cityofsydney.nsw.gov.au/events/come-sit-with-me",
-   "source": "City of Sydney What's On",
-   "date": "2026-11-27",
-   "time": "18:30",
-   "start_utc": "20261127T073000Z",
-   "time_confirmed": true,
-   "sort_key": 202611271830,
-   "date_string": "Friday, 27 November 2026",
-   "time_string": "6:30 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "twilight",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-11-01T17:54:12",
-   "first_seen": "2026-11-01T17:36:30",
-   "sequence": 1,
-   "feed_format": 2
-  },
-  {
-   "id": "a9de52a4",
-   "title": "The Sydney Symphony performs Max Richter’s Four Seasons",
-   "raw_title": "The Sydney Symphony performs Max Richter’s Four Seasons",
-   "performer": "Sydney Symphony Orchestra",
-   "performer_group": "Sydney Symphony Orchestra",
-   "programme": null,
-   "composers": [
-    "Samuel Barber",
-    "Max Richter"
-   ],
-   "works": [
-    {
-     "composer": "Samuel Barber",
-     "work": "Adagio for strings"
-    },
-    {
-     "composer": "Max Richter",
-     "work": "Recomposed: Vivaldi – The Four Seasons"
-    },
-    {
-     "composer": "Max Richter",
-     "work": "On the Nature of Daylight"
-    }
-   ],
-   "venue_name": "Coliseum Theatre",
-   "venue_group": "Other venues",
-   "venue_address": "Sydney, NSW",
-   "region": "sydney",
-   "metro": null,
-   "url": "https://www.sydneysymphony.com/events/the-sydney-symphony-performs-max-richters-four-seasons-western-sydney",
-   "source": "Sydney Symphony Orchestra",
-   "date": "2026-11-27",
-   "time": "19:00",
-   "start_utc": "20261127T080000Z",
-   "time_confirmed": true,
-   "sort_key": 202611271900,
-   "date_string": "Friday, 27 November 2026",
-   "time_string": "7:00 PM",
-   "month_key": "2026-11",
-   "month_label": "November 2026",
-   "weekday": 4,
-   "is_weekend": false,
-   "is_matinee": false,
-   "daypart": "evening",
-   "access": "public",
-   "formats": [
-    "concert"
-   ],
-   "needs_review": false,
-   "classified_by": "default",
-   "stale": false,
-   "last_changed": "2026-10-10T16:43:13",
-   "first_seen": "2026-08-07T11:57:59",
-   "sequence": 1,
-   "feed_format": 2
-  },
   {
    "id": "0d4838cb",
    "title": "Nandi: Lord of Rhythm",
@@ -6552,6 +6450,51 @@
    "stale": false,
    "last_changed": "2026-11-01T17:34:55",
    "first_seen": "2026-11-01T17:34:55",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
+   "id": "de4afc3f",
+   "title": "2027 Inaugural \"Radiant Stars\" International Music Festival",
+   "raw_title": "2027 Inaugural \"Radiant Stars\" International Music Festival",
+   "performer": "Sydney Opera House",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "Utzon Room, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 18,
+    "on_line": true
+   },
+   "url": "https://www.sydneyoperahouse.com/classical-music/radiant-stars",
+   "source": "Sydney Opera House",
+   "date": "2027-02-13",
+   "time": "19:30",
+   "start_utc": "20270213T083000Z",
+   "time_confirmed": true,
+   "sort_key": 202702131930,
+   "date_string": "Saturday, 13 February 2027",
+   "time_string": "7:30 PM",
+   "month_key": "2027-02",
+   "month_label": "February 2027",
+   "weekday": 5,
+   "is_weekend": true,
+   "is_matinee": false,
+   "daypart": "evening",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-28T12:42:34",
+   "first_seen": "2026-11-28T12:42:34",
    "sequence": 0,
    "feed_format": 2
   },
@@ -16855,6 +16798,51 @@
    "feed_format": 2
   },
   {
+   "id": "0fa5f3ef",
+   "title": "KPO NSW Secondary Schools Concerto Competition",
+   "raw_title": "KPO NSW Secondary Schools Concerto Competition",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [],
+   "works": [],
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "The Concourse, Chatswood",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "metro": {
+    "station": "Chatswood",
+    "minutes": 7,
+    "on_line": true
+   },
+   "url": "https://www.theconcourse.com.au/event/kpo-nsw-secondary-schools-concerto-competition-2/",
+   "source": "The Concourse",
+   "date": "2027-06-27",
+   "time": "15:00",
+   "start_utc": "20270627T050000Z",
+   "time_confirmed": true,
+   "sort_key": 202706271500,
+   "date_string": "Sunday, 27 June 2027",
+   "time_string": "3:00 PM",
+   "month_key": "2027-06",
+   "month_label": "June 2027",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": true,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-28T12:42:34",
+   "first_seen": "2026-11-28T12:42:34",
+   "sequence": 0,
+   "feed_format": 2
+  },
+  {
    "id": "117b7341",
    "title": "Richard Tognetti Directs Mozart",
    "raw_title": "Richard Tognetti Directs Mozart",
@@ -21517,6 +21505,53 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "5f92c0c5",
+   "title": "BEETHOVEN & NELSON MASS Ku-ring-gai Philharmonic Orchestra",
+   "raw_title": "BEETHOVEN & NELSON MASS Ku-ring-gai Philharmonic Orchestra",
+   "performer": "Various artists",
+   "performer_group": "Other / various",
+   "programme": null,
+   "composers": [
+    "Beethoven"
+   ],
+   "works": [],
+   "venue_name": "The Concourse Concert Hall",
+   "venue_group": "The Concourse, Chatswood",
+   "venue_address": "409 Victoria Ave, Chatswood NSW 2067",
+   "region": "sydney",
+   "metro": {
+    "station": "Chatswood",
+    "minutes": 7,
+    "on_line": true
+   },
+   "url": "https://www.theconcourse.com.au/event/beethoven-nelson-mass-ku-ring-gai-philharmonic-orchestra/",
+   "source": "The Concourse",
+   "date": "2027-08-29",
+   "time": "15:00",
+   "start_utc": "20270829T050000Z",
+   "time_confirmed": true,
+   "sort_key": 202708291500,
+   "date_string": "Sunday, 29 August 2027",
+   "time_string": "3:00 PM",
+   "month_key": "2027-08",
+   "month_label": "August 2027",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_late",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-28T12:42:34",
+   "first_seen": "2026-11-28T12:42:34",
+   "sequence": 0,
    "feed_format": 2
   },
   {
@@ -27510,6 +27545,53 @@
    "last_changed": "2026-10-10T16:43:13",
    "first_seen": "2026-08-20T05:07:46",
    "sequence": 1,
+   "feed_format": 2
+  },
+  {
+   "id": "5e57db84",
+   "title": "Strauss’ Four Last Songs",
+   "raw_title": "Strauss’ Four Last Songs",
+   "performer": "Australian Chamber Orchestra",
+   "performer_group": "Australian Chamber Orchestra",
+   "programme": null,
+   "composers": [
+    "Strauss"
+   ],
+   "works": [],
+   "venue_name": "Concert Hall, Sydney Opera House",
+   "venue_group": "Sydney Opera House",
+   "venue_address": "Bennelong Point, Sydney NSW 2000",
+   "region": "sydney",
+   "metro": {
+    "station": "Martin Place",
+    "minutes": 18,
+    "on_line": true
+   },
+   "url": "https://www.sydneyoperahouse.com/australian-chamber-orchestra/2027-season/strauss-four-last-songs",
+   "source": "Sydney Opera House",
+   "date": "2027-11-28",
+   "time": "14:00",
+   "start_utc": "20271128T030000Z",
+   "time_confirmed": true,
+   "sort_key": 202711281400,
+   "date_string": "Sunday, 28 November 2027",
+   "time_string": "2:00 PM",
+   "month_key": "2027-11",
+   "month_label": "November 2027",
+   "weekday": 6,
+   "is_weekend": true,
+   "is_matinee": true,
+   "daypart": "afternoon_early",
+   "access": "public",
+   "formats": [
+    "concert"
+   ],
+   "needs_review": false,
+   "classified_by": "default",
+   "stale": false,
+   "last_changed": "2026-11-28T12:42:34",
+   "first_seen": "2026-11-28T12:42:34",
+   "sequence": 0,
    "feed_format": 2
   },
   {
